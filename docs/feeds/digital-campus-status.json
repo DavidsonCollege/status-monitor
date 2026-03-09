@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-09T20:16:07.116718+00:00",
+  "last_checked": "2026-03-09T20:41:57.754518+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -11,14 +11,6 @@
       "overall_status": "operational",
       "active_incidents": 1,
       "components": [
-        {
-          "name": "United States (US)",
-          "status": "operational"
-        },
-        {
-          "name": "Australia (OC)",
-          "status": "operational"
-        },
         {
           "name": "United States (US2)",
           "status": "operational"
