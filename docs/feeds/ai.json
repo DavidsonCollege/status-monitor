@@ -1,5 +1,18 @@
 [
   {
+    "id": "dfb9f29fa1da747e",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated conversation errors for Enterprise and Edu users",
+    "link": "https://status.openai.com/incidents/01KK9M0QQJ2WAX76WCHY7M9KQJ",
+    "summary": "",
+    "date": "2026-03-09T15:38:57+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "0f3950da1a2e3132",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
