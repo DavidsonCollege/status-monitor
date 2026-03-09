@@ -1,5 +1,18 @@
 [
   {
+    "id": "ad55b61d320a94c9",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Degraded Performance - us-west-2 region \u2014 monitoring",
+    "link": "https://stspg.io/q291x7dw0808",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-09T16:39:47.999000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "b75160d75490f62b",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/9vdb3xhlylr0",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2022-07-10T08:53:38.499000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "fc51a0aefcf0b8a3",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Monthly Maintenance Window",
-    "link": "http://stspg.io/2SDV",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2016-06-14T16:00:09.488000-06:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
