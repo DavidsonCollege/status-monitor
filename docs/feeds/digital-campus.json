@@ -1,5 +1,31 @@
 [
   {
+    "id": "e9c63b841cc4f476",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Degraded Performance",
+    "link": "",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-09T14:09:58.547790+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "9855189f3ed43086",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Degraded Performance - us-west-2 region",
+    "link": "https://stspg.io/q291x7dw0808",
+    "summary": "We are experiencing performance issues within the US West 2 Region.\u00a0 We are actively investigating this issue.",
+    "date": "2026-03-09T13:58:21.173000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "6034841a19f4147f",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/l6q2j1b0vlk0",
     "summary": "Dear Customers,\n\nAfter a thorough assessment, we regret to inform you that the Twitter endpoint within our platform is no longer available due to changes made by Twitter \\(now known as \"X\"\\). This change was unexpected and has resulted in the current discontinuation of this feature.\n\nWe will however continue to monitor the situation and explore opportunities to reintroduce it in the future.\n\nWe apologize for any inconvenience this may cause and appreciate your understanding. If you have any ques",
     "date": "2023-06-21T16:45:58.415000-04:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "e05dda1714298ce0",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: Omnilert Mobile App connectivity issues",
-    "link": "https://stspg.io/dj503hh3wtvc",
-    "summary": "This issue has been resolved. \n\nThe root problem had been identified as related to issues at our cloud network provider (Amazon Web Services). Those issues have now been reported as resolved. Omnilert's engineers have confirmed that all services are now working as normal.",
-    "date": "2023-06-13T15:41:19.221000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "518a40b4792b4d5b",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: Message transmission delays",
-    "link": "https://stspg.io/v7wsk3y9zbhk",
-    "summary": "### DESCRIPTION:\n\nIn the overnight/early hours of March 25, 2023, Omnilert\u2019s systems experienced issues with the transmission of alerts on all channels \\(SMS, Email\\).\n\nCustomers sending alerts experienced delayed delivery across all endpoints.\n\n### ROOT CAUSE:\n\nThe cause was investigated by Omnilert\u2019s engineers with the highest priority. It was determined that an issue impacting logging caused the ability of files to be written to be affected, leading to the inability of delivery services to ru",
-    "date": "2023-03-25T08:36:58.063000-04:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
