@@ -1,0 +1,272 @@
+{
+  "teams": [
+    {
+      "id": "digital-campus",
+      "name": "Digital Campus",
+      "description": "Core campus technology services and platforms",
+      "slack_channel": "C02CG04T935",
+      "zoom_channel": "",
+      "products": [
+        {
+          "id": "ninjaone",
+          "name": "NinjaOne",
+          "domain": "ninjaone.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+          "status_url": "https://status.ninjaone.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.ninjaone.com"
+          }
+        },
+        {
+          "id": "calendly",
+          "name": "Calendly",
+          "domain": "calendly.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
+          "status_url": "https://www.calendlystatus.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://www.calendlystatus.com"
+          }
+        },
+        {
+          "id": "crashplan",
+          "name": "CrashPlan",
+          "domain": "crashplan.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
+          "status_url": "https://status.code42.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.code42.com"
+          }
+        },
+        {
+          "id": "accruent-ems",
+          "name": "Accruent EMS",
+          "domain": "accruent.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+          "status_url": "https://status.accruent.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.accruent.com"
+          }
+        },
+        {
+          "id": "google-workspace",
+          "name": "Google Workspace",
+          "domain": "google.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+          "status_url": "https://www.google.com/appsstatus/dashboard/",
+          "source": {
+            "type": "google_workspace"
+          }
+        },
+        {
+          "id": "jamf",
+          "name": "Jamf",
+          "domain": "jamf.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+          "status_url": "https://status.jamf.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.jamf.com"
+          }
+        },
+        {
+          "id": "kuali-build",
+          "name": "Kuali Build",
+          "domain": "kuali.co",
+          "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+          "status_url": "https://status.kuali.co",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.kuali.co"
+          }
+        },
+        {
+          "id": "microsoft-365",
+          "name": "Microsoft 365",
+          "domain": "microsoft.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+          "status_url": "https://status.cloud.microsoft/m365",
+          "source": {
+            "type": "microsoft_365"
+          }
+        },
+        {
+          "id": "omnilert",
+          "name": "Omnilert",
+          "domain": "omnilert.net",
+          "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
+          "status_url": "https://status.omnilert.net",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.omnilert.net"
+          }
+        },
+        {
+          "id": "papercut",
+          "name": "PaperCut",
+          "domain": "papercut.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+          "status_url": "https://status.papercut.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.papercut.com"
+          }
+        },
+        {
+          "id": "screencloud",
+          "name": "ScreenCloud",
+          "domain": "screencloud.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=screencloud.com&sz=64",
+          "status_url": "https://status.screencloud.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.screencloud.com"
+          }
+        },
+        {
+          "id": "securew2",
+          "name": "SecureW2",
+          "domain": "securew2.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
+          "status_url": "https://status.securew2.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.securew2.com"
+          }
+        },
+        {
+          "id": "shortio",
+          "name": "Short.io",
+          "domain": "short.io",
+          "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
+          "status_url": "https://status.short.io",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.short.io"
+          }
+        },
+        {
+          "id": "smartdeploy",
+          "name": "SmartDeploy",
+          "domain": "smartdeploy.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+          "status_url": "https://pdq.statuspage.io",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://pdq.statuspage.io"
+          }
+        },
+        {
+          "id": "zoom",
+          "name": "Zoom",
+          "domain": "zoom.us",
+          "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+          "status_url": "https://status.zoom.us",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.zoom.us"
+          }
+        },
+        {
+          "id": "campusm",
+          "name": "campusM",
+          "domain": "exlibrisgroup.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=exlibrisgroup.com&sz=64",
+          "status_url": "https://status.exlibrisgroup.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.exlibrisgroup.com"
+          }
+        },
+        {
+          "id": "canva",
+          "name": "Canva",
+          "domain": "canva.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+          "status_url": "https://www.canvastatus.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://www.canvastatus.com"
+          }
+        },
+        {
+          "id": "clickup",
+          "name": "ClickUp",
+          "domain": "clickup.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+          "status_url": "https://clickup.statuspage.io",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://clickup.statuspage.io"
+          }
+        },
+        {
+          "id": "scribe",
+          "name": "Scribe",
+          "domain": "scribehow.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
+          "status_url": "https://status.scribehow.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.scribehow.com"
+          }
+        },
+        {
+          "id": "slack",
+          "name": "Slack",
+          "domain": "slack.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+          "status_url": "https://slack-status.com",
+          "source": {
+            "type": "slack_status"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "description": "AI platform services",
+      "slack_channel": "C051NTVN6E9",
+      "zoom_channel": "",
+      "products": [
+        {
+          "id": "google-gemini",
+          "name": "Google Gemini",
+          "domain": "gemini.google.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=gemini.google.com&sz=64",
+          "status_url": "https://status.cloud.google.com",
+          "source": {
+            "type": "gcp_status",
+            "service_filter": ["Google AI", "Vertex AI", "Gemini"]
+          }
+        },
+        {
+          "id": "anthropic-claude",
+          "name": "Anthropic Claude",
+          "domain": "anthropic.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+          "status_url": "https://status.anthropic.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.anthropic.com"
+          }
+        },
+        {
+          "id": "openai-chatgpt",
+          "name": "OpenAI ChatGPT",
+          "domain": "openai.com",
+          "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+          "status_url": "https://status.openai.com",
+          "source": {
+            "type": "statuspage",
+            "api_base": "https://status.openai.com"
+          }
+        }
+      ]
+    }
+  ]
+}
