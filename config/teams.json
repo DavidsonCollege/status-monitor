@@ -185,7 +185,8 @@
                 "type": "exlibris",
                 "api_base": "https://status.exlibrisgroup.com/system_status",
                 "service_filter": ["campusM"]
-            },
+            }
+        },
         {
           "id": "canva",
           "name": "Canva",
