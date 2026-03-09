@@ -1,0 +1,482 @@
+{
+  "team_id": "digital-campus",
+  "team_name": "Digital Campus",
+  "last_checked": "2026-03-09T13:39:57.363310+00:00",
+  "products": [
+    {
+      "id": "ninjaone",
+      "name": "NinjaOne",
+      "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+      "status_url": "https://status.ninjaone.com",
+      "overall_status": "degraded",
+      "active_incidents": 1,
+      "components": [
+        {
+          "name": "United States (US)",
+          "status": "operational"
+        },
+        {
+          "name": "Europe (EU)",
+          "status": "degraded"
+        },
+        {
+          "name": "Australia (OC)",
+          "status": "operational"
+        },
+        {
+          "name": "Canada (CA)",
+          "status": "operational"
+        },
+        {
+          "name": "United States (US2)",
+          "status": "operational"
+        },
+        {
+          "name": "Federal (Moderate)",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
+      "status_url": "https://www.calendlystatus.com",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "calendly.com",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Calendly for Chrome",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "crashplan",
+      "name": "CrashPlan",
+      "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
+      "status_url": "https://status.code42.com",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "Incydr - console.us.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.us2.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.us7.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.gov.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.au.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.ca.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.de.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.ie.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.uk.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Incydr - console.za.code42.com",
+          "status": "operational"
+        },
+        {
+          "name": "Support services",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "accruent-ems",
+      "name": "Accruent EMS",
+      "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+      "status_url": "https://status.accruent.com",
+      "overall_status": "unknown",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "google-workspace",
+      "name": "Google Workspace",
+      "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+      "status_url": "https://www.google.com/appsstatus/dashboard/",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "jamf",
+      "name": "Jamf",
+      "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+      "status_url": "https://status.jamf.com",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "Jamf Now",
+          "status": "operational"
+        },
+        {
+          "name": "Jamf.com",
+          "status": "operational"
+        },
+        {
+          "name": "Jamf Nation",
+          "status": "operational"
+        },
+        {
+          "name": "Jamf Account",
+          "status": "operational"
+        },
+        {
+          "name": "Jamf ID",
+          "status": "operational"
+        },
+        {
+          "name": "Jamf Cloud Connector",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "kuali-build",
+      "name": "Kuali Build",
+      "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+      "status_url": "https://status.kuali.co",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "United States (Oregon)",
+          "status": "operational"
+        },
+        {
+          "name": "Canada (Montreal)",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+      "status_url": "https://status.cloud.microsoft/m365",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "omnilert",
+      "name": "Omnilert",
+      "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
+      "status_url": "https://status.omnilert.net",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "Omnilert API 2.0",
+          "status": "operational"
+        },
+        {
+          "name": "FTP Upload Process",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "papercut",
+      "name": "PaperCut",
+      "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+      "status_url": "https://status.papercut.com",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "PaperCut MF Global Entitlements Service",
+          "status": "operational"
+        },
+        {
+          "name": "PaperCut Mobility Print (Cloud Print)",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "screencloud",
+      "name": "ScreenCloud",
+      "icon_url": "https://www.google.com/s2/favicons?domain=screencloud.com&sz=64",
+      "status_url": "https://status.screencloud.com",
+      "overall_status": "unknown",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "securew2",
+      "name": "SecureW2",
+      "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
+      "status_url": "https://status.securew2.com",
+      "overall_status": "unknown",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "shortio",
+      "name": "Short.io",
+      "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
+      "status_url": "https://status.short.io",
+      "overall_status": "unknown",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "smartdeploy",
+      "name": "SmartDeploy",
+      "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+      "status_url": "https://pdq.statuspage.io",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "Deploy & Inventory Package Library",
+          "status": "operational"
+        },
+        {
+          "name": "SmartDeploy",
+          "status": "operational"
+        },
+        {
+          "name": "Billing Portal",
+          "status": "operational"
+        },
+        {
+          "name": "Auth",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+      "status_url": "https://status.zoom.us",
+      "overall_status": "maintenance",
+      "active_incidents": 8,
+      "components": [
+        {
+          "name": "Zoom Blog",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Clips",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Community",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Docs",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Events",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Notes",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Subscriptions",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Workforce Management",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Survey",
+          "status": "operational"
+        },
+        {
+          "name": "Clinical Notes",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Tasks",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Video Management",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom Hub",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "campusm",
+      "name": "campusM",
+      "icon_url": "https://www.google.com/s2/favicons?domain=exlibrisgroup.com&sz=64",
+      "status_url": "https://status.exlibrisgroup.com",
+      "overall_status": "unknown",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+      "status_url": "https://www.canvastatus.com",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "Login and signup",
+          "status": "operational"
+        },
+        {
+          "name": "Editing designs",
+          "status": "operational"
+        },
+        {
+          "name": "Viewing designs",
+          "status": "operational"
+        },
+        {
+          "name": "Saving designs",
+          "status": "operational"
+        },
+        {
+          "name": "Downloading designs",
+          "status": "operational"
+        },
+        {
+          "name": "Sharing designs",
+          "status": "operational"
+        },
+        {
+          "name": "Media uploads",
+          "status": "operational"
+        },
+        {
+          "name": "Home page",
+          "status": "operational"
+        },
+        {
+          "name": "Projects page",
+          "status": "operational"
+        },
+        {
+          "name": "Templates page",
+          "status": "operational"
+        },
+        {
+          "name": "Apps",
+          "status": "operational"
+        },
+        {
+          "name": "Administration and settings",
+          "status": "operational"
+        },
+        {
+          "name": "Billing and subscriptions",
+          "status": "operational"
+        },
+        {
+          "name": "Print and delivery",
+          "status": "operational"
+        },
+        {
+          "name": "Scheduling posts",
+          "status": "operational"
+        },
+        {
+          "name": "Publishing websites",
+          "status": "operational"
+        },
+        {
+          "name": "Help/support",
+          "status": "operational"
+        },
+        {
+          "name": "Apps SDK",
+          "status": "operational"
+        },
+        {
+          "name": "Connect API",
+          "status": "operational"
+        },
+        {
+          "name": "Canva AI Connector",
+          "status": "operational"
+        },
+        {
+          "name": "Document import",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "clickup",
+      "name": "ClickUp",
+      "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+      "status_url": "https://clickup.statuspage.io",
+      "overall_status": "operational",
+      "active_incidents": 0,
+      "components": [
+        {
+          "name": "calculatuindemnizacion public",
+          "status": "operational"
+        }
+      ]
+    },
+    {
+      "id": "scribe",
+      "name": "Scribe",
+      "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
+      "status_url": "https://status.scribehow.com",
+      "overall_status": "unknown",
+      "active_incidents": 0,
+      "components": []
+    },
+    {
+      "id": "slack",
+      "name": "Slack",
+      "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+      "status_url": "https://slack-status.com",
+      "overall_status": "major_outage",
+      "active_incidents": 1,
+      "components": []
+    }
+  ]
+}
