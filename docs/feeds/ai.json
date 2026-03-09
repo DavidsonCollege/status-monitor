@@ -1,5 +1,44 @@
 [
   {
+    "id": "58820e9831a192db",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-09T21:45:20.229878+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "52226750bd09c26a",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 monitoring",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "Status: monitoring",
+    "date": "2026-03-09T21:30:06+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "1d298fe85d2e0bcd",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 identified",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "Status: identified",
+    "date": "2026-03-09T21:29:27+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "fd62ad801605cb58",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",

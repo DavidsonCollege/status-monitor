@@ -1,5 +1,31 @@
 [
   {
+    "id": "b6886546cefa7f40",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Update the client Prompted version for Zoom Commercial (March 19, 2026) \u00e2\u0080\u0094 maintenance_scheduled",
+    "link": "https://stspg.io/fjb70fkgp0gr",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-03-09T14:44:47.205000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "d26b76d302af3431",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Update the client Prompted version for Zoom Commercial (March 19, 2026) \u00e2\u0080\u0094 maintenance_scheduled",
+    "link": "https://stspg.io/fjb70fkgp0gr",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-03-09T14:44:04.038000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "b6939eb96b032dc1",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/z55vkq261j2m",
     "summary": "The issue was caused by an unexpected database server outage. While we are reviewing system performance for potential improvements, we are also increasing our auto-scaling limit to help prevent similar incidents. We appreciate your patience as we work to enhance system stability.",
     "date": "2025-03-07T09:30:00-07:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "a3744249fdb11258",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Platform/Build intermittent issues",
-    "link": "https://stspg.io/qdzv4ycj33nz",
-    "summary": "Our engineers were making some configuration updates which unintentionally caused our servers to temporarily disconnected. We restarted the servers to resolve and our monitoring shows that performance has returned to normal levels.",
-    "date": "2025-03-06T14:56:01.885000-07:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "b62c433aab7df314",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Platform/Build intermittent issues",
-    "link": "https://stspg.io/578mn5fbk6k7",
-    "summary": "We found an inefficient background query that was causing performance issues in the environments. We just deployed an improved query to resolve this underlying issue and our monitoring shows that performance has returned to normal levels.",
-    "date": "2025-02-13T11:48:46.253000-07:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
