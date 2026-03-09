@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Monitor - Dashboard</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-hover: #334155;
+            --border: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --radius: 8px;
+            --green: #2fcc66;
+            --yellow: #f1c40f;
+            --orange: #e67e22;
+            --red: #e74c3c;
+            --blue: #3498db;
+            --gray: #95a5a6;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1440px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0 24px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header h1 span { font-size: 28px; }
+
+        .header-meta {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .header-meta .legend {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            font-size: 12px;
+        }
+
+        .legend-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        /* Team sections */
+        .team-section {
+            margin-bottom: 32px;
+        }
+
+        .team-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .team-header h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        .team-summary {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        .team-summary .count-badge {
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+        }
+
+        .badge-green { background: rgba(47, 204, 102, 0.15); color: var(--green); }
+        .badge-yellow { background: rgba(241, 196, 15, 0.15); color: var(--yellow); }
+        .badge-orange { background: rgba(230, 126, 34, 0.15); color: var(--orange); }
+        .badge-red { background: rgba(231, 76, 60, 0.15); color: var(--red); }
+        .badge-blue { background: rgba(52, 152, 219, 0.15); color: var(--blue); }
+
+        /* Status grid */
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 12px;
+        }
+
+        .status-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.15s;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .status-card:hover {
+            background: var(--surface-hover);
+            transform: translateY(-1px);
+        }
+
+        .status-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            border-radius: 4px 0 0 4px;
+        }
+
+        .status-card.operational::before { background: var(--green); }
+        .status-card.degraded::before { background: var(--yellow); }
+        .status-card.partial_outage::before { background: var(--orange); }
+        .status-card.major_outage::before { background: var(--red); }
+        .status-card.maintenance::before { background: var(--blue); }
+        .status-card.unknown::before { background: var(--gray); }
+
+        .card-top {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+
+        .card-icon {
+            width: 24px;
+            height: 24px;
+            border-radius: 4px;
+            flex-shrink: 0;
+        }
+
+        .card-name {
+            font-weight: 600;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .card-status {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+
+        .status-dot.operational { background: var(--green); }
+        .status-dot.degraded { background: var(--yellow); }
+        .status-dot.partial_outage { background: var(--orange); }
+        .status-dot.major_outage { background: var(--red); }
+        .status-dot.maintenance { background: var(--blue); }
+        .status-dot.unknown { background: var(--gray); }
+
+        .status-label {
+            color: var(--text-muted);
+        }
+
+        .status-label.operational { color: var(--green); }
+        .status-label.degraded { color: var(--yellow); }
+        .status-label.partial_outage { color: var(--orange); }
+        .status-label.major_outage { color: var(--red); }
+        .status-label.maintenance { color: var(--blue); }
+
+        .card-incidents {
+            margin-top: 6px;
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        /* Detail drawer */
+        .drawer-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 100;
+        }
+
+        .drawer-overlay.open { display: block; }
+
+        .drawer {
+            position: fixed;
+            top: 0;
+            right: -500px;
+            width: 500px;
+            max-width: 90vw;
+            height: 100vh;
+            background: var(--surface);
+            border-left: 1px solid var(--border);
+            z-index: 101;
+            transition: right 0.25s ease;
+            overflow-y: auto;
+            padding: 24px;
+        }
+
+        .drawer.open { right: 0; }
+
+        .drawer-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .drawer-header h3 {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 18px;
+        }
+
+        .drawer-close {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 24px;
+            cursor: pointer;
+            padding: 4px 8px;
+        }
+
+        .drawer-close:hover { color: var(--text); }
+
+        .drawer-status-bar {
+            padding: 12px 16px;
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-weight: 600;
+        }
+
+        .drawer-status-bar.operational { background: rgba(47,204,102,0.1); color: var(--green); }
+        .drawer-status-bar.degraded { background: rgba(241,196,15,0.1); color: var(--yellow); }
+        .drawer-status-bar.partial_outage { background: rgba(230,126,34,0.1); color: var(--orange); }
+        .drawer-status-bar.major_outage { background: rgba(231,76,60,0.1); color: var(--red); }
+        .drawer-status-bar.maintenance { background: rgba(52,152,219,0.1); color: var(--blue); }
+        .drawer-status-bar.unknown { background: rgba(149,165,166,0.1); color: var(--gray); }
+
+        .drawer-section-title {
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            margin: 20px 0 10px;
+        }
+
+        .component-list {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+
+        .component-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px 12px;
+            background: var(--bg);
+            border-radius: 6px;
+            font-size: 13px;
+        }
+
+        .component-status {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+        }
+
+        .incident-card {
+            background: var(--bg);
+            border-radius: 6px;
+            padding: 12px;
+            margin-bottom: 8px;
+            border-left: 3px solid var(--gray);
+        }
+
+        .incident-card.investigating { border-left-color: var(--red); }
+        .incident-card.identified { border-left-color: var(--orange); }
+        .incident-card.monitoring { border-left-color: var(--yellow); }
+        .incident-card.resolved { border-left-color: var(--green); }
+        .incident-card.maintenance { border-left-color: var(--blue); }
+
+        .incident-title {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .incident-title a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        .incident-title a:hover { text-decoration: underline; }
+
+        .incident-meta {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .incident-update {
+            font-size: 13px;
+            color: var(--text-muted);
+            padding: 6px 0;
+            border-top: 1px solid var(--border);
+        }
+
+        .incident-update:first-child { border-top: none; }
+
+        .feed-event {
+            padding: 10px 12px;
+            background: var(--bg);
+            border-radius: 6px;
+            margin-bottom: 6px;
+            border-left: 3px solid var(--gray);
+        }
+
+        .feed-event .event-title {
+            font-size: 13px;
+            font-weight: 500;
+        }
+
+        .feed-event .event-date {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .feed-event .event-summary {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .status-link {
+            display: inline-block;
+            margin-top: 12px;
+            color: var(--accent);
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+        .status-link:hover { text-decoration: underline; }
+
+        .last-checked {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Loading state */
+        .loading {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+        }
+
+        .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin: 0 auto 16px;
+        }
+
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Setup banner */
+        .setup-banner {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .setup-banner h3 { margin-bottom: 8px; }
+
+        .setup-banner input {
+            width: 100%;
+            max-width: 500px;
+            margin: 8px 0;
+            padding: 8px 12px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 14px;
+        }
+
+        button, .btn {
+            padding: 8px 16px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.15s;
+        }
+
+        button:hover { background: var(--surface-hover); }
+
+        .btn-primary {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+
+        .btn-primary:hover { background: var(--accent-hover); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container { padding: 16px; }
+            .status-grid { grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 8px; }
+            .header-meta .legend { display: none; }
+            .drawer { width: 100vw; max-width: 100vw; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1><span>📡</span> Status Monitor</h1>
+        <div class="header-meta">
+            <div class="legend">
+                <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> Operational</div>
+                <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> Degraded</div>
+                <div class="legend-item"><div class="legend-dot" style="background:var(--orange)"></div> Partial Outage</div>
+                <div class="legend-item"><div class="legend-dot" style="background:var(--red)"></div> Major Outage</div>
+                <div class="legend-item"><div class="legend-dot" style="background:var(--blue)"></div> Maintenance</div>
+            </div>
+        </div>
+    </header>
+
+    <div id="app">
+        <div class="loading">
+            <div class="loading-spinner"></div>
+            <p>Loading status data...</p>
+        </div>
+    </div>
+</div>
+
+<!-- Detail drawer -->
+<div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
+<div class="drawer" id="drawer">
+    <div id="drawerContent"></div>
+</div>
+
+<script>
+const STATUS_LABELS = {
+    operational: 'Operational',
+    degraded: 'Degraded Performance',
+    partial_outage: 'Partial Outage',
+    major_outage: 'Major Outage',
+    maintenance: 'Under Maintenance',
+    unknown: 'Unknown',
+};
+
+let configData = null;
+let statusData = {};
+let feedData = {};
+
+// Detect base URL
+const BASE_URL = (() => {
+    const path = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
+    return window.location.origin + path;
+})();
+
+async function loadConfig() {
+    try {
+        const resp = await fetch(`${BASE_URL}/config/teams.json?_=${Date.now()}`);
+        if (!resp.ok) {
+            // Fallback: try GitHub API
+            const resp2 = await fetch('config/teams.json');
+            configData = await resp2.json();
+            return;
+        }
+        configData = await resp.json();
+    } catch (e) {
+        console.error('Failed to load config:', e);
+        try {
+            const resp = await fetch('config/teams.json');
+            configData = await resp.json();
+        } catch (e2) {
+            document.getElementById('app').innerHTML = '<p style="color:var(--red);padding:40px">Failed to load configuration. Please check the repository setup.</p>';
+        }
+    }
+}
+
+async function loadTeamStatus(teamId) {
+    try {
+        const resp = await fetch(`${BASE_URL}/feeds/${teamId}-status.json?_=${Date.now()}`);
+        if (resp.ok) {
+            statusData[teamId] = await resp.json();
+        }
+    } catch (e) {
+        console.warn(`Failed to load status for ${teamId}:`, e);
+    }
+}
+
+async function loadTeamFeed(teamId) {
+    try {
+        const resp = await fetch(`${BASE_URL}/feeds/${teamId}.json?_=${Date.now()}`);
+        if (resp.ok) {
+            feedData[teamId] = await resp.json();
+        }
+    } catch (e) {
+        console.warn(`Failed to load feed for ${teamId}:`, e);
+    }
+}
+
+async function init() {
+    await loadConfig();
+    if (!configData) return;
+
+    const teams = configData.teams || [];
+    await Promise.all(teams.map(t => Promise.all([loadTeamStatus(t.id), loadTeamFeed(t.id)])));
+
+    render();
+
+    // Auto-refresh every 60 seconds
+    setInterval(async () => {
+        await Promise.all(teams.map(t => Promise.all([loadTeamStatus(t.id), loadTeamFeed(t.id)])));
+        render();
+    }, 60000);
+}
+
+function render() {
+    const teams = configData.teams || [];
+    const app = document.getElementById('app');
+
+    let html = '';
+    for (const team of teams) {
+        html += renderTeam(team);
+    }
+
+    app.innerHTML = html;
+}
+
+function renderTeam(team) {
+    const status = statusData[team.id];
+    const products = status ? status.products : team.products.map(p => ({
+        id: p.id,
+        name: p.name,
+        icon_url: p.icon_url,
+        status_url: p.status_url,
+        overall_status: 'unknown',
+        active_incidents: 0,
+        components: [],
+    }));
+
+    // Count statuses
+    let operational = 0, issues = 0;
+    for (const p of products) {
+        if (p.overall_status === 'operational') operational++;
+        else issues++;
+    }
+
+    let summaryBadge = '';
+    if (issues > 0) {
+        summaryBadge = `<span class="count-badge badge-orange">${issues} with issues</span>`;
+    } else {
+        summaryBadge = `<span class="count-badge badge-green">All operational</span>`;
+    }
+
+    let lastChecked = '';
+    if (status && status.last_checked) {
+        const d = new Date(status.last_checked);
+        lastChecked = `Last checked: ${d.toLocaleString()}`;
+    }
+
+    let html = `<div class="team-section">`;
+    html += `<div class="team-header">`;
+    html += `<h2>${team.name}</h2>`;
+    html += `<div class="team-summary">${summaryBadge}<span style="font-size:12px;color:var(--text-muted)">${lastChecked}</span></div>`;
+    html += `</div>`;
+
+    html += `<div class="status-grid">`;
+    for (const product of products) {
+        html += renderProductCard(team.id, product);
+    }
+    html += `</div></div>`;
+
+    return html;
+}
+
+function renderProductCard(teamId, product) {
+    const status = product.overall_status || 'unknown';
+    const label = STATUS_LABELS[status] || 'Unknown';
+    const incidents = product.active_incidents || 0;
+    const incidentText = incidents > 0 ? `${incidents} active incident${incidents !== 1 ? 's' : ''}` : '';
+
+    return `<div class="status-card ${status}" onclick="openDrawer('${teamId}','${product.id}')">
+        <div class="card-top">
+            ${product.icon_url ? `<img class="card-icon" src="${product.icon_url}" alt="${product.name}" onerror="this.style.display='none'">` : ''}
+            <div class="card-name">${product.name}</div>
+        </div>
+        <div class="card-status">
+            <div class="status-dot ${status}"></div>
+            <span class="status-label ${status}">${label}</span>
+        </div>
+        ${incidentText ? `<div class="card-incidents">${incidentText}</div>` : ''}
+    </div>`;
+}
+
+function openDrawer(teamId, productId) {
+    const status = statusData[teamId];
+    const team = configData.teams.find(t => t.id === teamId);
+    const configProduct = team ? team.products.find(p => p.id === productId) : null;
+    const product = status ? status.products.find(p => p.id === productId) : null;
+    const feed = feedData[teamId] || [];
+
+    const drawerContent = document.getElementById('drawerContent');
+    let html = '';
+
+    const name = product ? product.name : (configProduct ? configProduct.name : productId);
+    const icon = product ? product.icon_url : (configProduct ? configProduct.icon_url : '');
+    const overallStatus = product ? product.overall_status : 'unknown';
+    const statusLabel = STATUS_LABELS[overallStatus] || 'Unknown';
+    const statusUrl = product ? product.status_url : (configProduct ? configProduct.status_url : '');
+
+    html += `<div class="drawer-header">
+        <h3>${icon ? `<img class="card-icon" src="${icon}" alt="${name}" onerror="this.style.display='none'">` : ''} ${name}</h3>
+        <button class="drawer-close" onclick="closeDrawer()">✕</button>
+    </div>`;
+
+    html += `<div class="drawer-status-bar ${overallStatus}">
+        <div class="status-dot ${overallStatus}"></div>
+        ${statusLabel}
+    </div>`;
+
+    // Components
+    const components = product ? product.components : [];
+    if (components && components.length > 0) {
+        html += `<div class="drawer-section-title">Components</div>`;
+        html += `<div class="component-list">`;
+        for (const comp of components) {
+            const cs = comp.status || 'unknown';
+            html += `<div class="component-row">
+                <span>${comp.name}</span>
+                <div class="component-status">
+                    <div class="status-dot ${cs}"></div>
+                    <span class="status-label ${cs}">${STATUS_LABELS[cs] || cs}</span>
+                </div>
+            </div>`;
+        }
+        html += `</div>`;
+    }
+
+    // Active incidents from status data
+    if (status) {
+        const teamState = status.products.find(p => p.id === productId);
+        // We don't have full incident details in the summary, so show from feed
+    }
+
+    // Recent events from feed
+    const productEvents = feed.filter(e => e.product_id === productId).slice(0, 15);
+    if (productEvents.length > 0) {
+        html += `<div class="drawer-section-title">Recent Events</div>`;
+        for (const evt of productEvents) {
+            const evtStatus = evt.status || evt.incident_status || 'unknown';
+            const statusClass = evtStatus === 'resolved' ? 'resolved' :
+                               evtStatus === 'operational' ? 'resolved' :
+                               evtStatus === 'investigating' ? 'investigating' :
+                               evtStatus === 'identified' ? 'identified' :
+                               evtStatus === 'monitoring' ? 'monitoring' :
+                               evtStatus === 'maintenance' ? 'maintenance' : '';
+            const date = evt.date ? new Date(evt.date).toLocaleString() : '';
+
+            html += `<div class="feed-event" style="border-left-color:${getStatusColor(evt.status || 'unknown')}">
+                <div class="event-title">${evt.link ? `<a href="${evt.link}" target="_blank" style="color:var(--accent);text-decoration:none">${evt.title}</a>` : evt.title}</div>
+                <div class="event-date">${date}</div>
+                ${evt.summary ? `<div class="event-summary">${truncate(evt.summary, 200)}</div>` : ''}
+            </div>`;
+        }
+    }
+
+    if (statusUrl) {
+        html += `<a class="status-link" href="${statusUrl}" target="_blank">View full status page →</a>`;
+    }
+
+    if (status && status.last_checked) {
+        html += `<div class="last-checked">Last checked: ${new Date(status.last_checked).toLocaleString()}</div>`;
+    }
+
+    drawerContent.innerHTML = html;
+
+    document.getElementById('drawerOverlay').classList.add('open');
+    document.getElementById('drawer').classList.add('open');
+}
+
+function closeDrawer() {
+    document.getElementById('drawerOverlay').classList.remove('open');
+    document.getElementById('drawer').classList.remove('open');
+}
+
+function getStatusColor(status) {
+    const colors = {
+        operational: '#2fcc66',
+        degraded: '#f1c40f',
+        partial_outage: '#e67e22',
+        major_outage: '#e74c3c',
+        maintenance: '#3498db',
+        unknown: '#95a5a6',
+    };
+    return colors[status] || colors.unknown;
+}
+
+function truncate(str, max) {
+    if (!str) return '';
+    return str.length > max ? str.substring(0, max) + '…' : str;
+}
+
+// Keyboard shortcut to close drawer
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeDrawer();
+});
+
+// Initialize
+init();
+</script>
+
+</body>
+</html>

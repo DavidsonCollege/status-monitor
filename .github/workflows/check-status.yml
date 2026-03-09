@@ -1,0 +1,112 @@
+name: Check Status
+
+on:
+  # Run every 5 minutes
+  schedule:
+    - cron: '*/5 * * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      test_notification:
+        description: 'Send a test notification to verify channels'
+        required: false
+        type: boolean
+        default: false
+      test_teams:
+        description: 'Comma-separated team IDs to test (e.g. "ai,digital-campus"). Leave blank for all.'
+        required: false
+        type: string
+        default: ''
+
+  # Also run when config changes
+  push:
+    paths:
+      - 'config/teams.json'
+
+# Prevent concurrent runs from stepping on each other
+concurrency:
+  group: status-check
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch Slack channels for dashboard
+        continue-on-error: true
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        run: python scripts/fetch_slack_channels.py
+
+      - name: Fetch Zoom channels for dashboard
+        continue-on-error: true
+        env:
+          ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
+          ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
+          ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
+        run: python scripts/fetch_zoom_channels.py
+
+      - name: Send test notification
+        if: github.event.inputs.test_notification == 'true'
+        env:
+          BASE_URL: ${{ vars.BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_DEFAULT_CHANNEL: ${{ vars.SLACK_DEFAULT_CHANNEL }}
+          ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
+          ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
+          ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
+          ZOOM_BOT_JID: ${{ secrets.ZOOM_BOT_JID }}
+          ZOOM_CHATBOT_CLIENT_ID: ${{ secrets.ZOOM_CHATBOT_CLIENT_ID }}
+          ZOOM_CHATBOT_CLIENT_SECRET: ${{ secrets.ZOOM_CHATBOT_CLIENT_SECRET }}
+          ZOOM_USER_EMAIL: ${{ secrets.ZOOM_USER_EMAIL }}
+          TEST_TEAMS: ${{ github.event.inputs.test_teams }}
+        run: python scripts/test_notify.py
+
+      - name: Run status checker
+        if: github.event.inputs.test_notification != 'true'
+        env:
+          BASE_URL: ${{ vars.BASE_URL || format('https://{0}.github.io/{1}', github.repository_owner, github.event.repository.name) }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_DEFAULT_CHANNEL: ${{ vars.SLACK_DEFAULT_CHANNEL }}
+          ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
+          ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
+          ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
+          ZOOM_BOT_JID: ${{ secrets.ZOOM_BOT_JID }}
+          ZOOM_CHATBOT_CLIENT_ID: ${{ secrets.ZOOM_CHATBOT_CLIENT_ID }}
+          ZOOM_CHATBOT_CLIENT_SECRET: ${{ secrets.ZOOM_CHATBOT_CLIENT_SECRET }}
+          ZOOM_USER_EMAIL: ${{ secrets.ZOOM_USER_EMAIL }}
+        run: python scripts/check_status.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "Status Monitor Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/ docs/feeds/ docs/slack_channels.json docs/zoom_channels.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update status feeds [$(date -u '+%Y-%m-%d %H:%M UTC')]"
+            git pull --rebase origin main
+            git push
+          fi
