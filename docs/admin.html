@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status Monitor - Admin</title>
+    <style>
+        :root {
+            --bg: #0f172a;
+            --surface: #1e293b;
+            --surface-hover: #334155;
+            --border: #334155;
+            --text: #f1f5f9;
+            --text-muted: #94a3b8;
+            --accent: #3b82f6;
+            --accent-hover: #2563eb;
+            --radius: 8px;
+            --green: #2fcc66;
+            --yellow: #f1c40f;
+            --orange: #e67e22;
+            --red: #e74c3c;
+            --blue: #3498db;
+            --danger: #ef4444;
+            --danger-hover: #dc2626;
+        }
+
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0 24px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        header h1 span { font-size: 28px; }
+
+        .header-actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Forms */
+        input, select, textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 14px;
+            font-family: inherit;
+        }
+
+        textarea { min-height: 80px; resize: vertical; }
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+
+        label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            margin-bottom: 4px;
+            color: var(--text-muted);
+        }
+
+        .form-group { margin-bottom: 16px; }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .form-help {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+
+        /* Buttons */
+        button, .btn {
+            padding: 8px 16px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text);
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.15s;
+        }
+
+        button:hover { background: var(--surface-hover); }
+
+        .btn-primary {
+            background: var(--accent);
+            border-color: var(--accent);
+        }
+        .btn-primary:hover { background: var(--accent-hover); }
+
+        .btn-danger {
+            background: transparent;
+            border-color: var(--danger);
+            color: var(--danger);
+        }
+        .btn-danger:hover { background: var(--danger); color: white; }
+
+        .btn-sm { padding: 4px 10px; font-size: 12px; }
+
+        .btn-success {
+            background: var(--green);
+            border-color: var(--green);
+            color: #000;
+        }
+
+        /* Sections */
+        .section {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+        }
+
+        .section-header h2 {
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        /* Team cards */
+        .team-card {
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            margin-bottom: 12px;
+            overflow: hidden;
+        }
+
+        .team-card-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background: var(--surface-hover);
+            cursor: pointer;
+        }
+
+        .team-card-header:hover { background: #3d4f69; }
+
+        .team-card-header h3 {
+            font-size: 16px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .team-card-body {
+            padding: 16px;
+            display: none;
+        }
+
+        .team-card.expanded .team-card-body { display: block; }
+
+        .team-meta {
+            display: flex;
+            gap: 16px;
+            margin-bottom: 16px;
+            font-size: 13px;
+            color: var(--text-muted);
+        }
+
+        /* Product list */
+        .product-item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 12px;
+            background: var(--bg);
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+
+        .product-item-info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .product-item img {
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+
+        .product-item-name { font-weight: 500; font-size: 14px; }
+        .product-item-type {
+            font-size: 11px;
+            color: var(--text-muted);
+            background: var(--surface);
+            padding: 1px 6px;
+            border-radius: 4px;
+        }
+
+        .product-item-actions {
+            display: flex;
+            gap: 6px;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6);
+            z-index: 100;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-overlay.open { display: flex; }
+
+        .modal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            width: 90%;
+            max-width: 600px;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal h3 {
+            font-size: 18px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .modal-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+
+        /* Setup */
+        .setup-section {
+            background: var(--surface);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .setup-section h3 {
+            margin-bottom: 12px;
+            color: var(--accent);
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            padding: 12px 20px;
+            border-radius: var(--radius);
+            background: var(--green);
+            color: #000;
+            font-weight: 500;
+            z-index: 200;
+            display: none;
+        }
+
+        .toast.error { background: var(--red); color: white; }
+        .toast.show { display: block; }
+
+        .badge {
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+        }
+
+        @media (max-width: 640px) {
+            .form-row { grid-template-columns: 1fr; }
+            .container { padding: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1><span>⚙️</span> Status Monitor Admin</h1>
+        <div class="header-actions">
+            <a href="index.html">← Dashboard</a>
+            <button class="btn-primary" onclick="saveConfig()">💾 Save to GitHub</button>
+        </div>
+    </header>
+
+    <!-- GitHub Setup -->
+    <div class="setup-section" id="setupSection">
+        <h3>GitHub Connection</h3>
+        <p style="font-size:13px;color:var(--text-muted);margin-bottom:12px">
+            Enter your GitHub Personal Access Token (PAT) to read/write configuration.
+            Needs <code>repo</code> or <code>contents:write</code> scope.
+        </p>
+        <div class="form-row">
+            <div class="form-group">
+                <label>Repository (owner/name)</label>
+                <input id="repoInput" placeholder="DavidsonCollege/status-monitor" />
+            </div>
+            <div class="form-group">
+                <label>Personal Access Token</label>
+                <input id="patInput" type="password" placeholder="github_pat_..." />
+            </div>
+        </div>
+        <button class="btn-primary" onclick="connectGitHub()">Connect</button>
+        <span id="connectionStatus" style="margin-left:12px;font-size:13px"></span>
+    </div>
+
+    <!-- Teams -->
+    <div class="section">
+        <div class="section-header">
+            <h2>Teams</h2>
+            <button class="btn-primary btn-sm" onclick="showAddTeam()">+ Add Team</button>
+        </div>
+        <div id="teamsContainer"></div>
+    </div>
+</div>
+
+<!-- Add/Edit Team Modal -->
+<div class="modal-overlay" id="teamModal">
+    <div class="modal">
+        <h3 id="teamModalTitle">Add Team</h3>
+        <input type="hidden" id="teamEditIndex" value="-1" />
+        <div class="form-group">
+            <label>Team Name</label>
+            <input id="teamName" placeholder="e.g., Digital Campus" />
+        </div>
+        <div class="form-group">
+            <label>Team ID</label>
+            <input id="teamId" placeholder="e.g., digital-campus (auto-generated)" />
+            <div class="form-help">Lowercase with hyphens. Auto-generated from name if blank.</div>
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <input id="teamDesc" placeholder="Brief description of this team" />
+        </div>
+        <div class="form-row">
+            <div class="form-group">
+                <label>Slack Channel ID</label>
+                <input id="teamSlack" placeholder="C0ABC123DEF" />
+                <div class="form-help">Channel ID from Slack (starts with C)</div>
+            </div>
+            <div class="form-group">
+                <label>Zoom Channel ID</label>
+                <input id="teamZoom" placeholder="" />
+                <div class="form-help">Zoom Team Chat channel ID</div>
+            </div>
+        </div>
+        <div class="modal-actions">
+            <button onclick="closeModal('teamModal')">Cancel</button>
+            <button class="btn-primary" onclick="saveTeam()">Save Team</button>
+        </div>
+    </div>
+</div>
+
+<!-- Add/Edit Product Modal -->
+<div class="modal-overlay" id="productModal">
+    <div class="modal">
+        <h3 id="productModalTitle">Add Product</h3>
+        <input type="hidden" id="productTeamIndex" value="-1" />
+        <input type="hidden" id="productEditIndex" value="-1" />
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Product Name</label>
+                <input id="productName" placeholder="e.g., Zoom" />
+            </div>
+            <div class="form-group">
+                <label>Product ID</label>
+                <input id="productId" placeholder="e.g., zoom (auto-generated)" />
+            </div>
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label>Status Page URL</label>
+                <input id="productStatusUrl" placeholder="https://status.zoom.us" />
+            </div>
+            <div class="form-group">
+                <label>Domain (for icon)</label>
+                <input id="productDomain" placeholder="zoom.us" />
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Source Type</label>
+            <select id="productSourceType" onchange="toggleSourceFields()">
+                <option value="statuspage">Atlassian Statuspage</option>
+                <option value="statushub">StatusHub</option>
+                <option value="uptimerobot">UptimeRobot</option>
+                <option value="cstate">cState</option>
+                <option value="sorry">Sorry™</option>
+                <option value="html_scrape">HTML Scrape (generic)</option>
+                <option value="slack_status">Slack Status</option>
+                <option value="google_workspace">Google Workspace</option>
+                <option value="gcp_status">Google Cloud (GCP)</option>
+                <option value="microsoft_365">Microsoft 365</option>
+            </select>
+        </div>
+
+        <div id="apiBaseGroup" class="form-group">
+            <label>API Base URL</label>
+            <input id="productApiBase" placeholder="https://status.zoom.us" />
+            <div class="form-help">Base URL for the status API (usually same as status page URL)</div>
+        </div>
+
+        <div id="apiKeyGroup" class="form-group" style="display:none">
+            <label>API Key</label>
+            <input id="productApiKey" placeholder="" />
+            <div class="form-help">Public API key for UptimeRobot status pages</div>
+        </div>
+
+        <div id="serviceFilterGroup" class="form-group" style="display:none">
+            <label>Service Filter</label>
+            <input id="productServiceFilter" placeholder="Vertex AI, Gemini" />
+            <div class="form-help">Comma-separated service names to monitor (GCP only)</div>
+        </div>
+
+        <div class="form-group">
+            <label>Region Filter</label>
+            <input id="productRegionFilter" placeholder="United States, US" />
+            <div class="form-help">Comma-separated keywords. Only components matching these regions will be shown.</div>
+        </div>
+
+        <div class="form-group">
+            <label>Component Filter</label>
+            <input id="productComponentFilter" placeholder="Zoom Meetings, Zoom Phone" />
+            <div class="form-help">Comma-separated names. Only these specific components will be monitored.</div>
+        </div>
+
+        <div class="modal-actions">
+            <button onclick="closeModal('productModal')">Cancel</button>
+            <button class="btn-primary" onclick="saveProduct()">Save Product</button>
+        </div>
+    </div>
+</div>
+
+<!-- Toast notification -->
+<div class="toast" id="toast"></div>
+
+<script>
+let config = { teams: [] };
+let ghRepo = '';
+let ghPat = '';
+let configSha = '';
+
+// ── Init ──────────────────────────────────────────────────────────────────
+
+function init() {
+    // Restore saved connection
+    ghRepo = localStorage.getItem('sm_repo') || '';
+    ghPat = localStorage.getItem('sm_pat') || '';
+
+    if (ghRepo) document.getElementById('repoInput').value = ghRepo;
+    if (ghPat) document.getElementById('patInput').value = ghPat;
+
+    if (ghRepo && ghPat) {
+        connectGitHub();
+    } else {
+        // Try loading config from relative path
+        loadLocalConfig();
+    }
+}
+
+async function loadLocalConfig() {
+    try {
+        const BASE_URL = (() => {
+            const path = window.location.pathname.replace(/\/admin\.html$/, '').replace(/\/$/, '');
+            return window.location.origin + path;
+        })();
+        const resp = await fetch(`${BASE_URL}/config/teams.json?_=${Date.now()}`);
+        if (resp.ok) {
+            config = await resp.json();
+            renderTeams();
+        }
+    } catch (e) {
+        console.warn('Could not load local config:', e);
+    }
+}
+
+async function connectGitHub() {
+    ghRepo = document.getElementById('repoInput').value.trim();
+    ghPat = document.getElementById('patInput').value.trim();
+
+    if (!ghRepo || !ghPat) {
+        showToast('Please enter both repository and token', true);
+        return;
+    }
+
+    localStorage.setItem('sm_repo', ghRepo);
+    localStorage.setItem('sm_pat', ghPat);
+
+    const status = document.getElementById('connectionStatus');
+    status.textContent = 'Connecting...';
+    status.style.color = 'var(--text-muted)';
+
+    try {
+        const resp = await fetch(
+            `https://api.github.com/repos/${ghRepo}/contents/config/teams.json`,
+            { headers: { 'Authorization': `Bearer ${ghPat}`, 'Accept': 'application/vnd.github.v3+json' } }
+        );
+
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+
+        const data = await resp.json();
+        configSha = data.sha;
+        config = JSON.parse(atob(data.content));
+
+        status.textContent = '✓ Connected';
+        status.style.color = 'var(--green)';
+        document.getElementById('setupSection').style.borderColor = 'var(--green)';
+
+        renderTeams();
+    } catch (e) {
+        status.textContent = `✗ ${e.message}`;
+        status.style.color = 'var(--red)';
+        showToast('Failed to connect: ' + e.message, true);
+    }
+}
+
+// ── Render ─────────────────────────────────────────────────────────────────
+
+function renderTeams() {
+    const container = document.getElementById('teamsContainer');
+    if (!config.teams || config.teams.length === 0) {
+        container.innerHTML = '<p style="color:var(--text-muted);padding:20px;text-align:center">No teams configured. Click "Add Team" to get started.</p>';
+        return;
+    }
+
+    let html = '';
+    config.teams.forEach((team, ti) => {
+        const productCount = (team.products || []).length;
+        const hasSlack = team.slack_channel ? '✓ Slack' : '';
+        const hasZoom = team.zoom_channel ? '✓ Zoom' : '';
+        const channels = [hasSlack, hasZoom].filter(Boolean).join(' · ') || 'No channels';
+
+        html += `<div class="team-card" id="team-${ti}">
+            <div class="team-card-header" onclick="toggleTeam(${ti})">
+                <h3>
+                    <span style="font-size:14px">▶</span>
+                    ${team.name}
+                    <span class="badge" style="background:var(--surface);color:var(--text-muted)">${productCount} products</span>
+                </h3>
+                <div style="display:flex;gap:6px">
+                    <button class="btn-sm" onclick="event.stopPropagation();editTeam(${ti})">Edit</button>
+                    <button class="btn-sm btn-danger" onclick="event.stopPropagation();deleteTeam(${ti})">Delete</button>
+                </div>
+            </div>
+            <div class="team-card-body">
+                <div class="team-meta">
+                    <span>ID: <code>${team.id}</code></span>
+                    <span>${channels}</span>
+                    ${team.description ? `<span>${team.description}</span>` : ''}
+                </div>
+                <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+                    <strong style="font-size:14px">Products</strong>
+                    <button class="btn-sm btn-primary" onclick="showAddProduct(${ti})">+ Add Product</button>
+                </div>
+                ${renderProducts(team, ti)}
+            </div>
+        </div>`;
+    });
+
+    container.innerHTML = html;
+}
+
+function renderProducts(team, teamIndex) {
+    const products = team.products || [];
+    if (products.length === 0) {
+        return '<p style="color:var(--text-muted);font-size:13px;padding:8px">No products yet.</p>';
+    }
+
+    let html = '';
+    products.forEach((p, pi) => {
+        const sourceType = p.source?.type || 'unknown';
+        const filters = [];
+        if (p.source?.region_filter?.length) filters.push('region');
+        if (p.source?.component_filter?.length) filters.push('component');
+        const filterBadge = filters.length ? ` <span class="badge" style="background:rgba(59,130,246,0.15);color:var(--accent)">${filters.join('+')}</span>` : '';
+
+        html += `<div class="product-item">
+            <div class="product-item-info">
+                ${p.icon_url ? `<img src="${p.icon_url}" alt="${p.name}" onerror="this.style.display='none'">` : ''}
+                <span class="product-item-name">${p.name}</span>
+                <span class="product-item-type">${sourceType}</span>
+                ${filterBadge}
+            </div>
+            <div class="product-item-actions">
+                <button class="btn-sm" onclick="editProduct(${teamIndex},${pi})">Edit</button>
+                <button class="btn-sm btn-danger" onclick="deleteProduct(${teamIndex},${pi})">Delete</button>
+            </div>
+        </div>`;
+    });
+    return html;
+}
+
+// ── Team CRUD ──────────────────────────────────────────────────────────────
+
+function toggleTeam(index) {
+    const card = document.getElementById(`team-${index}`);
+    card.classList.toggle('expanded');
+    const arrow = card.querySelector('.team-card-header span');
+    arrow.textContent = card.classList.contains('expanded') ? '▼' : '▶';
+}
+
+function showAddTeam() {
+    document.getElementById('teamModalTitle').textContent = 'Add Team';
+    document.getElementById('teamEditIndex').value = -1;
+    document.getElementById('teamName').value = '';
+    document.getElementById('teamId').value = '';
+    document.getElementById('teamDesc').value = '';
+    document.getElementById('teamSlack').value = '';
+    document.getElementById('teamZoom').value = '';
+    openModal('teamModal');
+}
+
+function editTeam(index) {
+    const team = config.teams[index];
+    document.getElementById('teamModalTitle').textContent = 'Edit Team';
+    document.getElementById('teamEditIndex').value = index;
+    document.getElementById('teamName').value = team.name || '';
+    document.getElementById('teamId').value = team.id || '';
+    document.getElementById('teamDesc').value = team.description || '';
+    document.getElementById('teamSlack').value = team.slack_channel || '';
+    document.getElementById('teamZoom').value = team.zoom_channel || '';
+    openModal('teamModal');
+}
+
+function saveTeam() {
+    const index = parseInt(document.getElementById('teamEditIndex').value);
+    const name = document.getElementById('teamName').value.trim();
+    let id = document.getElementById('teamId').value.trim();
+    const desc = document.getElementById('teamDesc').value.trim();
+    const slack = document.getElementById('teamSlack').value.trim();
+    const zoom = document.getElementById('teamZoom').value.trim();
+
+    if (!name) { showToast('Team name is required', true); return; }
+    if (!id) id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+    const team = {
+        id, name, description: desc,
+        slack_channel: slack,
+        zoom_channel: zoom,
+        products: index >= 0 ? config.teams[index].products : [],
+    };
+
+    if (index >= 0) {
+        config.teams[index] = team;
+    } else {
+        config.teams.push(team);
+    }
+
+    closeModal('teamModal');
+    renderTeams();
+    showToast(index >= 0 ? 'Team updated' : 'Team added');
+}
+
+function deleteTeam(index) {
+    const team = config.teams[index];
+    if (!confirm(`Delete team "${team.name}" and all its ${(team.products||[]).length} products?`)) return;
+    config.teams.splice(index, 1);
+    renderTeams();
+    showToast('Team deleted');
+}
+
+// ── Product CRUD ───────────────────────────────────────────────────────────
+
+function showAddProduct(teamIndex) {
+    document.getElementById('productModalTitle').textContent = 'Add Product';
+    document.getElementById('productTeamIndex').value = teamIndex;
+    document.getElementById('productEditIndex').value = -1;
+    document.getElementById('productName').value = '';
+    document.getElementById('productId').value = '';
+    document.getElementById('productStatusUrl').value = '';
+    document.getElementById('productDomain').value = '';
+    document.getElementById('productSourceType').value = 'statuspage';
+    document.getElementById('productApiBase').value = '';
+    document.getElementById('productApiKey').value = '';
+    document.getElementById('productServiceFilter').value = '';
+    document.getElementById('productRegionFilter').value = '';
+    document.getElementById('productComponentFilter').value = '';
+    toggleSourceFields();
+    openModal('productModal');
+}
+
+function editProduct(teamIndex, productIndex) {
+    const p = config.teams[teamIndex].products[productIndex];
+    document.getElementById('productModalTitle').textContent = 'Edit Product';
+    document.getElementById('productTeamIndex').value = teamIndex;
+    document.getElementById('productEditIndex').value = productIndex;
+    document.getElementById('productName').value = p.name || '';
+    document.getElementById('productId').value = p.id || '';
+    document.getElementById('productStatusUrl').value = p.status_url || '';
+    document.getElementById('productDomain').value = p.domain || '';
+    document.getElementById('productSourceType').value = p.source?.type || 'statuspage';
+    document.getElementById('productApiBase').value = p.source?.api_base || '';
+    document.getElementById('productApiKey').value = p.source?.api_key || '';
+    document.getElementById('productServiceFilter').value = (p.source?.service_filter || []).join(', ');
+    document.getElementById('productRegionFilter').value = (p.source?.region_filter || []).join(', ');
+    document.getElementById('productComponentFilter').value = (p.source?.component_filter || []).join(', ');
+    toggleSourceFields();
+    openModal('productModal');
+}
+
+function toggleSourceFields() {
+    const type = document.getElementById('productSourceType').value;
+    const needsApiBase = ['statuspage','statushub','uptimerobot','cstate','sorry','html_scrape'];
+    const needsApiKey = ['uptimerobot'];
+    const needsServiceFilter = ['gcp_status'];
+
+    document.getElementById('apiBaseGroup').style.display = needsApiBase.includes(type) ? 'block' : 'none';
+    document.getElementById('apiKeyGroup').style.display = needsApiKey.includes(type) ? 'block' : 'none';
+    document.getElementById('serviceFilterGroup').style.display = needsServiceFilter.includes(type) ? 'block' : 'none';
+}
+
+function saveProduct() {
+    const teamIndex = parseInt(document.getElementById('productTeamIndex').value);
+    const productIndex = parseInt(document.getElementById('productEditIndex').value);
+    const name = document.getElementById('productName').value.trim();
+    let id = document.getElementById('productId').value.trim();
+    const statusUrl = document.getElementById('productStatusUrl').value.trim();
+    const domain = document.getElementById('productDomain').value.trim();
+    const sourceType = document.getElementById('productSourceType').value;
+    const apiBase = document.getElementById('productApiBase').value.trim();
+    const apiKey = document.getElementById('productApiKey').value.trim();
+    const serviceFilter = document.getElementById('productServiceFilter').value.trim();
+    const regionFilter = document.getElementById('productRegionFilter').value.trim();
+    const componentFilter = document.getElementById('productComponentFilter').value.trim();
+
+    if (!name) { showToast('Product name is required', true); return; }
+    if (!id) id = name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+
+    const source = { type: sourceType };
+    if (apiBase) source.api_base = apiBase;
+    if (apiKey) source.api_key = apiKey;
+    if (serviceFilter) source.service_filter = serviceFilter.split(',').map(s => s.trim()).filter(Boolean);
+    if (regionFilter) source.region_filter = regionFilter.split(',').map(s => s.trim()).filter(Boolean);
+    if (componentFilter) source.component_filter = componentFilter.split(',').map(s => s.trim()).filter(Boolean);
+
+    const product = {
+        id, name, domain,
+        icon_url: domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '',
+        status_url: statusUrl,
+        source,
+    };
+
+    if (!config.teams[teamIndex].products) config.teams[teamIndex].products = [];
+
+    if (productIndex >= 0) {
+        config.teams[teamIndex].products[productIndex] = product;
+    } else {
+        config.teams[teamIndex].products.push(product);
+    }
+
+    closeModal('productModal');
+    renderTeams();
+    showToast(productIndex >= 0 ? 'Product updated' : 'Product added');
+}
+
+function deleteProduct(teamIndex, productIndex) {
+    const p = config.teams[teamIndex].products[productIndex];
+    if (!confirm(`Delete product "${p.name}"?`)) return;
+    config.teams[teamIndex].products.splice(productIndex, 1);
+    renderTeams();
+    showToast('Product deleted');
+}
+
+// ── Save to GitHub ─────────────────────────────────────────────────────────
+
+async function saveConfig() {
+    if (!ghRepo || !ghPat) {
+        showToast('Connect to GitHub first', true);
+        return;
+    }
+
+    const content = btoa(unescape(encodeURIComponent(JSON.stringify(config, null, 2) + '\n')));
+
+    try {
+        const resp = await fetch(
+            `https://api.github.com/repos/${ghRepo}/contents/config/teams.json`,
+            {
+                method: 'PUT',
+                headers: {
+                    'Authorization': `Bearer ${ghPat}`,
+                    'Accept': 'application/vnd.github.v3+json',
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    message: `Update teams config via admin UI [${new Date().toISOString().slice(0,16)}]`,
+                    content: content,
+                    sha: configSha,
+                }),
+            }
+        );
+
+        if (!resp.ok) {
+            const err = await resp.json();
+            throw new Error(err.message || `HTTP ${resp.status}`);
+        }
+
+        const data = await resp.json();
+        configSha = data.content.sha;
+        showToast('Configuration saved to GitHub!');
+    } catch (e) {
+        showToast('Save failed: ' + e.message, true);
+    }
+}
+
+// ── Helpers ─────────────────────────────────────────────────────────────────
+
+function openModal(id) { document.getElementById(id).classList.add('open'); }
+function closeModal(id) { document.getElementById(id).classList.remove('open'); }
+
+function showToast(msg, isError = false) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.className = 'toast show' + (isError ? ' error' : '');
+    setTimeout(() => t.className = 'toast', 3000);
+}
+
+// Close modals on Escape
+document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+        document.querySelectorAll('.modal-overlay.open').forEach(m => m.classList.remove('open'));
+    }
+});
+
+// Close modals on overlay click
+document.querySelectorAll('.modal-overlay').forEach(el => {
+    el.addEventListener('click', (e) => {
+        if (e.target === el) el.classList.remove('open');
+    });
+});
+
+init();
+</script>
+
+</body>
+</html>
