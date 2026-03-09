@@ -538,63 +538,78 @@ def check_statushub(product: dict) -> dict:
         "incidents": [],
     }
 
-    # StatusHub statuses endpoint
+    # Try traffic_lights endpoint first — it reliably returns aggregate status
+    traffic_ok = False
+    try:
+        resp = requests.get(f"{api_base}/api/blocks/traffic_lights/v1", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+
+        tl = data.get("data", data)
+        if isinstance(tl, dict) and "all_up" in tl:
+            traffic_ok = True
+            if tl.get("all_up"):
+                result["overall_status"] = "operational"
+            elif tl.get("count_status_3", 0) > 0:
+                result["overall_status"] = "major_outage"
+            elif tl.get("count_status_2", 0) > 0:
+                result["overall_status"] = "degraded"
+            else:
+                result["overall_status"] = "operational"
+    except Exception as exc:
+        print(f"    [WARN] StatusHub traffic_lights failed: {exc}")
+
+    # Also try statuses endpoint for component-level detail
     try:
         resp = requests.get(f"{api_base}/api/blocks/statuses/v1", timeout=REQUEST_TIMEOUT)
         resp.raise_for_status()
         data = resp.json()
 
-        # StatusHub returns a list of service blocks
-        services = data if isinstance(data, list) else data.get("services", data.get("data", []))
+        # StatusHub may return groups with nested services or a flat list
+        raw_services = []
+        if isinstance(data, list):
+            raw_services = data
+        elif isinstance(data, dict):
+            groups = data.get("data", data.get("groups", []))
+            if isinstance(groups, list):
+                for group in groups:
+                    if isinstance(group, dict):
+                        svcs = group.get("services", group.get("items", []))
+                        if svcs:
+                            raw_services.extend(svcs)
+                        else:
+                            raw_services.append(group)
+            else:
+                raw_services = data.get("services", [])
 
         worst = "operational"
-        for svc in services:
+        for svc in raw_services:
             name = svc.get("name", svc.get("title", "Unknown"))
             raw_status = svc.get("status", svc.get("current_status", "")).lower()
 
-            # Map StatusHub status values to canonical
-            if raw_status in ("operational", "up", "ok", "available"):
+            if any(k in raw_status for k in ("operational", "up", "ok", "1")):
                 cs = "operational"
-            elif raw_status in ("degraded", "degraded performance", "slow"):
+            elif any(k in raw_status for k in ("degraded", "slow", "warning", "2")):
                 cs = "degraded"
-            elif raw_status in ("partial outage", "partial", "partially degraded"):
-                cs = "partial_outage"
-            elif raw_status in ("major outage", "major", "down", "unavailable"):
+            elif any(k in raw_status for k in ("down", "outage", "major", "critical", "3")):
                 cs = "major_outage"
-            elif raw_status in ("maintenance", "under maintenance", "scheduled"):
+            elif "maintenance" in raw_status:
                 cs = "maintenance"
             else:
-                cs = "operational" if "ok" in raw_status or "up" in raw_status else "unknown"
+                cs = "unknown"
 
             result["components"].append({"name": name, "status": cs})
             if status_severity(cs) > status_severity(worst):
                 worst = cs
 
-        if services:
+        # Only override traffic_lights result if we got meaningful component data
+        if result["components"] and not traffic_ok:
             result["overall_status"] = worst
 
     except Exception as exc:
         print(f"    [WARN] StatusHub statuses failed: {exc}")
 
-        # Fallback: try traffic_lights endpoint
-        try:
-            resp = requests.get(f"{api_base}/api/blocks/traffic_lights/v1", timeout=REQUEST_TIMEOUT)
-            resp.raise_for_status()
-            data = resp.json()
-
-            lights = data if isinstance(data, list) else data.get("data", [])
-            for light in lights:
-                color = light.get("color", light.get("status", "")).lower()
-                if color in ("green", "operational"):
-                    result["overall_status"] = "operational"
-                elif color in ("yellow", "orange", "degraded"):
-                    result["overall_status"] = "degraded"
-                elif color in ("red", "outage"):
-                    result["overall_status"] = "major_outage"
-        except Exception as exc2:
-            print(f"    [WARN] StatusHub traffic_lights also failed: {exc2}")
-
-    # Apply filters
+    # Apply region/component filtering
     result["components"] = _filter_components(result["components"], source)
     if result["components"]:
         result["overall_status"] = _recalculate_overall_status(
@@ -602,6 +617,7 @@ def check_statushub(product: dict) -> dict:
         )
 
     return result
+
 
 
 def check_uptimerobot(product: dict) -> dict:
@@ -634,7 +650,8 @@ def check_uptimerobot(product: dict) -> dict:
         resp.raise_for_status()
         data = resp.json()
 
-        stat = data.get("stat", "")
+        # UptimeRobot public status page API may use "status" (not "stat")
+        stat = data.get("stat", data.get("status", ""))
         if stat != "ok":
             print(f"    [WARN] UptimeRobot stat={stat}")
             return result
@@ -645,17 +662,31 @@ def check_uptimerobot(product: dict) -> dict:
         worst = "operational"
         for mon in monitors:
             name = mon.get("name", "Unknown")
-            status_code = mon.get("status", 0)
+            status_code = mon.get("status", None)
+            status_class = mon.get("statusClass", "")
 
-            # Map UptimeRobot status codes
-            if status_code == 2:
-                cs = "operational"
-            elif status_code == 8:
-                cs = "degraded"
-            elif status_code == 9:
-                cs = "major_outage"
-            elif status_code == 0:
-                cs = "maintenance"
+            # Map UptimeRobot status — public pages use statusClass strings,
+            # API v2 uses numeric status codes
+            if status_class:
+                if status_class in ("success", "green"):
+                    cs = "operational"
+                elif status_class in ("warning", "yellow"):
+                    cs = "degraded"
+                elif status_class in ("danger", "red"):
+                    cs = "major_outage"
+                else:
+                    cs = "unknown"
+            elif status_code is not None:
+                if status_code == 2:
+                    cs = "operational"
+                elif status_code == 8:
+                    cs = "degraded"
+                elif status_code == 9:
+                    cs = "major_outage"
+                elif status_code == 0:
+                    cs = "maintenance"
+                else:
+                    cs = "unknown"
             else:
                 cs = "unknown"
 
@@ -729,11 +760,16 @@ def check_cstate(product: dict) -> dict:
         # Common patterns: {"is": "ok/disrupted/down", "systems": [...]}
         # or array of categories with systems
         overall = data.get("is", data.get("status", ""))
-        if overall in ("ok", "operational"):
+        summary_status = data.get("summaryStatus", "")
+
+        # Prefer summaryStatus (cState v6+) over "is" (which may be "index")
+        effective_status = summary_status if summary_status else overall
+
+        if effective_status in ("ok", "operational"):
             result["overall_status"] = "operational"
-        elif overall in ("disrupted", "degraded"):
+        elif effective_status in ("disrupted", "degraded"):
             result["overall_status"] = "degraded"
-        elif overall in ("down", "outage"):
+        elif effective_status in ("down", "outage"):
             result["overall_status"] = "major_outage"
 
         # Extract systems/categories
@@ -832,7 +868,12 @@ def check_sorry(product: dict) -> dict:
         resp.raise_for_status()
         html = resp.text.lower()
 
-        if "all systems operational" in html or "all systems are operational" in html:
+        if any(p in html for p in [
+                "all systems operational",
+                "all systems are operational",
+                "all systems are go",
+                "all services operational",
+            ]):
             result["overall_status"] = "operational"
         elif "experiencing issues" in html or "degraded" in html:
             result["overall_status"] = "degraded"
@@ -881,6 +922,9 @@ def check_html_scrape(product: dict) -> dict:
             "all services are online",
             "all components operational",
             "everything is running smoothly",
+            "no system is reporting an issue",
+            "no issues reported",
+            "all systems are go",
         ]):
             result["overall_status"] = "operational"
         elif any(p in html for p in [
