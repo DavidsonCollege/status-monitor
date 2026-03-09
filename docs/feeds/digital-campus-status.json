@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-09T20:47:00.653904+00:00",
+  "last_checked": "2026-03-09T20:49:49.218293+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -66,7 +66,7 @@
       "name": "Accruent EMS",
       "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
       "status_url": "https://status.accruent.com",
-      "overall_status": "unknown",
+      "overall_status": "operational",
       "active_incidents": 0,
       "components": [
         {
