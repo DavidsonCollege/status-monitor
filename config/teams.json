@@ -4,8 +4,8 @@
       "id": "digital-campus",
       "name": "Digital Campus",
       "description": "Core campus technology services and platforms",
-      "slack_channel": "",
-      "zoom_channel": "",
+      "slack_channel": "C0AKTENQN49",
+      "zoom_channel": "1cba8a62eebb4cf484dd7a7b07c3cd32",
       "products": [
         {
           "id": "ninjaone",
@@ -236,8 +236,8 @@
       "id": "ai",
       "name": "AI",
       "description": "AI platform services",
-      "slack_channel": "",
-      "zoom_channel": "",
+      "slack_channel": "C0AKTENQN49",
+      "zoom_channel": "b54d218b92ff4971bc51f84201fb77e8",
       "products": [
         {
           "id": "google-gemini",
