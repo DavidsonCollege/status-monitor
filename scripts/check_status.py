@@ -612,7 +612,7 @@ def check_statushub(product: dict) -> dict:
 
     # Apply region/component filtering
     result["components"] = _filter_components(result["components"], source)
-    if result["components"]:
+    if result["components"] and not traffic_ok:
         result["overall_status"] = _recalculate_overall_status(
             result["components"], result["overall_status"]
         )
