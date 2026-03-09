@@ -1,5 +1,44 @@
 [
   {
+    "id": "d38f0dade1213c5c",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Operational",
+    "link": "",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-09T17:24:05.837078+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d751189bfd4828b7",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Degraded Performance - us-west-2 region \u2014 resolved",
+    "link": "https://stspg.io/q291x7dw0808",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-09T17:16:00.449000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_update"
+  },
+  {
+    "id": "9261b8621338cdd2",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Degraded Performance - us-west-2 region \u2014 Resolved",
+    "link": "https://stspg.io/q291x7dw0808",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-09T17:16:00.449000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "ad55b61d320a94c9",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2558,45 +2597,6 @@
     "date": "2025-01-08T04:30:00-07:00",
     "status": "resolved",
     "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "d892a82858456a22",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Intermittent errors with API and submit actions",
-    "link": "https://stspg.io/995f63sbb9c2",
-    "summary": "Our monitoring is complete, and our service provider (fly.io) has scaled up their systems and applied fixes to address the issue. The problem is now resolved. We apologize for any inconvenience this may have caused.",
-    "date": "2024-11-25T15:55:28.773000-07:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "c1e37ee6c00c25a2",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: 4/6/2025 Scheduled Kuali Maintenance",
-    "link": "https://stspg.io/1dmpkywgxtfg",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-03-24T15:36:21.062000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "3513b1b9ad0e6905",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: 2022 July 10 Scheduled maintenance",
-    "link": "https://stspg.io/9vdb3xhlylr0",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2022-07-10T08:53:38.499000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]
