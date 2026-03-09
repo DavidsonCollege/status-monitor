@@ -4,7 +4,7 @@
       "id": "digital-campus",
       "name": "Digital Campus",
       "description": "Core campus technology services and platforms",
-      "slack_channel": "",
+      "slack_channel": "C02CG04T935",
       "zoom_channel": "",
       "products": [
         {
@@ -230,7 +230,7 @@
       "id": "ai",
       "name": "AI",
       "description": "AI platform services",
-      "slack_channel": "",
+      "slack_channel": "C051NTVN6E9",
       "zoom_channel": "",
       "products": [
         {
