@@ -1,5 +1,18 @@
 [
   {
+    "id": "b6939eb96b032dc1",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Operational",
+    "link": "",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-03-09T19:21:45.146094+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "136fe7332cf38fe8",
     "product_id": "securew2",
     "product_name": "SecureW2",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/578mn5fbk6k7",
     "summary": "We found an inefficient background query that was causing performance issues in the environments. We just deployed an improved query to resolve this underlying issue and our monitoring shows that performance has returned to normal levels.",
     "date": "2025-02-13T11:48:46.253000-07:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "a0f2097540408b9d",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Build/Platform not loading or going to error",
-    "link": "https://stspg.io/tvp9h3bhm739",
-    "summary": "The issue was caused by a recent code deployment. Our team identified the problem and rolled back the change, successfully resolving the errors.",
-    "date": "2025-02-04T07:30:00-07:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
