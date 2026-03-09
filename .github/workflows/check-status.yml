@@ -98,11 +98,16 @@ jobs:
           ZOOM_USER_EMAIL: ${{ secrets.ZOOM_USER_EMAIL }}
         run: python scripts/check_status.py
 
+      - name: Sync config to docs for dashboard
+        run: |
+          mkdir -p docs/config
+          cp config/teams.json docs/config/teams.json
+
       - name: Commit and push changes
         run: |
           git config user.name "Status Monitor Bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data/ docs/feeds/ docs/slack_channels.json docs/zoom_channels.json
+          git add data/ docs/feeds/ docs/config/ docs/slack_channels.json docs/zoom_channels.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
