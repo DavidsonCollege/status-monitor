@@ -1,5 +1,31 @@
 [
   {
+    "id": "0f3950da1a2e3132",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-09T15:30:47.792510+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "0c1e5fbeb34123c3",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex CLI unresponsive",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "",
+    "date": "2026-03-09T15:09:12+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "d2acc6b704a45c25",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",

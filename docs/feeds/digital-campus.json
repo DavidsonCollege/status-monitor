@@ -1,5 +1,57 @@
 [
   {
+    "id": "3535dfc09a5e705c",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Operational",
+    "link": "",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-09T15:30:23.719816+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "c3e29a20db85b34b",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: EU - Performance Degraded \u2014 resolved",
+    "link": "https://stspg.io/1g1zqwyt6ry7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-09T10:25:12.813000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_update"
+  },
+  {
+    "id": "ac306814857afda3",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: EU - Performance Degraded \u2014 Resolved",
+    "link": "https://stspg.io/1g1zqwyt6ry7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-09T10:25:12.813000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "aaa9c723289226f6",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Degraded Performance - us-west-2 region \u2014 identified",
+    "link": "https://stspg.io/q291x7dw0808",
+    "summary": "The issue has been identified and we are working on resolution.",
+    "date": "2026-03-09T15:17:07.010000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "e9c63b841cc4f476",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2545,58 +2597,6 @@
     "date": "2016-06-14T16:02:01.128000-06:00",
     "status": "resolved",
     "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "d7bc99d42373a52b",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: AWS Cloud Service Interruptions",
-    "link": "https://stspg.io/1yglpmt35fpc",
-    "summary": "This incident has been resolved by Amazon Web Services (AWS). All systems are operational.",
-    "date": "2025-10-20T13:28:42.299000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "4e6c6b6914ee4171",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: SMS delays for AT&T customers.",
-    "link": "https://stspg.io/m2fg310988ls",
-    "summary": "Omnilert has been informed that carrier issue impacting SMS Messaging services towards AT&T has been resolved.\n\nMarket: US\n\nStart Date Time: 02/22/2024 03:54 AM ET\n\nEnd Date Time: 02/23/2024 01:21 AM ET",
-    "date": "2024-02-22T09:17:01.376000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "416797784e0e571c",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: Email endpoint unavailable",
-    "link": "https://stspg.io/lg7y5g2z60xc",
-    "summary": "Omnilert engineers have worked with our providers and this incident has been fully resolved. Email/SEED message delivery services are now available via Omnilert. \n\nIncident End time:  02/15/2023 13:15 EST",
-    "date": "2024-02-15T10:05:24.733000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "6810f969835ce481",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: Twitter Endpoint Unavailable",
-    "link": "https://stspg.io/l6q2j1b0vlk0",
-    "summary": "Dear Customers,\n\nAfter a thorough assessment, we regret to inform you that the Twitter endpoint within our platform is no longer available due to changes made by Twitter \\(now known as \"X\"\\). This change was unexpected and has resulted in the current discontinuation of this feature.\n\nWe will however continue to monitor the situation and explore opportunities to reintroduce it in the future.\n\nWe apologize for any inconvenience this may cause and appreciate your understanding. If you have any ques",
-    "date": "2023-06-21T16:45:58.415000-04:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
     "type": "new_incident"
   }
 ]
