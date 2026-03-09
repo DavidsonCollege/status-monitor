@@ -1003,7 +1003,7 @@ def check_exlibris(product: dict) -> dict:
         page = session.get(api_base, timeout=REQUEST_TIMEOUT)
         page.raise_for_status()
 
-        m = _re.search(r"g_ck\s*=\s*['\"](\w+)['\""]", page.text)
+        m = _re.search(r"g_ck\s*=\s*['\"](\w+)['\"]", page.text)
         if not m:
             print("    [WARN] ExLibris: g_ck token not found")
             return result
