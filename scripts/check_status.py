@@ -182,6 +182,13 @@ def check_statuspage(product: dict) -> dict:
         print(f"    [WARN] Failed to fetch summary: {exc}")
         return result
 
+    # Apply region/component filtering
+    result["components"] = _filter_components(result["components"], source)
+    if result["components"]:
+        result["overall_status"] = _recalculate_overall_status(
+            result["components"], result["overall_status"]
+        )
+
     # Fetch recent incidents (unresolved + last 50)
     try:
         resp = requests.get(f"{api_base}/api/v2/incidents.json", timeout=REQUEST_TIMEOUT)
@@ -470,6 +477,448 @@ def check_gcp_status(product: dict) -> dict:
     return result
 
 
+def _filter_components(components: list[dict], source: dict) -> list[dict]:
+    """Filter components by region and/or component name patterns.
+
+    Config options (all optional, in product.source):
+        region_filter:    ["US", "United States"] — keep only matching
+        component_filter: ["Zoom Meetings", "Phone"] — keep only matching
+    If neither filter is set, all components are returned.
+    """
+    region_filter = source.get("region_filter", [])
+    component_filter = source.get("component_filter", [])
+
+    if not region_filter and not component_filter:
+        return components
+
+    filtered = []
+    for comp in components:
+        name = comp.get("name", "")
+        name_lower = name.lower()
+
+        if region_filter:
+            if not any(r.lower() in name_lower for r in region_filter):
+                continue
+        if component_filter:
+            if not any(f.lower() in name_lower for f in component_filter):
+                continue
+        filtered.append(comp)
+
+    return filtered
+
+
+def _recalculate_overall_status(components: list[dict], original_status: str) -> str:
+    """Recalculate overall status from filtered components.
+
+    If no components remain after filtering, keep the original API status.
+    """
+    if not components:
+        return original_status
+
+    worst = "operational"
+    for comp in components:
+        cs = comp.get("status", "operational")
+        if status_severity(cs) > status_severity(worst):
+            worst = cs
+    return worst
+
+
+def check_statushub(product: dict) -> dict:
+    """Check a StatusHub-based status page (e.g., Accruent EMS).
+
+    StatusHub pages expose /api/blocks/statuses/v1 and
+    /api/blocks/traffic_lights/v1 endpoints.
+    """
+    source = product.get("source", {})
+    api_base = source.get("api_base", "").rstrip("/")
+
+    result = {
+        "overall_status": "unknown",
+        "components": [],
+        "incidents": [],
+    }
+
+    # StatusHub statuses endpoint
+    try:
+        resp = requests.get(f"{api_base}/api/blocks/statuses/v1", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+
+        # StatusHub returns a list of service blocks
+        services = data if isinstance(data, list) else data.get("services", data.get("data", []))
+
+        worst = "operational"
+        for svc in services:
+            name = svc.get("name", svc.get("title", "Unknown"))
+            raw_status = svc.get("status", svc.get("current_status", "")).lower()
+
+            # Map StatusHub status values to canonical
+            if raw_status in ("operational", "up", "ok", "available"):
+                cs = "operational"
+            elif raw_status in ("degraded", "degraded performance", "slow"):
+                cs = "degraded"
+            elif raw_status in ("partial outage", "partial", "partially degraded"):
+                cs = "partial_outage"
+            elif raw_status in ("major outage", "major", "down", "unavailable"):
+                cs = "major_outage"
+            elif raw_status in ("maintenance", "under maintenance", "scheduled"):
+                cs = "maintenance"
+            else:
+                cs = "operational" if "ok" in raw_status or "up" in raw_status else "unknown"
+
+            result["components"].append({"name": name, "status": cs})
+            if status_severity(cs) > status_severity(worst):
+                worst = cs
+
+        if services:
+            result["overall_status"] = worst
+
+    except Exception as exc:
+        print(f"    [WARN] StatusHub statuses failed: {exc}")
+
+        # Fallback: try traffic_lights endpoint
+        try:
+            resp = requests.get(f"{api_base}/api/blocks/traffic_lights/v1", timeout=REQUEST_TIMEOUT)
+            resp.raise_for_status()
+            data = resp.json()
+
+            lights = data if isinstance(data, list) else data.get("data", [])
+            for light in lights:
+                color = light.get("color", light.get("status", "")).lower()
+                if color in ("green", "operational"):
+                    result["overall_status"] = "operational"
+                elif color in ("yellow", "orange", "degraded"):
+                    result["overall_status"] = "degraded"
+                elif color in ("red", "outage"):
+                    result["overall_status"] = "major_outage"
+        except Exception as exc2:
+            print(f"    [WARN] StatusHub traffic_lights also failed: {exc2}")
+
+    # Apply filters
+    result["components"] = _filter_components(result["components"], source)
+    if result["components"]:
+        result["overall_status"] = _recalculate_overall_status(
+            result["components"], result["overall_status"]
+        )
+
+    return result
+
+
+def check_uptimerobot(product: dict) -> dict:
+    """Check an UptimeRobot-based status page (e.g., Scribe).
+
+    UptimeRobot public status pages expose /api/getMonitorList/{api_key}.
+    Status codes: 0=paused, 1=not checked yet, 2=up, 8=seems down, 9=down.
+    """
+    source = product.get("source", {})
+    api_base = source.get("api_base", "").rstrip("/")
+    api_key = source.get("api_key", "")
+
+    result = {
+        "overall_status": "unknown",
+        "components": [],
+        "incidents": [],
+    }
+
+    if not api_key:
+        # Try to extract from known URL pattern
+        # UptimeRobot status pages: /api/getMonitorList/{key}
+        print("    [WARN] No api_key configured for UptimeRobot")
+        return result
+
+    try:
+        resp = requests.get(
+            f"{api_base}/api/getMonitorList/{api_key}",
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+
+        stat = data.get("stat", "")
+        if stat != "ok":
+            print(f"    [WARN] UptimeRobot stat={stat}")
+            return result
+
+        psp = data.get("psp", {})
+        monitors = psp.get("monitors", [])
+
+        worst = "operational"
+        for mon in monitors:
+            name = mon.get("name", "Unknown")
+            status_code = mon.get("status", 0)
+
+            # Map UptimeRobot status codes
+            if status_code == 2:
+                cs = "operational"
+            elif status_code == 8:
+                cs = "degraded"
+            elif status_code == 9:
+                cs = "major_outage"
+            elif status_code == 0:
+                cs = "maintenance"
+            else:
+                cs = "unknown"
+
+            result["components"].append({"name": name, "status": cs})
+            if status_severity(cs) > status_severity(worst):
+                worst = cs
+
+        if monitors:
+            result["overall_status"] = worst
+
+        # Check for incidents in the event feed
+        try:
+            resp2 = requests.get(
+                f"{api_base}/api/getEventFeed/{api_key}",
+                timeout=REQUEST_TIMEOUT,
+            )
+            resp2.raise_for_status()
+            feed_data = resp2.json()
+
+            events = feed_data.get("psp", {}).get("events", [])
+            for evt in events[:10]:
+                evt_status = "resolved" if evt.get("type", 0) == 2 else "investigating"
+                result["incidents"].append({
+                    "id": str(evt.get("id", "")),
+                    "name": evt.get("text", "Incident"),
+                    "status": evt_status,
+                    "impact": "minor",
+                    "url": api_base,
+                    "created_at": evt.get("datetime", ""),
+                    "updated_at": evt.get("datetime", ""),
+                    "resolved_at": evt.get("datetime", "") if evt_status == "resolved" else "",
+                    "updates": [],
+                })
+        except Exception:
+            pass  # Event feed is optional
+
+    except Exception as exc:
+        print(f"    [WARN] UptimeRobot fetch failed: {exc}")
+
+    # Apply filters
+    result["components"] = _filter_components(result["components"], source)
+    if result["components"]:
+        result["overall_status"] = _recalculate_overall_status(
+            result["components"], result["overall_status"]
+        )
+
+    return result
+
+
+def check_cstate(product: dict) -> dict:
+    """Check a cState-based status page (e.g., Short.io).
+
+    cState is a Hugo-based static status page generator.
+    It exposes /index.json with system status data.
+    """
+    source = product.get("source", {})
+    api_base = source.get("api_base", "").rstrip("/")
+
+    result = {
+        "overall_status": "unknown",
+        "components": [],
+        "incidents": [],
+    }
+
+    try:
+        resp = requests.get(f"{api_base}/index.json", timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        data = resp.json()
+
+        # cState index.json structure varies by version
+        # Common patterns: {"is": "ok/disrupted/down", "systems": [...]}
+        # or array of categories with systems
+        overall = data.get("is", data.get("status", ""))
+        if overall in ("ok", "operational"):
+            result["overall_status"] = "operational"
+        elif overall in ("disrupted", "degraded"):
+            result["overall_status"] = "degraded"
+        elif overall in ("down", "outage"):
+            result["overall_status"] = "major_outage"
+
+        # Extract systems/categories
+        systems = data.get("systems", data.get("categories", []))
+        if isinstance(systems, list):
+            for item in systems:
+                if isinstance(item, dict):
+                    # Could be a category with sub-systems
+                    if "systems" in item:
+                        for sys_item in item["systems"]:
+                            name = sys_item.get("name", "")
+                            s = sys_item.get("status", "ok")
+                            cs = "operational" if s in ("ok", "operational") else (
+                                "degraded" if s in ("disrupted", "degraded") else (
+                                    "major_outage" if s in ("down",) else "unknown"
+                                )
+                            )
+                            result["components"].append({"name": name, "status": cs})
+                    else:
+                        name = item.get("name", item.get("title", ""))
+                        s = item.get("status", "ok")
+                        cs = "operational" if s in ("ok", "operational") else (
+                            "degraded" if s in ("disrupted", "degraded") else (
+                                "major_outage" if s in ("down",) else "unknown"
+                            )
+                        )
+                        if name:
+                            result["components"].append({"name": name, "status": cs})
+
+    except Exception as exc:
+        print(f"    [WARN] cState fetch failed: {exc}")
+
+    # Apply filters
+    result["components"] = _filter_components(result["components"], source)
+    if result["components"]:
+        result["overall_status"] = _recalculate_overall_status(
+            result["components"], result["overall_status"]
+        )
+
+    return result
+
+
+def check_sorry(product: dict) -> dict:
+    """Check a Sorry™-based status page (e.g., SecureW2).
+
+    Sorry™ pages may expose a JSON API. We try common patterns.
+    Falls back to parsing the HTML page for status indicators.
+    """
+    source = product.get("source", {})
+    api_base = source.get("api_base", "").rstrip("/")
+
+    result = {
+        "overall_status": "unknown",
+        "components": [],
+        "incidents": [],
+    }
+
+    # Try JSON API first (Accept: application/json)
+    try:
+        resp = requests.get(
+            api_base,
+            headers={"Accept": "application/json"},
+            timeout=REQUEST_TIMEOUT,
+        )
+        if resp.status_code == 200 and "json" in resp.headers.get("content-type", ""):
+            data = resp.json()
+            # Parse Sorry™ JSON format
+            page = data.get("page", data)
+            status = page.get("status", "")
+            if status:
+                if status in ("operational", "up", "green"):
+                    result["overall_status"] = "operational"
+                elif status in ("degraded", "yellow", "warning"):
+                    result["overall_status"] = "degraded"
+                elif status in ("down", "red", "critical"):
+                    result["overall_status"] = "major_outage"
+
+            components = page.get("components", page.get("services", []))
+            for comp in components if isinstance(components, list) else []:
+                name = comp.get("name", "")
+                s = comp.get("status", "").lower()
+                cs = "operational" if s in ("operational", "up") else (
+                    "degraded" if s in ("degraded", "slow") else (
+                        "major_outage" if s in ("down", "outage") else "unknown"
+                    )
+                )
+                if name:
+                    result["components"].append({"name": name, "status": cs})
+            return result
+    except Exception:
+        pass
+
+    # Fallback: parse HTML page
+    try:
+        resp = requests.get(api_base, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        html = resp.text.lower()
+
+        if "all systems operational" in html or "all systems are operational" in html:
+            result["overall_status"] = "operational"
+        elif "experiencing issues" in html or "degraded" in html:
+            result["overall_status"] = "degraded"
+        elif "major outage" in html or "service disruption" in html:
+            result["overall_status"] = "major_outage"
+        elif "maintenance" in html:
+            result["overall_status"] = "maintenance"
+        else:
+            # Look for common status page patterns
+            if "operational" in html:
+                result["overall_status"] = "operational"
+
+    except Exception as exc:
+        print(f"    [WARN] Sorry™ fetch failed: {exc}")
+
+    return result
+
+
+def check_html_scrape(product: dict) -> dict:
+    """Generic HTML scraper for status pages without structured APIs.
+
+    Fetches the page HTML and looks for common status indicators.
+    Used as a fallback for platforms like Spike.sh and ServiceNow.
+    """
+    source = product.get("source", {})
+    api_base = source.get("api_base", source.get("status_url", "")).rstrip("/")
+
+    result = {
+        "overall_status": "unknown",
+        "components": [],
+        "incidents": [],
+    }
+
+    if not api_base:
+        return result
+
+    try:
+        resp = requests.get(api_base, timeout=REQUEST_TIMEOUT)
+        resp.raise_for_status()
+        html = resp.text.lower()
+
+        # Check for common status page patterns
+        if any(p in html for p in [
+            "all systems operational",
+            "all systems are operational",
+            "all services are online",
+            "all components operational",
+            "everything is running smoothly",
+        ]):
+            result["overall_status"] = "operational"
+        elif any(p in html for p in [
+            "major outage",
+            "service disruption",
+            "system down",
+            "critical",
+        ]):
+            result["overall_status"] = "major_outage"
+        elif any(p in html for p in [
+            "partial outage",
+            "partially degraded",
+            "some systems",
+        ]):
+            result["overall_status"] = "partial_outage"
+        elif any(p in html for p in [
+            "degraded performance",
+            "experiencing issues",
+            "elevated error",
+            "minor issue",
+        ]):
+            result["overall_status"] = "degraded"
+        elif any(p in html for p in [
+            "under maintenance",
+            "scheduled maintenance",
+            "planned maintenance",
+        ]):
+            result["overall_status"] = "maintenance"
+        elif "operational" in html:
+            # Generic fallback — if the word "operational" appears
+            result["overall_status"] = "operational"
+
+    except Exception as exc:
+        print(f"    [WARN] HTML scrape failed: {exc}")
+
+    return result
+
+
 def check_microsoft_365(product: dict) -> dict:
     """Check Microsoft 365 status via the Azure status RSS feed."""
     result = {
@@ -537,6 +986,11 @@ SOURCE_HANDLERS = {
     "google_workspace": check_google_workspace,
     "gcp_status": check_gcp_status,
     "microsoft_365": check_microsoft_365,
+    "statushub": check_statushub,
+    "uptimerobot": check_uptimerobot,
+    "cstate": check_cstate,
+    "sorry": check_sorry,
+    "html_scrape": check_html_scrape,
 }
 
 
