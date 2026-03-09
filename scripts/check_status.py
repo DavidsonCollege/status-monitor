@@ -546,10 +546,10 @@ def check_statushub(product: dict) -> dict:
         data = resp.json()
 
         tl = data.get("data", data)
-        print(f"      [DEBUG] StatusHub traffic_lights keys: {list(tl.keys()) if isinstance(tl, dict) else type(tl)}")
+        print(f"      [DEBUG] StatusHub traffic_lights keys: {list(tl.keys()) if isinstance(tl, dict) else type(tl)}, all_up={tl.get('all_up') if isinstance(tl, dict) else 'N/A'}")
         if isinstance(tl, dict) and "all_up" in tl:
             traffic_ok = True
-            if tl.get("all_up"):
+            if tl.get("all_up") in (True, "true", "True", 1, "1"):
                 result["overall_status"] = "operational"
             elif tl.get("count_status_3", 0) > 0:
                 result["overall_status"] = "major_outage"
@@ -1014,6 +1014,11 @@ def check_exlibris(product: dict) -> dict:
             "X-UserToken": m.group(1),
         }, timeout=REQUEST_TIMEOUT)
         r.raise_for_status()
+        ct = r.headers.get("content-type", "")
+        print(f"      [DEBUG] ExLibris API response: status={r.status_code}, content-type={ct}, body[:200]={r.text[:200]}")
+        if "json" not in ct and "javascript" not in ct:
+            print("    [WARN] ExLibris: API returned non-JSON content")
+            return result
 
         services = r.json().get("result", {}).get("data", {}).get("services", [])
         if not services:
