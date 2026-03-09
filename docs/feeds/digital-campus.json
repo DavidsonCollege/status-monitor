@@ -1,5 +1,18 @@
 [
   {
+    "id": "b3c27fbbb8d0eb3b",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US",
+    "link": "https://stspg.io/h51y2xb3js3y",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-03-09T12:30:07.752000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "d38f0dade1213c5c",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/6fd2vrp3jdzj",
     "summary": "Our team identified the root cause as an issue with a recently deployed code. Once identified, the code was rolled back to restore service.",
     "date": "2025-01-09T10:45:00-07:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "b5785404adf92db0",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Build database connection errors",
-    "link": "https://stspg.io/xbnjlc0nnxrg",
-    "summary": "The issue was caused by an unexpected database connection error, which the system automatically resolved. While mitigation steps are in place, these errors still occur sporadically. We are actively working on further improvements to enhance database stability and reduce recurrence. Thank you for your understanding.",
-    "date": "2025-01-08T04:30:00-07:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
