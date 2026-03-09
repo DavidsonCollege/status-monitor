@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-09T18:30:13.170154+00:00",
+  "last_checked": "2026-03-09T18:44:36.654479+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -227,7 +227,7 @@
       "name": "SecureW2",
       "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
       "status_url": "https://status.securew2.com",
-      "overall_status": "degraded",
+      "overall_status": "operational",
       "active_incidents": 0,
       "components": []
     },
@@ -304,7 +304,7 @@
       "id": "campusm",
       "name": "campusM",
       "icon_url": "https://www.google.com/s2/favicons?domain=exlibrisgroup.com&sz=64",
-      "status_url": "https://status.exlibrisgroup.com",
+      "status_url": "https://status.exlibrisgroup.com/system_status",
       "overall_status": "unknown",
       "active_incidents": 0,
       "components": []
@@ -422,9 +422,26 @@
       "name": "Scribe",
       "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
       "status_url": "https://status.scribehow.com",
-      "overall_status": "unknown",
+      "overall_status": "operational",
       "active_incidents": 0,
-      "components": []
+      "components": [
+        {
+          "name": "Scribe Application",
+          "status": "operational"
+        },
+        {
+          "name": "Scribe Application API",
+          "status": "operational"
+        },
+        {
+          "name": "Scribe Homepage",
+          "status": "operational"
+        },
+        {
+          "name": "Scribe Search & Retrieval API",
+          "status": "operational"
+        }
+      ]
     },
     {
       "id": "slack",

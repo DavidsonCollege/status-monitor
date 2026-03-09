@@ -180,10 +180,10 @@
           "name": "campusM",
           "domain": "exlibrisgroup.com",
           "icon_url": "https://www.google.com/s2/favicons?domain=exlibrisgroup.com&sz=64",
-          "status_url": "https://status.exlibrisgroup.com",
+          "status_url": "https://status.exlibrisgroup.com/system_status",
           "source": {
             "type": "html_scrape",
-            "api_base": "https://status.exlibrisgroup.com"
+            "api_base": "https://status.exlibrisgroup.com/system_status"
           }
         },
         {

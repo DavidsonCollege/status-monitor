@@ -1,5 +1,18 @@
 [
   {
+    "id": "136fe7332cf38fe8",
+    "product_id": "securew2",
+    "product_name": "SecureW2",
+    "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
+    "title": "SecureW2: Operational",
+    "link": "",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-09T18:44:28.348793+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "b3c27fbbb8d0eb3b",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/tvp9h3bhm739",
     "summary": "The issue was caused by a recent code deployment. Our team identified the problem and rolled back the change, successfully resolving the errors.",
     "date": "2025-02-04T07:30:00-07:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "02de9464e856ff3f",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Build environments unable to load",
-    "link": "https://stspg.io/6fd2vrp3jdzj",
-    "summary": "Our team identified the root cause as an issue with a recently deployed code. Once identified, the code was rolled back to restore service.",
-    "date": "2025-01-09T10:45:00-07:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
