@@ -4,7 +4,7 @@
       "id": "digital-campus",
       "name": "Digital Campus",
       "description": "Core campus technology services and platforms",
-      "slack_channel": "C02CG04T935",
+      "slack_channel": "",
       "zoom_channel": "",
       "products": [
         {
@@ -15,7 +15,8 @@
           "status_url": "https://status.ninjaone.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.ninjaone.com"
+            "api_base": "https://status.ninjaone.com",
+            "region_filter": ["United States", "US"]
           }
         },
         {
@@ -37,7 +38,8 @@
           "status_url": "https://status.code42.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.code42.com"
+            "api_base": "https://status.code42.com",
+            "region_filter": ["United States", "us.code42", "us2.code42", "us7.code42"]
           }
         },
         {
@@ -47,7 +49,7 @@
           "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
           "status_url": "https://status.accruent.com",
           "source": {
-            "type": "statuspage",
+            "type": "statushub",
             "api_base": "https://status.accruent.com"
           }
         },
@@ -69,7 +71,8 @@
           "status_url": "https://status.jamf.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.jamf.com"
+            "api_base": "https://status.jamf.com",
+            "component_filter": ["Jamf Pro", "Jamf Cloud", "Jamf Connect", "Jamf Protect"]
           }
         },
         {
@@ -80,7 +83,8 @@
           "status_url": "https://status.kuali.co",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.kuali.co"
+            "api_base": "https://status.kuali.co",
+            "region_filter": ["United States", "Oregon"]
           }
         },
         {
@@ -122,7 +126,7 @@
           "icon_url": "https://www.google.com/s2/favicons?domain=screencloud.com&sz=64",
           "status_url": "https://status.screencloud.com",
           "source": {
-            "type": "statuspage",
+            "type": "html_scrape",
             "api_base": "https://status.screencloud.com"
           }
         },
@@ -133,7 +137,7 @@
           "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
           "status_url": "https://status.securew2.com",
           "source": {
-            "type": "statuspage",
+            "type": "sorry",
             "api_base": "https://status.securew2.com"
           }
         },
@@ -142,10 +146,10 @@
           "name": "Short.io",
           "domain": "short.io",
           "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
-          "status_url": "https://status.short.io",
+          "status_url": "https://shortiostatus.com",
           "source": {
-            "type": "statuspage",
-            "api_base": "https://status.short.io"
+            "type": "cstate",
+            "api_base": "https://shortiostatus.com"
           }
         },
         {
@@ -167,7 +171,8 @@
           "status_url": "https://status.zoom.us",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.zoom.us"
+            "api_base": "https://status.zoom.us",
+            "component_filter": ["Zoom Meetings", "Zoom Phone", "Zoom Team Chat", "Zoom Webinars", "Zoom Contact Center", "Zoom Website"]
           }
         },
         {
@@ -177,7 +182,7 @@
           "icon_url": "https://www.google.com/s2/favicons?domain=exlibrisgroup.com&sz=64",
           "status_url": "https://status.exlibrisgroup.com",
           "source": {
-            "type": "statuspage",
+            "type": "html_scrape",
             "api_base": "https://status.exlibrisgroup.com"
           }
         },
@@ -210,8 +215,9 @@
           "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
           "status_url": "https://status.scribehow.com",
           "source": {
-            "type": "statuspage",
-            "api_base": "https://status.scribehow.com"
+            "type": "uptimerobot",
+            "api_base": "https://status.scribehow.com",
+            "api_key": "jOyPnCj6m8"
           }
         },
         {
@@ -230,7 +236,7 @@
       "id": "ai",
       "name": "AI",
       "description": "AI platform services",
-      "slack_channel": "C0AK9C6MXFD",
+      "slack_channel": "",
       "zoom_channel": "",
       "products": [
         {
