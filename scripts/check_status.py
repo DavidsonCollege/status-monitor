@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Status Monitor â checks vendor status pages for incidents and status changes.
+Status Monitor — checks vendor status pages for incidents and status changes.
 
 Supports multiple source types:
   - statuspage: Atlassian Statuspage API (majority of vendors)
@@ -18,8 +18,10 @@ Each run:
 """
 
 import hashlib
+import html
 import json
 import os
+import re
 import sys
 import time
 from datetime import datetime, timezone, timedelta
@@ -33,7 +35,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from slack_notify import send_slack_notifications
 from zoom_notify import send_zoom_notifications
 
-# ââ Paths ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Paths ──────────────────────────────────────────────────────────────────────
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_FILE = BASE_DIR / "config" / "teams.json"
@@ -42,9 +44,9 @@ FEEDS_DIR = BASE_DIR / "docs" / "feeds"
 
 REQUEST_TIMEOUT = 20
 
-# ââ Status colour mapping ââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Status colour mapping ──────────────────────────────────────────────────────
 
-# Statuspage API indicator values â our canonical status
+# Statuspage API indicator values → our canonical status
 STATUSPAGE_INDICATOR_MAP = {
     "none": "operational",
     "minor": "degraded",
@@ -53,7 +55,7 @@ STATUSPAGE_INDICATOR_MAP = {
     "maintenance": "maintenance",
 }
 
-# Statuspage component status values â our canonical status
+# Statuspage component status values → our canonical status
 STATUSPAGE_COMPONENT_MAP = {
     "operational": "operational",
     "degraded_performance": "degraded",
@@ -62,7 +64,7 @@ STATUSPAGE_COMPONENT_MAP = {
     "under_maintenance": "maintenance",
 }
 
-# Incident impact â our canonical status
+# Incident impact → our canonical status
 INCIDENT_IMPACT_MAP = {
     "none": "operational",
     "minor": "degraded",
@@ -70,7 +72,7 @@ INCIDENT_IMPACT_MAP = {
     "critical": "major_outage",
 }
 
-# Canonical status â colour hex
+# Canonical status → colour hex
 STATUS_COLORS = {
     "operational": "#2fcc66",
     "degraded": "#f1c40f",
@@ -80,7 +82,7 @@ STATUS_COLORS = {
     "unknown": "#95a5a6",
 }
 
-# Canonical status â human label
+# Canonical status → human label
 STATUS_LABELS = {
     "operational": "Operational",
     "degraded": "Degraded Performance",
@@ -90,7 +92,7 @@ STATUS_LABELS = {
     "unknown": "Unknown",
 }
 
-# Incident status â canonical event type
+# Incident status → canonical event type
 INCIDENT_STATUS_MAP = {
     "investigating": "investigating",
     "identified": "identified",
@@ -104,7 +106,34 @@ INCIDENT_STATUS_MAP = {
 }
 
 
-# ââ Helpers ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Helpers ────────────────────────────────────────────────────────────────────
+
+_HTML_TAG_RE = re.compile(r"<[^>]+>")
+_MULTI_NEWLINE_RE = re.compile(r"\n{3,}")
+_MULTI_SPACE_RE = re.compile(r" {2,}")
+
+
+def strip_html(text: str) -> str:
+    """Strip HTML tags and decode entities from text.
+
+    Statuspage API body fields often contain HTML markup like <p>, <a>, etc.
+    This converts them to plain text suitable for Slack/Zoom messages.
+    """
+    if not text:
+        return ""
+    # Replace <br>, <br/>, </p>, </li> with newlines for readability
+    text = re.sub(r"<br\s*/?>", "\n", text, flags=re.IGNORECASE)
+    text = re.sub(r"</p>", "\n", text, flags=re.IGNORECASE)
+    text = re.sub(r"</li>", "\n", text, flags=re.IGNORECASE)
+    # Strip all remaining HTML tags
+    text = _HTML_TAG_RE.sub("", text)
+    # Decode HTML entities (&amp; &lt; &gt; etc.)
+    text = html.unescape(text)
+    # Clean up whitespace
+    text = _MULTI_NEWLINE_RE.sub("\n\n", text)
+    text = _MULTI_SPACE_RE.sub(" ", text)
+    return text.strip()
+
 
 def generate_event_id(product_id: str, incident_id: str, update_id: str = "") -> str:
     """Generate a stable ID for an incident update event."""
@@ -136,7 +165,7 @@ def status_severity(status: str) -> int:
     return order.get(status, 5)
 
 
-# ââ Source handlers ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Source handlers ────────────────────────────────────────────────────────────
 
 def check_statuspage(product: dict) -> dict:
     """Check an Atlassian Statuspage-based status page.
@@ -201,7 +230,7 @@ def check_statuspage(product: dict) -> dict:
                 updates.append({
                     "id": upd.get("id", ""),
                     "status": upd.get("status", ""),
-                    "body": upd.get("body", ""),
+                    "body": strip_html(upd.get("body", "")),
                     "created_at": parse_iso_date(upd.get("created_at", "")),
                 })
 
@@ -238,7 +267,7 @@ def check_statuspage(product: dict) -> dict:
                 updates.append({
                     "id": upd.get("id", ""),
                     "status": upd.get("status", ""),
-                    "body": upd.get("body", ""),
+                    "body": strip_html(upd.get("body", "")),
                     "created_at": parse_iso_date(upd.get("created_at", "")),
                 })
 
@@ -302,7 +331,7 @@ def check_slack_status(product: dict) -> dict:
                 updates.append({
                     "id": note.get("id", str(note.get("date_created", ""))),
                     "status": "update",
-                    "body": note.get("body", ""),
+                    "body": strip_html(note.get("body", "")),
                     "created_at": note.get("date_created", ""),
                 })
 
@@ -381,7 +410,7 @@ def check_google_workspace(product: dict) -> dict:
                 updates.append({
                     "id": upd.get("id", str(upd.get("when", ""))),
                     "status": "update",
-                    "body": upd.get("message", ""),
+                    "body": strip_html(upd.get("message", "")),
                     "created_at": upd.get("when", ""),
                 })
 
@@ -463,7 +492,7 @@ def check_gcp_status(product: dict) -> dict:
                 updates.append({
                     "id": str(upd.get("when", "")),
                     "status": "update",
-                    "body": upd.get("text", upd.get("message", "")),
+                    "body": strip_html(upd.get("text", upd.get("message", ""))),
                     "created_at": upd.get("when", ""),
                 })
 
@@ -496,8 +525,8 @@ def _filter_components(components: list[dict], source: dict) -> list[dict]:
     """Filter components by region and/or component name patterns.
 
     Config options (all optional, in product.source):
-        region_filter:    ["US", "United States"] â keep only matching
-        component_filter: ["Zoom Meetings", "Phone"] â keep only matching
+        region_filter:    ["US", "United States"] — keep only matching
+        component_filter: ["Zoom Meetings", "Phone"] — keep only matching
     If neither filter is set, all components are returned.
     """
     region_filter = source.get("region_filter", [])
@@ -616,7 +645,7 @@ def check_statushub(product: dict) -> dict:
         "incidents": [],
     }
 
-    # Try traffic_lights endpoint first â it reliably returns aggregate status
+    # Try traffic_lights endpoint first — it reliably returns aggregate status
     traffic_ok = False
     try:
         resp = requests.get(f"{api_base}/api/blocks/traffic_lights/v1", timeout=REQUEST_TIMEOUT)
@@ -762,7 +791,7 @@ def check_uptimerobot(product: dict) -> dict:
             status_code = mon.get("status", None)
             status_class = mon.get("statusClass", "")
 
-            # Map UptimeRobot status â public pages use statusClass strings,
+            # Map UptimeRobot status — public pages use statusClass strings,
             # API v2 uses numeric status codes
             if status_class:
                 if status_class in ("success", "green"):
@@ -910,9 +939,9 @@ def check_cstate(product: dict) -> dict:
 
 
 def check_sorry(product: dict) -> dict:
-    """Check a Sorryâ¢-based status page (e.g., SecureW2).
+    """Check a Sorry™-based status page (e.g., SecureW2).
 
-    Sorryâ¢ pages may expose a JSON API. We try common patterns.
+    Sorry™ pages may expose a JSON API. We try common patterns.
     Falls back to parsing the HTML page for status indicators.
     """
     source = product.get("source", {})
@@ -933,7 +962,7 @@ def check_sorry(product: dict) -> dict:
         )
         if resp.status_code == 200 and "json" in resp.headers.get("content-type", ""):
             data = resp.json()
-            # Parse Sorryâ¢ JSON format
+            # Parse Sorry™ JSON format
             page = data.get("page", data)
             status = page.get("status", "")
             if status:
@@ -984,7 +1013,7 @@ def check_sorry(product: dict) -> dict:
                 result["overall_status"] = "operational"
 
     except Exception as exc:
-        print(f"    [WARN] Sorryâ¢ fetch failed: {exc}")
+        print(f"    [WARN] Sorry™ fetch failed: {exc}")
 
     return result
 
@@ -1051,7 +1080,7 @@ def check_html_scrape(product: dict) -> dict:
         ]):
             result["overall_status"] = "maintenance"
         elif "operational" in html:
-            # Generic fallback â if the word "operational" appears
+            # Generic fallback — if the word "operational" appears
             result["overall_status"] = "operational"
 
     except Exception as exc:
@@ -1207,7 +1236,7 @@ def check_microsoft_365(product: dict) -> dict:
     return result
 
 
-# ââ Source dispatcher ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Source dispatcher ──────────────────────────────────────────────────────────
 
 SOURCE_HANDLERS = {
     "statuspage": check_statuspage,
@@ -1237,7 +1266,7 @@ def check_product(product: dict) -> dict:
     return handler(product)
 
 
-# ââ Change detection âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Change detection ───────────────────────────────────────────────────────────
 
 def detect_changes(product_id: str, product_name: str, current: dict,
                    previous_state: dict, seen_updates: set) -> list[dict]:
@@ -1301,7 +1330,7 @@ def detect_changes(product_id: str, product_name: str, current: dict,
                     "is_maintenance": is_maint,
                 })
         else:
-            # Existing incident â check for new updates
+            # Existing incident — check for new updates
             prev_inc = prev_incidents[inc_id]
             prev_update_ids = {u.get("id", "") for u in prev_inc.get("updates", []) if u.get("id")}
 
@@ -1313,10 +1342,11 @@ def detect_changes(product_id: str, product_name: str, current: dict,
                         canonical_status = INCIDENT_STATUS_MAP.get(
                             upd.get("status", inc_status), inc_status
                         )
-                        # For resolution events, always mark as operational
+                        # Skip "resolved" updates — the incident_resolved
+                        # block below handles them to avoid duplicate notifications
                         if canonical_status == "resolved":
-                            color_status = "operational"
-                        elif canonical_status == "monitoring":
+                            continue
+                        if canonical_status == "monitoring":
                             color_status = "degraded"
                         else:
                             color_status = INCIDENT_IMPACT_MAP.get(inc_impact, "degraded")
@@ -1327,7 +1357,7 @@ def detect_changes(product_id: str, product_name: str, current: dict,
                             "product_name": product_name,
                             "incident_id": inc_id,
                             "status": color_status,
-                            "title": f"{product_name}: {inc_name} â {STATUS_LABELS.get(canonical_status, canonical_status)}",
+                            "title": f"{product_name}: {inc_name} — {STATUS_LABELS.get(canonical_status, canonical_status)}",
                             "summary": upd.get("body", "")[:500] or f"Status: {canonical_status}",
                             "link": inc_url,
                             "date": upd.get("created_at", "") or datetime.now(timezone.utc).isoformat(),
@@ -1335,7 +1365,7 @@ def detect_changes(product_id: str, product_name: str, current: dict,
                             "incident_status": canonical_status,
                         })
 
-            # Check if status changed (e.g., investigating â resolved)
+            # Check if status changed (e.g., investigating → resolved)
             if prev_inc.get("status") != inc_status:
                 canonical_status = INCIDENT_STATUS_MAP.get(inc_status, inc_status)
                 event_id = generate_event_id(product_id, inc_id, f"status_{inc_status}")
@@ -1346,7 +1376,7 @@ def detect_changes(product_id: str, product_name: str, current: dict,
                         "product_name": product_name,
                         "incident_id": inc_id,
                         "status": "operational",
-                        "title": f"{product_name}: {inc_name} â Resolved",
+                        "title": f"{product_name}: {inc_name} — Resolved",
                         "summary": _latest_update_body(inc) or "This incident has been resolved.",
                         "link": inc_url,
                         "date": inc.get("resolved_at", "") or datetime.now(timezone.utc).isoformat(),
@@ -1365,7 +1395,7 @@ def _latest_update_body(incident: dict) -> str:
     return ""
 
 
-# ââ Feed generation ââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Feed generation ────────────────────────────────────────────────────────────
 
 def build_feed(team_id: str, events: list[dict], existing_feed: list[dict]) -> list[dict]:
     """Build updated feed JSON for a team, merging new events with history."""
@@ -1426,7 +1456,7 @@ def build_status_summary(team: dict, product_statuses: dict) -> dict:
     return summary
 
 
-# ââ Main âââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââââ
+# ── Main ───────────────────────────────────────────────────────────────────────
 
 def main():
     print("=" * 70)
