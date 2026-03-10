@@ -1,5 +1,31 @@
 [
   {
+    "id": "b000f95eeb4519e6",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Degraded Performance",
+    "link": "https://status.cloud.microsoft/m365",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-10T13:22:47.600793+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "219bedf6635b3694",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Active \u2013 Azure OpenAI Service request failures in multiple regions",
+    "link": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
+    "summary": "Impact Statement: Starting at 06:35 UTC on 10 March 2026, a subset of customers using Azure OpenAI Service in multiple regions may experience intermittent request failures or reduced availability. We detected this issue through automated service monitoring after observing an elevated rate of failed requests affecting a subset of Azure OpenAI model deployments across multiple regions. Our investigation determined the issue was caused by a recent change impacting specific model workloads. Mitigati",
+    "date": "Tue, 10 Mar 2026 13:14:27 Z",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "8edcb0957b1d5282",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/q9q3h97f22c7",
     "summary": "The issue was caused by an unexpected database node outage and quickly self-resolved.",
     "date": "2025-04-10T11:30:00-06:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "153ade219aa42ad9",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Brief Interruption to Platform/Build Services",
-    "link": "https://stspg.io/z0rnwqdx1057",
-    "summary": "Our engineers confirmed that one of the database nodes temporarily went down but immediately recovered on its own, restoring service without intervention.",
-    "date": "2025-03-31T02:30:00-06:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "17b209f88f1c4d52",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Intermittent Connection Issues",
-    "link": "https://stspg.io/x2fn7pm4fwcw",
-    "summary": "Our engineer noted that a proxy restart may have failed earlier in the day, which could be related. The restart was successful later that night, and the issue has since been resolved. We\u2019ll continue to review the logs to better understand the root cause.",
-    "date": "2025-03-27T00:30:00-06:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"

@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-10T12:49:29.965675+00:00",
+  "last_checked": "2026-03-10T13:23:01.250851+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -165,8 +165,8 @@
       "name": "Microsoft 365",
       "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
       "status_url": "https://status.cloud.microsoft/m365",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": []
     },
     {
