@@ -1,5 +1,18 @@
 [
   {
+    "id": "4f37d26b484490b4",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded performance with the Support chat \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KKCBMVXANKXVCPE2760437BR",
+    "summary": "Status: identified",
+    "date": "2026-03-10T21:38:06+00:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "40945d2468d4e3c0",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
