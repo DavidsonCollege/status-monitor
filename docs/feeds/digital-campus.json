@@ -1,5 +1,18 @@
 [
   {
+    "id": "e9be93ae3ec8c793",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Operational",
+    "link": "https://status.cloud.microsoft/m365",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-10T20:50:20.277103+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "271e397453128e47",
     "product_id": "microsoft-365",
     "product_name": "Microsoft 365",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/jm60hbk38v99",
     "summary": "The root cause was a third-party outage at [Fly.io](http://Fly.io). We\u2019re working with their team to stay ahead of such events and are reviewing our redundancy strategies to minimize future impact.",
     "date": "2025-06-10T05:00:00-06:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "94c71e128f1971e7",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Brief Platform/Build Disruption \u2013 Canada Region",
-    "link": "https://stspg.io/k98y73qfbjxm",
-    "summary": "The spike in MongoDB traffic temporarily overwhelmed resources, causing a short interruption. We are optimizing database traffic handling and refining monitoring thresholds to help prevent similar issues.",
-    "date": "2025-06-04T10:00:00-06:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
