@@ -1,5 +1,18 @@
 [
   {
+    "id": "170343f2638a2a87",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 identified",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "Status: identified",
+    "date": "2026-03-10T16:04:06+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "feb16505d351fd85",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
