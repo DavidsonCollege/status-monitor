@@ -1,5 +1,31 @@
 [
   {
+    "id": "cb341980b1d437f6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-10T11:43:56.559375+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "71e51329a5ae0d9a",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 resolved",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "Status: resolved",
+    "date": "2026-03-10T11:39:18+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_update"
+  },
+  {
     "id": "0d0fd3f511927acf",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
