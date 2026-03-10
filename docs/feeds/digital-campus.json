@@ -1,5 +1,18 @@
 [
   {
+    "id": "5e7126de7e32c978",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Active \u2013 Azure OpenAI Service request failures in multiple regions \u00e2\u0080\u0094 investigating",
+    "link": "https://azurestatusprodeus.azurewebsites.net/en-us/status/",
+    "summary": "Impact Statement: Starting at 23:20 UTC on 9 March 2026, a subset of customers using Azure OpenAI Service in multiple regions may experience intermittent request failures or reduced availability. We detected this issue through automated service monitoring after observing an elevated rate of failed requests affecting a subset of Azure OpenAI model deployments across multiple regions. Our investigation determined the issue was caused by a recent change impacting specific model workloads. Mitigatio",
+    "date": "Tue, 10 Mar 2026 15:52:07 Z",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "e0df1610220f06df",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/pw5qh2nzx136",
     "summary": "To follow-up on this issue, the issue was caused by degraded performance with our mail provider \\(Mailgun.com\\). Our monitoring shows that all impacted notifications sent as expected after the fix was implemented. We apologize for the inconvenience and  if you have any further questions please let us know.",
     "date": "2025-05-19T15:56:41.259000-06:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "ee18a8b3dd1795e6",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Build/Platform Access Issues for Canadian Customers",
-    "link": "https://stspg.io/k5j1nd4wrzrp",
-    "summary": "The issue has been resolved. It was caused by an overload of database connections, and we are looking into implementing connection limits and alerts to help prevent future occurrences.",
-    "date": "2025-05-16T14:55:05.772000-06:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
