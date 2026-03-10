@@ -1,5 +1,31 @@
 [
   {
+    "id": "f96c1dd392c82b12",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Deep Research requests are erroring for LATAM users \u00e2\u0080\u0094 resolved",
+    "link": "https://status.openai.com/incidents/01KKAD2PHFBC0DP0X6ZQTJJ4D4",
+    "summary": "Status: resolved",
+    "date": "2026-03-10T05:32:30+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_update"
+  },
+  {
+    "id": "508bfe02a460ae80",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Deep Research requests are erroring for LATAM users \u00e2\u0080\u0094 Resolved",
+    "link": "https://status.openai.com/incidents/01KKAD2PHFBC0DP0X6ZQTJJ4D4",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-10T05:32:30+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "12baaff3145e92e6",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
