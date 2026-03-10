@@ -1,5 +1,31 @@
 [
   {
+    "id": "40945d2468d4e3c0",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex unresponsive \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "Status: identified",
+    "date": "2026-03-10T21:37:16+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "bf6642075c5e0121",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased errors on ChatGPT File Uploads",
+    "link": "https://status.openai.com/incidents/01KKCT34VDK552CSMP286DS9HE",
+    "summary": "",
+    "date": "2026-03-10T21:22:50+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "5a2b5a9423cd8285",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
