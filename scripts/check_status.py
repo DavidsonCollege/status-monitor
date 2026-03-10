@@ -205,6 +205,11 @@ def check_statuspage(product: dict) -> dict:
                     "created_at": parse_iso_date(upd.get("created_at", "")),
                 })
 
+            # Collect affected component names for region filtering
+            affected_components = [
+                c.get("name", "") for c in inc.get("components", [])
+            ]
+
             result["incidents"].append({
                 "id": inc.get("id", ""),
                 "name": inc.get("name", ""),
@@ -215,6 +220,7 @@ def check_statuspage(product: dict) -> dict:
                 "updated_at": parse_iso_date(inc.get("updated_at", "")),
                 "resolved_at": parse_iso_date(inc.get("resolved_at", "")),
                 "updates": updates,
+                "affected_components": affected_components,
             })
 
     except Exception as exc:
@@ -236,6 +242,11 @@ def check_statuspage(product: dict) -> dict:
                     "created_at": parse_iso_date(upd.get("created_at", "")),
                 })
 
+            # Collect affected component names for region filtering
+            affected_components = [
+                c.get("name", "") for c in maint.get("components", [])
+            ]
+
             result["incidents"].append({
                 "id": maint.get("id", ""),
                 "name": maint.get("name", ""),
@@ -249,10 +260,14 @@ def check_statuspage(product: dict) -> dict:
                 "scheduled_until": parse_iso_date(maint.get("scheduled_until", "")),
                 "updates": updates,
                 "is_maintenance": True,
+                "affected_components": affected_components,
             })
 
     except Exception as exc:
         print(f"    [WARN] Failed to fetch scheduled maintenances: {exc}")
+
+    # Apply region filtering to incidents and maintenances
+    result["incidents"] = _filter_incidents(result["incidents"], source)
 
     return result
 
@@ -503,6 +518,69 @@ def _filter_components(components: list[dict], source: dict) -> list[dict]:
             if not any(f.lower() in name_lower for f in component_filter):
                 continue
         filtered.append(comp)
+
+    return filtered
+
+
+def _filter_incidents(incidents: list[dict], source: dict) -> list[dict]:
+    """Filter incidents by region using affected components and incident name.
+
+    Uses the same region_filter config as component filtering. Two strategies:
+      1. If an incident lists affected components, keep it only if at least one
+         component matches a region_filter keyword (case-insensitive substring).
+      2. If an incident has NO affected components, fall back to checking the
+         incident name against region_filter keywords.  Keep it if the name
+         matches OR if no region-like keywords appear in the name at all
+         (i.e. it's a global incident that affects everyone).
+
+    An optional "incident_region_exclude" list can be set in the source config
+    to drop incidents whose names mention specific non-relevant regions (useful
+    for vendors like OpenAI whose incidents have no component data but mention
+    regions in the title, e.g. "errors for LATAM users").
+
+    If neither region_filter nor incident_region_exclude is set, all incidents
+    are returned unchanged.
+    """
+    region_filter = source.get("region_filter", [])
+    exclude_regions = source.get("incident_region_exclude", [])
+
+    if not region_filter and not exclude_regions:
+        return incidents
+
+    filtered = []
+    for inc in incidents:
+        affected = inc.get("affected_components", [])
+        name = inc.get("name", "")
+        name_lower = name.lower()
+
+        # Strategy 1: filter by affected components when available
+        if affected and region_filter:
+            comp_text = " ".join(affected).lower()
+            if not any(r.lower() in comp_text for r in region_filter):
+                continue
+
+        # Strategy 2: no component data — check incident name
+        elif not affected and region_filter:
+            # Keep the incident if its name matches a wanted region keyword
+            matches_wanted = any(r.lower() in name_lower for r in region_filter)
+            # Also keep if the name doesn't mention ANY excluded region
+            # (it's probably a global incident)
+            if not matches_wanted:
+                # If we also have exclude_regions, use those to decide
+                if exclude_regions:
+                    mentions_excluded = any(
+                        er.lower() in name_lower for er in exclude_regions
+                    )
+                    if mentions_excluded:
+                        continue
+                # No exclude list and no match — keep it (assume global)
+
+        # Final check: exclude by name patterns regardless of component data
+        if exclude_regions:
+            if any(er.lower() in name_lower for er in exclude_regions):
+                continue
+
+        filtered.append(inc)
 
     return filtered
 
