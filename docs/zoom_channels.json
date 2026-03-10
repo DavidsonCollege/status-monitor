@@ -1,5 +1,5 @@
 {
   "channels": [],
-  "last_updated": "2026-03-10T15:01:56.150232+00:00",
-  "fetch_status": "no_token"
+  "last_updated": "2026-03-10T15:19:54.932899+00:00",
+  "fetch_status": "error: 400 Client Error: Bad Request for url: https://zoom.us/oauth/token"
 }
