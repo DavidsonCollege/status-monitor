@@ -16,7 +16,7 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.ninjaone.com",
-            "region_filter": ["US2"]
+            "region_filter": ["United States"]
           }
         },
         {
@@ -270,7 +270,8 @@
           "status_url": "https://status.openai.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.openai.com"
+            "api_base": "https://status.openai.com",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East"]
           }
         }
       ]
