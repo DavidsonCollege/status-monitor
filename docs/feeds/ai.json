@@ -1,5 +1,31 @@
 [
   {
+    "id": "8ba52c9e0c874c48",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated login errors \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KKFJRH4WP8X9YCX0W57ZXT9D",
+    "summary": "Status: identified",
+    "date": "2026-03-11T23:36:55+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "dc096d173b03fa10",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated login errors \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KKFJRH4WP8X9YCX0W57ZXT9D",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-11T23:43:32+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "56d2dd0d795e91da",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
