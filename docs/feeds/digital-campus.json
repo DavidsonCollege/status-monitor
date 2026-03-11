@@ -1,5 +1,31 @@
 [
   {
+    "id": "036e98c462e39b88",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Degraded Performance",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-11T15:27:19.862555+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "77bf6828c2175bae",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Portal service degradation for Apple MDM devices",
+    "link": "https://stspg.io/hjv52190whqh",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-11T09:50:00.175000-05:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "22a0d00d0b919983",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2571,32 +2597,6 @@
     "date": "2025-04-15T15:06:11.012000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "58e5830e3ef907b5",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro Partial Outage",
-    "link": "https://stspg.io/vgz0y6g74152",
-    "summary": "This incident has been resolved.",
-    "date": "2025-04-15T08:25:13.396000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "4b81c836729b411a",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.25.2 Upgrade for eu-central-1",
-    "link": "https://stspg.io/qpmq8x87q9dw",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-08T03:54:32.466000+00:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]
