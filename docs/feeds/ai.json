@@ -1,5 +1,18 @@
 [
   {
+    "id": "074d5923331ab06e",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates for Deep Research in Enterprise Workspaces \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KKF5RQTSB25839GBZ33S7MWX",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-11T21:47:44+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "753a2f9ba4b4a251",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
