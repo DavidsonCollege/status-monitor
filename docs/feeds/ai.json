@@ -1,5 +1,31 @@
 [
   {
+    "id": "846166218fcb3415",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated conversation errors for ChatGPT \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KKF8E0FPME7NBS95Q8Q0N6AH",
+    "summary": "Status: monitoring",
+    "date": "2026-03-11T20:48:07+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "79540c468701437c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates for Deep Research in Enterprise Workspaces \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KKF5RQTSB25839GBZ33S7MWX",
+    "summary": "Status: identified",
+    "date": "2026-03-11T20:42:22+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "11a21244389b72e1",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
