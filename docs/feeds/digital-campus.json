@@ -1,5 +1,18 @@
 [
   {
+    "id": "d8ee328398eec4db",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services \u2014 monitoring",
+    "link": "https://stspg.io/t30kxdngb2kp",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-11T16:36:41.008000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "6bef42ce75bedcba",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/b8sqp4zlv9cm",
     "summary": "Between\u202fWed, Sept 10, 22:05 UTC and\u202fFri, Sept 19, 22:05 UTC, customers may have experienced unreported service degradation for\u202fJamf Protect's reporting and forwarding capabilities via JamfCloud. The impacts to the degraded service were not fully understood until now. We're improving monitoring to better detect and surface hidden impacts going forward. \n\nDuring this time window, affected customers may have experienced a lower volume of reported events and telemetry. On-device protections includin",
     "date": "2025-09-19T22:00:00+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7bd73c8e5fa0fcbe",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School Performance",
-    "link": "https://stspg.io/bp6hdw7n0v8w",
-    "summary": "This incident has been resolved.",
-    "date": "2025-09-18T08:10:57.548000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
