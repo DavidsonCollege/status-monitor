@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-11T07:19:37.206300+00:00",
+  "last_checked": "2026-03-11T07:41:09.199828+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -418,26 +418,9 @@
       "name": "Scribe",
       "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
       "status_url": "https://status.scribehow.com",
-      "overall_status": "operational",
+      "overall_status": "unknown",
       "active_incidents": 0,
-      "components": [
-        {
-          "name": "Scribe Application",
-          "status": "operational"
-        },
-        {
-          "name": "Scribe Application API",
-          "status": "operational"
-        },
-        {
-          "name": "Scribe Homepage",
-          "status": "operational"
-        },
-        {
-          "name": "Scribe Search & Retrieval API",
-          "status": "operational"
-        }
-      ]
+      "components": []
     },
     {
       "id": "slack",
