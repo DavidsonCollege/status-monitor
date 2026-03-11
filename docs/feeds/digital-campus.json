@@ -1,5 +1,18 @@
 [
   {
+    "id": "70d3eb16762b2c77",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Operational",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-11T21:33:51.541458+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "3875308610015afa",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/bvnzllkr9crh",
     "summary": "This incident has been resolved.",
     "date": "2025-10-10T13:17:17.105000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "30d97f21ee1c0fcc",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Degraded Performance \u2013 DNS Requests and Device Enrollments in Tokyo Region",
-    "link": "https://stspg.io/stspz0lnqdpr",
-    "summary": "The earlier issue causing increased latency for DNS requests in the ap-northeast-1 (Tokyo) region has been resolved. Performance has returned to normal and all services are operating as expected.\n\nWe will continue to monitor closely. Thank you for your patience.",
-    "date": "2025-10-02T04:14:50.918000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
