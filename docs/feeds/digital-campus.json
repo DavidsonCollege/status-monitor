@@ -1,5 +1,18 @@
 [
   {
+    "id": "3875308610015afa",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Degraded Performance",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-11T21:15:18.491154+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "fbf5ef03217c4ac4",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/stspz0lnqdpr",
     "summary": "The earlier issue causing increased latency for DNS requests in the ap-northeast-1 (Tokyo) region has been resolved. Performance has returned to normal and all services are operating as expected.\n\nWe will continue to monitor closely. Thank you for your patience.",
     "date": "2025-10-02T04:14:50.918000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "61a65541048be320",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Security Cloud activations are being processed slowly in the European core data center.",
-    "link": "https://stspg.io/ck0z6npm7y4p",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-01T15:25:30.377000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
