@@ -1,5 +1,18 @@
 [
   {
+    "id": "8dbd6b84a02aaa29",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v12.1.0 - US2 \u2014 monitoring",
+    "link": "https://stspg.io/kbfqfbdkncjn",
+    "summary": "We are continuing to verify the maintenance items.",
+    "date": "2026-03-11T00:46:18.457000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "9d69d970fa8559f5",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/mqzhznnkdztp",
     "summary": "After investigation we found this incident was caused by networking issues with one of our service providers \\(Fly.io\\). We are looking into adding additional alerts when our system jobs get into a bad state and long term infrastructure improvements that are more robust to help avoid in the future. We apologize for the inconvenience caused by this issue.",
     "date": "2025-10-14T15:33:50.178000-06:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "89b9db66a8ff3ac6",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Platform/Build - Issues with submissions going to error",
-    "link": "https://stspg.io/m3dq0m7ts4wm",
-    "summary": "After investigation we found this incident was caused by networking issues with one of our service providers \\(Fly.io\\). We are looking into adding additional alerts when our system jobs get into a bad state and long term infrastructure improvements that are more robust to help avoid in the future. We apologize for the inconvenience caused by this issue.",
-    "date": "2025-10-13T17:09:34.314000-06:00",
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
