@@ -1,5 +1,57 @@
 [
   {
+    "id": "00c5bcaf5773b108",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Operational",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-11T16:13:00.876244+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "9a986f4aa3a1cd5c",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Portal service degradation for Apple MDM devices \u2014 Resolved",
+    "link": "https://stspg.io/hjv52190whqh",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-11T10:53:08.016000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "8f47e9f234b4045f",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services \u2014 identified",
+    "link": "https://stspg.io/t30kxdngb2kp",
+    "summary": "The issue has been identified and a fix is being pursued.",
+    "date": "2026-03-11T16:06:35.272000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "f50a11677f787aa6",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed \u2014 identified",
+    "link": "https://stspg.io/64d34zxf6qbr",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-11T11:57:30.317000-04:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "6783a3916b425dec",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2545,58 +2597,6 @@
     "date": "2025-09-04T11:44:14.301000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "4934de42bc51ea09",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JCDS Outage",
-    "link": "https://stspg.io/4m3szhsw11cf",
-    "summary": "**Detailed Root Cause Analysis Report: JCDS Outage**\u00a0\u00a0\n\n**Incident Date:**\u202fJuly 17, 2025\u00a0\n\n**Duration:** 29 minutes\u00a0\u00a0\u00a0\n\n**Impact:**\u202f Global disruption of Jamf Cloud Distribution Service \\(JCDS\\)\u00a0\n\n**Summary and Timeline**\u00a0\n\nOn July 17, 2025, a JCDS outage impacted customers globally when a parameter value did not update, blocking content distribution to end-user devices. Jamf restored full service within 29 minutes.\u00a0\n\n**Root Cause & Timeline**\u00a0\n\n* **Root Cause:**\u202fThe \u2018CsaIssuer\u2019 parameter set in",
-    "date": "2025-07-17T13:59:33.551000+00:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "05faf4756deffb81",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Adding/Removing devices from group might not work properly",
-    "link": "https://stspg.io/gt7pjr5pwbjh",
-    "summary": "This incident has been resolved.",
-    "date": "2025-06-26T10:39:37.051000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "924b82d54b2eaf48",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Security Cloud - secure DNS services are not working due to a wrong certificate",
-    "link": "https://stspg.io/5ff0lp936rrl",
-    "summary": "**June 15, 2025 - Jamf SecureDNS Outage RCA**  \n  \n**Summary and Timeline**    \nOn June 15, 2025 \\(00:00 UTC\\), devices using SecureDNS lost internet access due to an outage affecting Web Threat Prevention and Content Filtering capabilities within Jamf Safe Internet, Jamf Protect, and Jamf Trust services.The root cause of the incident was an expired SSL certificate, leading to loss of security features or loss of internet connectivity for end user devices. Although the certificate in question wa",
-    "date": "2025-06-15T03:02:38.291000+00:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "30546b20f0413d34",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro Outage",
-    "link": "https://stspg.io/jk8663m8y1tl",
-    "summary": "**Root Cause Analysis of Jamf Pro Outage**  \nDuring scheduled maintenance on a low-level component of the Jamf Pro cloud infrastructure, an update failed, resulting in an outage that affected Jamf Pro customers. The component in question is a critical part of our auto-scaling infrastructure, which enables Jamf to support millions of devices. The failure of this upgrade led to a widespread outage.\n\n* The update was not backwards-compatible, making it impossible to roll back to the previous versio",
-    "date": "2025-04-15T20:42:04.069000+00:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
     "type": "new_incident"
   }
 ]
