@@ -1,5 +1,18 @@
 [
   {
+    "id": "21d494a2ad04affe",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex unresponsive \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
+    "summary": "Status: monitoring",
+    "date": "2026-03-11T05:31:50+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "f313ab8b63610e3f",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
