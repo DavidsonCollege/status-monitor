@@ -1,5 +1,18 @@
 [
   {
+    "id": "85a0542c300ea307",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Operational",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-03-11T23:57:17.966078+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "99d0a2144722b3b6",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/gcy84f5m7hjf",
     "summary": "All services have been restored. We apologize for any inconvenience.\u00a0 We will publish an analysis of this incident once we have completed our internal investigation.",
     "date": "2025-10-20T09:47:10.897000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "95eb363b6ab24bbd",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School - Degraded Performance (US)",
-    "link": "https://stspg.io/bhdj0dfsrzvg",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-14T20:24:53.005000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
