@@ -1,15 +1,15 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-11T08:21:33.343703+00:00",
+  "last_checked": "2026-03-11T08:43:09.352418+00:00",
   "products": [
     {
       "id": "ninjaone",
       "name": "NinjaOne",
       "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
       "status_url": "https://status.ninjaone.com",
-      "overall_status": "maintenance",
-      "active_incidents": 3,
+      "overall_status": "operational",
+      "active_incidents": 1,
       "components": [
         {
           "name": "United States (US)",
@@ -17,7 +17,7 @@
         },
         {
           "name": "United States (US2)",
-          "status": "maintenance"
+          "status": "operational"
         }
       ]
     },
