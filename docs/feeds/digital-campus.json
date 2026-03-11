@@ -1,5 +1,31 @@
 [
   {
+    "id": "6bef42ce75bedcba",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed \u2014 monitoring",
+    "link": "https://stspg.io/64d34zxf6qbr",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-11T12:22:59.329000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "fbcc67c727744b51",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed \u2014 Resolved",
+    "link": "https://stspg.io/64d34zxf6qbr",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-11T12:28:18.984000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "00c5bcaf5773b108",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/bp6hdw7n0v8w",
     "summary": "This incident has been resolved.",
     "date": "2025-09-18T08:10:57.548000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "19692c4be8b6eed1",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Self Hosting customers who integrate with US Government sovereign cloud Device Compliance",
-    "link": "https://stspg.io/wq4mn9sl6q4f",
-    "summary": "This incident has been resolved.",
-    "date": "2025-09-16T14:09:58.190000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "2e7b864b3e116335",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School: Degraded Performance (EU-Central)",
-    "link": "https://stspg.io/c9cdzyc425cc",
-    "summary": "Issue has been resolved.",
-    "date": "2025-09-04T11:44:14.301000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
