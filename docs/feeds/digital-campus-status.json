@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-11T06:28:42.091850+00:00",
+  "last_checked": "2026-03-11T06:54:02.297933+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -13,7 +13,7 @@
       "components": [
         {
           "name": "United States (US)",
-          "status": "operational"
+          "status": "maintenance"
         },
         {
           "name": "United States (US2)",

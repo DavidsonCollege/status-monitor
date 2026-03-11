@@ -1,5 +1,31 @@
 [
   {
+    "id": "f16d4b24cc70307d",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v12.1.0 - US \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/h51y2xb3js3y",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-03-11T01:32:06.395000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "b42057841df44caa",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v12.1.0 - US2 \u2014 monitoring",
+    "link": "https://stspg.io/kbfqfbdkncjn",
+    "summary": "We are continuing to verify the maintenance items.",
+    "date": "2026-03-11T01:52:00.335000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "8dbd6b84a02aaa29",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2571,32 +2597,6 @@
     "date": "2026-01-15T08:06:12.982000-07:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "35590d0f3417b372",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Intermittent Errors When Navigating Platform/Build",
-    "link": "https://stspg.io/fw9tjs5f0cdg",
-    "summary": "Some users may have experienced intermittent errors when accessing pages due to a server entering an unhealthy state. Once identified, our engineers eliminated the unhealthy node and brought a healthy server online to stabilize the environment. During the transition, some customers may have noticed temporary slowness, particularly with actions such as PDF exports or workflow executions. The migration was completed successfully, and the system has since returned to normal operation.",
-    "date": "2026-01-06T14:30:00-07:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "5bc18824d2ba4fee",
-    "product_id": "kuali-build",
-    "product_name": "Kuali Build",
-    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
-    "title": "Kuali Build: Platform/Build - Issues with submissions going to error",
-    "link": "https://stspg.io/mqzhznnkdztp",
-    "summary": "After investigation we found this incident was caused by networking issues with one of our service providers \\(Fly.io\\). We are looking into adding additional alerts when our system jobs get into a bad state and long term infrastructure improvements that are more robust to help avoid in the future. We apologize for the inconvenience caused by this issue.",
-    "date": "2025-10-14T15:33:50.178000-06:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
     "type": "new_incident"
   }
 ]
