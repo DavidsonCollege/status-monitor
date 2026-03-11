@@ -1,5 +1,18 @@
 [
   {
+    "id": "22a0d00d0b919983",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed",
+    "link": "https://stspg.io/64d34zxf6qbr",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-11T10:56:04.122000-04:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "97d5b5509e385ebb",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/qpmq8x87q9dw",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-03-08T03:54:32.466000+00:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "a53bf451307dab9a",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.25.2 Upgrade for eu-west-2",
-    "link": "https://stspg.io/fy36v6pfv1m1",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-08T03:55:11.528000+00:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
