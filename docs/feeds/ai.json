@@ -1,5 +1,18 @@
 [
   {
+    "id": "8aa3cfe774425090",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates for Deep Research in Enterprise Workspaces",
+    "link": "https://status.openai.com/incidents/01KKF5RQTSB25839GBZ33S7MWX",
+    "summary": "",
+    "date": "2026-03-11T19:25:21+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "374be70ed0864e97",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",

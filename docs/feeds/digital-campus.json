@@ -1,5 +1,18 @@
 [
   {
+    "id": "16b7a8616c0ba33a",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in Ashburn (IAD) Datacenter",
+    "link": "https://stspg.io/pqzkz63l8rvn",
+    "summary": "Zoom will perform service maintenance at our Ashburn (IAD) data center. During the maintenance window, users may experience an impact for a brief amount of time for services mentioned",
+    "date": "2026-03-11T12:08:43.373000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "d8ee328398eec4db",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2025-09-24T08:43:40.674000+00:00",
     "status": "resolved",
     "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "5c582a0ba92ab145",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Protect Reporting and Forwarding Degradation",
-    "link": "https://stspg.io/b8sqp4zlv9cm",
-    "summary": "Between\u202fWed, Sept 10, 22:05 UTC and\u202fFri, Sept 19, 22:05 UTC, customers may have experienced unreported service degradation for\u202fJamf Protect's reporting and forwarding capabilities via JamfCloud. The impacts to the degraded service were not fully understood until now. We're improving monitoring to better detect and surface hidden impacts going forward. \n\nDuring this time window, affected customers may have experienced a lower volume of reported events and telemetry. On-device protections includin",
-    "date": "2025-09-19T22:00:00+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
