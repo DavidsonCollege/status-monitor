@@ -1,5 +1,18 @@
 [
   {
+    "id": "05c6ef07675cb54b",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Major Outage",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-11T12:49:10.769156+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "438aa77ccc7cb6eb",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/6my40mdnqz24",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-03-08T03:54:43.702000+00:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "3c691a68d94714ff",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.25.2 Upgrade for ap-northeast-1",
-    "link": "https://stspg.io/p6gdqztdk16h",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-08T03:53:43.753000+00:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
