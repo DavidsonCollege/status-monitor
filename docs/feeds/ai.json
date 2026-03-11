@@ -1,5 +1,18 @@
 [
   {
+    "id": "374be70ed0864e97",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai (including login issues for Claude Code) \u2014 Resolved",
+    "link": "https://stspg.io/xs6ftr1kgydn",
+    "summary": "Between 14:17 and 17:11 UTC, our primary application database experienced severely degraded I/O performance following a routine maintenance operation, causing slow or failed requests on [Claude.ai](http://Claude.ai) and preventing new or refreshed sign-ins for Claude Code and the Console. API traffic via Claude Developer Platform was unaffected.",
+    "date": "2026-03-11T17:28:30.278000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "48acc9f215dd28b9",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
