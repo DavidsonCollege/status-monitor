@@ -1,5 +1,18 @@
 [
   {
+    "id": "97d5b5509e385ebb",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Operational",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-03-11T13:22:36.562362+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "05c6ef07675cb54b",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/fy36v6pfv1m1",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-03-08T03:55:11.528000+00:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "9599e61778acc9d5",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.25.2 Upgrade for germany-westcentral",
-    "link": "https://stspg.io/6my40mdnqz24",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-08T03:54:43.702000+00:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
