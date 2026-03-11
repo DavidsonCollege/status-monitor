@@ -1,5 +1,18 @@
 [
   {
+    "id": "6783a3916b425dec",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services",
+    "link": "https://stspg.io/t30kxdngb2kp",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-11T15:45:20.891000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "036e98c462e39b88",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2584,19 +2597,6 @@
     "date": "2025-04-15T20:42:04.069000+00:00",
     "status": "resolved",
     "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "84a0505887749859",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Infrastructure Misconfiguration Related to Security Groups Governing the Access to our Database Subsystem for Jamf Security Cloud",
-    "link": "https://stspg.io/m82rr60htsq7",
-    "summary": "This impacted the Jamf Security Cloud administration interface to not be available, the application of Jamf Security policies to not be functional, and the device status update processing was slowed down / paused.\n\nWe have resolved this and Jamf Security Cloud is working as expected.",
-    "date": "2025-04-15T15:06:11.012000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]

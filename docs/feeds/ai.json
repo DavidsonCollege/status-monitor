@@ -1,5 +1,18 @@
 [
   {
+    "id": "ffaea64321c62116",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai (including login issues for Claude Code) \u2014 investigating",
+    "link": "https://stspg.io/xs6ftr1kgydn",
+    "summary": "We're currently investigating issues with Claude Code and Claude.ai. Some users may be unable to log in, and others may experience slower than usual performance. The Claude API is not affected.",
+    "date": "2026-03-11T15:44:46.117000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "8df4b65350810b6c",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
