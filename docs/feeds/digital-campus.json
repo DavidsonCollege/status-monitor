@@ -1,5 +1,18 @@
 [
   {
+    "id": "fbf5ef03217c4ac4",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services \u2014 Resolved",
+    "link": "https://stspg.io/t30kxdngb2kp",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-11T19:46:25.471000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "16b7a8616c0ba33a",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2584,19 +2597,6 @@
     "date": "2025-10-01T15:25:30.377000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "239cef86546cbef3",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School Outage - eu-central-1",
-    "link": "https://stspg.io/nbjvhwl3sbnk",
-    "summary": "**Incident Date:** September 24, 2025\n\n**Duration:** 15 minutes\n\n**Impact:** Temporary unavailability of Jamf School services in eu-central-1\n\n**Summary and Timeline**\n\nOn September 17th, Jamf School experienced a performance degradation. To remediate and prevent recurrence, we scheduled a schema change to add a supporting index to high-concurrency table. When executed, the index creation acquired an unexpected lock that blocked concurrent application queries, resulting in a full Jamf School ser",
-    "date": "2025-09-24T08:43:40.674000+00:00",
-    "status": "resolved",
-    "incident_status": "postmortem",
     "type": "new_incident"
   }
 ]
