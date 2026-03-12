@@ -1,5 +1,18 @@
 [
   {
+    "id": "4afbe3dca83ce391",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation",
+    "link": "https://stspg.io/z931cv9kgrmf",
+    "summary": "We are seeing significant delays across the product. We are currently investigating.",
+    "date": "2026-03-12T13:22:08.522000-04:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "1cb0c9ee93aacc2b",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/mpd2jqwdqngv",
     "summary": "This incident has been resolved.",
     "date": "2025-08-19T07:08:29.696000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "224aebf87df7154e",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing events",
-    "link": "https://stspg.io/wb6knmnhlxy8",
-    "summary": "This incident has been resolved.",
-    "date": "2025-08-13T09:26:27.238000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
