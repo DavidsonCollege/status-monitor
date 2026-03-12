@@ -1,5 +1,18 @@
 [
   {
+    "id": "6be729055720b4d3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Sonnet 4.6",
+    "link": "https://stspg.io/q3yhmnblrz8k",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-12T15:42:41.275000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "170bb77af8b7d126",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
