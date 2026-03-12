@@ -1,5 +1,31 @@
 [
   {
+    "id": "e57e0f7c89f9d0dc",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 identified",
+    "link": "https://stspg.io/z931cv9kgrmf",
+    "summary": "We are putting up a maintenance page in order to implement a fix. The service will be down temporarily.",
+    "date": "2026-03-12T13:49:21.250000-04:00",
+    "status": "major_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "f9231dc050689bee",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 investigating",
+    "link": "https://stspg.io/z931cv9kgrmf",
+    "summary": "We are continuing to investigate this issue.",
+    "date": "2026-03-12T13:47:10.045000-04:00",
+    "status": "major_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "4afbe3dca83ce391",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/vx06kwq1pdzl",
     "summary": "This incident has been resolved.",
     "date": "2025-08-26T15:46:40.949000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "9f8308e01c6e605f",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing OneDrive events",
-    "link": "https://stspg.io/80cp0my15c20",
-    "summary": "This incident has been resolved.",
-    "date": "2025-08-21T08:57:17.678000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "32a32d5c475d0206",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Delays",
-    "link": "https://stspg.io/mpd2jqwdqngv",
-    "summary": "This incident has been resolved.",
-    "date": "2025-08-19T07:08:29.696000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
