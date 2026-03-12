@@ -1,5 +1,18 @@
 [
   {
+    "id": "e7760d253e73331f",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some user seeing \"No Accessible Workspaces\" when attempting to login",
+    "link": "https://status.openai.com/incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J",
+    "summary": "",
+    "date": "2026-03-12T19:07:12+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "39e4ed7134e72ffa",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
