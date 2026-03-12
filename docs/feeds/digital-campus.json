@@ -1,5 +1,18 @@
 [
   {
+    "id": "3c2fd18c8b031dd8",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Media uploads failing for some users \u2014 Resolved",
+    "link": "https://stspg.io/4szb37rw5wfm",
+    "summary": "This incident is now mitigated. Thank you for your patience and understanding.",
+    "date": "2026-03-12T15:53:31.291000+11:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "638d022e5ee63a27",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/y4290mh5wmtv",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2025-02-27T13:58:18.668000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "643c89f1265958c3",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Maintenance",
-    "link": "https://stspg.io/ht2shwj3g0jy",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2024-11-25T10:04:15.617000-06:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
