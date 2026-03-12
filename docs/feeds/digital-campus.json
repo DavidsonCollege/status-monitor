@@ -1,5 +1,57 @@
 [
   {
+    "id": "1cb0c9ee93aacc2b",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Under Maintenance",
+    "date": "2026-03-12T16:31:27.785520+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "62f80418b54dd845",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion. \u2014 monitoring",
+    "link": "https://stspg.io/5hv9z5r88ft6",
+    "summary": "The service degradation affecting 3rd party integration with Zoom AI Companion has been successfully resolved.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+    "date": "2026-03-12T09:03:35.491000-07:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "4159b018bd56f0f3",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion. \u2014 identified",
+    "link": "https://stspg.io/5hv9z5r88ft6",
+    "summary": "We have successfully identified the root cause of service degradation affecting 3rd party integration with Zoom AI Companion.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+    "date": "2026-03-12T08:59:48.559000-07:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "b6458661b927bed4",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion. \u2014 Resolved",
+    "link": "https://stspg.io/5hv9z5r88ft6",
+    "summary": "This incident has been resolved and the affected services have been restored.",
+    "date": "2026-03-12T09:13:07.343000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "4cc68a7871667472",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2545,58 +2597,6 @@
     "date": "2025-08-13T09:26:27.238000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "18da985c3d1b983b",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Customers may have experienced intermittent errors or delays in Watchlists and Cases in US1 only",
-    "link": "https://stspg.io/g6y5w9l1s3q1",
-    "summary": "A backend service began experiencing increased error rates at 5:00 AM (CDT) and persisted until 11:00 AM (CDT).  During this time, customers attempting to manage Watchlists or Cases may have experienced intermittent delays or errors.",
-    "date": "2025-08-10T05:00:00-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "0b11fd604e1491f5",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: OneDrive Cloud Connector Event Processing",
-    "link": "https://stspg.io/r2t1llbpl4q3",
-    "summary": "This incident has resolved and we are caught up on processing events.",
-    "date": "2025-07-30T17:19:00.345000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "bc7cbc043e5818e5",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing events",
-    "link": "https://stspg.io/2nr8pr0nxsm4",
-    "summary": "This incident has been resolved.",
-    "date": "2025-07-17T15:08:12.227000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "136b3e6cc5836723",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Incydr Cloud Maintenance - Event Processing",
-    "link": "https://stspg.io/tgzy867bjh2g",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-07-10T15:47:17.824000-05:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]
