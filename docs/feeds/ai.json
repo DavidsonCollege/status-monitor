@@ -1,5 +1,31 @@
 [
   {
+    "id": "170bb77af8b7d126",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-12T00:42:37.925953+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "3b75ab4acdb79de4",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased errors on ChatGPT File Uploads \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KKCT34VDK552CSMP286DS9HE",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-12T00:15:48+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "8ba52c9e0c874c48",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",

@@ -1,5 +1,31 @@
 [
   {
+    "id": "1b9e0aaab0e6854f",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v12.1.0 - US \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/79rq8ljg0k6l",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-03-11T19:00:31.461000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "6664a46c4e4881f6",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Users may experience a 503 error message when accessing canva.com. \u2014 Resolved",
+    "link": "https://stspg.io/nz8zfy87n1vn",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-03-12T11:06:04.734000+11:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "85a0542c300ea307",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2571,32 +2597,6 @@
     "date": "2025-11-05T23:25:42.124000+00:00",
     "status": "resolved",
     "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "2efa6fc7f7029591",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Issue with delivering restrictions to student\u2019s device via Teacher app.",
-    "link": "https://stspg.io/9w0gb4w73pjw",
-    "summary": "This incident has been resolved.",
-    "date": "2025-11-04T09:03:45.158000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7762f35fc99ce056",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf: US-East-1 Disruption",
-    "link": "https://stspg.io/gcy84f5m7hjf",
-    "summary": "All services have been restored. We apologize for any inconvenience.\u00a0 We will publish an analysis of this incident once we have completed our internal investigation.",
-    "date": "2025-10-20T09:47:10.897000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
