@@ -1,5 +1,31 @@
 [
   {
+    "id": "787bf3619834dbb0",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia \u2014 identified",
+    "link": "https://stspg.io/2bkpn7rgwfkj",
+    "summary": "We have identified the issue affecting inbound and outbound SMS delivery.\n\nWe are working with our carrier to resolve the issue and will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
+    "date": "2026-03-11T18:53:28.983000-07:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "1d913e8efb0311b5",
+    "product_id": "scribe",
+    "product_name": "Scribe",
+    "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
+    "title": "Scribe: Unknown",
+    "link": "https://status.scribehow.com",
+    "summary": "Status changed from Operational to Unknown",
+    "date": "2026-03-12T02:05:55.573916+00:00",
+    "status": "unknown",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "50ca47741cbcd961",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/mn4hgsy0n17j",
     "summary": "This incident has been resolved.",
     "date": "2026-01-31T11:10:27.382000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "8f4cfc2f2998645e",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Security Cloud Console Degradation",
-    "link": "https://stspg.io/bkszdzjzbfl1",
-    "summary": "The engineering team has investigated the issue, identified the root cause, and implemented a fix. The degradation should now be resolved and all systems should be fully operational.",
-    "date": "2026-01-06T17:59:29.078000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "ab01eae7913eda1f",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Performance Degradation \u2013 SecureDNS (APAC)",
-    "link": "https://stspg.io/g3mdn59nsvb0",
-    "summary": "This incident has been resolved.",
-    "date": "2025-12-10T01:53:28.492000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
