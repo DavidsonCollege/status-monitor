@@ -1,5 +1,31 @@
 [
   {
+    "id": "638d022e5ee63a27",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia \u2014 Resolved",
+    "link": "https://stspg.io/2bkpn7rgwfkj",
+    "summary": "This incident has been resolved and the affected services have been restored.",
+    "date": "2026-03-11T21:14:46.917000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "4b2a35a297233bec",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Media uploads failing for some users",
+    "link": "https://stspg.io/4szb37rw5wfm",
+    "summary": "Media uploads may be failing for some users. \nUsers may experience the following error message:\n\"We were unable to upload {{file}}. You might be logged out, offline or Canva's servers are unreachable.\"\nWe are currently investigating and working to mitigate the issue.",
+    "date": "2026-03-12T15:33:04.390000+11:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "db8566041d563558",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2571,32 +2597,6 @@
     "date": "2024-11-25T10:04:15.617000-06:00",
     "status": "resolved",
     "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "14024a44f4d2fe37",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Maintenance",
-    "link": "https://stspg.io/pf73k4mrljt9",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2024-11-25T10:02:59.964000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "71ccc1abf6b15553",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro 11.25 Device Ownership Type Smart Group Membership",
-    "link": "https://stspg.io/9gtlpsw7tltq",
-    "summary": "Jamf Pro 11.25.2 deployment to all standard Pro instances is complete.",
-    "date": "2026-03-07T18:39:16.206000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
