@@ -1,5 +1,18 @@
 [
   {
+    "id": "8db8ac20cfe00d49",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some users seeing \"No Accessible Workspaces\" when attempting to login via SSO \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-12T23:29:55+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "11b0b6af4992e251",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
