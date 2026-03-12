@@ -1,5 +1,31 @@
 [
   {
+    "id": "4cc68a7871667472",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Degraded Performance",
+    "date": "2026-03-12T15:30:45.256785+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d8bd750f53ed8aa9",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion.",
+    "link": "https://stspg.io/5hv9z5r88ft6",
+    "summary": "We are currently investigating a service degradation affecting 3rd party integration with Zoom AI Companion.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
+    "date": "2026-03-12T08:10:37.601000-07:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "260008f1e456a504",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/tgzy867bjh2g",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2025-07-10T15:47:17.824000-05:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "5fed7103f954ffc7",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Incydr Cloud Maintenance - Event Processing",
-    "link": "https://stspg.io/ftwyk5wkgm2n",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-07-10T15:46:06.093000-05:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "9429b942a7a5d91c",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Incydr Cloud Maintenance - Event Processing",
-    "link": "https://stspg.io/mjmkx4dq742s",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-07-10T15:45:12.083000-05:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
