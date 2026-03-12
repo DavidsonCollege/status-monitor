@@ -1,5 +1,18 @@
 [
   {
+    "id": "ca3980b1156d65b5",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 monitoring",
+    "link": "https://stspg.io/z931cv9kgrmf",
+    "summary": "The site is back up and processes are picking back up. We are monitoring for additional issues.",
+    "date": "2026-03-12T14:32:04.976000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "e57e0f7c89f9d0dc",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/2ty9pqgtmsk7",
     "summary": "This incident has been resolved.",
     "date": "2025-08-27T10:53:10.541000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "d18ce42100959970",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Unable to access Cases",
-    "link": "https://stspg.io/vx06kwq1pdzl",
-    "summary": "This incident has been resolved.",
-    "date": "2025-08-26T15:46:40.949000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
