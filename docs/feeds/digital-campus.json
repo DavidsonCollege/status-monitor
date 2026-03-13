@@ -1,5 +1,18 @@
 [
   {
+    "id": "68e4f163476232d7",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are delayed \u2014 Resolved",
+    "link": "https://stspg.io/7mj7tf087cny",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-13T15:35:04.538000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "7d3001c42c42ee26",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/4n4cm452xgrh",
     "summary": "This incident has been resolved.",
     "date": "2026-03-05T07:21:59.320000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "4a9c37d3ba112ffb",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing Alerts",
-    "link": "https://stspg.io/p3brvhltbdzr",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-18T14:37:08.997000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"

@@ -1,5 +1,31 @@
 [
   {
+    "id": "b679a802c97b5e0f",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-13T19:41:36.158872+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "0b07a8bd36767ea0",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Responses API errors when using background mode",
+    "link": "https://status.openai.com/incidents/01KKMB9HWS1B9452FT6BV6KDD6",
+    "summary": "",
+    "date": "2026-03-13T19:38:07+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "894fa1e0038b703d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
