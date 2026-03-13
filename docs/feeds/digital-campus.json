@@ -1,5 +1,18 @@
 [
   {
+    "id": "906b2ac7b3e9314f",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Audio Conference Infrastructure Upgrade (NRT - Japan) \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/yjrpr90xb4mw",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-03-13T01:00:07.172000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "7b9480cae1365359",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/0snrbyd3hvzr",
     "summary": "This incident has been resolved.",
     "date": "2025-09-19T11:11:13.534000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "e03634cd827499a8",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing events",
-    "link": "https://stspg.io/zftbf3bfgnzf",
-    "summary": "This incident has been resolved.",
-    "date": "2025-09-09T16:01:46.906000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
