@@ -1,5 +1,18 @@
 [
   {
+    "id": "92560edb35d739fe",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Conversation Errors for Logged out Users \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KKKQ8SNFFW363KA3HZQFQNA9",
+    "summary": "Status: monitoring",
+    "date": "2026-03-13T14:42:21+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "c953be722bd2cf5f",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",

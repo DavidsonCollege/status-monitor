@@ -1,5 +1,31 @@
 [
   {
+    "id": "2dc429310507ba24",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Description**\nWe are experiencing intermittent errors with Google Docs, Apps Script, Google Slides, Google Drive, Google Calendar beginning on Friday, 2026-03-13 05:00 PDT.\nOur engineering teams are actively working to mitigate the impact.\nWe will provide an update by Friday, 2026-03-13 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nA subset of customers may experience elevated error rates when accessing the impacted products in the US region.\n**Workaround**\nImpacted users may re-attempt the unsuccessful action. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-03-13T14:34:36+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "67de5f6f0965fc96",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: Hive outage affecting customers in US hosting region",
+    "link": "https://stspg.io/2kpb04r33b82",
+    "summary": "We are currently investigating an issue affecting Print Job release in PaperCut Hive for customers in the US Genesis Data Center. Our team are aware and actively looking into this now.",
+    "date": "2026-03-13T14:34:38.061000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "cfb616ce240af3fc",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/t1rrrh5n3xcv",
     "summary": "This incident has been resolved.",
     "date": "2025-10-21T11:26:22.393000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "12222f71d6285e49",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Delays",
-    "link": "https://stspg.io/5zq1zrlt1v85",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-20T07:59:42.978000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "2d469de74c5c1ba7",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing watchlist memberships.",
-    "link": "https://stspg.io/qrh7784bqq5d",
-    "summary": "We observed a delay in processing watchlist memberships.",
-    "date": "2025-09-25T11:30:00-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
