@@ -1,5 +1,31 @@
 [
   {
+    "id": "c953be722bd2cf5f",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-13T14:00:50.051892+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "5f45224d47d9aaf6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Conversation Errors for Logged out Users",
+    "link": "https://status.openai.com/incidents/01KKKQ8SNFFW363KA3HZQFQNA9",
+    "summary": "",
+    "date": "2026-03-13T13:48:11+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "8db8ac20cfe00d49",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
