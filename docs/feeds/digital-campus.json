@@ -1,5 +1,18 @@
 [
   {
+    "id": "104d2c9ef23c9d2c",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive & Pocket - Some customers may experience print job release failures in the US hosting region \u2014 Resolved",
+    "link": "https://stspg.io/2kpb04r33b82",
+    "summary": "This incident has now been fully resolved. We have confirmed that print jobs are releasing successfully for multiple customers.\n\nOur apologies for any downtime that you experienced as a result of this outage. We will be performing a full retro, as we do with all issues that impact our customers.\n\nIf you experience other issues please report this via https://www.papercut.com/support/.",
+    "date": "2026-03-13T20:05:47.768000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "68e4f163476232d7",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2584,19 +2597,6 @@
     "date": "2024-11-19T08:55:02.617000-05:00",
     "status": "resolved",
     "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "df974812bb236a47",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing Alerts",
-    "link": "https://stspg.io/4n4cm452xgrh",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-05T07:21:59.320000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
