@@ -1,5 +1,18 @@
 [
   {
+    "id": "7d3001c42c42ee26",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are delayed \u2014 monitoring",
+    "link": "https://stspg.io/7mj7tf087cny",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-13T15:03:12.886000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "4e69c15d312fb0d6",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/p3brvhltbdzr",
     "summary": "This incident has been resolved.",
     "date": "2026-02-18T14:37:08.997000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7599105530ae4d43",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Delays",
-    "link": "https://stspg.io/5zswglxg5wxl",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-04T15:16:07.252000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
