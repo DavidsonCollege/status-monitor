@@ -1,5 +1,31 @@
 [
   {
+    "id": "894fa1e0038b703d",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-13T18:44:35.851801+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1c735ed9919e4aac",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
+    "link": "https://stspg.io/ns5813nph8zs",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-13T18:37:32.222000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "25a9a8d690ee953c",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",

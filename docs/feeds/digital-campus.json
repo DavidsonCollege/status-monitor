@@ -1,5 +1,31 @@
 [
   {
+    "id": "4e69c15d312fb0d6",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive & Pocket - Some customers may experience print job release failures in the US hosting region \u2014 monitoring",
+    "link": "https://stspg.io/2kpb04r33b82",
+    "summary": "Monitoring and customer reports have confirmed that print release functionality has been restored. No action is required by customers to resume printing.\n\nWe are continuing to monitor this incident. If you're still experiencing issues please report this via https://www.papercut.com/support/.",
+    "date": "2026-03-13T18:36:54.834000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "a47b685ff2623e43",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Scans are delayed \u2014 identified",
+    "link": "https://stspg.io/7mj7tf087cny",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-13T14:27:13.452000-04:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "28024ac8e4bc5b11",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/5zswglxg5wxl",
     "summary": "This incident has been resolved.",
     "date": "2026-02-04T15:16:07.252000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "fa425022f0b3477c",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Delays",
-    "link": "https://stspg.io/qdn21ztmh8m6",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-03T20:00:15.791000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "81bc1cb7c0b1f2f4",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Delays",
-    "link": "https://stspg.io/h2w59wf2cns2",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-03T20:07:48.124000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
