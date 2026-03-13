@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-13T21:48:21.904490+00:00",
+  "last_checked": "2026-03-13T22:01:23.958131+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -267,7 +267,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
       "status_url": "https://pdq.statuspage.io",
       "overall_status": "operational",
-      "active_incidents": 1,
+      "active_incidents": 0,
       "components": [
         {
           "name": "Deploy & Inventory Package Library",

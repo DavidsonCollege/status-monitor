@@ -1,5 +1,18 @@
 [
   {
+    "id": "99e301ee55370d87",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM: Apple Business Manager Device Assignment Sync (DEP sync) experiencing significant delays for manual syncs \u2014 Resolved",
+    "link": "https://stspg.io/qk18hw11wlq9",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-13T17:57:56.555000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "f9bfcb6a83b9fd59",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/kmcyb7v9q56b",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2025-02-03T14:49:44.525000-05:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "1587c5c63c07d022",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Scheduled Database Maintenance",
-    "link": "https://stspg.io/h17pgvw78q3d",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-01-15T09:47:59.265000-05:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
