@@ -1,5 +1,31 @@
 [
   {
+    "id": "e2cef8f2804bb932",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-13T15:08:08.768391+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "4f074e59bdea4dc4",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Description**\nWe are experiencing intermittent errors with Google Docs, Apps Script, Google Slides, Google Drive, Google Calendar beginning on Friday, 2026-03-13 05:00 PDT.\nOur engineering teams are actively working to mitigate the impact.\nWe will provide an update by Friday, 2026-03-13 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nA subset of customers may experience elevated error rates when accessing the impacted products in the US region.\n**Workaround**\nImpacted users may re-attempt the unsuccessful action. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-13T14:30:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "2dc429310507ba24",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/bxjb5fxjc12r",
     "summary": "This incident has been resolved.",
     "date": "2025-10-24T15:19:57.028000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "e90553804cc5977a",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in processing Alerts",
-    "link": "https://stspg.io/m2xgy7jzxcmz",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-24T11:07:01.893000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "2dfdf22e4c63af5b",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Event Processing Delays",
-    "link": "https://stspg.io/t1rrrh5n3xcv",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-21T11:26:22.393000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
