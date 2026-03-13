@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-13T17:10:18.484917+00:00",
+  "last_checked": "2026-03-13T17:28:13.508515+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -267,7 +267,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
       "status_url": "https://pdq.statuspage.io",
       "overall_status": "operational",
-      "active_incidents": 0,
+      "active_incidents": 1,
       "components": [
         {
           "name": "Deploy & Inventory Package Library",
@@ -292,8 +292,8 @@
       "name": "Zoom",
       "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
       "status_url": "https://status.zoom.us",
-      "overall_status": "maintenance",
-      "active_incidents": 9,
+      "overall_status": "degraded",
+      "active_incidents": 10,
       "components": []
     },
     {
