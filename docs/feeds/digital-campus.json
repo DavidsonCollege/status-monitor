@@ -1,5 +1,18 @@
 [
   {
+    "id": "f59330a1b2fbf6bc",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: India Data Centers CRC Capacity Expansion \u2014 Resolved",
+    "link": "https://stspg.io/jkzhln549n6r",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-03-16T00:30:07.325000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "72ab591353481d2e",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/bdwrgd8k4ybv",
     "summary": "We have confirmed the issue is no longer occurring and systems are normalized.",
     "date": "2024-11-19T10:51:37.066000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "d815a52f808d0a31",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly.com is loading slowly and unaccessible for some people",
-    "link": "https://stspg.io/kv8fr0kd3csc",
-    "summary": "This incident has been resolved.",
-    "date": "2024-11-18T10:12:05.277000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
