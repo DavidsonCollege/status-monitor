@@ -21,6 +21,12 @@ from datetime import datetime, timezone
 
 import requests
 
+# The ZOOM_ACCOUNT_ID secret has a typo (lowercase L instead of uppercase I
+# at position 18).  Override it here until the secret is corrected.
+_CORRECT_ACCOUNT_ID = "7JETkq73TWeDBpeGAvIH_g"
+if os.environ.get("ZOOM_ACCOUNT_ID", "") == "7JETkq73TWeDBpeGAvlH_g":
+    os.environ["ZOOM_ACCOUNT_ID"] = _CORRECT_ACCOUNT_ID
+
 ZOOM_OAUTH_URL = "https://zoom.us/oauth/token"
 ZOOM_CHATBOT_URL = "https://api.zoom.us/v2/im/chat/messages"
 ZOOM_CHAT_URL = "https://api.zoom.us/v2/chat/users/me/messages"

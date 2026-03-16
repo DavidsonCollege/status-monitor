@@ -14,6 +14,11 @@ from pathlib import Path
 
 import requests
 
+# The ZOOM_ACCOUNT_ID secret has a typo (lowercase L instead of uppercase I
+# at position 18).  Override it here until the secret is corrected.
+if os.environ.get("ZOOM_ACCOUNT_ID", "") == "7JETkq73TWeDBpeGAvlH_g":
+    os.environ["ZOOM_ACCOUNT_ID"] = "7JETkq73TWeDBpeGAvIH_g"
+
 ZOOM_OAUTH_URL = "https://zoom.us/oauth/token"
 ZOOM_CHANNELS_URL = "https://api.zoom.us/v2/chat/users/me/channels"
 OUTPUT_PATH = Path(__file__).resolve().parent.parent / "docs" / "zoom_channels.json"
