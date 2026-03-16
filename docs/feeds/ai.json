@@ -1,5 +1,44 @@
 [
   {
+    "id": "bad16eb14c12533c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-16T14:19:18.490365+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d79a99681d73a61a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6",
+    "link": "https://stspg.io/p46bdr8km63c",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-03-16T14:02:12.456000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
+    "id": "cd91448508bc2cde",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai",
+    "link": "https://stspg.io/nh5z0qp4ss5l",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-16T13:56:25.653000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "0d18fe91b35e6189",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
