@@ -34,6 +34,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from slack_notify import send_slack_notifications
 from zoom_notify import send_zoom_notifications
+from gchat_notify import send_gchat_notifications
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 
@@ -1537,6 +1538,7 @@ def main():
                     # Enrich with team routing info
                     evt["slack_channel"] = team.get("slack_channel", "")
                     evt["zoom_channel"] = team.get("zoom_channel", "")
+                    evt["gchat_webhook"] = team.get("gchat_webhook", "")
                     evt["icon_url"] = product.get("icon_url", "")
                     if not evt.get("link"):
                         evt["link"] = product.get("status_url", "")
@@ -1612,6 +1614,10 @@ def main():
 
         print("--- Zoom ---")
         send_zoom_notifications(all_new_events, base_url)
+        print()
+
+        print("--- Google Chat ---")
+        send_gchat_notifications(all_new_events, base_url)
         print()
 
     print("=" * 70)
