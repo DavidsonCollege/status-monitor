@@ -80,6 +80,7 @@ jobs:
           ZOOM_CHATBOT_CLIENT_ID: ${{ secrets.ZOOM_CHATBOT_CLIENT_ID }}
           ZOOM_CHATBOT_CLIENT_SECRET: ${{ secrets.ZOOM_CHATBOT_CLIENT_SECRET }}
           ZOOM_USER_EMAIL: ${{ secrets.ZOOM_USER_EMAIL }}
+          ZOOM_USER_JID: ${{ vars.ZOOM_USER_JID }}
           TEST_TEAMS: ${{ github.event.inputs.test_teams }}
         run: python scripts/test_notify.py
 
@@ -96,6 +97,7 @@ jobs:
           ZOOM_CHATBOT_CLIENT_ID: ${{ secrets.ZOOM_CHATBOT_CLIENT_ID }}
           ZOOM_CHATBOT_CLIENT_SECRET: ${{ secrets.ZOOM_CHATBOT_CLIENT_SECRET }}
           ZOOM_USER_EMAIL: ${{ secrets.ZOOM_USER_EMAIL }}
+          ZOOM_USER_JID: ${{ vars.ZOOM_USER_JID }}
         run: python scripts/check_status.py
 
       - name: Sync config to docs for dashboard
