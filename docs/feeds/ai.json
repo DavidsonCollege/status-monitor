@@ -1,5 +1,18 @@
 [
   {
+    "id": "55e7e8c2dc3e237a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 monitoring",
+    "link": "https://stspg.io/tft2q4bntkkv",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-16T12:27:33.819000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "a2ff2d4c21473f6d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
