@@ -719,6 +719,7 @@ def check_statushub(product: dict) -> dict:
 
     # Apply region/component filtering
     result["components"] = _filter_components(result["components"], source)
+    result["incidents"] = _filter_incidents(result["incidents"], source)
     if result["components"] and not traffic_ok:
         result["overall_status"] = _recalculate_overall_status(
             result["components"], result["overall_status"]
@@ -854,6 +855,7 @@ def check_uptimerobot(product: dict) -> dict:
 
     # Apply filters
     result["components"] = _filter_components(result["components"], source)
+    result["incidents"] = _filter_incidents(result["incidents"], source)
     if result["components"]:
         result["overall_status"] = _recalculate_overall_status(
             result["components"], result["overall_status"]
@@ -930,6 +932,7 @@ def check_cstate(product: dict) -> dict:
 
     # Apply filters
     result["components"] = _filter_components(result["components"], source)
+    result["incidents"] = _filter_incidents(result["incidents"], source)
     if result["components"]:
         result["overall_status"] = _recalculate_overall_status(
             result["components"], result["overall_status"]
@@ -1015,6 +1018,9 @@ def check_sorry(product: dict) -> dict:
     except Exception as exc:
         print(f"    [WARN] Sorry™ fetch failed: {exc}")
 
+    # Apply incident filtering
+    result["incidents"] = _filter_incidents(result["incidents"], source)
+
     return result
 
 
@@ -1085,6 +1091,9 @@ def check_html_scrape(product: dict) -> dict:
 
     except Exception as exc:
         print(f"    [WARN] HTML scrape failed: {exc}")
+
+    # Apply incident filtering
+    result["incidents"] = _filter_incidents(result["incidents"], source)
 
     return result
 

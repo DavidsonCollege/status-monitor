@@ -481,6 +481,216 @@
 
         .btn-primary:hover { background: var(--accent-hover); }
 
+        /* Component filter in drawer */
+        .component-filter {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 8px;
+        }
+
+        .component-filter input {
+            flex: 1;
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 13px;
+        }
+
+        .component-filter input:focus { outline: none; border-color: var(--accent); }
+
+        .filter-toggle {
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text-muted);
+            font-size: 12px;
+            cursor: pointer;
+            white-space: nowrap;
+        }
+
+        .filter-toggle.active {
+            background: rgba(231, 76, 60, 0.15);
+            color: var(--red);
+            border-color: var(--red);
+        }
+
+        .component-row.hidden { display: none; }
+
+        /* Management mode */
+        .manage-btn {
+            padding: 4px 10px;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            background: transparent;
+            color: var(--text-muted);
+            font-size: 13px;
+            cursor: pointer;
+        }
+
+        .manage-btn:hover { color: var(--text); background: var(--surface); }
+        .manage-btn.active { color: var(--accent); border-color: var(--accent); }
+
+        .add-team-btn, .add-product-btn {
+            display: none;
+            padding: 6px 14px;
+            border: 1px dashed var(--border);
+            border-radius: var(--radius);
+            background: transparent;
+            color: var(--text-muted);
+            font-size: 13px;
+            cursor: pointer;
+            width: 100%;
+            text-align: center;
+            margin-top: 8px;
+        }
+
+        .add-team-btn:hover, .add-product-btn:hover {
+            border-color: var(--accent);
+            color: var(--accent);
+            background: rgba(59, 130, 246, 0.05);
+        }
+
+        body.manage-mode .add-team-btn,
+        body.manage-mode .add-product-btn { display: block; }
+
+        .edit-overlay {
+            display: none;
+            position: absolute;
+            top: 4px;
+            right: 4px;
+            gap: 4px;
+        }
+
+        body.manage-mode .status-card .edit-overlay { display: flex; }
+        body.manage-mode .team-header .edit-overlay { display: flex; }
+
+        .edit-overlay button {
+            padding: 2px 6px;
+            font-size: 11px;
+            border-radius: 4px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text-muted);
+            cursor: pointer;
+        }
+
+        .edit-overlay button:hover { color: var(--text); }
+        .edit-overlay button.delete-btn:hover { color: var(--red); border-color: var(--red); }
+
+        /* Modal */
+        .modal-overlay {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.6);
+            z-index: 200;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .modal-overlay.open { display: flex; }
+
+        .modal {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+            width: 500px;
+            max-width: 90vw;
+            max-height: 80vh;
+            overflow-y: auto;
+        }
+
+        .modal h3 { margin-bottom: 16px; font-size: 18px; }
+
+        .modal .form-group { margin-bottom: 14px; }
+        .modal .form-group label {
+            display: block;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .modal input, .modal select, .modal textarea {
+            width: 100%;
+            padding: 8px 12px;
+            border-radius: var(--radius);
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 14px;
+            font-family: inherit;
+        }
+
+        .modal textarea { min-height: 60px; resize: vertical; }
+        .modal input:focus, .modal select:focus { outline: none; border-color: var(--accent); }
+
+        .modal-actions {
+            display: flex;
+            gap: 8px;
+            justify-content: flex-end;
+            margin-top: 20px;
+        }
+
+        .btn-danger { background: var(--red); border-color: var(--red); color: #fff; }
+        .btn-danger:hover { background: #c0392b; }
+
+        .toast {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 12px 20px;
+            color: var(--text);
+            font-size: 14px;
+            z-index: 300;
+            opacity: 0;
+            transform: translateY(10px);
+            transition: all 0.3s;
+        }
+
+        .toast.show { opacity: 1; transform: translateY(0); }
+        .toast.error { border-color: var(--red); color: var(--red); }
+
+        /* GitHub connection bar */
+        .gh-connect {
+            display: none;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 16px;
+            margin-bottom: 24px;
+            gap: 12px;
+        }
+
+        .gh-connect.open { display: flex; flex-wrap: wrap; align-items: end; }
+
+        .gh-connect .form-group { margin: 0; flex: 1; min-width: 200px; }
+        .gh-connect label {
+            display: block;
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+        }
+
+        .gh-connect input {
+            width: 100%;
+            padding: 6px 10px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            color: var(--text);
+            font-size: 13px;
+        }
+
+        .gh-connect input:focus { outline: none; border-color: var(--accent); }
+
         /* Responsive */
         @media (max-width: 768px) {
             .container { padding: 16px; }
@@ -496,7 +706,7 @@
     <header>
         <h1><span>📡</span> Status Monitor</h1>
         <div class="header-meta">
-            <a href="admin.html" style="color:var(--text-muted);text-decoration:none;font-size:13px;padding:4px 10px;border:1px solid var(--border);border-radius:6px" onmouseover="this.style.color='var(--text)'" onmouseout="this.style.color='var(--text-muted)'">⚩️ Admin</a>
+            <button class="manage-btn" id="manageBtn" onclick="toggleManageMode()">✏️ Manage</button>
             <div class="legend">
                 <div class="legend-item"><div class="legend-dot" style="background:var(--green)"></div> Operational</div>
                 <div class="legend-item"><div class="legend-dot" style="background:var(--yellow)"></div> Degraded</div>
@@ -507,6 +717,19 @@
         </div>
     </header>
 
+    <!-- GitHub connection for manage mode -->
+    <div class="gh-connect" id="ghConnect">
+        <div class="form-group">
+            <label>GitHub Repository (owner/repo)</label>
+            <input id="ghRepoInput" placeholder="DavidsonCollege/status-monitor" />
+        </div>
+        <div class="form-group">
+            <label>Personal Access Token</label>
+            <input id="ghPatInput" type="password" placeholder="github_pat_..." />
+        </div>
+        <button class="btn-primary" onclick="connectGitHub()" style="white-space:nowrap">Connect</button>
+    </div>
+
     <div id="app">
         <div class="loading">
             <div class="loading-spinner"></div>
@@ -514,6 +737,14 @@
         </div>
     </div>
 </div>
+
+<!-- Edit modal -->
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modalContent"></div>
+</div>
+
+<!-- Toast notifications -->
+<div class="toast" id="toast"></div>
 
 <!-- Detail drawer -->
 <div class="drawer-overlay" id="drawerOverlay" onclick="closeDrawer()"></div>
@@ -531,9 +762,27 @@ const STATUS_LABELS = {
     unknown: 'Unknown',
 };
 
+const SOURCE_TYPES = [
+    { value: 'statuspage', label: 'Atlassian Statuspage' },
+    { value: 'statushub', label: 'StatusHub' },
+    { value: 'uptimerobot', label: 'UptimeRobot' },
+    { value: 'cstate', label: 'cState' },
+    { value: 'sorry', label: 'Sorry™' },
+    { value: 'html_scrape', label: 'HTML Scrape' },
+    { value: 'google_workspace', label: 'Google Workspace' },
+    { value: 'microsoft_365', label: 'Microsoft 365' },
+    { value: 'slack_status', label: 'Slack Status' },
+    { value: 'gcp_status', label: 'GCP Status' },
+    { value: 'exlibris', label: 'Ex Libris' },
+];
+
 let configData = null;
 let statusData = {};
 let feedData = {};
+let ghRepo = '';
+let ghPat = '';
+let ghConfigSha = '';
+let manageMode = false;
 
 // Detect base URL
 const BASE_URL = (() => {
@@ -541,11 +790,19 @@ const BASE_URL = (() => {
     return window.location.origin + path;
 })();
 
+// ── Toast ────────────────────────────────────────────────────────────────────
+function showToast(msg, isError = false) {
+    const t = document.getElementById('toast');
+    t.textContent = msg;
+    t.className = 'toast show' + (isError ? ' error' : '');
+    setTimeout(() => t.className = 'toast', 3000);
+}
+
+// ── Data Loading ─────────────────────────────────────────────────────────────
 async function loadConfig() {
     try {
         const resp = await fetch(`${BASE_URL}/config/teams.json?_=${Date.now()}`);
         if (!resp.ok) {
-            // Fallback: try GitHub API
             const resp2 = await fetch('config/teams.json');
             configData = await resp2.json();
             return;
@@ -565,32 +822,29 @@ async function loadConfig() {
 async function loadTeamStatus(teamId) {
     try {
         const resp = await fetch(`${BASE_URL}/feeds/${teamId}-status.json?_=${Date.now()}`);
-        if (resp.ok) {
-            statusData[teamId] = await resp.json();
-        }
-    } catch (e) {
-        console.warn(`Failed to load status for ${teamId}:`, e);
-    }
+        if (resp.ok) statusData[teamId] = await resp.json();
+    } catch (e) { console.warn(`Failed to load status for ${teamId}:`, e); }
 }
 
 async function loadTeamFeed(teamId) {
     try {
         const resp = await fetch(`${BASE_URL}/feeds/${teamId}.json?_=${Date.now()}`);
-        if (resp.ok) {
-            feedData[teamId] = await resp.json();
-        }
-    } catch (e) {
-        console.warn(`Failed to load feed for ${teamId}:`, e);
-    }
+        if (resp.ok) feedData[teamId] = await resp.json();
+    } catch (e) { console.warn(`Failed to load feed for ${teamId}:`, e); }
 }
 
 async function init() {
+    // Restore GitHub connection from localStorage
+    ghRepo = localStorage.getItem('sm_repo') || '';
+    ghPat = localStorage.getItem('sm_pat') || '';
+    if (ghRepo) document.getElementById('ghRepoInput').value = ghRepo;
+    if (ghPat) document.getElementById('ghPatInput').value = ghPat;
+
     await loadConfig();
     if (!configData) return;
 
     const teams = configData.teams || [];
     await Promise.all(teams.map(t => Promise.all([loadTeamStatus(t.id), loadTeamFeed(t.id)])));
-
     render();
 
     // Auto-refresh every 60 seconds
@@ -600,72 +854,68 @@ async function init() {
     }, 60000);
 }
 
+// ── Rendering ────────────────────────────────────────────────────────────────
 function render() {
     const teams = configData.teams || [];
     const app = document.getElementById('app');
-
     let html = '';
     for (const team of teams) {
         html += renderTeam(team);
     }
-
+    html += '<button class="add-team-btn" onclick="openTeamModal()">+ Add Team</button>';
     app.innerHTML = html;
 }
 
 function renderTeam(team) {
+    const teamIdx = configData.teams.indexOf(team);
     const status = statusData[team.id];
     const products = status ? status.products : team.products.map(p => ({
-        id: p.id,
-        name: p.name,
-        icon_url: p.icon_url,
-        status_url: p.status_url,
-        overall_status: 'unknown',
-        active_incidents: 0,
-        components: [],
+        id: p.id, name: p.name, icon_url: p.icon_url, status_url: p.status_url,
+        overall_status: 'unknown', active_incidents: 0, components: [],
     }));
 
-    // Count statuses
     let operational = 0, issues = 0;
     for (const p of products) {
         if (p.overall_status === 'operational') operational++;
         else issues++;
     }
 
-    let summaryBadge = '';
-    if (issues > 0) {
-        summaryBadge = `<span class="count-badge badge-orange">${issues} with issues</span>`;
-    } else {
-        summaryBadge = `<span class="count-badge badge-green">All operational</span>`;
-    }
+    const summaryBadge = issues > 0
+        ? `<span class="count-badge badge-orange">${issues} with issues</span>`
+        : `<span class="count-badge badge-green">All operational</span>`;
 
     let lastChecked = '';
     if (status && status.last_checked) {
-        const d = new Date(status.last_checked);
-        lastChecked = `Last checked: ${d.toLocaleString()}`;
+        lastChecked = `Last checked: ${new Date(status.last_checked).toLocaleString()}`;
     }
 
     let html = `<div class="team-section">`;
-    html += `<div class="team-header">`;
+    html += `<div class="team-header" style="position:relative">`;
     html += `<h2>${team.name}</h2>`;
     html += `<div class="team-summary">${summaryBadge}<span style="font-size:12px;color:var(--text-muted)">${lastChecked}</span></div>`;
+    html += `<div class="edit-overlay">
+        <button onclick="event.stopPropagation();openTeamModal(${teamIdx})">Edit</button>
+        <button class="delete-btn" onclick="event.stopPropagation();deleteTeam(${teamIdx})">Delete</button>
+    </div>`;
     html += `</div>`;
 
     html += `<div class="status-grid">`;
-    for (const product of products) {
-        html += renderProductCard(team.id, product);
+    for (let pi = 0; pi < products.length; pi++) {
+        html += renderProductCard(team.id, products[pi], teamIdx, pi);
     }
-    html += `</div></div>`;
-
+    html += `</div>`;
+    html += `<button class="add-product-btn" onclick="openProductModal(${teamIdx})">+ Add Product</button>`;
+    html += `</div>`;
     return html;
 }
 
-function renderProductCard(teamId, product) {
+function renderProductCard(teamId, product, teamIdx, productIdx) {
     const status = product.overall_status || 'unknown';
     const label = STATUS_LABELS[status] || 'Unknown';
     const incidents = product.active_incidents || 0;
     const incidentText = incidents > 0 ? `${incidents} active incident${incidents !== 1 ? 's' : ''}` : '';
 
-    return `<div class="status-card ${status}" onclick="openDrawer('${teamId}','${product.id}')">
+    return `<div class="status-card ${status}" onclick="openDrawer('${teamId}','${product.id}')" style="position:relative">
         <div class="card-top">
             ${product.icon_url ? `<img class="card-icon" src="${product.icon_url}" alt="${product.name}" onerror="this.style.display='none'">` : ''}
             <div class="card-name">${product.name}</div>
@@ -675,9 +925,14 @@ function renderProductCard(teamId, product) {
             <span class="status-label ${status}">${label}</span>
         </div>
         ${incidentText ? `<div class="card-incidents">${incidentText}</div>` : ''}
+        <div class="edit-overlay">
+            <button onclick="event.stopPropagation();openProductModal(${teamIdx},${productIdx})">Edit</button>
+            <button class="delete-btn" onclick="event.stopPropagation();deleteProduct(${teamIdx},${productIdx})">Delete</button>
+        </div>
     </div>`;
 }
 
+// ── Drawer with Component Filtering ──────────────────────────────────────────
 function openDrawer(teamId, productId) {
     const status = statusData[teamId];
     const team = configData.teams.find(t => t.id === teamId);
@@ -704,14 +959,18 @@ function openDrawer(teamId, productId) {
         ${statusLabel}
     </div>`;
 
-    // Components
+    // Components with filter
     const components = product ? product.components : [];
     if (components && components.length > 0) {
-        html += `<div class="drawer-section-title">Components</div>`;
-        html += `<div class="component-list">`;
+        html += `<div class="drawer-section-title">Components (${components.length})</div>`;
+        html += `<div class="component-filter">
+            <input type="text" id="compFilter" placeholder="Filter components..." oninput="filterComponents()">
+            <button class="filter-toggle" id="issuesToggle" onclick="toggleIssuesOnly()">Issues only</button>
+        </div>`;
+        html += `<div class="component-list" id="componentList">`;
         for (const comp of components) {
             const cs = comp.status || 'unknown';
-            html += `<div class="component-row">
+            html += `<div class="component-row" data-name="${comp.name.toLowerCase()}" data-status="${cs}">
                 <span>${comp.name}</span>
                 <div class="component-status">
                     <div class="status-dot ${cs}"></div>
@@ -722,26 +981,12 @@ function openDrawer(teamId, productId) {
         html += `</div>`;
     }
 
-    // Active incidents from status data
-    if (status) {
-        const teamState = status.products.find(p => p.id === productId);
-        // We don't have full incident details in the summary, so show from feed
-    }
-
     // Recent events from feed
     const productEvents = feed.filter(e => e.product_id === productId).slice(0, 15);
     if (productEvents.length > 0) {
         html += `<div class="drawer-section-title">Recent Events</div>`;
         for (const evt of productEvents) {
-            const evtStatus = evt.status || evt.incident_status || 'unknown';
-            const statusClass = evtStatus === 'resolved' ? 'resolved' :
-                               evtStatus === 'operational' ? 'resolved' :
-                               evtStatus === 'investigating' ? 'investigating' :
-                               evtStatus === 'identified' ? 'identified' :
-                               evtStatus === 'monitoring' ? 'monitoring' :
-                               evtStatus === 'maintenance' ? 'maintenance' : '';
             const date = evt.date ? new Date(evt.date).toLocaleString() : '';
-
             html += `<div class="feed-event" style="border-left-color:${getStatusColor(evt.status || 'unknown')}">
                 <div class="event-title">${evt.link ? `<a href="${evt.link}" target="_blank" style="color:var(--accent);text-decoration:none">${evt.title}</a>` : evt.title}</div>
                 <div class="event-date">${date}</div>
@@ -759,24 +1004,312 @@ function openDrawer(teamId, productId) {
     }
 
     drawerContent.innerHTML = html;
-
     document.getElementById('drawerOverlay').classList.add('open');
     document.getElementById('drawer').classList.add('open');
+}
+
+let issuesOnly = false;
+function filterComponents() {
+    const query = (document.getElementById('compFilter')?.value || '').toLowerCase();
+    const rows = document.querySelectorAll('#componentList .component-row');
+    rows.forEach(row => {
+        const name = row.dataset.name;
+        const status = row.dataset.status;
+        const matchesQuery = !query || name.includes(query);
+        const matchesIssues = !issuesOnly || status !== 'operational';
+        row.classList.toggle('hidden', !(matchesQuery && matchesIssues));
+    });
+}
+
+function toggleIssuesOnly() {
+    issuesOnly = !issuesOnly;
+    document.getElementById('issuesToggle')?.classList.toggle('active', issuesOnly);
+    filterComponents();
 }
 
 function closeDrawer() {
     document.getElementById('drawerOverlay').classList.remove('open');
     document.getElementById('drawer').classList.remove('open');
+    issuesOnly = false;
 }
 
+// ── Manage Mode ──────────────────────────────────────────────────────────────
+function toggleManageMode() {
+    manageMode = !manageMode;
+    document.body.classList.toggle('manage-mode', manageMode);
+    document.getElementById('manageBtn').classList.toggle('active', manageMode);
+
+    if (manageMode && !ghPat) {
+        document.getElementById('ghConnect').classList.add('open');
+    } else if (!manageMode) {
+        document.getElementById('ghConnect').classList.remove('open');
+    }
+}
+
+function connectGitHub() {
+    ghRepo = document.getElementById('ghRepoInput').value.trim();
+    ghPat = document.getElementById('ghPatInput').value.trim();
+    if (!ghRepo || !ghPat) {
+        showToast('Please enter both repository and token', true);
+        return;
+    }
+    localStorage.setItem('sm_repo', ghRepo);
+    localStorage.setItem('sm_pat', ghPat);
+    document.getElementById('ghConnect').classList.remove('open');
+    showToast('Connected to GitHub');
+}
+
+// ── GitHub Config Save ───────────────────────────────────────────────────────
+async function saveConfigToGitHub() {
+    if (!ghRepo || !ghPat) {
+        showToast('Not connected to GitHub. Enable manage mode and connect first.', true);
+        return false;
+    }
+
+    try {
+        // Get current SHA
+        const getResp = await fetch(`https://api.github.com/repos/${ghRepo}/contents/config/teams.json`, {
+            headers: { 'Authorization': `Bearer ${ghPat}`, 'Accept': 'application/vnd.github.v3+json' }
+        });
+        if (!getResp.ok) throw new Error(`GitHub GET failed: ${getResp.status}`);
+        const getData = await getResp.json();
+        ghConfigSha = getData.sha;
+
+        // Write updated config
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(configData, null, 2) + '\n')));
+        const putResp = await fetch(`https://api.github.com/repos/${ghRepo}/contents/config/teams.json`, {
+            method: 'PUT',
+            headers: {
+                'Authorization': `Bearer ${ghPat}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                message: 'Update teams.json via dashboard',
+                content: content,
+                sha: ghConfigSha,
+            }),
+        });
+
+        if (!putResp.ok) {
+            const err = await putResp.text();
+            throw new Error(`GitHub PUT failed: ${putResp.status} ${err}`);
+        }
+
+        showToast('Configuration saved to GitHub');
+        return true;
+    } catch (e) {
+        console.error('Save failed:', e);
+        showToast('Failed to save: ' + e.message, true);
+        return false;
+    }
+}
+
+// ── Team Modal ───────────────────────────────────────────────────────────────
+function openTeamModal(teamIdx) {
+    const isEdit = teamIdx !== undefined;
+    const team = isEdit ? configData.teams[teamIdx] : {};
+
+    const html = `
+        <h3>${isEdit ? 'Edit' : 'Add'} Team</h3>
+        <div class="form-group">
+            <label>Team Name</label>
+            <input id="teamName" value="${team.name || ''}" placeholder="e.g. Digital Campus" />
+        </div>
+        <div class="form-group">
+            <label>Team ID (lowercase, no spaces)</label>
+            <input id="teamId" value="${team.id || ''}" placeholder="e.g. digital-campus" ${isEdit ? 'disabled style="opacity:0.6"' : ''} />
+        </div>
+        <div class="form-group">
+            <label>Description</label>
+            <input id="teamDesc" value="${team.description || ''}" placeholder="Optional description" />
+        </div>
+        <div class="form-group">
+            <label>Slack Channel ID</label>
+            <input id="teamSlack" value="${team.slack_channel || ''}" placeholder="e.g. C0AKTENQN49" />
+        </div>
+        <div class="form-group">
+            <label>Zoom Channel ID</label>
+            <input id="teamZoom" value="${team.zoom_channel || ''}" placeholder="e.g. 1cba8a62eebb4cf484dd7a7b07c3cd32" />
+        </div>
+        <div class="modal-actions">
+            <button onclick="closeModal()">Cancel</button>
+            <button class="btn-primary" onclick="saveTeam(${isEdit ? teamIdx : 'undefined'})">Save</button>
+        </div>
+    `;
+
+    document.getElementById('modalContent').innerHTML = html;
+    document.getElementById('modalOverlay').classList.add('open');
+}
+
+async function saveTeam(teamIdx) {
+    const name = document.getElementById('teamName').value.trim();
+    const id = document.getElementById('teamId').value.trim();
+    const desc = document.getElementById('teamDesc').value.trim();
+    const slack = document.getElementById('teamSlack').value.trim();
+    const zoom = document.getElementById('teamZoom').value.trim();
+
+    if (!name || !id) { showToast('Name and ID are required', true); return; }
+
+    if (teamIdx !== undefined) {
+        // Edit existing
+        configData.teams[teamIdx].name = name;
+        configData.teams[teamIdx].description = desc;
+        configData.teams[teamIdx].slack_channel = slack;
+        configData.teams[teamIdx].zoom_channel = zoom;
+    } else {
+        // Add new
+        configData.teams.push({
+            id, name, description: desc,
+            slack_channel: slack, zoom_channel: zoom,
+            products: [],
+        });
+    }
+
+    closeModal();
+    render();
+
+    if (await saveConfigToGitHub()) {
+        showToast('Team saved');
+    }
+}
+
+async function deleteTeam(teamIdx) {
+    const team = configData.teams[teamIdx];
+    if (!confirm(`Delete team "${team.name}" and all its products?`)) return;
+
+    configData.teams.splice(teamIdx, 1);
+    render();
+
+    if (await saveConfigToGitHub()) {
+        showToast('Team deleted');
+    }
+}
+
+// ── Product Modal ────────────────────────────────────────────────────────────
+function openProductModal(teamIdx, productIdx) {
+    const isEdit = productIdx !== undefined;
+    const product = isEdit ? configData.teams[teamIdx].products[productIdx] : {};
+    const source = product.source || {};
+
+    let sourceTypeOptions = SOURCE_TYPES.map(s =>
+        `<option value="${s.value}" ${source.type === s.value ? 'selected' : ''}>${s.label}</option>`
+    ).join('');
+
+    const html = `
+        <h3>${isEdit ? 'Edit' : 'Add'} Product</h3>
+        <div class="form-group">
+            <label>Product Name</label>
+            <input id="prodName" value="${product.name || ''}" placeholder="e.g. Zoom" />
+        </div>
+        <div class="form-group">
+            <label>Product ID (lowercase, no spaces)</label>
+            <input id="prodId" value="${product.id || ''}" placeholder="e.g. zoom" ${isEdit ? 'disabled style="opacity:0.6"' : ''} />
+        </div>
+        <div class="form-group">
+            <label>Domain (for favicon)</label>
+            <input id="prodDomain" value="${product.domain || ''}" placeholder="e.g. zoom.us" />
+        </div>
+        <div class="form-group">
+            <label>Status Page URL</label>
+            <input id="prodStatusUrl" value="${product.status_url || ''}" placeholder="https://status.zoom.us" />
+        </div>
+        <div class="form-group">
+            <label>Source Type</label>
+            <select id="prodSourceType">${sourceTypeOptions}</select>
+        </div>
+        <div class="form-group">
+            <label>API Base URL</label>
+            <input id="prodApiBase" value="${source.api_base || ''}" placeholder="https://status.zoom.us" />
+        </div>
+        <div class="form-group">
+            <label>Component Filter (comma-separated, optional)</label>
+            <input id="prodCompFilter" value="${(source.component_filter || []).join(', ')}" placeholder="e.g. Zoom Meetings, Zoom Phone" />
+        </div>
+        <div class="form-group">
+            <label>Region Filter (comma-separated, optional)</label>
+            <input id="prodRegionFilter" value="${(source.region_filter || []).join(', ')}" placeholder="e.g. United States" />
+        </div>
+        <div class="form-group">
+            <label>Incident Region Exclude (comma-separated, optional)</label>
+            <textarea id="prodRegionExclude" placeholder="e.g. LATAM, EMEA, APAC, Asia, Europe">${(source.incident_region_exclude || []).join(', ')}</textarea>
+        </div>
+        <div class="modal-actions">
+            <button onclick="closeModal()">Cancel</button>
+            <button class="btn-primary" onclick="saveProduct(${teamIdx}, ${isEdit ? productIdx : 'undefined'})">Save</button>
+        </div>
+    `;
+
+    document.getElementById('modalContent').innerHTML = html;
+    document.getElementById('modalOverlay').classList.add('open');
+}
+
+function parseCommaList(str) {
+    return str.split(',').map(s => s.trim()).filter(s => s.length > 0);
+}
+
+async function saveProduct(teamIdx, productIdx) {
+    const name = document.getElementById('prodName').value.trim();
+    const id = document.getElementById('prodId').value.trim();
+    const domain = document.getElementById('prodDomain').value.trim();
+    const statusUrl = document.getElementById('prodStatusUrl').value.trim();
+    const sourceType = document.getElementById('prodSourceType').value;
+    const apiBase = document.getElementById('prodApiBase').value.trim();
+    const compFilter = parseCommaList(document.getElementById('prodCompFilter').value);
+    const regionFilter = parseCommaList(document.getElementById('prodRegionFilter').value);
+    const regionExclude = parseCommaList(document.getElementById('prodRegionExclude').value);
+
+    if (!name || !id) { showToast('Name and ID are required', true); return; }
+
+    const source = { type: sourceType };
+    if (apiBase) source.api_base = apiBase;
+    if (compFilter.length) source.component_filter = compFilter;
+    if (regionFilter.length) source.region_filter = regionFilter;
+    if (regionExclude.length) source.incident_region_exclude = regionExclude;
+
+    const product = {
+        id, name, domain,
+        icon_url: domain ? `https://www.google.com/s2/favicons?domain=${domain}&sz=64` : '',
+        status_url: statusUrl,
+        source,
+    };
+
+    if (productIdx !== undefined) {
+        configData.teams[teamIdx].products[productIdx] = product;
+    } else {
+        configData.teams[teamIdx].products.push(product);
+    }
+
+    closeModal();
+    render();
+
+    if (await saveConfigToGitHub()) {
+        showToast('Product saved');
+    }
+}
+
+async function deleteProduct(teamIdx, productIdx) {
+    const product = configData.teams[teamIdx].products[productIdx];
+    if (!confirm(`Delete "${product.name}"?`)) return;
+
+    configData.teams[teamIdx].products.splice(productIdx, 1);
+    render();
+
+    if (await saveConfigToGitHub()) {
+        showToast('Product deleted');
+    }
+}
+
+// ── Modal helpers ────────────────────────────────────────────────────────────
+function closeModal() {
+    document.getElementById('modalOverlay').classList.remove('open');
+}
+
+// ── Utilities ────────────────────────────────────────────────────────────────
 function getStatusColor(status) {
     const colors = {
-        operational: '#2fcc66',
-        degraded: '#f1c40f',
-        partial_outage: '#e67e22',
-        major_outage: '#e74c3c',
-        maintenance: '#3498db',
-        unknown: '#95a5a6',
+        operational: '#2fcc66', degraded: '#f1c40f', partial_outage: '#e67e22',
+        major_outage: '#e74c3c', maintenance: '#3498db', unknown: '#95a5a6',
     };
     return colors[status] || colors.unknown;
 }
@@ -786,9 +1319,17 @@ function truncate(str, max) {
     return str.length > max ? str.substring(0, max) + '…' : str;
 }
 
-// Keyboard shortcut to close drawer
+// Keyboard shortcuts
 document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeDrawer();
+    if (e.key === 'Escape') {
+        if (document.getElementById('modalOverlay').classList.contains('open')) closeModal();
+        else closeDrawer();
+    }
+});
+
+// Close modal on overlay click
+document.getElementById('modalOverlay').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('modalOverlay')) closeModal();
 });
 
 // Initialize
