@@ -1,5 +1,18 @@
 [
   {
+    "id": "a7250af77e5e64e4",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling",
+    "link": "https://stspg.io/k12sd5f08kb4",
+    "summary": "We will be performing an un-scheduled maintenance on March 16, 2025 at 10:00 pm EST. We expect maintenance to be completed at or before December 09, 11:00 pm EST.\n\nDuring this time, PDQ Connect will experience a brief downtime. \n\nIf you have any questions, please let us know at support@pdq.com",
+    "date": "2026-03-16T17:10:38.761000-04:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "ef872240d1de5122",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/9sh3m80tcnst",
     "summary": "This incident has been resolved.",
     "date": "2025-07-10T16:18:40.569000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "8d7d1371740fc6ea",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly access instability",
-    "link": "https://stspg.io/whx6q1wmkm05",
-    "summary": "This incident has been resolved.",
-    "date": "2025-06-12T14:30:51.210000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
