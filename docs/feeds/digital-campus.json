@@ -1,5 +1,31 @@
 [
   {
+    "id": "297ccfad781f2c8f",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect device scans and deployment statues are delayed \u2014 investigating",
+    "link": "https://stspg.io/gss27v0zymgw",
+    "summary": "This issue is still under investigation as we work to determine a resolution for the degraded performance.",
+    "date": "2026-03-16T11:26:46.574000-04:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "08a91a7862a05b9b",
+    "product_id": "scribe",
+    "product_name": "Scribe",
+    "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
+    "title": "Scribe: Major Outage",
+    "link": "https://status.scribehow.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-16T15:45:39.681291+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "29aab7ac9f8cd5af",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/w3rsx1wd62zk",
     "summary": "This incident has been resolved.",
     "date": "2025-01-24T19:56:50.777000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "14a83db019e28327",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly booking pages are unavailable",
-    "link": "https://stspg.io/6m40sh5f4gnk",
-    "summary": "This incident has been resolved.",
-    "date": "2025-01-10T12:16:49.100000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3ab6415c31a41841",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly Chrome Extension is currently not available",
-    "link": "https://stspg.io/4p1pxvd4xp26",
-    "summary": "The Calendly Chrome extension is now available on the Chrome Web Store.",
-    "date": "2024-12-31T14:28:28-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
