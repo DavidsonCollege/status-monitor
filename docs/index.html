@@ -558,10 +558,14 @@
 
         .edit-overlay {
             display: none;
+            gap: 4px;
+            flex-shrink: 0;
+        }
+
+        .status-card .edit-overlay {
             position: absolute;
             top: 4px;
             right: 4px;
-            gap: 4px;
         }
 
         body.manage-mode .status-card .edit-overlay { display: flex; }
@@ -838,12 +842,15 @@ function renderTeam(team) {
     }
 
     let html = `<div class="team-section">`;
-    html += `<div class="team-header" style="position:relative">`;
+    html += `<div class="team-header">`;
     html += `<h2>${team.name}</h2>`;
-    html += `<div class="team-summary">${summaryBadge}<span style="font-size:12px;color:var(--text-muted)">${lastChecked}</span></div>`;
-    html += `<div class="edit-overlay">
-        <button onclick="event.stopPropagation();openTeamModal(${teamIdx})">Edit</button>
-        <button class="delete-btn" onclick="event.stopPropagation();deleteTeam(${teamIdx})">Delete</button>
+    html += `<div class="team-summary">
+        ${summaryBadge}
+        <span style="font-size:12px;color:var(--text-muted)">${lastChecked}</span>
+        <div class="edit-overlay">
+            <button onclick="event.stopPropagation();openTeamModal(${teamIdx})">Edit</button>
+            <button class="delete-btn" onclick="event.stopPropagation();deleteTeam(${teamIdx})">Delete</button>
+        </div>
     </div>`;
     html += `</div>`;
 
