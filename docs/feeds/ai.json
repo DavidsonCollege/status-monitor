@@ -1,5 +1,31 @@
 [
   {
+    "id": "a9c326c8a37f8688",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-16T16:43:05.178521+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "fed3eae078da6d4b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/p46bdr8km63c",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-16T16:35:27.589000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "71ef3836d0132ef0",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
