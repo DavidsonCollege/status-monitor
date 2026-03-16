@@ -658,39 +658,6 @@
         .toast.show { opacity: 1; transform: translateY(0); }
         .toast.error { border-color: var(--red); color: var(--red); }
 
-        /* GitHub connection bar */
-        .gh-connect {
-            display: none;
-            background: var(--surface);
-            border: 1px solid var(--border);
-            border-radius: var(--radius);
-            padding: 16px;
-            margin-bottom: 24px;
-            gap: 12px;
-        }
-
-        .gh-connect.open { display: flex; flex-wrap: wrap; align-items: flex-end; }
-
-        .gh-connect .form-group { margin: 0; }
-        .gh-connect label {
-            display: block;
-            font-size: 12px;
-            color: var(--text-muted);
-            margin-bottom: 4px;
-        }
-
-        .gh-connect input {
-            width: 100%;
-            padding: 6px 10px;
-            border-radius: 6px;
-            border: 1px solid var(--border);
-            background: var(--bg);
-            color: var(--text);
-            font-size: 13px;
-        }
-
-        .gh-connect input:focus { outline: none; border-color: var(--accent); }
-
         /* Responsive */
         @media (max-width: 768px) {
             .container { padding: 16px; }
@@ -716,15 +683,6 @@
             </div>
         </div>
     </header>
-
-    <!-- GitHub PAT prompt (shown once, then stored) -->
-    <div class="gh-connect" id="ghConnect">
-        <div class="form-group" style="flex:1;min-width:280px">
-            <label>GitHub Personal Access Token (stored locally, only needed once)</label>
-            <input id="ghPatInput" type="password" placeholder="github_pat_..." />
-        </div>
-        <button class="btn-primary" onclick="connectGitHub()" style="white-space:nowrap">Save</button>
-    </div>
 
     <div id="app">
         <div class="loading">
@@ -832,7 +790,6 @@ async function loadTeamFeed(teamId) {
 async function init() {
     // Restore GitHub PAT from localStorage
     ghPat = localStorage.getItem('sm_pat') || '';
-    if (ghPat) document.getElementById('ghPatInput').value = ghPat;
 
     await loadConfig();
     if (!configData) return;
@@ -1032,30 +989,36 @@ function toggleManageMode() {
     manageMode = !manageMode;
     document.body.classList.toggle('manage-mode', manageMode);
     document.getElementById('manageBtn').classList.toggle('active', manageMode);
-
-    if (manageMode && !ghPat) {
-        document.getElementById('ghConnect').classList.add('open');
-    } else if (!manageMode) {
-        document.getElementById('ghConnect').classList.remove('open');
-    }
 }
 
-function connectGitHub() {
-    ghPat = document.getElementById('ghPatInput').value.trim();
-    if (!ghPat) {
-        showToast('Please enter a Personal Access Token', true);
-        return;
-    }
-    localStorage.setItem('sm_pat', ghPat);
-    document.getElementById('ghConnect').classList.remove('open');
-    showToast('Token saved — manage mode ready');
+function promptForPat() {
+    return new Promise((resolve) => {
+        const html = `
+            <h3>GitHub Authentication</h3>
+            <p style="font-size:13px;color:var(--text-muted);margin-bottom:14px">A Personal Access Token is needed to save changes. This is stored in your browser and only asked once.</p>
+            <div class="form-group">
+                <label>Personal Access Token</label>
+                <input id="patPromptInput" type="password" placeholder="github_pat_..." />
+            </div>
+            <div class="modal-actions">
+                <button onclick="closeModal();window._patResolve('')">Cancel</button>
+                <button class="btn-primary" onclick="closeModal();window._patResolve(document.getElementById('patPromptInput').value.trim())">Save</button>
+            </div>
+        `;
+        window._patResolve = resolve;
+        document.getElementById('modalContent').innerHTML = html;
+        document.getElementById('modalOverlay').classList.add('open');
+        setTimeout(() => document.getElementById('patPromptInput')?.focus(), 100);
+    });
 }
 
 // ── GitHub Config Save ───────────────────────────────────────────────────────
 async function saveConfigToGitHub() {
     if (!ghPat) {
-        showToast('No GitHub token set. Click Manage to enter one.', true);
-        return false;
+        const token = await promptForPat();
+        if (!token) return false;
+        ghPat = token;
+        localStorage.setItem('sm_pat', ghPat);
     }
 
     try {
