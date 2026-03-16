@@ -1,5 +1,31 @@
 [
   {
+    "id": "2129d4f10d992f2a",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-03-16T08:34:14.893006+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "c56ed1bf167b3d98",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in Ashburn (IAD) Datacenter \u2014 Resolved",
+    "link": "https://stspg.io/pqzkz63l8rvn",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-03-16T01:00:07.374000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "f59330a1b2fbf6bc",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/wjfjq1117v4v",
     "summary": "This incident has been resolved.",
     "date": "2024-12-18T11:45:13-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3bdd2d018bba6d69",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Microsoft 365 users may experience slow load times on Calendly",
-    "link": "https://stspg.io/b20bvp84kwfy",
-    "summary": "This incident has been resolved.",
-    "date": "2024-11-25T09:30:21-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "64878bf663fed1c2",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Server error message when attempting to view upcoming meetings for some users",
-    "link": "https://stspg.io/bdwrgd8k4ybv",
-    "summary": "We have confirmed the issue is no longer occurring and systems are normalized.",
-    "date": "2024-11-19T10:51:37.066000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
