@@ -16,7 +16,8 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.ninjaone.com",
-            "region_filter": ["United States"]
+            "region_filter": ["United States"],
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -27,7 +28,8 @@
           "status_url": "https://www.calendlystatus.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://www.calendlystatus.com"
+            "api_base": "https://www.calendlystatus.com",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -39,7 +41,8 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.code42.com",
-            "region_filter": ["United States", "us.code42", "us2.code42", "us7.code42"]
+            "region_filter": ["United States", "us.code42", "us2.code42", "us7.code42"],
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -72,7 +75,8 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.jamf.com",
-            "component_filter": ["Jamf Pro", "Jamf Cloud", "Jamf Connect", "Jamf Protect"]
+            "component_filter": ["Jamf Pro", "Jamf Cloud", "Jamf Connect", "Jamf Protect"],
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -84,7 +88,8 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.kuali.co",
-            "region_filter": ["United States", "Oregon"]
+            "region_filter": ["United States", "Oregon"],
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -105,7 +110,8 @@
           "status_url": "https://status.omnilert.net",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.omnilert.net"
+            "api_base": "https://status.omnilert.net",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -116,7 +122,9 @@
           "status_url": "https://status.papercut.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.papercut.com"
+            "api_base": "https://status.papercut.com",
+            "component_filter": ["PaperCut MF"],
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -160,7 +168,8 @@
           "status_url": "https://pdq.statuspage.io",
           "source": {
             "type": "statuspage",
-            "api_base": "https://pdq.statuspage.io"
+            "api_base": "https://pdq.statuspage.io",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -172,7 +181,8 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.zoom.us",
-            "component_filter": ["Zoom Meetings", "Zoom Phone", "Zoom Team Chat", "Zoom Webinars", "Zoom Contact Center", "Zoom Website"]
+            "component_filter": ["Zoom Meetings", "Zoom Phone", "Zoom Team Chat", "Zoom Webinars", "Zoom Contact Center", "Zoom Website"],
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -195,7 +205,8 @@
           "status_url": "https://www.canvastatus.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://www.canvastatus.com"
+            "api_base": "https://www.canvastatus.com",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -206,7 +217,8 @@
           "status_url": "https://clickup.statuspage.io",
           "source": {
             "type": "statuspage",
-            "api_base": "https://clickup.statuspage.io"
+            "api_base": "https://clickup.statuspage.io",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
@@ -259,7 +271,8 @@
           "status_url": "https://status.anthropic.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://status.anthropic.com"
+            "api_base": "https://status.anthropic.com",
+            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
           }
         },
         {
