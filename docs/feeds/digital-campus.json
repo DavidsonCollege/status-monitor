@@ -1,5 +1,18 @@
 [
   {
+    "id": "331d0662aad9a694",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting Real Time Media Streams (RTMS) \u2014 identified",
+    "link": "https://stspg.io/23nfdwhg9mby",
+    "summary": "Our team continues to work on a resolution. An update will be provided when more information becomes available. \n\nThank you for your patience.",
+    "date": "2026-03-16T11:48:08.285000-07:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "5b080f3599ba4b63",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/kb22d1jrl0fv",
     "summary": "Services are restored.\n\nFrom Zoom:\nServices have been restored, if you are still having connection issues please flush your DNS cache and attempt to reconnect.\n\nFor Windows open a command prompt and type \"ipconfig /flushdns\"\nFor Mac open a terminal window and type \"sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder\"",
     "date": "2025-04-16T15:30:12.132000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "72ee80526b62cc53",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly's chat support system is experiencing an unexpected outage",
-    "link": "https://stspg.io/r5lhjbv8nsl7",
-    "summary": "Our provider has confirmed chat system is working again. We are continuing to monitor stability but chats should be available again.",
-    "date": "2025-03-21T15:37:27.564000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
