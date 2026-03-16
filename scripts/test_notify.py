@@ -16,6 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from slack_notify import send_slack_notifications
 from zoom_notify import send_zoom_notifications
+from gchat_notify import send_gchat_notifications
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 CONFIG_FILE = BASE_DIR / "config" / "teams.json"
@@ -41,6 +42,7 @@ def create_test_event(team: dict, base_url: str) -> dict:
         "status": "degraded",  # Use yellow to show color coding works
         "slack_channel": team.get("slack_channel", ""),
         "zoom_channel": team.get("zoom_channel", ""),
+        "gchat_webhook": team.get("gchat_webhook", ""),
     }
 
 
@@ -75,8 +77,9 @@ def main():
 
         has_slack = bool(team.get("slack_channel"))
         has_zoom = bool(team.get("zoom_channel"))
+        has_gchat = bool(team.get("gchat_webhook"))
 
-        if not has_slack and not has_zoom:
+        if not has_slack and not has_zoom and not has_gchat:
             print(f"  ⚠  {team['name']}: no channels configured — skipping")
             continue
 
@@ -85,6 +88,8 @@ def main():
             targets.append("Slack")
         if has_zoom:
             targets.append("Zoom")
+        if has_gchat:
+            targets.append("Google Chat")
 
         item = create_test_event(team, base_url)
         test_items.append(item)
@@ -101,6 +106,9 @@ def main():
 
     print("--- Zoom ---")
     send_zoom_notifications(test_items, base_url)
+
+    print("--- Google Chat ---")
+    send_gchat_notifications(test_items, base_url)
 
     print("\n" + "=" * 60)
     print("  Done! Check your channels to confirm delivery.")
