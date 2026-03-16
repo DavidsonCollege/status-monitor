@@ -556,6 +556,27 @@
         body.manage-mode .add-team-btn,
         body.manage-mode .add-product-btn { display: block; }
 
+        .manage-actions {
+            display: none;
+            gap: 8px;
+            justify-content: center;
+            margin-top: 16px;
+        }
+
+        body.manage-mode .manage-actions { display: flex; }
+
+        .manage-actions button {
+            font-size: 12px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+            color: var(--text-muted);
+            cursor: pointer;
+        }
+
+        .manage-actions button:hover { color: var(--text); }
+
         .edit-overlay {
             display: none;
             position: absolute;
@@ -733,9 +754,6 @@ const SOURCE_TYPES = [
 let configData = null;
 let statusData = {};
 let feedData = {};
-const ghRepo = 'DavidsonCollege/status-monitor';
-let ghPat = '';
-let ghConfigSha = '';
 let manageMode = false;
 
 // Detect base URL
@@ -788,11 +806,19 @@ async function loadTeamFeed(teamId) {
 }
 
 async function init() {
-    // Restore GitHub PAT from localStorage
-    ghPat = localStorage.getItem('sm_pat') || '';
-
     await loadConfig();
     if (!configData) return;
+
+    // Apply any local config overrides from localStorage
+    const localConfig = localStorage.getItem('sm_config_override');
+    if (localConfig) {
+        try {
+            configData = JSON.parse(localConfig);
+        } catch (e) {
+            console.warn('Invalid local config override, ignoring');
+            localStorage.removeItem('sm_config_override');
+        }
+    }
 
     const teams = configData.teams || [];
     await Promise.all(teams.map(t => Promise.all([loadTeamStatus(t.id), loadTeamFeed(t.id)])));
@@ -814,6 +840,10 @@ function render() {
         html += renderTeam(team);
     }
     html += '<button class="add-team-btn" onclick="openTeamModal()">+ Add Team</button>';
+    html += `<div class="manage-actions">
+        <button onclick="downloadConfig()">⬇ Download Config</button>
+        <button onclick="resetLocalConfig()">↺ Reset to Server Config</button>
+    </div>`;
     app.innerHTML = html;
 }
 
@@ -991,73 +1021,27 @@ function toggleManageMode() {
     document.getElementById('manageBtn').classList.toggle('active', manageMode);
 }
 
-function promptForPat() {
-    return new Promise((resolve) => {
-        const html = `
-            <h3>GitHub Authentication</h3>
-            <p style="font-size:13px;color:var(--text-muted);margin-bottom:14px">A Personal Access Token is needed to save changes. This is stored in your browser and only asked once.</p>
-            <div class="form-group">
-                <label>Personal Access Token</label>
-                <input id="patPromptInput" type="password" placeholder="github_pat_..." />
-            </div>
-            <div class="modal-actions">
-                <button onclick="closeModal();window._patResolve('')">Cancel</button>
-                <button class="btn-primary" onclick="closeModal();window._patResolve(document.getElementById('patPromptInput').value.trim())">Save</button>
-            </div>
-        `;
-        window._patResolve = resolve;
-        document.getElementById('modalContent').innerHTML = html;
-        document.getElementById('modalOverlay').classList.add('open');
-        setTimeout(() => document.getElementById('patPromptInput')?.focus(), 100);
-    });
+// ── Local Config Save ────────────────────────────────────────────────────────
+function saveConfigLocally() {
+    localStorage.setItem('sm_config_override', JSON.stringify(configData));
+    showToast('Changes saved');
 }
 
-// ── GitHub Config Save ───────────────────────────────────────────────────────
-async function saveConfigToGitHub() {
-    if (!ghPat) {
-        const token = await promptForPat();
-        if (!token) return false;
-        ghPat = token;
-        localStorage.setItem('sm_pat', ghPat);
-    }
+function downloadConfig() {
+    const json = JSON.stringify(configData, null, 2) + '\n';
+    const blob = new Blob([json], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'teams.json';
+    a.click();
+    URL.revokeObjectURL(url);
+}
 
-    try {
-        // Get current SHA
-        const getResp = await fetch(`https://api.github.com/repos/${ghRepo}/contents/config/teams.json`, {
-            headers: { 'Authorization': `Bearer ${ghPat}`, 'Accept': 'application/vnd.github.v3+json' }
-        });
-        if (!getResp.ok) throw new Error(`GitHub GET failed: ${getResp.status}`);
-        const getData = await getResp.json();
-        ghConfigSha = getData.sha;
-
-        // Write updated config
-        const content = btoa(unescape(encodeURIComponent(JSON.stringify(configData, null, 2) + '\n')));
-        const putResp = await fetch(`https://api.github.com/repos/${ghRepo}/contents/config/teams.json`, {
-            method: 'PUT',
-            headers: {
-                'Authorization': `Bearer ${ghPat}`,
-                'Accept': 'application/vnd.github.v3+json',
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                message: 'Update teams.json via dashboard',
-                content: content,
-                sha: ghConfigSha,
-            }),
-        });
-
-        if (!putResp.ok) {
-            const err = await putResp.text();
-            throw new Error(`GitHub PUT failed: ${putResp.status} ${err}`);
-        }
-
-        showToast('Configuration saved to GitHub');
-        return true;
-    } catch (e) {
-        console.error('Save failed:', e);
-        showToast('Failed to save: ' + e.message, true);
-        return false;
-    }
+function resetLocalConfig() {
+    if (!confirm('Discard all local changes and reload from the server config?')) return;
+    localStorage.removeItem('sm_config_override');
+    location.reload();
 }
 
 // ── Team Modal ───────────────────────────────────────────────────────────────
@@ -1101,7 +1085,7 @@ function openTeamModal(teamIdx) {
     document.getElementById('modalOverlay').classList.add('open');
 }
 
-async function saveTeam(teamIdx) {
+function saveTeam(teamIdx) {
     const name = document.getElementById('teamName').value.trim();
     const id = document.getElementById('teamId').value.trim();
     const desc = document.getElementById('teamDesc').value.trim();
@@ -1131,21 +1115,17 @@ async function saveTeam(teamIdx) {
     closeModal();
     render();
 
-    if (await saveConfigToGitHub()) {
-        showToast('Team saved');
-    }
+    saveConfigLocally();
 }
 
-async function deleteTeam(teamIdx) {
+function deleteTeam(teamIdx) {
     const team = configData.teams[teamIdx];
     if (!confirm(`Delete team "${team.name}" and all its products?`)) return;
 
     configData.teams.splice(teamIdx, 1);
     render();
 
-    if (await saveConfigToGitHub()) {
-        showToast('Team deleted');
-    }
+    saveConfigLocally();
 }
 
 // ── Product Modal ────────────────────────────────────────────────────────────
@@ -1210,7 +1190,7 @@ function parseCommaList(str) {
     return str.split(',').map(s => s.trim()).filter(s => s.length > 0);
 }
 
-async function saveProduct(teamIdx, productIdx) {
+function saveProduct(teamIdx, productIdx) {
     const name = document.getElementById('prodName').value.trim();
     const id = document.getElementById('prodId').value.trim();
     const domain = document.getElementById('prodDomain').value.trim();
@@ -1245,21 +1225,17 @@ async function saveProduct(teamIdx, productIdx) {
     closeModal();
     render();
 
-    if (await saveConfigToGitHub()) {
-        showToast('Product saved');
-    }
+    saveConfigLocally();
 }
 
-async function deleteProduct(teamIdx, productIdx) {
+function deleteProduct(teamIdx, productIdx) {
     const product = configData.teams[teamIdx].products[productIdx];
     if (!confirm(`Delete "${product.name}"?`)) return;
 
     configData.teams[teamIdx].products.splice(productIdx, 1);
     render();
 
-    if (await saveConfigToGitHub()) {
-        showToast('Product deleted');
-    }
+    saveConfigLocally();
 }
 
 // ── Modal helpers ────────────────────────────────────────────────────────────
