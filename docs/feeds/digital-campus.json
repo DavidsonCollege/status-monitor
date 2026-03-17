@@ -1,5 +1,18 @@
 [
   {
+    "id": "e688155a6b979bf9",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 investigating",
+    "link": "https://stspg.io/08xd342xn4j3",
+    "summary": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.",
+    "date": "2026-03-16T20:54:04.692000-07:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "83d0250a6ee4bc53",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/312tkzv7xz19",
     "summary": "We resolved an issue that prevented some hosts from rescheduling Calendly events. Hosts can now successfully reschedule events as expected.",
     "date": "2025-10-13T20:00:00-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3958589507065689",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly Site Unavailable",
-    "link": "https://stspg.io/llf0wgbrcsgm",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-10T13:59:51.604000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
