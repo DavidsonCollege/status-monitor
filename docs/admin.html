@@ -885,7 +885,7 @@ const GH_TOKEN = (() => { const p = ['Z2l0aHViX3BhdF8xMUFOVUlIRkk=','MGdRMlB3T1N
 
 // Detect base URL
 const BASE_URL = (() => {
-    const path = window.location.pathname.replace(/\/index\.html$/, '').replace(/\/$/, '');
+    const path = window.location.pathname.replace(/\/[^/]*\.html$/, '').replace(/\/$/, '');
     return window.location.origin + path;
 })();
 
