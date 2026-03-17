@@ -1,5 +1,18 @@
 [
   {
+    "id": "928677e0e072e5cf",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Operational",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-17T22:17:29.905379+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "7f8d430c7e8d4911",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/xc2149ltxrdg",
     "summary": "This incident has been resolved.",
     "date": "2025-10-20T04:54:56.680000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "55766df5e43e85c0",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: EU - Increased error rates and delays on scheduled tasks",
-    "link": "https://stspg.io/4ng0fpcps7h2",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-08T08:44:15.165000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
