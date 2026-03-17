@@ -1,5 +1,44 @@
 [
   {
+    "id": "e52364305f8f2031",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-17T15:43:30.348898+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "723a9cd8e4da0879",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 monitoring",
+    "link": "https://stspg.io/bc01y922m27g",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-17T15:28:42.872000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "98df9b15a4699f7a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 identified",
+    "link": "https://stspg.io/bc01y922m27g",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-03-17T15:21:58.757000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "fce952546a15c33b",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
