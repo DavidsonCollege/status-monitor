@@ -168,10 +168,7 @@ def _build_attachments(events: list[dict], base_url: str) -> list[dict]:
                 "elements": [
                     {
                         "type": "mrkdwn",
-                        "text": (
-                            f"Updated {datetime.now(timezone.utc).strftime('%b %d, %Y %H:%M UTC')}"
-                            f" • <{base_url}|Status Monitor>"
-                        ),
+                        "text": f"Updated {datetime.now(timezone.utc).strftime('%b %d, %Y %H:%M UTC')}",
                     }
                 ],
             }

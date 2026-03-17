@@ -117,18 +117,18 @@ def _build_chatbot_body_element(event: dict) -> dict:
     }
 
 
-def _build_chatbot_footer(base_url: str) -> dict:
+def _build_chatbot_footer() -> dict:
     now = datetime.now(timezone.utc).strftime("%b %d, %Y %H:%M UTC")
     return {
         "type": "message",
-        "text": f"_{SEPARATOR}_\n_Updated {now} • <{base_url}|Status Monitor>_",
+        "text": f"_{SEPARATOR}_\n_Updated {now}_",
         "is_markdown_support": True,
     }
 
 
-def _build_chatbot_body(events: list[dict], base_url: str) -> list[dict]:
+def _build_chatbot_body(events: list[dict]) -> list[dict]:
     body = [_build_chatbot_body_element(evt) for evt in events]
-    body.append(_build_chatbot_footer(base_url))
+    body.append(_build_chatbot_footer())
     return body
 
 
@@ -222,7 +222,7 @@ def send_zoom_notifications(new_events: list[dict], base_url: str):
     # Send to each channel
     for channel_id, events in by_channel.items():
         try:
-            body = _build_chatbot_body(events, base_url)
+            body = _build_chatbot_body(events)
             ok = _send_message(channel_id, body, token, robot_jid,
                                account_id, user_jid)
             if ok:

@@ -121,8 +121,8 @@ def _build_event_card(event: dict, card_index: int) -> dict:
     }
 
 
-def _build_footer_card(base_url: str, event_count: int, card_index: int) -> dict:
-    """Build a footer card with timestamp and dashboard link."""
+def _build_footer_card(event_count: int, card_index: int) -> dict:
+    """Build a footer card with timestamp."""
     now = datetime.now(timezone.utc).strftime("%b %d, %Y %H:%M UTC")
     return {
         "cardId": f"status-footer-{card_index}",
@@ -133,16 +133,6 @@ def _build_footer_card(base_url: str, event_count: int, card_index: int) -> dict
                         "decoratedText": {
                             "text": f"<i>Updated {now}</i>",
                             "bottomLabel": f"{event_count} status update{'s' if event_count != 1 else ''}",
-                        }
-                    },
-                    {
-                        "buttonList": {
-                            "buttons": [{
-                                "text": "Open Status Dashboard",
-                                "onClick": {
-                                    "openLink": {"url": base_url}
-                                }
-                            }]
                         }
                     }
                 ]
@@ -176,7 +166,7 @@ def send_gchat_notifications(new_events: list[dict], base_url: str):
             cards = []
             for i, evt in enumerate(events):
                 cards.append(_build_event_card(evt, i))
-            cards.append(_build_footer_card(base_url, len(events), len(events)))
+            cards.append(_build_footer_card(len(events), len(events)))
 
             payload = {"cardsV2": cards}
 
