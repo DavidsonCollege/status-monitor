@@ -1,5 +1,18 @@
 [
   {
+    "id": "18a560f15a3ef517",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 identified",
+    "link": "https://stspg.io/08xd342xn4j3",
+    "summary": "We have successfully identified the root cause affecting Zoom AIC and Zoom Virtual Agent in US region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+    "date": "2026-03-16T22:18:21.465000-07:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "291ec3eba726be58",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/cg44zbt4mbrn",
     "summary": "This incident has been fully resolved and all services are now operating normally.",
     "date": "2025-10-20T04:33:23.932000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "82be738f5e596f35",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Contacts temporarily unavailable",
-    "link": "https://stspg.io/8kvndq0bpl3f",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-15T17:58:42.711000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
