@@ -1,5 +1,44 @@
 [
   {
+    "id": "dac63d90b29df7cf",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-17T03:20:21.803222+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "9a8d4537f4693c0e",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated errors for sign-in and account creation",
+    "link": "https://status.openai.com/incidents/01KKWW47249GJZZP9ZGR1PTHV5",
+    "summary": "",
+    "date": "2026-03-17T03:06:13+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
+    "id": "c3a825017ae1b75c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated Errors Affecting ChatGPT Free and Guest Plan Users",
+    "link": "https://status.openai.com/incidents/01KKWVN6G352TSSB6XFQCA8H7D",
+    "summary": "",
+    "date": "2026-03-17T02:58:01+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "a9c326c8a37f8688",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
