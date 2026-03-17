@@ -1,5 +1,31 @@
 [
   {
+    "id": "3781f44bb849ac75",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Phone Update: March 22, 2026 (No Operational Impact)",
+    "link": "https://stspg.io/562snl0wlmyt",
+    "summary": "This update includes voicemail access from phones for Auto Receptionists and Call Queues.\n\nThere is no operational impact. All services will be available during this scheduled update.\n\nFor Japan SIP zones in Tokyo and Osaka, there is a separate maintenance window: 3/22/2026 8:00AM - 10:00AM PDT (03/23/2026 00:00 - 2:00 JST)\n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062333 for more details.",
+    "date": "2026-03-17T10:07:41.931000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
+    "id": "0c140d4f8e112059",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Virtual Agent Update: March 21, 2026 (No Operational Impact)",
+    "link": "https://stspg.io/kmhp9hz5prkx",
+    "summary": "This update includes implicit resolution metrics for Zoom Virtual Agent analytics.\n\nThere is no operational impact. All services will be available during this scheduled update.\n\nPlease refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067812 for more details.",
+    "date": "2026-03-17T09:58:33.960000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "a078eaad2c971ea4",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2571,32 +2597,6 @@
     "date": "2025-10-02T15:48:23.411000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3051409bacf448fd",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Infrastructure Maintenance - US",
-    "link": "https://stspg.io/hhb7mh3t1lgy",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-03T12:05:37.896000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "1666ec1af459b61f",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Infrastructure Maintenance - US",
-    "link": "https://stspg.io/n9hvqv6brghp",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-02-26T03:10:04.149000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]
