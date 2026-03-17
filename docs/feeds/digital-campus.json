@@ -1,5 +1,18 @@
 [
   {
+    "id": "3af94ee142d9aaec",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Operational",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-17T18:07:52.252585+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "3781f44bb849ac75",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/hv3724mmfkvy",
     "summary": "This incident has been resolved.",
     "date": "2025-10-06T15:44:01.921000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "66e1971686a3ff84",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: US - NinjaOne Ticketing and ITSM/PSA Integration issues",
-    "link": "https://stspg.io/pkz20bc057pc",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-02T15:48:23.411000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
