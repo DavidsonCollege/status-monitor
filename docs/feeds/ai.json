@@ -1,5 +1,18 @@
 [
   {
+    "id": "e951b462a7383310",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 monitoring",
+    "link": "https://stspg.io/cyhl950hslxf",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-17T22:34:50.860000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "26ddbcd7536f3115",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2582,19 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KHKQWHXEF4WJY8WGX24RA07R",
     "summary": "",
     "date": "2026-02-16T17:27:35+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3d1a9076f8625803",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Delays in Support Email Processing",
-    "link": "https://status.openai.com/incidents/01KHENBA61A9PJHE092HXW60RA",
-    "summary": "",
-    "date": "2026-02-14T18:07:00+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
