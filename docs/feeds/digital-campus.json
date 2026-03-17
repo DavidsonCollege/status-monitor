@@ -1,5 +1,18 @@
 [
   {
+    "id": "c6e268735eb1a08e",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/k12sd5f08kb4",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-03-16T22:00:07.912000-04:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "0fbb6c0611aed73a",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/p1hwmbpq5psg",
     "summary": "This incident has been resolved.",
     "date": "2025-08-12T12:16:16.673000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "680b8e93e5de4cd1",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Organizations using Round Robin events may not be able to edit their event type",
-    "link": "https://stspg.io/b446w2fkvcbw",
-    "summary": "This incident has been resolved.",
-    "date": "2025-08-07T10:48:22.523000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
