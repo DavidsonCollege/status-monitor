@@ -1,5 +1,18 @@
 [
   {
+    "id": "7f8d430c7e8d4911",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Degraded Performance",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-17T20:18:37.419101+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "3af94ee142d9aaec",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/4ng0fpcps7h2",
     "summary": "This incident has been resolved.",
     "date": "2025-10-08T08:44:15.165000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "db3a869c324c2a3f",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: US2 - Ninja Remote Issues",
-    "link": "https://stspg.io/hv3724mmfkvy",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-06T15:44:01.921000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
