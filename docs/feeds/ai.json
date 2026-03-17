@@ -1,5 +1,18 @@
 [
   {
+    "id": "da2accc2df28cbec",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
+    "link": "https://stspg.io/f8cydcj4ygk8",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-17T09:46:26.822000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "f942958f0e08ee50",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
