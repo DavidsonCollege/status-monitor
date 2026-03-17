@@ -1,5 +1,31 @@
 [
   {
+    "id": "f942958f0e08ee50",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-17T08:26:17.177609+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "2068e412236ae0c4",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6",
+    "link": "https://stspg.io/0mg0y9xsmh4z",
+    "summary": "The issue has been identified and a fix is being implemented. At this stage, only free Claude.ai users are being impacted.",
+    "date": "2026-03-17T08:04:45.680000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "a996565a1c313078",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",

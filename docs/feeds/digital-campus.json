@@ -1,5 +1,18 @@
 [
   {
+    "id": "d26f6407366039b4",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 Resolved",
+    "link": "https://stspg.io/08xd342xn4j3",
+    "summary": "This incident has been resolved and the affected services have been restored.",
+    "date": "2026-03-17T01:08:51.603000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "ff2022800f4ab741",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/3mf6gx770px5",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-02-23T11:04:30.552000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "9910bf758024af80",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Infrastructure Maintenance - EU",
-    "link": "https://stspg.io/bk12sgwmmd9d",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-02-20T11:52:58.868000-06:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
