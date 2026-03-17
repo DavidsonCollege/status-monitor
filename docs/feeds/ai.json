@@ -1,5 +1,31 @@
 [
   {
+    "id": "26ddbcd7536f3115",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-17T20:59:42.962569+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "72a0cbf18711e4e5",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 investigating",
+    "link": "https://stspg.io/cyhl950hslxf",
+    "summary": "We are currently investigating this issue. We have identified mitigations which we are continuing to regularly employ as we investigate the root cause.",
+    "date": "2026-03-17T20:41:42.711000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "6f6ac426ccaed1da",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KHENBA61A9PJHE092HXW60RA",
     "summary": "",
     "date": "2026-02-14T18:07:00+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "6deaf241ab894977",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: High errors with image generation",
-    "link": "https://status.openai.com/incidents/01KHB0X2GYKJEW6WV3G1SFYPCE",
-    "summary": "",
-    "date": "2026-02-13T08:11:59+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "b950411f0eaec62e",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: ChatGPT Conversation Issues",
-    "link": "https://status.openai.com/incidents/01KH9WCWZ41K9ST9FGB1V15DFC",
-    "summary": "",
-    "date": "2026-02-12T21:34:00+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
