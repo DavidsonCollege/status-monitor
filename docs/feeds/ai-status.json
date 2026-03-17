@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-03-17T18:33:30.896079+00:00",
+  "last_checked": "2026-03-17T19:01:32.749539+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -47,8 +47,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "partial_outage",
-      "active_incidents": 2,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "Login",
@@ -144,7 +144,7 @@
         },
         {
           "name": "Conversations",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "GPTs",

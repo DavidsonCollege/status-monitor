@@ -1,5 +1,44 @@
 [
   {
+    "id": "3018c6e1be38fb03",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-03-17T19:01:32.246107+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "7bfe62bf25411d3b",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Excel Plugin is inaccessible for some users \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KKYDB848BK4162KR5XFYFZCV",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-17T18:50:07+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "8b3d914d4cb08b84",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: High Error rates with ChatGPT 5.4 Pro \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KKYG7H8Y0BAN8MGWER3H17EV",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-17T18:40:04+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "da23c62b7d750315",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
