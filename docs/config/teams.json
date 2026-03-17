@@ -17,8 +17,27 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.ninjaone.com",
-            "region_filter": ["United States"],
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "region_filter": [
+              "United States"
+            ],
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -30,7 +49,24 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://www.calendlystatus.com",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -42,8 +78,30 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.code42.com",
-            "region_filter": ["United States", "us.code42", "us2.code42", "us7.code42"],
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "region_filter": [
+              "United States",
+              "us.code42",
+              "us2.code42",
+              "us7.code42"
+            ],
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -76,8 +134,30 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.jamf.com",
-            "component_filter": ["Jamf Pro", "Jamf Cloud", "Jamf Connect", "Jamf Protect"],
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "component_filter": [
+              "Jamf Pro",
+              "Jamf Cloud",
+              "Jamf Connect",
+              "Jamf Protect"
+            ],
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -89,8 +169,28 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.kuali.co",
-            "region_filter": ["United States", "Oregon"],
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "region_filter": [
+              "United States",
+              "Oregon"
+            ],
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -112,7 +212,24 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.omnilert.net",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -124,8 +241,27 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.papercut.com",
-            "component_filter": ["PaperCut MF"],
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "component_filter": [
+              "PaperCut MF"
+            ],
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -170,7 +306,24 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://pdq.statuspage.io",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -182,8 +335,32 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.zoom.us",
-            "component_filter": ["Zoom Meetings", "Zoom Phone", "Zoom Team Chat", "Zoom Webinars", "Zoom Contact Center", "Zoom Website"],
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "component_filter": [
+              "Zoom Meetings",
+              "Zoom Phone",
+              "Zoom Team Chat",
+              "Zoom Webinars",
+              "Zoom Contact Center",
+              "Zoom Website"
+            ],
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -193,10 +370,12 @@
           "icon_url": "https://www.google.com/s2/favicons?domain=exlibrisgroup.com&sz=64",
           "status_url": "https://status.exlibrisgroup.com/system_status",
           "source": {
-                "type": "exlibris",
-                "api_base": "https://status.exlibrisgroup.com/system_status",
-                "service_filter": ["campusM"]
-            }
+            "type": "exlibris",
+            "api_base": "https://status.exlibrisgroup.com/system_status",
+            "service_filter": [
+              "campusM"
+            ]
+          }
         },
         {
           "id": "canva",
@@ -207,7 +386,24 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://www.canvastatus.com",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -219,7 +415,24 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://clickup.statuspage.io",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -252,7 +465,7 @@
       "description": "AI platform services",
       "slack_channel": "C0AK9C6MXFD",
       "zoom_channel": "b54d218b92ff4971bc51f84201fb77e8",
-      "gchat_webhook": "",
+      "gchat_webhook": "https://chat.googleapis.com/v1/spaces/AAQAYr75wjk/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=keiFKT9Y0n7K9ZVE9nmhPh_RU9aYMtysO6_DDjskcHA",
       "products": [
         {
           "id": "google-gemini",
@@ -262,7 +475,11 @@
           "status_url": "https://status.cloud.google.com",
           "source": {
             "type": "gcp_status",
-            "service_filter": ["Google AI", "Vertex AI", "Gemini"]
+            "service_filter": [
+              "Google AI",
+              "Vertex AI",
+              "Gemini"
+            ]
           }
         },
         {
@@ -274,7 +491,24 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.anthropic.com",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East", "Saudi Arabia", "Europe", "South America", "China", "Korea"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea"
+            ]
           }
         },
         {
@@ -286,7 +520,19 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.openai.com",
-            "incident_region_exclude": ["LATAM", "(EU)", "EMEA", "APAC", "Asia", "Japan", "India", "Africa", "Oceania", "Australia", "Middle East"]
+            "incident_region_exclude": [
+              "LATAM",
+              "(EU)",
+              "EMEA",
+              "APAC",
+              "Asia",
+              "Japan",
+              "India",
+              "Africa",
+              "Oceania",
+              "Australia",
+              "Middle East"
+            ]
           }
         }
       ]
