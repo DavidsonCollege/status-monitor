@@ -1,5 +1,18 @@
 [
   {
+    "id": "dd9c91c9ffe84065",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 identified",
+    "link": "https://stspg.io/08xd342xn4j3",
+    "summary": "We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.",
+    "date": "2026-03-16T23:35:32.170000-07:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "18a560f15a3ef517",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/lv3bxnp3lmmd",
     "summary": "This incident has been resolved.",
     "date": "2026-01-12T10:34:42.391000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "e74a8c9137977dca",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Partial Service Disruption \u2014 Due to AWS (Amazon Web Services) Incident",
-    "link": "https://stspg.io/cg44zbt4mbrn",
-    "summary": "This incident has been fully resolved and all services are now operating normally.",
-    "date": "2025-10-20T04:33:23.932000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
