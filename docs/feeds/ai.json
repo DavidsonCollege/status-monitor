@@ -1,5 +1,18 @@
 [
   {
+    "id": "92effb5ed5fd8775",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Excel Plugin is inaccessible for some users",
+    "link": "https://status.openai.com/incidents/01KKYDB848BK4162KR5XFYFZCV",
+    "summary": "",
+    "date": "2026-03-17T17:26:24+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "77a9390f8abd809a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
