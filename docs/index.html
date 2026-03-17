@@ -662,6 +662,23 @@
         .toast.show { opacity: 1; transform: translateY(0); }
         .toast.error { border-color: var(--red); color: var(--red); }
 
+        .review-banner {
+            background: linear-gradient(135deg, #1e3a5f 0%, #1e293b 100%);
+            border: 1px solid var(--accent);
+            border-radius: var(--radius);
+            padding: 14px 20px;
+            margin-bottom: 24px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 14px;
+            color: var(--text-muted);
+        }
+
+        .review-banner strong {
+            color: var(--text);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .container { padding: 16px; }
@@ -687,6 +704,11 @@
             </div>
         </div>
     </header>
+
+    <div class="review-banner">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+        <span><strong>Changes require approval.</strong> Edits you make here will be submitted as a change request and reviewed by an admin before taking effect.</span>
+    </div>
 
     <div id="app">
         <div class="loading">
@@ -740,7 +762,7 @@ let feedData = {};
 let manageMode = false;
 
 const GH_REPO = 'DavidsonCollege/status-monitor';
-const GH_TOKEN = (() => { const p = ['Z2l0aHViX3BhdF8xMUFOVUlIRkk=','MGdRMlB3T1NJWXhPcV84c2FqTTA=','YUh1QXBKTnBoQUtIeXpLU0tmbEQ=','Nk84RjY5TVM4RTVyekVYMzNJWVk=','Nk9XRU5BRTRvd3RCUQ==']; return p.map(s => atob(s)).join(''); })();
+const GH_TOKEN = (() => { const p = ['REPLACE_WITH','_PUBLIC_PAT','_PARTS']; return p.map(s => atob(s)).join(''); })();
 
 // Detect base URL
 const BASE_URL = (() => {
@@ -997,18 +1019,42 @@ function toggleManageMode() {
 
 // ── Save Config to GitHub ────────────────────────────────────────────────────
 let _saving = false;
-async function saveConfigToRepo() {
+async function saveConfigToRepo(changeDescription) {
     if (_saving) return;
     _saving = true;
     try {
-        // Get current file SHA
-        const getResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/config/teams.json`, {
+        // Get latest main SHA
+        const mainResp = await fetch(`https://api.github.com/repos/${GH_REPO}/git/refs/heads/main`, {
             headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
         });
-        if (!getResp.ok) throw new Error(`Failed to read config: ${getResp.status}`);
-        const { sha } = await getResp.json();
+        if (!mainResp.ok) throw new Error(`Failed to get main ref: ${mainResp.status}`);
+        const { object: { sha: mainSha } } = await mainResp.json();
 
-        // Write updated config
+        // Create new branch
+        const timestamp = Date.now();
+        const branchName = `dashboard-change/${timestamp}`;
+        const branchResp = await fetch(`https://api.github.com/repos/${GH_REPO}/git/refs`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${GH_TOKEN}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                ref: `refs/heads/${branchName}`,
+                sha: mainSha,
+            }),
+        });
+        if (!branchResp.ok) throw new Error(`Failed to create branch: ${branchResp.status}`);
+
+        // Get file SHA on new branch
+        const getResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/config/teams.json?ref=${branchName}`, {
+            headers: { 'Authorization': `Bearer ${GH_TOKEN}`, 'Accept': 'application/vnd.github.v3+json' }
+        });
+        if (!getResp.ok) throw new Error(`Failed to read config on branch: ${getResp.status}`);
+        const { sha: fileSha } = await getResp.json();
+
+        // Commit new config to branch
         const content = btoa(unescape(encodeURIComponent(JSON.stringify(configData, null, 2) + '\n')));
         const putResp = await fetch(`https://api.github.com/repos/${GH_REPO}/contents/config/teams.json`, {
             method: 'PUT',
@@ -1018,19 +1064,56 @@ async function saveConfigToRepo() {
                 'Content-Type': 'application/json',
             },
             body: JSON.stringify({
-                message: 'Update teams.json via dashboard',
+                message: `Dashboard change: ${changeDescription}`,
                 content: content,
-                sha: sha,
+                sha: fileSha,
+                branch: branchName,
             }),
         });
         if (!putResp.ok) {
             const err = await putResp.text();
-            throw new Error(`Save failed: ${putResp.status} ${err}`);
+            throw new Error(`Commit failed: ${putResp.status} ${err}`);
         }
-        showToast('Changes saved');
+
+        // Create PR
+        const prResp = await fetch(`https://api.github.com/repos/${GH_REPO}/pulls`, {
+            method: 'POST',
+            headers: {
+                'Authorization': `Bearer ${GH_TOKEN}`,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                title: `[Dashboard] ${changeDescription}`,
+                head: branchName,
+                base: 'main',
+                body: `This change was submitted via the public dashboard.\n\n**Description:** ${changeDescription}\n\n---\nPlease review and approve or reject this change.`,
+            }),
+        });
+        if (!prResp.ok) {
+            const err = await prResp.text();
+            throw new Error(`PR creation failed: ${prResp.status} ${err}`);
+        }
+        const pr = await prResp.json();
+
+        // Show success modal with PR link
+        const html = `
+            <div style="text-align: center; padding: 20px;">
+                <h3>Change Submitted for Review</h3>
+                <p style="margin: 16px 0; color: var(--text-muted);">Your changes have been submitted as a pull request and will be reviewed by an admin.</p>
+                <div style="margin: 24px 0;">
+                    <a href="${pr.html_url}" target="_blank" style="color: var(--accent); text-decoration: none; font-weight: 600;">View Pull Request #${pr.number}</a>
+                </div>
+                <div class="modal-actions">
+                    <button class="btn-primary" onclick="closeModal(); window.location.reload()">OK</button>
+                </div>
+            </div>
+        `;
+        document.getElementById('modalContent').innerHTML = html;
+        document.getElementById('modalOverlay').classList.add('open');
     } catch (e) {
         console.error('Save error:', e);
-        showToast('Failed to save: ' + e.message, true);
+        showToast('Failed to submit: ' + e.message, true);
     } finally {
         _saving = false;
     }
@@ -1069,7 +1152,7 @@ function openTeamModal(teamIdx) {
         </div>
         <div class="modal-actions">
             <button onclick="closeModal()">Cancel</button>
-            <button class="btn-primary" onclick="saveTeam(${isEdit ? teamIdx : 'undefined'})">Save</button>
+            <button class="btn-primary" onclick="saveTeam(${isEdit ? teamIdx : 'undefined'})">Submit for Review</button>
         </div>
     `;
 
@@ -1087,7 +1170,8 @@ function saveTeam(teamIdx) {
 
     if (!name || !id) { showToast('Name and ID are required', true); return; }
 
-    if (teamIdx !== undefined) {
+    const isEdit = teamIdx !== undefined;
+    if (isEdit) {
         // Edit existing
         configData.teams[teamIdx].name = name;
         configData.teams[teamIdx].description = desc;
@@ -1107,7 +1191,7 @@ function saveTeam(teamIdx) {
     closeModal();
     render();
 
-    saveConfigToRepo();
+    saveConfigToRepo(isEdit ? `Edit team "${name}"` : `Add team "${name}"`);
 }
 
 function deleteTeam(teamIdx) {
@@ -1117,7 +1201,7 @@ function deleteTeam(teamIdx) {
     configData.teams.splice(teamIdx, 1);
     render();
 
-    saveConfigToRepo();
+    saveConfigToRepo(`Remove team "${team.name}"`);
 }
 
 // ── Product Modal ────────────────────────────────────────────────────────────
@@ -1170,7 +1254,7 @@ function openProductModal(teamIdx, productIdx) {
         </div>
         <div class="modal-actions">
             <button onclick="closeModal()">Cancel</button>
-            <button class="btn-primary" onclick="saveProduct(${teamIdx}, ${isEdit ? productIdx : 'undefined'})">Save</button>
+            <button class="btn-primary" onclick="saveProduct(${teamIdx}, ${isEdit ? productIdx : 'undefined'})">Submit for Review</button>
         </div>
     `;
 
@@ -1208,7 +1292,9 @@ function saveProduct(teamIdx, productIdx) {
         source,
     };
 
-    if (productIdx !== undefined) {
+    const teamName = configData.teams[teamIdx].name;
+    const isEdit = productIdx !== undefined;
+    if (isEdit) {
         configData.teams[teamIdx].products[productIdx] = product;
     } else {
         configData.teams[teamIdx].products.push(product);
@@ -1217,17 +1303,18 @@ function saveProduct(teamIdx, productIdx) {
     closeModal();
     render();
 
-    saveConfigToRepo();
+    saveConfigToRepo(isEdit ? `Edit product "${name}" in ${teamName}` : `Add product "${name}" to ${teamName}`);
 }
 
 function deleteProduct(teamIdx, productIdx) {
     const product = configData.teams[teamIdx].products[productIdx];
+    const teamName = configData.teams[teamIdx].name;
     if (!confirm(`Delete "${product.name}"?`)) return;
 
     configData.teams[teamIdx].products.splice(productIdx, 1);
     render();
 
-    saveConfigToRepo();
+    saveConfigToRepo(`Remove product "${product.name}" from ${teamName}`);
 }
 
 // ── Modal helpers ────────────────────────────────────────────────────────────
