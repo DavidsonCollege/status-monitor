@@ -1,5 +1,18 @@
 [
   {
+    "id": "0fbb6c0611aed73a",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/k12sd5f08kb4",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-03-16T21:00:11.042000-04:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "97cc6e0fdede80c7",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/b446w2fkvcbw",
     "summary": "This incident has been resolved.",
     "date": "2025-08-07T10:48:22.523000-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "ee4e9b35c0b5f201",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Contacts are not loading",
-    "link": "https://stspg.io/wtt1k3nmhvmh",
-    "summary": "Calendly contacts are recovered and service has been stable.",
-    "date": "2025-07-14T11:40:22.803000-04:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
