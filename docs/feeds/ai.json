@@ -1,5 +1,18 @@
 [
   {
+    "id": "71a7e79a1d250302",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: User Requests Timing Out / Content Not Loading \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
+    "summary": "Status: investigating",
+    "date": "2026-03-18T17:31:46+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "c719e802d66744c6",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-02-24T12:22:32.531000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "27699741af0b3ef2",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Upgrades to Connector Auth Storage",
-    "link": "https://stspg.io/kzxt8ykxyx3j",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-08-29T01:23:38.417000+00:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]
