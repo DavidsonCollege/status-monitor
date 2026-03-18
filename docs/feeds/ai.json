@@ -1,5 +1,31 @@
 [
   {
+    "id": "adb71779f133ccbf",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-03-18T16:19:47.665877+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "ffcd4e8effbe2198",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 Resolved",
+    "link": "https://stspg.io/jcjx5xg9f66m",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-18T16:05:10.845000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "171d5bf3002914da",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2571,32 +2597,6 @@
     "date": "2024-12-13T18:39:41.950000+00:00",
     "status": "resolved",
     "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "43b3be97458f1a17",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Issues with Increased Codex Usage Rate",
-    "link": "https://status.openai.com/incidents/01KK26XE1W536H7DQV2EXM3GHE",
-    "summary": "",
-    "date": "2026-03-06T18:35:16+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "22eed1bfe1205fca",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Login Issues",
-    "link": "https://status.openai.com/incidents/01KK2T9TNTF5V3BSJ9T8D2S5CY",
-    "summary": "",
-    "date": "2026-03-07T00:14:05+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
