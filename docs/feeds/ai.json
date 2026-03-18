@@ -1,5 +1,31 @@
 [
   {
+    "id": "c9c0d306c164217f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-18T00:52:26.541752+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a8667edb4159c725",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/cyhl950hslxf",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-18T00:25:50.924000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "e951b462a7383310",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KHRP7P1JF885BYA8SDWBDBR1",
     "summary": "",
     "date": "2026-02-18T15:34:54+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "cf5db471cf63054a",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Shopping Research Feature Down",
-    "link": "https://status.openai.com/incidents/01KHM3D6HBAX95H7V8MXHNKDK6",
-    "summary": "",
-    "date": "2026-02-16T20:48:54+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "c67baafc1d7e79a5",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased error rates on Codex Cloud",
-    "link": "https://status.openai.com/incidents/01KHKQWHXEF4WJY8WGX24RA07R",
-    "summary": "",
-    "date": "2026-02-16T17:27:35+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
