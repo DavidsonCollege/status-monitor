@@ -1,5 +1,18 @@
 [
   {
+    "id": "c0cbcca24876b0b6",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Increased errors on Opus 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/69k3zwmxf312",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-18T13:58:17.014000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "c6e190ebc9a22485",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2582,19 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KJXQDJ6P1CG5YNXKZRY2H6RX",
     "summary": "",
     "date": "2026-03-05T00:47:30+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "5e88e56ffd596aeb",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors in ChatGPT file uploads",
-    "link": "https://status.openai.com/incidents/01KJT9GR84M7S3RQJDPSHEQHYE",
-    "summary": "",
-    "date": "2026-03-03T16:46:51+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
