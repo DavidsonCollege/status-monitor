@@ -1,5 +1,18 @@
 [
   {
+    "id": "d97dde81b5286d93",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Sora video generation failing \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
+    "summary": "Status: investigating",
+    "date": "2026-03-18T17:56:00+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "71a7e79a1d250302",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/89nr793m4sgh",
     "summary": "This incident has been resolved.",
     "date": "2026-02-25T13:58:03.414000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "4a4eab007fd89410",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6",
-    "link": "https://stspg.io/pjhqc48w92tt",
-    "summary": "As of 5:10 PT / 13:10 UTC errors are back to baseline.",
-    "date": "2026-02-24T12:22:32.531000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
