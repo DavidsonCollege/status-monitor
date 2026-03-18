@@ -1,5 +1,31 @@
 [
   {
+    "id": "5975afb2a9d05519",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-18T15:21:00.246608+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a6209daa944c2360",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai",
+    "link": "https://stspg.io/jcjx5xg9f66m",
+    "summary": "Claude Code login/logout actions are also affected by this outage.",
+    "date": "2026-03-18T15:16:38.231000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "c0cbcca24876b0b6",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KJZG0ADWGBF4K6AJ5EDFV52T",
     "summary": "",
     "date": "2026-03-05T17:16:24+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7718f448b8428840",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: User may experience errors in ChatGPT",
-    "link": "https://status.openai.com/incidents/01KJXSQH2Y0XHSNCXM9R7T968C",
-    "summary": "",
-    "date": "2026-03-05T01:27:53+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "bfc3dd945999729d",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: API Error Rates",
-    "link": "https://status.openai.com/incidents/01KJXQDJ6P1CG5YNXKZRY2H6RX",
-    "summary": "",
-    "date": "2026-03-05T00:47:30+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"

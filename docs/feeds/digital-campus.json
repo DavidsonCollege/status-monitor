@@ -1,5 +1,18 @@
 [
   {
+    "id": "039fb0d4535ae454",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - CA/US/US2",
+    "link": "https://stspg.io/qgnh9cf30tbz",
+    "summary": "We will be performing scheduled infrastructure maintenance to enhance your service experience.",
+    "date": "2026-03-18T10:18:09.543000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "ce3be2e1234b67e7",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/8l0bqzd7byh0",
     "summary": "Ninja/Dropsuite SSO Navigation has been restored.",
     "date": "2025-11-06T11:18:17.425000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "cbcddfeb192baca1",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Agent installation issues on ESXi/VMWare",
-    "link": "https://stspg.io/svzldrg9bbyk",
-    "summary": "This incident has been resolved.",
-    "date": "2025-11-04T11:07:41.448000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
