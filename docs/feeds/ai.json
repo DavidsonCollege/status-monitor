@@ -1,5 +1,18 @@
 [
   {
+    "id": "021aa5956b1beb62",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Sora video generation failing \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
+    "summary": "Status: monitoring",
+    "date": "2026-03-18T18:47:49+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "474e86d5edf95165",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/1d7dbqypfjlq",
     "summary": "This incident has been resolved.",
     "date": "2026-02-25T19:15:27.669000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "44e68b43ae7cfa1e",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates across multiple models",
-    "link": "https://stspg.io/c1h5xmq6x0mm",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-25T17:15:01.672000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
