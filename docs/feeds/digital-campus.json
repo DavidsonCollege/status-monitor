@@ -1,5 +1,31 @@
 [
   {
+    "id": "3c9d9c1da705e2f0",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Workforce Management Update: March 21, 2026 (No Operational Impact)",
+    "link": "https://stspg.io/txlfynsnx6yd",
+    "summary": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. This update includes self-healing capabilities that automatically detect and resolve issues during intraday operations.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+    "date": "2026-03-18T00:00:55.768000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
+    "id": "4b9b56e9f5000134",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Contact Center Update: March 21,2026 (No Operational Impact)",
+    "link": "https://stspg.io/xrldnhv0rqt2",
+    "summary": "We will be providing an update to Zoom Contact Center. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0067626 for more details. This update includes Zoom Contact Center Engagement capabilities.\n\nThere is no operational impact. All services will be available during this scheduled update.",
+    "date": "2026-03-17T23:50:53.147000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "928677e0e072e5cf",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/643yvyzf98xs",
     "summary": "This incident has been resolved.",
     "date": "2025-10-22T03:08:04.667000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "35ce3a4ba50f3318",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Multiple third party providers continue to be impacted by cloud service outage - including SMS messaging",
-    "link": "https://stspg.io/zjb1fm4p2rgm",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-20T10:35:54.093000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "812dce67bdf2a85f",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Multiple third party providers impacted by cloud service outage - including SMS messaging",
-    "link": "https://stspg.io/xc2149ltxrdg",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-20T04:54:56.680000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
