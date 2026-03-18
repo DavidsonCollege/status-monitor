@@ -1,5 +1,18 @@
 [
   {
+    "id": "077e40150a309cbf",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/nwxlxqp6lvnh",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-18T09:45:53.714000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "6c83ce5924275301",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2582,19 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KJD45ZHJHG8XM53V20JKKYNV",
     "summary": "",
     "date": "2026-02-26T14:03:27+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7fa10ae21a29bdf3",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Artifact generation (asking the model to generate a spreadsheet or slideshow) on ChatGPT is down for all users.",
-    "link": "https://status.openai.com/incidents/01KJB80QA8P62R9X3B71YAZEAK",
-    "summary": "",
-    "date": "2026-02-25T20:32:00+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
