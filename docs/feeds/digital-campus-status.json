@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-18T16:19:46.124265+00:00",
+  "last_checked": "2026-03-18T16:45:17.186147+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -72,7 +72,60 @@
       "status_url": "https://status.accruent.com",
       "overall_status": "operational",
       "active_incidents": 0,
-      "components": []
+      "components": [
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        }
+      ]
     },
     {
       "id": "google-workspace",

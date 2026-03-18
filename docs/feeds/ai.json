@@ -1,5 +1,18 @@
 [
   {
+    "id": "c719e802d66744c6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: User Requests Timing Out / Content Not Loading \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
+    "summary": "Status: investigating",
+    "date": "2026-03-18T16:41:02+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "adb71779f133ccbf",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/kzxt8ykxyx3j",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2025-08-29T01:23:38.417000+00:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "83222c3d20ab885f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Scheduled maintenance for Claude.ai and Anthropic Console",
-    "link": "https://stspg.io/6g6xhf17sbrb",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2024-12-13T18:39:41.950000+00:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
