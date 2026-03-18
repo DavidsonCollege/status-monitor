@@ -1,5 +1,31 @@
 [
   {
+    "id": "6c078fe0e289d50a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-18T12:33:06.646080+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a776af60d1604e07",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Increased errors on Opus 4.6",
+    "link": "https://stspg.io/69k3zwmxf312",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-18T12:30:57.440000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "077e40150a309cbf",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KJQMDBTHS18NGB9Q5M0NH7A1",
     "summary": "",
     "date": "2026-03-02T15:59:31+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "6ed66cf1880d8be3",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased Authentication Failures Affecting Some Users",
-    "link": "https://status.openai.com/incidents/01KJM0AYG5PAY9EYRFH4T6JHP6",
-    "summary": "",
-    "date": "2026-03-01T06:10:57+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3475c51512f5082b",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Issue with some ChatGPT Apps",
-    "link": "https://status.openai.com/incidents/01KJD45ZHJHG8XM53V20JKKYNV",
-    "summary": "",
-    "date": "2026-02-26T14:03:27+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
