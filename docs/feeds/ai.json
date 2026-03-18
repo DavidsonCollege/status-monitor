@@ -1,5 +1,31 @@
 [
   {
+    "id": "5225f48296ad5f4b",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-03-18T19:29:51.643116+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "7dfdb4898e67b3dd",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Sora video generation failing \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-18T19:14:09+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "021aa5956b1beb62",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/715rf6cjkvsd",
     "summary": "We've confirmed this issue is resolved in Claude Code v2.1.61. Run `claude update` for the latest.",
     "date": "2026-02-26T19:57:36.566000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7a156744e92a863a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Desktop failing to open for some users",
-    "link": "https://stspg.io/knxz32syjn6d",
-    "summary": "If Claude fails to launch on your computer, please download the latest version from download the latest version on https://claude.com/download. We have now fixed the underlying issue.",
-    "date": "2026-02-25T16:23:04+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "5a133ccbeb07baa1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
-    "link": "https://stspg.io/1d7dbqypfjlq",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-25T19:15:27.669000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
