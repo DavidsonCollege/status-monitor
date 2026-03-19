@@ -1,5 +1,18 @@
 [
   {
+    "id": "24c199b0bf8f4cea",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-19T22:13:24.312500+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "855de6872bae6b35",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-11T00:00:14.832000-05:00",
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "33bd2b22eb1ded08",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v12.1.0 - US2 \u2014 monitoring",
-    "link": "https://stspg.io/kbfqfbdkncjn",
-    "summary": "Verification is currently underway for the maintenance items.",
-    "date": "2026-03-10T23:16:42.630000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]
