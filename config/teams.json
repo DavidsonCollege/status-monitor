@@ -616,6 +616,16 @@
           "source": {
             "type": "slack_status"
           }
+        },
+        {
+          "id": "Ad Astra",
+          "name": "Ad Astra",
+          "domain": "adastra.live",
+          "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+          "status_url": "https://status.adastra.live/",
+          "source": {
+            "type": "html_scrape"
+          }
         }
       ]
     },
