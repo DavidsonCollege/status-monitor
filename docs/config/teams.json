@@ -36,7 +36,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -65,7 +79,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -100,7 +128,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -156,7 +198,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -189,7 +245,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -228,7 +298,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -260,7 +344,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -322,7 +420,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -335,6 +447,12 @@
           "source": {
             "type": "statuspage",
             "api_base": "https://status.zoom.us",
+            "region_filter": [
+              "North America",
+              "US",
+              "United States",
+              "NA"
+            ],
             "component_filter": [
               "Zoom Meetings",
               "Zoom Phone",
@@ -359,7 +477,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -402,7 +534,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -431,7 +577,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -507,7 +667,21 @@
               "Europe",
               "South America",
               "China",
-              "Korea"
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         },
@@ -531,7 +705,26 @@
               "Africa",
               "Oceania",
               "Australia",
-              "Middle East"
+              "Middle East",
+              "Saudi Arabia",
+              "Europe",
+              "South America",
+              "China",
+              "Korea",
+              "Singapore",
+              "Hong Kong",
+              "Taiwan",
+              "Thailand",
+              "Vietnam",
+              "Indonesia",
+              "Malaysia",
+              "Philippines",
+              "Brazil",
+              "Argentina",
+              "Mexico",
+              "Colombia",
+              "Chile",
+              "Peru"
             ]
           }
         }
