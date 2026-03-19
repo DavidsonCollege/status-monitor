@@ -18,7 +18,7 @@
             "type": "statuspage",
             "api_base": "https://status.ninjaone.com",
             "region_filter": [
-              "United States"
+              "US2"
             ],
             "incident_region_exclude": [
               "LATAM",
@@ -50,7 +50,15 @@
               "Mexico",
               "Colombia",
               "Chile",
-              "Peru"
+              "Peru",
+              "EU",
+              "EU1",
+              "EU2",
+              "AP1",
+              "AP2",
+              "OC1",
+              "US1",
+              "US3"
             ]
           }
         },
