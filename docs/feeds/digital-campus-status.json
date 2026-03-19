@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-19T20:09:33.860863+00:00",
+  "last_checked": "2026-03-19T20:27:28.395505+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -262,26 +262,9 @@
       "name": "SmartDeploy",
       "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
       "status_url": "https://pdq.statuspage.io",
-      "overall_status": "operational",
+      "overall_status": "unknown",
       "active_incidents": 0,
-      "components": [
-        {
-          "name": "Deploy & Inventory Package Library",
-          "status": "operational"
-        },
-        {
-          "name": "SmartDeploy",
-          "status": "operational"
-        },
-        {
-          "name": "Billing Portal",
-          "status": "operational"
-        },
-        {
-          "name": "Auth",
-          "status": "operational"
-        }
-      ]
+      "components": []
     },
     {
       "id": "zoom",
