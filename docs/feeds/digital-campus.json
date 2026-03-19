@@ -1,5 +1,18 @@
 [
   {
+    "id": "e5953f4f1edfd2e4",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - CA/US/US2 \u2014 monitoring",
+    "link": "https://stspg.io/qgnh9cf30tbz",
+    "summary": "Verification is currently underway for the maintenance items.",
+    "date": "2026-03-18T22:08:49.543000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "83285bc8b09b2953",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/sfrndxdrrlp3",
     "summary": "This incident has been resolved.",
     "date": "2025-11-17T16:25:57.276000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "81d53183e8c96e1d",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Agent communication to backend service for some customers degraded.",
-    "link": "https://stspg.io/l4d215nm2lsg",
-    "summary": "This incident has been resolved.",
-    "date": "2025-11-13T13:46:33.137000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
