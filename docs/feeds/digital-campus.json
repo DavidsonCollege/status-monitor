@@ -1,5 +1,31 @@
 [
   {
+    "id": "83285bc8b09b2953",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Under Maintenance",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-03-19T01:15:13.960072+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "822de470a8bec747",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - CA/US/US2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/qgnh9cf30tbz",
+    "summary": "We're currently upgrading infrastructure in your region. You might notice slower load times or intermittent availability. We expect to finish these enhancements to your experience promptly.",
+    "date": "2026-03-18T20:01:47.155000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "d21145ba8eaa1970",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/l4d215nm2lsg",
     "summary": "This incident has been resolved.",
     "date": "2025-11-13T13:46:33.137000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "4a38c58d62462208",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: CA - Mac Installer Issues",
-    "link": "https://stspg.io/rwt3qhxyly1p",
-    "summary": "This incident has been resolved.",
-    "date": "2025-11-12T05:27:45.769000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "dcd5a21a344732fa",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Missing organization and location custom field data",
-    "link": "https://stspg.io/n411wzq93q0v",
-    "summary": "This incident has been resolved.",
-    "date": "2025-11-12T08:32:58.348000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
