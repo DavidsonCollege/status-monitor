@@ -1,5 +1,31 @@
 [
   {
+    "id": "1da3a0149943e709",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-19T00:42:04.474506+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "bd6937db10b2a350",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors across surfaces",
+    "link": "https://stspg.io/f87vxdn6g57k",
+    "summary": "We are currently investigating this issue. Our team is actively working to identify the root cause.",
+    "date": "2026-03-19T00:28:57.039000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "5225f48296ad5f4b",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/v4wjhwtbly9p",
     "summary": "This incident has been resolved. Impact: Feb 26 ~02:00 to Feb 27 06:20 UTC. Usage report API endpoints and analytics dashboards experienced errors and missing data due to an internal data service issue. All endpoints have been restored and historical data is now displaying correctly. We apologize for any inconvenience caused.",
     "date": "2026-02-26T15:56:22.173000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "5637336314cbc617",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on claude.ai",
-    "link": "https://stspg.io/vj2380xy2067",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-27T12:59:33.177000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "9f196ff6b7302deb",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Code showing \"JSON Parse error: Unexpected EOF\" and writing excessive files on Windows",
-    "link": "https://stspg.io/715rf6cjkvsd",
-    "summary": "We've confirmed this issue is resolved in Claude Code v2.1.61. Run `claude update` for the latest.",
-    "date": "2026-02-26T19:57:36.566000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
