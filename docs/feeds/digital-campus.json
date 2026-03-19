@@ -1,5 +1,18 @@
 [
   {
+    "id": "06024fb7ba44b0b0",
+    "product_id": "securew2",
+    "product_name": "SecureW2",
+    "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
+    "title": "SecureW2: Degraded Performance",
+    "link": "https://status.securew2.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-19T10:40:29.454645+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "43545ba517e6fcc1",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/f6h5rzvdp49s",
     "summary": "This incident has been resolved.",
     "date": "2025-12-10T04:47:14.633000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3238ac3b5c378b85",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: EU - Login issues reported on a subset of customers",
-    "link": "https://stspg.io/dqd87xpnx8hs",
-    "summary": "This incident has been resolved.",
-    "date": "2025-11-28T04:46:59.607000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
