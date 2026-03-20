@@ -1,5 +1,18 @@
 [
   {
+    "id": "d648eaa76f7b073d",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 investigating",
+    "link": "https://stspg.io/jn0w9kv5x31l",
+    "summary": "We are continuing to investigate this incident.",
+    "date": "2026-03-20T16:06:54.715000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "82f085a63abb44df",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "6249e97a124a75ea",
-    "product_id": "scribe",
-    "product_name": "Scribe",
-    "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
-    "title": "Scribe: Unknown",
-    "link": "https://status.scribehow.com",
-    "summary": "Status changed from Operational to Unknown",
-    "date": "2026-03-11T07:41:07.986658+00:00",
-    "status": "unknown",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
