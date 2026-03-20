@@ -1,5 +1,18 @@
 [
   {
+    "id": "748ea72c579a66bb",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 Resolved",
+    "link": "https://stspg.io/jn0w9kv5x31l",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-20T23:45:06.872000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "c5af56714d4203b8",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Unknown",
     "date": "2026-03-11T10:26:11.589669+00:00",
     "status": "unknown",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "6a8142f3e1f9fa84",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Operational",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-03-11T08:42:45.463302+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
