@@ -1,5 +1,18 @@
 [
   {
+    "id": "488a3a4bf9d21184",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Unknown",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Operational to Unknown",
+    "date": "2026-03-20T10:22:19.102914+00:00",
+    "status": "unknown",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "de3cb2b9cf7d9f11",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-11T01:32:06.395000-05:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "b42057841df44caa",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v12.1.0 - US2 \u2014 monitoring",
-    "link": "https://stspg.io/kbfqfbdkncjn",
-    "summary": "We are continuing to verify the maintenance items.",
-    "date": "2026-03-11T01:52:00.335000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]
