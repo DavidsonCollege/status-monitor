@@ -1519,18 +1519,32 @@ def main():
             pname = product["name"]
             print(f"  Checking: {pname}")
 
+            # Get previous state for fallback on errors
+            prev_product_state = team_state.get(pid, {})
+
             try:
                 status_data = check_product(product)
             except Exception as exc:
                 print(f"    [ERROR] {exc}")
                 status_data = {"overall_status": "unknown", "components": [], "incidents": []}
 
+            # If the check returned "unknown" (either from an exception or
+            # because the checker couldn't parse the page), preserve the last
+            # known good state to avoid false status-change alerts.
+            if (status_data.get("overall_status") == "unknown"
+                    and prev_product_state
+                    and prev_product_state.get("overall_status") not in ("unknown", None)):
+                print(f"    Check returned unknown — preserving last known state: "
+                      f"{prev_product_state.get('overall_status')}")
+                status_data = {
+                    "overall_status": prev_product_state.get("overall_status", "unknown"),
+                    "components": prev_product_state.get("components", []),
+                    "incidents": prev_product_state.get("incidents", []),
+                }
+
             product_statuses[pid] = status_data
 
-            # Get previous state for this product
-            prev_product_state = team_state.get(pid, {})
-
-            # Detect changes
+            # Detect changes (prev_product_state already fetched above)
             events = detect_changes(pid, pname, status_data, prev_product_state, seen_updates)
 
             if events:
