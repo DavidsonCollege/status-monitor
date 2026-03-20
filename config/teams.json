@@ -371,17 +371,6 @@
           }
         },
         {
-          "id": "screencloud",
-          "name": "ScreenCloud",
-          "domain": "screencloud.com",
-          "icon_url": "https://www.google.com/s2/favicons?domain=screencloud.com&sz=64",
-          "status_url": "https://status.screencloud.com",
-          "source": {
-            "type": "html_scrape",
-            "api_base": "https://status.screencloud.com"
-          }
-        },
-        {
           "id": "securew2",
           "name": "SecureW2",
           "domain": "securew2.com",
