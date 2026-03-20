@@ -1,5 +1,31 @@
 [
   {
+    "id": "0f5319af4065469c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-20T17:48:35.258011+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "afa1f7ba518da9ae",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Pinned chats are not loading on web browsers for ChatGPT \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ",
+    "summary": "Status: monitoring",
+    "date": "2026-03-20T17:32:40+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "86ad0f9f9f12c985",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/xf8px24t8bcm",
     "summary": "This incident has been resolved.",
     "date": "2026-03-03T14:51:07.408000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "9cdefeda11663621",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
-    "link": "https://stspg.io/1vw47yyfyvj2",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-03T06:59:48.209000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "71eb988d257e6641",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors in claude.ai, cowork, platform, claude code",
-    "link": "https://stspg.io/yjsqlbbrp0jm",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-03T03:15:21.457000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
