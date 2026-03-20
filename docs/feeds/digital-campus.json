@@ -1,5 +1,18 @@
 [
   {
+    "id": "c3f7b16c18ad50e0",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-03-20T23:01:14.472258+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "041058a09a65f6fe",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "cdca0667da6a5420",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Infrastructure Maintenance - US \u2014 monitoring",
-    "link": "https://stspg.io/h51y2xb3js3y",
-    "summary": "We are continuing to verify the maintenance items.",
-    "date": "2026-03-11T03:22:39.821000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
