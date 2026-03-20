@@ -1,5 +1,18 @@
 [
   {
+    "id": "86ad0f9f9f12c985",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Pinned chats are not loading on web browsers for ChatGPT \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ",
+    "summary": "Status: identified",
+    "date": "2026-03-20T15:24:46+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "97e461cdfea9164d",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/yjsqlbbrp0jm",
     "summary": "This incident has been resolved.",
     "date": "2026-03-03T03:15:21.457000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "962ba43e20e32c81",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
-    "link": "https://stspg.io/blfzg5ql01m2",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-02T17:56:23.390000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
