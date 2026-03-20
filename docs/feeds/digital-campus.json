@@ -1,5 +1,18 @@
 [
   {
+    "id": "f1f622b689ba118b",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 investigating",
+    "link": "https://stspg.io/jn0w9kv5x31l",
+    "summary": "We are actively investigating this incident, currently we have engaged our cloud infrastructure service partner. Our joint teams are working together to resolve the issue.",
+    "date": "2026-03-20T19:11:09.799000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "b8a1b87326e2f1e9",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "239c447c318d545b",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v12.1.0 - US \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/h51y2xb3js3y",
-    "summary": "We will be undergoing scheduled maintenance during this time.",
-    "date": "2026-03-11T03:20:35.751000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
   }
 ]
