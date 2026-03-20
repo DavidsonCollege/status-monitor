@@ -1,5 +1,18 @@
 [
   {
+    "id": "b8a1b87326e2f1e9",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - March 2026",
+    "link": "https://stspg.io/w3pmdm8bbbwh",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-03-20T11:41:08.059000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "d648eaa76f7b073d",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-11T03:20:35.751000-05:00",
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "8c91e730bb8f5c47",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v12.1.0 - US \u2014 monitoring",
-    "link": "https://stspg.io/h51y2xb3js3y",
-    "summary": "Verification is currently underway for the maintenance items.",
-    "date": "2026-03-11T03:20:22.933000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]
