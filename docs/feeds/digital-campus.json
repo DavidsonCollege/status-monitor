@@ -1,5 +1,18 @@
 [
   {
+    "id": "041058a09a65f6fe",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 identified",
+    "link": "https://stspg.io/jn0w9kv5x31l",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-20T22:07:41.864000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "81d851d8ba055505",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/h51y2xb3js3y",
     "summary": "We are continuing to verify the maintenance items.",
     "date": "2026-03-11T03:22:39.821000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "be77a5aaf46e4145",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Infrastructure Maintenance - US \u2014 monitoring",
-    "link": "https://stspg.io/h51y2xb3js3y",
-    "summary": "Verification is currently underway for the maintenance items.",
-    "date": "2026-03-11T03:21:34.107000-05:00",
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
