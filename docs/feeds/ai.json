@@ -1,5 +1,18 @@
 [
   {
+    "id": "3943a4de58c61709",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Claude Opus and Sonnet 4.6 \u2014 identified",
+    "link": "https://stspg.io/0mwh6fvb2tms",
+    "summary": "We have observed success rates return to normal for Claude Opus 4.6, and are working to fully resolve elevated errors for Claude Sonnet 4.6.",
+    "date": "2026-03-21T00:58:01.989000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "193b3664f24d1101",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/rfsflqrz7p7t",
     "summary": "This incident has been resolved.",
     "date": "2026-03-04T14:14:17.364000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "8bb3eb9f9ef18a6f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
-    "link": "https://stspg.io/zcrdynvd9wzr",
-    "summary": "The incident for Haiku 4.5 has been between 6:45 PT / 14:45 UTC and 6:50 PT / 14:50 UTC.",
-    "date": "2026-03-04T14:47:44.728000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"

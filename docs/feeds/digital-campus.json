@@ -1,5 +1,18 @@
 [
   {
+    "id": "5fbe4fa567352e9e",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-03-21T01:22:38.357632+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "581815d73c37492d",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "438aa77ccc7cb6eb",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Delay in Processing Cloud Detector Security Events \u2014 Resolved",
-    "link": "https://stspg.io/963rv21styss",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-11T05:26:24.085000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
