@@ -1,5 +1,31 @@
 [
   {
+    "id": "3dc85b310349058d",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-03-21T02:14:28.169092+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "32364bc2995638f5",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Claude Opus and Sonnet 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/0mwh6fvb2tms",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-21T01:42:55.455000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "3943a4de58c61709",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/78ly8mxbtxn6",
     "summary": "This incident has been resolved.",
     "date": "2026-03-06T15:34:38.284000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7dfe09c19139e1eb",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
-    "link": "https://stspg.io/k101ztkw8x0b",
-    "summary": "Errors have returned to the baseline as of 8:08 PT / 16:08 UTC.",
-    "date": "2026-03-04T15:58:24.287000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "177a5229490a6a62",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
-    "link": "https://stspg.io/rfsflqrz7p7t",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-04T14:14:17.364000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
