@@ -1,5 +1,18 @@
 [
   {
+    "id": "0c6e9b53fa1d4e9e",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Workforce Management Update: March 21, 2026 (No Operational Impact) \u2014 Resolved",
+    "link": "https://stspg.io/txlfynsnx6yd",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-03-21T02:00:14.620000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "84dad4ccbd8ce2c5",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "6783a3916b425dec",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services",
-    "link": "https://stspg.io/t30kxdngb2kp",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-11T15:45:20.891000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
