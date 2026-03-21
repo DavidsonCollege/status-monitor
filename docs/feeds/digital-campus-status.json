@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-21T03:10:47.624619+00:00",
+  "last_checked": "2026-03-21T03:58:28.045962+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -128,8 +128,8 @@
       "name": "Google Workspace",
       "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
       "status_url": "https://www.google.com/appsstatus/dashboard/",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "major_outage",
+      "active_incidents": 1,
       "components": []
     },
     {

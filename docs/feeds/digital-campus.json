@@ -1,5 +1,31 @@
 [
   {
+    "id": "f529267b56fc3a7b",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Major Outage",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-21T03:58:07.656209+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1193a3054039f7ab",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nWe are experiencing an issue with Google Keep where users may be unable to access keep.google.com via browser.\n**Description**\nThe issue began on Friday, 2026-03-20 15:30 US/Pacific.\nOur engineering team is aware of the situation and is actively implementing mitigations. We do not have any ETA at the moment.\nWe will provide the next update by Friday, 2026-03-20 21:00 US/Pacific.\n**Customer Symptoms**\nImpacted users may encounter connection timeouts or error pages (such as 502 Bad Gateway) when attempting to reach keep.google.com via a web browser. The Google Keep mobile applications are currently unaffected and remain operational.\n**Workaround**\nUsers are able to use Google Keep via the Android or iOS mobile app.",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "",
+    "date": "2026-03-20T22:30:00+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "5fbe4fa567352e9e",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "97d5b5509e385ebb",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-03-11T13:22:36.562362+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "05c6ef07675cb54b",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Major Outage",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-11T12:49:10.769156+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
