@@ -1,5 +1,18 @@
 [
   {
+    "id": "63e5f39eb19e8c1e",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nWe are experiencing an issue with Google Keep where users may be unable to access keep.google.com via browser.\n**Description**\nThe issue began on Friday, 2026-03-20 15:30 US/Pacific.\nOur engineering team is aware of the situation and is actively implementing mitigations. We do not have any ETA at the moment.\nWe will provide the next update by Friday, 2026-03-20 21:00 US/Pacific.\n**Customer Symptoms**\nImpacted users may encounter connection timeouts or error pages (such as 502 Bad Gateway) when attempting to reach keep.google.com via a web browser. The Google Keep mobile applications are currently unaffected and remain operational.\n**Workaround**\nUsers are able to use Google Keep via the Android or iOS mobile app. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-03-21T05:33:44+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "f529267b56fc3a7b",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-11T09:50:00.175000-05:00",
     "status": "monitoring",
     "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "22a0d00d0b919983",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed",
-    "link": "https://stspg.io/64d34zxf6qbr",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-11T10:56:04.122000-04:00",
-    "status": "degraded",
-    "incident_status": "investigating",
     "type": "new_incident"
   }
 ]
