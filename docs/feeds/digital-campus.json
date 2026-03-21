@@ -1,5 +1,31 @@
 [
   {
+    "id": "84dad4ccbd8ce2c5",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-03-21T07:28:08.801036+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "6754a6c5baa33a91",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nWe are experiencing an issue with Google Keep where users may be unable to access keep.google.com via browser.\n**Description**\nThe issue began on Friday, 2026-03-20 15:30 US/Pacific.\nOur engineering team is aware of the situation and is actively implementing mitigations. We do not have any ETA at the moment.\nWe will provide the next update by Friday, 2026-03-20 21:00 US/Pacific.\n**Customer Symptoms**\nImpacted users may encounter connection timeouts or error pages (such as 502 Bad Gateway) when attempting to reach keep.google.com via a web browser. The Google Keep mobile applications are currently unaffected and remain operational.\n**Workaround**\nUsers are able to use Google Keep via the Android or iOS mobile app. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-21T05:03:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "63e5f39eb19e8c1e",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2571,32 +2597,6 @@
     "date": "2026-03-11T15:45:20.891000+00:00",
     "status": "partial_outage",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "036e98c462e39b88",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Degraded Performance",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-11T15:27:19.862555+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "77bf6828c2175bae",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Portal service degradation for Apple MDM devices",
-    "link": "https://stspg.io/hjv52190whqh",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-11T09:50:00.175000-05:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
     "type": "new_incident"
   }
 ]
