@@ -1,5 +1,18 @@
 [
   {
+    "id": "a4209a2d64df5975",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Delayed response completion on Claude.ai \u2014 identified",
+    "link": "https://stspg.io/vjg9kks1kgcb",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-22T12:34:12.132000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "fa501b8933e31e30",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-08T17:57:17+00:00",
     "status": "monitoring",
     "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "5a627d918995b343",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Filesystem connector missing from Claude Desktop",
-    "link": "https://stspg.io/35s9r6cqsky2",
-    "summary": "Filesystem extension has been restored to allowlists",
-    "date": "2026-03-06T17:16:12.220000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
