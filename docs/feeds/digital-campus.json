@@ -1,5 +1,18 @@
 [
   {
+    "id": "44d0dab16ce4bd89",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - March 2026 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/w3pmdm8bbbwh",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-03-21T21:00:10.715000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "0c6e9b53fa1d4e9e",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2583,19 +2596,6 @@
     "summary": "The issue has been identified and a fix is being pursued.",
     "date": "2026-03-11T16:06:35.272000+00:00",
     "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "f50a11677f787aa6",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed \u2014 identified",
-    "link": "https://stspg.io/64d34zxf6qbr",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-03-11T11:57:30.317000-04:00",
-    "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
   }
