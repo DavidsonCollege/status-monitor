@@ -1,5 +1,31 @@
 [
   {
+    "id": "21d1201f1dea8ac9",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-22T22:57:40.623323+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "eb3b194c07f9db69",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may encounter issues loading Canva. \u2014 monitoring",
+    "link": "https://stspg.io/8ksw69tzyx28",
+    "summary": "We\u2019ve applied a fix for this issue and are currently monitoring to make sure everything is working as expected. We\u2019ll continue to keep a close eye on things and share any updates if needed.",
+    "date": "2026-03-23T09:44:44.614000+11:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "b041dbd293fc27c3",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "16b7a8616c0ba33a",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Network Maintenance in Ashburn (IAD) Datacenter",
-    "link": "https://stspg.io/pqzkz63l8rvn",
-    "summary": "Zoom will perform service maintenance at our Ashburn (IAD) data center. During the maintenance window, users may experience an impact for a brief amount of time for services mentioned",
-    "date": "2026-03-11T12:08:43.373000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "d8ee328398eec4db",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services \u2014 monitoring",
-    "link": "https://stspg.io/t30kxdngb2kp",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-11T16:36:41.008000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
