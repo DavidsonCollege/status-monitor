@@ -1,5 +1,18 @@
 [
   {
+    "id": "17b84be17b299fec",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-22T23:31:07.967246+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "39f30d0f4b8dd12d",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-03-11T21:33:51.541458+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "3875308610015afa",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Degraded Performance",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-11T21:15:18.491154+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
