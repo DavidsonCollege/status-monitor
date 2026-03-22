@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-22T02:31:11.558250+00:00",
+  "last_checked": "2026-03-22T03:32:54.001536+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -445,7 +445,7 @@
       "name": "Ad Astra",
       "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
       "status_url": "https://status.adastra.live/",
-      "overall_status": "operational",
+      "overall_status": "maintenance",
       "active_incidents": 1,
       "components": []
     }
