@@ -1,5 +1,31 @@
 [
   {
+    "id": "4ddc493a0f69c492",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Operational",
+    "link": "https://status.adastra.live/",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-03-22T05:07:09.655294+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "bc81833b89be07b8",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - March 2026 \u2014 Resolved",
+    "link": "https://stspg.io/w3pmdm8bbbwh",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-03-22T00:00:08.016000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "cb019d619eb5c8ee",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "fbcc67c727744b51",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed \u2014 Resolved",
-    "link": "https://stspg.io/64d34zxf6qbr",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-11T12:28:18.984000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "00c5bcaf5773b108",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Operational",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-11T16:13:00.876244+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
