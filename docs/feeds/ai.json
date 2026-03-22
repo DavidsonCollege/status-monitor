@@ -1,5 +1,44 @@
 [
   {
+    "id": "97e9fa7a30979372",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-03-22T18:56:50.906536+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "6a647e3242dc2d67",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai and Claude login down \u2014 monitoring",
+    "link": "https://stspg.io/63m2xnvx648y",
+    "summary": "A mitigation has been applied. Logins have returned to normal, the team is continuing to monitor the situation.",
+    "date": "2026-03-22T18:43:45.062000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "14fa6fe74572f8ec",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai and Claude login down \u2014 Resolved",
+    "link": "https://stspg.io/63m2xnvx648y",
+    "summary": "This incident has been resolved. Logins and authentication for claude.ai and platform.claude.com have returned to normal",
+    "date": "2026-03-22T18:51:39.209000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "aee0e658a4da723b",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "1d298fe85d2e0bcd",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 identified",
-    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
-    "summary": "Status: identified",
-    "date": "2026-03-09T21:29:27+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "fd62ad801605cb58",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated conversation errors for Enterprise and Edu users \u2014 resolved",
-    "link": "https://status.openai.com/incidents/01KK9M0QQJ2WAX76WCHY7M9KQJ",
-    "summary": "Status: resolved",
-    "date": "2026-03-09T16:15:54+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_update"
-  },
-  {
-    "id": "4e4cbe2eb838552a",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated conversation errors for Enterprise and Edu users \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KK9M0QQJ2WAX76WCHY7M9KQJ",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-09T16:15:53+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
