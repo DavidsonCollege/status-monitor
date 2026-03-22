@@ -1,5 +1,31 @@
 [
   {
+    "id": "c6aab9676e347632",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-22T13:31:21.706651+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "aef2ce6a56e30469",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Delayed response completion on Claude.ai \u2014 Resolved",
+    "link": "https://stspg.io/vjg9kks1kgcb",
+    "summary": "As of 13:02 UTC / 06:02 PT this incident has been mitigated.",
+    "date": "2026-03-22T13:13:29.391000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "a4209a2d64df5975",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0c1e5fbeb34123c3",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Codex CLI unresponsive",
-    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
-    "summary": "",
-    "date": "2026-03-09T15:09:12+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "d2acc6b704a45c25",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Desktop app unresponsive",
-    "link": "https://stspg.io/2h5nyv2gv5b2",
-    "summary": "Root cause: Users with scheduled tasks in Claude Cowork or Claude Code who are in a timezone that observed daylight saving time last night were affected by an infinite loop. When the app tried to locate tasks scheduled during the \u201cskipped\u201d hour, it couldn\u2019t resolve them and got stuck.\n\nFix: Update to version 1.1.5749 via https://claude.com/download. If you\u2019re unable to update right away, temporarily switching to a timezone that doesn\u2019t observe daylight saving time will also resolve the issue.\n\nW",
-    "date": "2026-03-08T17:57:17+00:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
   }
 ]
