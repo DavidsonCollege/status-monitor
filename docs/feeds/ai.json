@@ -1,5 +1,31 @@
 [
   {
+    "id": "fa501b8933e31e30",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-22T11:15:52.477234+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "6e66b34bcb8b0bc3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Delayed response completion on Claude.ai",
+    "link": "https://stspg.io/vjg9kks1kgcb",
+    "summary": "Since approximately 20:00 UTC / 13:00 PT on Friday, March 20, Claude.ai responses may appear to \"hang\" for around 5 seconds after the text has finished streaming before the message completes. The Anthropic API is not affected.",
+    "date": "2026-03-22T11:14:20.581000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "3dc85b310349058d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/35s9r6cqsky2",
     "summary": "Filesystem extension has been restored to allowlists",
     "date": "2026-03-06T17:16:12.220000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3ed830b1ac48c70f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
-    "link": "https://stspg.io/0pgj8h1c2nfp",
-    "summary": "Today between 5:35 PT / 13:35 UTC and 6:44 PT / 14:44 UTC Haiku 4.5 had an elevated error rate. We are now at the baseline error rate.",
-    "date": "2026-03-07T13:58:19.829000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "463a52e412756792",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated TCP three-way handshake failures on api.anthropic.com",
-    "link": "https://stspg.io/78ly8mxbtxn6",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-06T15:34:38.284000+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
