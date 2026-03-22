@@ -1,5 +1,18 @@
 [
   {
+    "id": "39f30d0f4b8dd12d",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may encounter issues loading Canva. \u2014 Resolved",
+    "link": "https://stspg.io/8ksw69tzyx28",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-03-23T10:09:28.967000+11:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "21d1201f1dea8ac9",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "fbf5ef03217c4ac4",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Partial Outage with Blueprints, Compliance Benchmarks, Volume Purchasing Services \u2014 Resolved",
-    "link": "https://stspg.io/t30kxdngb2kp",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-11T19:46:25.471000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
