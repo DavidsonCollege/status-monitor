@@ -1,5 +1,18 @@
 [
   {
+    "id": "b041dbd293fc27c3",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may encounter issues loading Canva.",
+    "link": "https://stspg.io/8ksw69tzyx28",
+    "summary": "Users may have issues loading Canva. Opening designs may yield a 503 error. We are currently investigating the issue and will keep you updated.",
+    "date": "2026-03-23T08:57:55.766000+11:00",
+    "status": "major_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "4ddc493a0f69c492",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/t30kxdngb2kp",
     "summary": "A fix has been implemented and we are monitoring the results.",
     "date": "2026-03-11T16:36:41.008000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "6bef42ce75bedcba",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are backed up, deployments delayed \u2014 monitoring",
-    "link": "https://stspg.io/64d34zxf6qbr",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-11T12:22:59.329000-04:00",
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
