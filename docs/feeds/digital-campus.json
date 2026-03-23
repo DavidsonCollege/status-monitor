@@ -1,5 +1,31 @@
 [
   {
+    "id": "dc76dbc30a4594fc",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-23T03:35:56.881097+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "da49202ff503ead3",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Authorization Failure Errors Connecting to the Slack MCP Sever",
+    "link": "https://slack-status.com",
+    "summary": "We are aware that customers are receiving authorization failure errors when trying to connect to the Slack MCP server. We are currently investigating the issue and will provide an update as soon as more information becomes available. We're very sorry for any inconvience this may be causing your business.",
+    "date": "2026-03-22T19:40:19-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "17b84be17b299fec",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Major Outage",
     "date": "2026-03-11T23:44:54.819979+00:00",
     "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d32cef564ca32737",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users may experience a 503 error message when accessing canva.com.",
-    "link": "https://stspg.io/nz8zfy87n1vn",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-12T10:28:44.736000+11:00",
-    "status": "major_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "70d3eb16762b2c77",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-11T21:33:51.541458+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
