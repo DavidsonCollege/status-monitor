@@ -1,5 +1,18 @@
 [
   {
+    "id": "4dd1d2adf9edaaf2",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Degraded Performance",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-24T21:20:10.822941+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "0adb03dca05cccb9",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "db8566041d563558",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v12.1.0 - US \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/79rq8ljg0k6l",
-    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-    "date": "2026-03-11T22:56:35.129000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
   }
 ]
