@@ -1,5 +1,18 @@
 [
   {
+    "id": "954388ebd3869931",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Operational",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-24T21:58:13.818973+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "4dd1d2adf9edaaf2",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "4b2a35a297233bec",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Media uploads failing for some users",
-    "link": "https://stspg.io/4szb37rw5wfm",
-    "summary": "Media uploads may be failing for some users. \nUsers may experience the following error message:\n\"We were unable to upload {{file}}. You might be logged out, offline or Canva's servers are unreachable.\"\nWe are currently investigating and working to mitigate the issue.",
-    "date": "2026-03-12T15:33:04.390000+11:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
