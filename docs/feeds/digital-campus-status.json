@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-24T12:32:23.622726+00:00",
+  "last_checked": "2026-03-24T13:00:26.653166+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -45,7 +45,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
       "status_url": "https://status.code42.com",
       "overall_status": "operational",
-      "active_incidents": 1,
+      "active_incidents": 0,
       "components": [
         {
           "name": "Incydr - console.us.code42.com",
