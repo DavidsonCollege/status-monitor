@@ -1,5 +1,18 @@
 [
   {
+    "id": "bf9581aa0a743b61",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased errors creating new sync apps and sync delays with existing apps \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KMFPEA68469V3NQAFCZAA6JB",
+    "summary": "Status: monitoring",
+    "date": "2026-03-24T11:12:39+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "8a90675dd80cf6e6",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "848168b68b183048",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 identified",
-    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
-    "summary": "Status: identified",
-    "date": "2026-03-10T09:03:39+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
