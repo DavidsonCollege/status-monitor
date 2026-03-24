@@ -1,5 +1,18 @@
 [
   {
+    "id": "0adb03dca05cccb9",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Software Tab missing some data from software scans \u2014 monitoring",
+    "link": "https://stspg.io/dqwkqjxtqny5",
+    "summary": "A fix has been implemented, we are monitoring the results, some data may be stale for the next few hours, and we will be working on fixing the data.",
+    "date": "2026-03-24T16:41:10.727000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "a0d08552c247b4a1",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "07b6964711e50ad1",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Under Maintenance",
-    "date": "2026-03-12T04:02:00.603428+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
