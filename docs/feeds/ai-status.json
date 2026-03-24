@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-03-24T12:04:57.888569+00:00",
+  "last_checked": "2026-03-24T12:32:27.315740+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -48,7 +48,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
       "overall_status": "operational",
-      "active_incidents": 1,
+      "active_incidents": 0,
       "components": [
         {
           "name": "Login",
