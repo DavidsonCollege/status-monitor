@@ -1,5 +1,31 @@
 [
   {
+    "id": "316274c6613fa910",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-24T04:52:41.251758+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8307e0a04be9cd40",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
+    "summary": "Status: investigating",
+    "date": "2026-03-24T04:24:21+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "8062378e1a9cfcd0",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_update"
-  },
-  {
-    "id": "b7b4ae8b9258dd6f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Codex unresponsive \u00e2\u0080\u0094 Resolved",
-    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-09T22:30:00+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "feb1680da82c4a82",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Deep Research requests are erroring for LATAM users",
-    "link": "https://status.openai.com/incidents/01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-    "summary": "",
-    "date": "2026-03-09T22:56:55+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
