@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-03-24T10:08:01.998141+00:00",
+  "last_checked": "2026-03-24T10:32:27.081698+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -80,7 +80,7 @@
         },
         {
           "name": "Files",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Login",
