@@ -1,5 +1,18 @@
 [
   {
+    "id": "a0d08552c247b4a1",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Software Tab missing some data from software scans",
+    "link": "https://stspg.io/dqwkqjxtqny5",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-24T12:47:25.264000-04:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "2fff812be6f37363",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2585,18 +2598,5 @@
     "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d9287ecd6c850cba",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia \u2014 monitoring",
-    "link": "https://stspg.io/2bkpn7rgwfkj",
-    "summary": "Our underlying carrier partner has resolved the issue affecting inbound and outbound SMS delivery. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
-    "date": "2026-03-11T20:58:21.214000-07:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
