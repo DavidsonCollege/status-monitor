@@ -1,5 +1,44 @@
 [
   {
+    "id": "8a90675dd80cf6e6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-24T10:58:20.969416+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d6a0871767418118",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-24T10:51:53+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "868d3c0dc621b17d",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased errors creating new sync apps and sync delays with existing apps",
+    "link": "https://status.openai.com/incidents/01KMFPEA68469V3NQAFCZAA6JB",
+    "summary": "",
+    "date": "2026-03-24T10:32:27+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "e24afae0c8400b8d",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2558,45 +2597,6 @@
     "date": "2026-03-10T09:03:39+00:00",
     "status": "degraded",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "f96c1dd392c82b12",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Deep Research requests are erroring for LATAM users \u00e2\u0080\u0094 resolved",
-    "link": "https://status.openai.com/incidents/01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-    "summary": "Status: resolved",
-    "date": "2026-03-10T05:32:30+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_update"
-  },
-  {
-    "id": "508bfe02a460ae80",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Deep Research requests are erroring for LATAM users \u00e2\u0080\u0094 Resolved",
-    "link": "https://status.openai.com/incidents/01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-10T05:32:30+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "12baaff3145e92e6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Deep Research requests are erroring for LATAM users \u00e2\u0080\u0094 monitoring",
-    "link": "https://status.openai.com/incidents/01KKAD2PHFBC0DP0X6ZQTJJ4D4",
-    "summary": "Status: monitoring",
-    "date": "2026-03-10T01:13:48+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]

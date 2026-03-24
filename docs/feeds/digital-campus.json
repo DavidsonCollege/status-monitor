@@ -1,5 +1,18 @@
 [
   {
+    "id": "1e2c56bb3a51659e",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom FileServer Release: March, 2026 (No Operational Impact)",
+    "link": "https://stspg.io/rhndjq2s5gh2",
+    "summary": "We will be performing a scheduled maintenance for a upgrade related to our file services. This update covers multiple file-related components and is aimed at improving overall stability, scalability, and feature support.\n\nNo operational impact is expected. This maintenance introduces the following new features and improvements:\n\nEnabled range-based filtering for batch file downloads to support AI-powered workflows.\nEnhanced file metadata queries to more accurately detect encryption status and in",
+    "date": "2026-03-24T03:38:20.553000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "8036f0086edc0af6",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-11T21:26:05.273000-05:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "0d429f04f190f099",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia \u2014 identified",
-    "link": "https://stspg.io/2bkpn7rgwfkj",
-    "summary": "We continue to work with our carrier to resolve the issue and will keep you informed with timely updates as progress is made.\n\nThank you for your patience.",
-    "date": "2026-03-11T19:53:21.547000-07:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
