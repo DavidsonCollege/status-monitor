@@ -1,5 +1,31 @@
 [
   {
+    "id": "3012b1e370c1ddab",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Degraded Performance",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-25T01:20:00.604050+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8bc16ad3c5e552d9",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom FileServer Release: March, 2026 (No Operational Impact) \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/rhndjq2s5gh2",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-03-24T18:00:19.506000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "954388ebd3869931",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "3c2fd18c8b031dd8",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Media uploads failing for some users \u2014 Resolved",
-    "link": "https://stspg.io/4szb37rw5wfm",
-    "summary": "This incident is now mitigated. Thank you for your patience and understanding.",
-    "date": "2026-03-12T15:53:31.291000+11:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "638d022e5ee63a27",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Issues Affecting Zoom Phone and Zoom Contact Center Inbound and Outbound SMS in Australia \u2014 Resolved",
-    "link": "https://stspg.io/2bkpn7rgwfkj",
-    "summary": "This incident has been resolved and the affected services have been restored.",
-    "date": "2026-03-11T21:14:46.917000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
