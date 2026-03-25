@@ -1,5 +1,44 @@
 [
   {
+    "id": "03c196e685a39629",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Major Outage to Partial Outage",
+    "date": "2026-03-25T17:14:21.665973+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8f1cea96ebde4605",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 investigating",
+    "link": "https://stspg.io/dv1mb1z3pwj2",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-25T16:58:26.513000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "a7eac0b838d7590e",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated connection reset errors in Cowork \u2014 investigating",
+    "link": "https://stspg.io/5zt95qbyf06z",
+    "summary": "We are continuing to investigate connection errors which occur during Claude Cowork sessions. This issue can be resolved by restarting the Claude Desktop application.",
+    "date": "2026-03-25T16:56:52.571000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "6f8d65ba1232e0f7",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "8df4b65350810b6c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai (including login issues for Claude Code) \u2014 investigating",
-    "link": "https://stspg.io/xs6ftr1kgydn",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-03-11T15:27:03.534000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "21cab57684af3d92",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-11T15:03:31.099642+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c24570396c3b5d5c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai",
-    "link": "https://stspg.io/xs6ftr1kgydn",
-    "summary": "This is affecting the login/logout actions in Claude Code as well.",
-    "date": "2026-03-11T14:44:33.009000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
