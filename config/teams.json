@@ -565,10 +565,10 @@
           "name": "ClickUp",
           "domain": "clickup.com",
           "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-          "status_url": "https://clickup.statuspage.io",
+          "status_url": "https://status.clickup.com",
           "source": {
             "type": "statuspage",
-            "api_base": "https://clickup.statuspage.io",
+            "api_base": "https://status.clickup.com",
             "incident_region_exclude": [
               "LATAM",
               "(EU)",
