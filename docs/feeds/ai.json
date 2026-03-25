@@ -1,5 +1,31 @@
 [
   {
+    "id": "1680a2e97eda47f2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-25T00:44:37.009864+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "efc98f1f4f8f78b6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Unable to download or preview project files",
+    "link": "https://status.openai.com/incidents/01KMH5C6HVAYJ9SS3REEAWXB6R",
+    "summary": "",
+    "date": "2026-03-25T00:12:41+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "9f730c2a3b0cdf10",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_update"
-  },
-  {
-    "id": "972b15d0c042ce17",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Desktop app unresponsive \u00e2\u0080\u0094 Resolved",
-    "link": "https://stspg.io/2h5nyv2gv5b2",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-10T16:52:45.249000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "80960284c333b513",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded performance with the support chat funtionality",
-    "link": "https://status.openai.com/incidents/01KKCBMVXANKXVCPE2760437BR",
-    "summary": "",
-    "date": "2026-03-10T17:10:22+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
