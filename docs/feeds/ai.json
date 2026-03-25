@@ -1,5 +1,31 @@
 [
   {
+    "id": "6f02dd028716f356",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-25T14:07:11.976409+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "f9db7eac262b9ccc",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated Errors on claude.ai",
+    "link": "https://stspg.io/pjj05p7lrfxg",
+    "summary": "We are continuing to investigate this issue.",
+    "date": "2026-03-25T13:45:25.537000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "5414de736ee450c8",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "e5e69977bca48cb3",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded performance with the Support chat \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KKCBMVXANKXVCPE2760437BR",
-    "summary": "Status: monitoring",
-    "date": "2026-03-10T22:31:23+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "0f22a1caff5c7303",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased errors on ChatGPT File Uploads \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KKCT34VDK552CSMP286DS9HE",
-    "summary": "Status: monitoring",
-    "date": "2026-03-10T21:52:11+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
