@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-03-25T21:44:47.472596+00:00",
+  "last_checked": "2026-03-25T22:02:40.727923+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,15 +51,7 @@
       "active_incidents": 0,
       "components": [
         {
-          "name": "Login",
-          "status": "operational"
-        },
-        {
           "name": "Batch",
-          "status": "operational"
-        },
-        {
-          "name": "Search",
           "status": "operational"
         },
         {
@@ -67,19 +59,23 @@
           "status": "operational"
         },
         {
-          "name": "Codex",
+          "name": "Fine-tuning",
           "status": "operational"
         },
         {
-          "name": "Chat Completions",
+          "name": "Embeddings",
           "status": "operational"
         },
         {
-          "name": "Realtime",
+          "name": "Images",
           "status": "operational"
         },
         {
-          "name": "Files",
+          "name": "Audio",
+          "status": "operational"
+        },
+        {
+          "name": "Moderations",
           "status": "operational"
         },
         {
@@ -91,11 +87,51 @@
           "status": "operational"
         },
         {
+          "name": "Conversations",
+          "status": "operational"
+        },
+        {
+          "name": "Login",
+          "status": "operational"
+        },
+        {
+          "name": "Compliance API",
+          "status": "operational"
+        },
+        {
+          "name": "Voice mode",
+          "status": "operational"
+        },
+        {
+          "name": "GPTs",
+          "status": "operational"
+        },
+        {
           "name": "Image Generation",
           "status": "operational"
         },
         {
+          "name": "Deep Research",
+          "status": "operational"
+        },
+        {
           "name": "Agent",
+          "status": "operational"
+        },
+        {
+          "name": "ChatGPT Atlas",
+          "status": "operational"
+        },
+        {
+          "name": "Connectors/Apps",
+          "status": "operational"
+        },
+        {
+          "name": "Codex",
+          "status": "operational"
+        },
+        {
+          "name": "Login",
           "status": "operational"
         },
         {
@@ -112,42 +148,6 @@
         },
         {
           "name": "Image Generation",
-          "status": "operational"
-        },
-        {
-          "name": "FedRAMP",
-          "status": "operational"
-        },
-        {
-          "name": "File uploads",
-          "status": "operational"
-        },
-        {
-          "name": "Audio",
-          "status": "operational"
-        },
-        {
-          "name": "Embeddings",
-          "status": "operational"
-        },
-        {
-          "name": "Fine-tuning",
-          "status": "operational"
-        },
-        {
-          "name": "Moderations",
-          "status": "operational"
-        },
-        {
-          "name": "Images",
-          "status": "operational"
-        },
-        {
-          "name": "Conversations",
-          "status": "operational"
-        },
-        {
-          "name": "GPTs",
           "status": "operational"
         }
       ]
