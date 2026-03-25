@@ -1,5 +1,31 @@
 [
   {
+    "id": "38e06538bc4ddb12",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-25T09:37:36.811674+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "92e1af537dfc6c69",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
+    "link": "https://stspg.io/vxw2q92fdnx2",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-25T09:35:42.331000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "0dd22a118315e6b2",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KKCBMVXANKXVCPE2760437BR",
     "summary": "Status: identified",
     "date": "2026-03-10T19:05:11+00:00",
-    "status": "operational",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "73fb49ca5b2bf030",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Codex unresponsive \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KK9JA8JKQKDW1W24T09NHBYH",
-    "summary": "Status: identified",
-    "date": "2026-03-10T18:41:13+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "7da1024924983949",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded performance with the support chat funtionality \u00e2\u0080\u0094 identified",
-    "link": "https://status.openai.com/incidents/01KKCBMVXANKXVCPE2760437BR",
-    "summary": "Status: identified",
-    "date": "2026-03-10T17:29:52+00:00",
     "status": "operational",
     "incident_status": "identified",
     "type": "incident_update"
