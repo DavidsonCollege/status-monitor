@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-25T11:36:53.138056+00:00",
+  "last_checked": "2026-03-25T11:54:56.400442+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -395,7 +395,7 @@
       "id": "clickup",
       "name": "ClickUp",
       "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-      "status_url": "https://clickup.statuspage.io",
+      "status_url": "https://status.clickup.com",
       "overall_status": "operational",
       "active_incidents": 0,
       "components": [
