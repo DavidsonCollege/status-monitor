@@ -1,5 +1,18 @@
 [
   {
+    "id": "aa789569c614e8bd",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
+    "link": "https://stspg.io/dv1mb1z3pwj2",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-03-25T15:03:59.956000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "061ed7ca2a3c7de2",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "d682d9a0b2d165c0",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded performance with the Support chat \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKCBMVXANKXVCPE2760437BR",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-10T23:30:43+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]

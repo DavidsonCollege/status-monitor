@@ -1,5 +1,18 @@
 [
   {
+    "id": "928931ca2a35e374",
+    "product_id": "crashplan",
+    "product_name": "CrashPlan",
+    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
+    "title": "CrashPlan: Event Processing Delays \u2014 monitoring",
+    "link": "https://stspg.io/1n3kw58wpd8v",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-25T10:02:19.666000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "cda99a2118b3c56a",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d8bd750f53ed8aa9",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion.",
-    "link": "https://stspg.io/5hv9z5r88ft6",
-    "summary": "We are currently investigating a service degradation affecting 3rd party integration with Zoom AI Companion.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-    "date": "2026-03-12T08:10:37.601000-07:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
