@@ -1,5 +1,18 @@
 [
   {
+    "id": "4be08ea6bdcd7ea3",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Unable to download or preview project files \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KMH5C6HVAYJ9SS3REEAWXB6R",
+    "summary": "Status: identified",
+    "date": "2026-03-25T18:37:27+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "03c196e685a39629",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-11T16:32:34+00:00",
     "status": "operational",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "ffaea64321c62116",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai (including login issues for Claude Code) \u2014 investigating",
-    "link": "https://stspg.io/xs6ftr1kgydn",
-    "summary": "We're currently investigating issues with Claude Code and Claude.ai. Some users may be unable to log in, and others may experience slower than usual performance. The Claude API is not affected.",
-    "date": "2026-03-11T15:44:46.117000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
