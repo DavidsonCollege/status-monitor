@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-26T20:54:27.166531+00:00",
+  "last_checked": "2026-03-26T21:11:46.612771+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -138,7 +138,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
       "status_url": "https://status.jamf.com",
       "overall_status": "operational",
-      "active_incidents": 1,
+      "active_incidents": 0,
       "components": [
         {
           "name": "Jamf Cloud Connector",
@@ -259,7 +259,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
       "status_url": "https://pdq.statuspage.io",
       "overall_status": "operational",
-      "active_incidents": 1,
+      "active_incidents": 0,
       "components": [
         {
           "name": "Deploy & Inventory Package Library",

@@ -1,5 +1,44 @@
 [
   {
+    "id": "50ee179eacf415bc",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro versions 11.24 and below - Issue with Blueprints \u2014 Resolved",
+    "link": "https://stspg.io/687hgz6lk409",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-26T21:03:55.442000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "55d125a2dbc0e32f",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM Incident: Widespread errors and site failing to load for many \u2014 monitoring",
+    "link": "https://stspg.io/t2f2d7604br0",
+    "summary": "We are continuing to monitor for any further issues.",
+    "date": "2026-03-26T16:58:09.877000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "ecf31e05543bf3de",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM Incident: Widespread errors and site failing to load for many \u2014 Resolved",
+    "link": "https://stspg.io/t2f2d7604br0",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-26T16:58:22.293000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "6dc44a6115ada83a",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "2dc429310507ba24",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Description**\nWe are experiencing intermittent errors with Google Docs, Apps Script, Google Slides, Google Drive, Google Calendar beginning on Friday, 2026-03-13 05:00 PDT.\nOur engineering teams are actively working to mitigate the impact.\nWe will provide an update by Friday, 2026-03-13 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nA subset of customers may experience elevated error rates when accessing the impacted products in the US region.\n**Workaround**\nImpacted users may re-attempt the unsuccessful action. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-03-13T14:34:36+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "67de5f6f0965fc96",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: Hive outage affecting customers in US hosting region",
-    "link": "https://stspg.io/2kpb04r33b82",
-    "summary": "We are currently investigating an issue affecting Print Job release in PaperCut Hive for customers in the US Genesis Data Center. Our team are aware and actively looking into this now.",
-    "date": "2026-03-13T14:34:38.061000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "cfb616ce240af3fc",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: Degraded Performance",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-13T14:00:30.446412+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
