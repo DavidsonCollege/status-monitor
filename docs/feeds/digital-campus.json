@@ -1,5 +1,18 @@
 [
   {
+    "id": "314ea978ed5c2f76",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-26T21:46:08.512535+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "50ee179eacf415bc",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "4f074e59bdea4dc4",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Description**\nWe are experiencing intermittent errors with Google Docs, Apps Script, Google Slides, Google Drive, Google Calendar beginning on Friday, 2026-03-13 05:00 PDT.\nOur engineering teams are actively working to mitigate the impact.\nWe will provide an update by Friday, 2026-03-13 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nA subset of customers may experience elevated error rates when accessing the impacted products in the US region.\n**Workaround**\nImpacted users may re-attempt the unsuccessful action. \u2014 Resolved",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-13T14:30:00+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
