@@ -1,5 +1,57 @@
 [
   {
+    "id": "c604a32dded3c532",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - GCC High Device Compliance Issue \u2014 monitoring",
+    "link": "https://stspg.io/bfm9fs0r0cpl",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-26T15:29:32.203000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "a8b1678aeaf279b7",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - GCC High Device Compliance Issue \u2014 Resolved",
+    "link": "https://stspg.io/bfm9fs0r0cpl",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-26T15:52:07.418000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "87ade04dc778be26",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-26T15:54:57.704882+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "be309a74c5ded5a8",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble connecting to Slack",
+    "link": "https://slack-status.com",
+    "summary": "We are aware of an issue impacting Slack. As a result, some customers may be unable to load certain features, including activity and notification badge counts, and may encounter errors when using the service. We are working to resolve this as our highest priority, and we'll provide another update in 30 minutes.",
+    "date": "2026-03-26T08:40:54-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "f6bc86567157e2e0",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2546,57 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "b1fd7998e9fa6c3f",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 monitoring",
-    "link": "https://stspg.io/z931cv9kgrmf",
-    "summary": "We have identified the problem and have rolled out a fix. We expect performance to improve but are continuing to monitor the situation.",
-    "date": "2026-03-12T16:12:03.542000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "50f73084fad49e5d",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 identified",
-    "link": "https://stspg.io/z931cv9kgrmf",
-    "summary": "We are again seeing significant delays that were not resolved by the initial fix. We are working on resolving this.",
-    "date": "2026-03-12T16:02:34.400000-04:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "ca3980b1156d65b5",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 monitoring",
-    "link": "https://stspg.io/z931cv9kgrmf",
-    "summary": "The site is back up and processes are picking back up. We are monitoring for additional issues.",
-    "date": "2026-03-12T14:32:04.976000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "e57e0f7c89f9d0dc",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 identified",
-    "link": "https://stspg.io/z931cv9kgrmf",
-    "summary": "We are putting up a maintenance page in order to implement a fix. The service will be down temporarily.",
-    "date": "2026-03-12T13:49:21.250000-04:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
