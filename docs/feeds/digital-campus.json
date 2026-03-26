@@ -1,5 +1,18 @@
 [
   {
+    "id": "7023da72579c384f",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - GCC High Device Compliance Issue",
+    "link": "https://stspg.io/bfm9fs0r0cpl",
+    "summary": "The Jamf Pro integration with GCC High Device Compliance is currently not working.\nNew integrations and new registrations are not possible and device compliance state is not sent. \nWe have identified the cause and we are currently working towards a resolution.",
+    "date": "2026-03-26T13:42:56.605000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "d96aa2e622057fee",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-12T09:03:35.491000-07:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "4159b018bd56f0f3",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion. \u2014 identified",
-    "link": "https://stspg.io/5hv9z5r88ft6",
-    "summary": "We have successfully identified the root cause of service degradation affecting 3rd party integration with Zoom AI Companion.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-    "date": "2026-03-12T08:59:48.559000-07:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
