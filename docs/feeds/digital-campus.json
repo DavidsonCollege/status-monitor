@@ -1,5 +1,18 @@
 [
   {
+    "id": "f6bc86567157e2e0",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro versions 11.24 and below - Issue with Blueprints \u2014 monitoring",
+    "link": "https://stspg.io/687hgz6lk409",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-03-26T15:00:31.458000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "7fbb4766bcac0ba8",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-12T13:49:21.250000-04:00",
     "status": "major_outage",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "f9231dc050689bee",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 investigating",
-    "link": "https://stspg.io/z931cv9kgrmf",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-03-12T13:47:10.045000-04:00",
-    "status": "major_outage",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
