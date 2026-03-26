@@ -1,5 +1,18 @@
 [
   {
+    "id": "31cda00921fb2307",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble connecting to Slack \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "The team is investigating the issue and have rolled back a recent feature change to reduce load on affected systems. We are also actively increasing infrastructure capacity to restore normal service levels. We'll provide an update in 30 minutes or sooner if additional information becomes available.",
+    "date": "2026-03-26T09:07:28-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "c604a32dded3c532",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "7b9480cae1365359",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Application Performance Degradation \u2014 Resolved",
-    "link": "https://stspg.io/z931cv9kgrmf",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-12T16:51:05.989000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
