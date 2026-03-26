@@ -1,5 +1,31 @@
 [
   {
+    "id": "cb8695594d4089db",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Partial Outage",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-26T21:29:04.618864+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a42c072bb75ce135",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Responses API Increased Error Rates",
+    "link": "https://status.openai.com/incidents/01KMP0CDV3T8QX1YPXHQMRN2EP",
+    "summary": "",
+    "date": "2026-03-26T21:21:38+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "630f93e04da75267",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "8aa3cfe774425090",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates for Deep Research in Enterprise Workspaces",
-    "link": "https://status.openai.com/incidents/01KKF5RQTSB25839GBZ33S7MWX",
-    "summary": "",
-    "date": "2026-03-11T19:25:21+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "374be70ed0864e97",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai (including login issues for Claude Code) \u2014 Resolved",
-    "link": "https://stspg.io/xs6ftr1kgydn",
-    "summary": "Between 14:17 and 17:11 UTC, our primary application database experienced severely degraded I/O performance following a routine maintenance operation, causing slow or failed requests on [Claude.ai](http://Claude.ai) and preventing new or refreshed sign-ins for Claude Code and the Console. API traffic via Claude Developer Platform was unaffected.",
-    "date": "2026-03-11T17:28:30.278000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
