@@ -1,5 +1,18 @@
 [
   {
+    "id": "fbd3ef992cc66df5",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors for MCP calls",
+    "link": "https://stspg.io/n5zljwcyfpr7",
+    "summary": "We are currently investigating an issue resulting in elevated errors for some MCP calls. We will provide an update as soon as possible.",
+    "date": "2026-03-26T22:25:40.025000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "94e7c06d8a19c1c1",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "753a2f9ba4b4a251",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates for Deep Research in Enterprise Workspaces \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KKF5RQTSB25839GBZ33S7MWX",
-    "summary": "Status: monitoring",
-    "date": "2026-03-11T21:08:25+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
