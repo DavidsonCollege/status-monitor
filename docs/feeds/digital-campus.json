@@ -1,5 +1,31 @@
 [
   {
+    "id": "b5f4bf6a7734df2c",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro versions 11.24 and below - Issue with Blueprints",
+    "link": "https://stspg.io/687hgz6lk409",
+    "summary": "We are investigating an issue around Blueprints affecting customers running versions of Jamf Pro 11.24 and lower.",
+    "date": "2026-03-26T14:05:48.982000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
+    "id": "559afc63a3410a10",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - GCC High Device Compliance Issue \u2014 identified",
+    "link": "https://stspg.io/bfm9fs0r0cpl",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-26T13:44:30.068000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "7023da72579c384f",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "1cb0c9ee93aacc2b",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Under Maintenance",
-    "date": "2026-03-12T16:31:27.785520+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "62f80418b54dd845",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting 3rd Party Integration with Zoom AI Companion. \u2014 monitoring",
-    "link": "https://stspg.io/5hv9z5r88ft6",
-    "summary": "The service degradation affecting 3rd party integration with Zoom AI Companion has been successfully resolved.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-    "date": "2026-03-12T09:03:35.491000-07:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
