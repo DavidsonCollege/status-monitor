@@ -1,5 +1,18 @@
 [
   {
+    "id": "4476045c4a4a228d",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-26T22:50:31.964863+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "cd7f7a283b1ce188",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-13T10:13:45.948000-07:00",
     "status": "identified",
     "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "bb719e7b5c2426ef",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom Team Chat Update",
-    "link": "https://stspg.io/4zqg3dmwkq89",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-02-10T02:58:41.203000-08:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]

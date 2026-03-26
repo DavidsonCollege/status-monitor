@@ -1,5 +1,18 @@
 [
   {
+    "id": "fc567b61de145d08",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors for MCP calls \u2014 Resolved",
+    "link": "https://stspg.io/n5zljwcyfpr7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-26T22:41:19.148000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "fbd3ef992cc66df5",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2582,19 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KKF8E0FPME7NBS95Q8Q0N6AH",
     "summary": "This incident has been resolved.",
     "date": "2026-03-11T21:59:40+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "074d5923331ab06e",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates for Deep Research in Enterprise Workspaces \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKF5RQTSB25839GBZ33S7MWX",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-11T21:47:44+00:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
