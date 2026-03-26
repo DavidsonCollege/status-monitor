@@ -1,5 +1,57 @@
 [
   {
+    "id": "5e654041dd1cab61",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Degraded Performance",
+    "date": "2026-03-26T23:17:58.193431+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e93d475be02ce2e1",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 and Sonnet 4.6 \u2014 identified",
+    "link": "https://stspg.io/y9rm3rvqbfzx",
+    "summary": "We have identified an issue resulting in a low rate of errors on requests to Claude Opus 4.6 and Sonnet 4.6, we are continuing to work to fully resolve this issue and will provide additional updates.",
+    "date": "2026-03-26T23:06:49.415000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "c4b25510052a8039",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Responses API and Sora Increased Error Rates \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KMP0CDV3T8QX1YPXHQMRN2EP",
+    "summary": "Status: monitoring",
+    "date": "2026-03-26T23:03:45+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "73185414ab6f6764",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Responses API and Sora Increased Error Rates \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KMP0CDV3T8QX1YPXHQMRN2EP",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-26T23:17:25+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "d7806f81bbf91a93",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2546,57 +2598,5 @@
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
-  },
-  {
-    "id": "170bb77af8b7d126",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-12T00:42:37.925953+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "3b75ab4acdb79de4",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased errors on ChatGPT File Uploads \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKCT34VDK552CSMP286DS9HE",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-12T00:15:48+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "8ba52c9e0c874c48",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated login errors \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KKFJRH4WP8X9YCX0W57ZXT9D",
-    "summary": "Status: identified",
-    "date": "2026-03-11T23:36:55+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "dc096d173b03fa10",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated login errors \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKFJRH4WP8X9YCX0W57ZXT9D",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-11T23:43:32+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
