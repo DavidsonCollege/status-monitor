@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-03-26T22:50:43.234047+00:00",
+  "last_checked": "2026-03-26T23:03:23.771419+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -47,13 +47,9 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "degraded",
+      "overall_status": "operational",
       "active_incidents": 1,
       "components": [
-        {
-          "name": "Responses",
-          "status": "degraded"
-        },
         {
           "name": "Fine-tuning",
           "status": "operational"
@@ -148,6 +144,10 @@
         },
         {
           "name": "Video viewing",
+          "status": "operational"
+        },
+        {
+          "name": "ChatGPT Atlas",
           "status": "operational"
         }
       ]
