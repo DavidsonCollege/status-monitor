@@ -1,5 +1,18 @@
 [
   {
+    "id": "6dc44a6115ada83a",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM Incident: Widespread errors and site failing to load for many",
+    "link": "https://stspg.io/t2f2d7604br0",
+    "summary": "We are continuing to monitor for any further issues.",
+    "date": "2026-03-26T16:46:29.597000-04:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "bffb6eea15a1418e",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "fe0bd4580586a39b",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nGoogle Workspace services, including Calendar, Docs, and Drive, are experiencing intermittent error rates in the US region.\n**Description**\nWe are experiencing intermittent errors with Google Docs, Apps Script, Google Slides, Google Drive, Google Calendar beginning on Friday, 2026-03-13 05:00 PDT.\nOur engineering teams are actively working to mitigate the impact.\nWe will provide an update by Friday, 2026-03-13 08:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nA subset of customers may experience elevated error rates when accessing the impacted products in the US region.",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "",
-    "date": "2026-03-13T12:00:00+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
