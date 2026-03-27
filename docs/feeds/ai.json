@@ -1,5 +1,18 @@
 [
   {
+    "id": "13b1a47b3936f36c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated connection reset errors in Cowork \u2014 Resolved",
+    "link": "https://stspg.io/5zt95qbyf06z",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-27T15:05:30.558000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "7341a8c31064df3e",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "5f45224d47d9aaf6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Conversation Errors for Logged out Users",
-    "link": "https://status.openai.com/incidents/01KKKQ8SNFFW363KA3HZQFQNA9",
-    "summary": "",
-    "date": "2026-03-13T13:48:11+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
