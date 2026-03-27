@@ -1025,6 +1025,188 @@ def check_sorry(product: dict) -> dict:
     return result
 
 
+def check_status_io(product: dict) -> dict:
+    """Check a Status.io-based status page (e.g., ClickUp).
+
+    Uses the public Status.io API at https://api.status.io/1.0/status/{page_id}.
+
+    Config options (in product.source):
+        api_base:   Status page URL (e.g., https://status.clickup.com)
+        page_id:    Status.io page ID (e.g., 5b6e0963c662144d00913a09)
+
+    Status.io status_code mapping:
+        100 = Operational
+        200 = Planned Maintenance
+        300 = Degraded Performance
+        400 = Partial Service Disruption
+        500 = Service Disruption
+        600 = Security Event
+
+    Status.io incident/maintenance message state codes:
+        100 = Investigating
+        200 = Identified
+        300 = Monitoring
+        400 = Resolved
+    """
+    source = product.get("source", {})
+    page_id = source.get("page_id", "")
+    api_base = source.get("api_base", "").rstrip("/")
+
+    STATUS_IO_CODE_MAP = {
+        100: "operational",
+        200: "maintenance",
+        300: "degraded",
+        400: "partial_outage",
+        500: "major_outage",
+        600: "major_outage",
+    }
+
+    STATUS_IO_STATE_MAP = {
+        100: "investigating",
+        200: "identified",
+        300: "monitoring",
+        400: "resolved",
+    }
+
+    result = {
+        "overall_status": "unknown",
+        "components": [],
+        "incidents": [],
+    }
+
+    if not page_id:
+        print(f"    [WARN] status_io source missing page_id")
+        return result
+
+    # Fetch status from Status.io public API
+    try:
+        resp = requests.get(
+            f"https://api.status.io/1.0/status/{page_id}",
+            timeout=REQUEST_TIMEOUT,
+        )
+        resp.raise_for_status()
+        data = resp.json().get("result", {})
+    except Exception as exc:
+        print(f"    [WARN] Failed to fetch Status.io API: {exc}")
+        return result
+
+    # Overall status
+    overall = data.get("status_overall", {})
+    overall_code = overall.get("status_code", 100)
+    result["overall_status"] = STATUS_IO_CODE_MAP.get(overall_code, "unknown")
+
+    # Components — each has containers (regions) with independent status
+    for comp in data.get("status", []):
+        comp_name = comp.get("name", "")
+        comp_code = comp.get("status_code", 100)
+        comp_status = STATUS_IO_CODE_MAP.get(comp_code, "unknown")
+
+        # Add the component itself
+        result["components"].append({
+            "name": comp_name,
+            "status": comp_status,
+        })
+
+        # Also add per-region container entries for granularity
+        for container in comp.get("containers", []):
+            container_code = container.get("status_code", 100)
+            container_status = STATUS_IO_CODE_MAP.get(container_code, "unknown")
+            if container_status != "operational":
+                result["components"].append({
+                    "name": f"{comp_name} ({container.get('name', '')})",
+                    "status": container_status,
+                })
+
+    # Apply component filtering
+    result["components"] = _filter_components(result["components"], source)
+    if result["components"]:
+        result["overall_status"] = _recalculate_overall_status(
+            result["components"], result["overall_status"]
+        )
+
+    # Helper to convert a Status.io incident/maintenance into our format
+    def _parse_status_io_event(event, is_maintenance=False):
+        event_id = event.get("_id", "")
+        event_name = event.get("name", "Unknown")
+
+        # Collect affected component names for region filtering
+        affected_components = [
+            c.get("name", "") for c in event.get("components_affected", [])
+        ]
+        # Also include container (region) names for region filtering
+        affected_containers = [
+            c.get("name", "") for c in event.get("containers_affected", [])
+        ]
+        affected_all = affected_components + affected_containers
+
+        # Parse messages into updates
+        updates = []
+        latest_status = "scheduled" if is_maintenance else "investigating"
+        for msg in event.get("messages", []):
+            state_code = msg.get("state", 100)
+            state_str = STATUS_IO_STATE_MAP.get(state_code, "investigating")
+            latest_status = state_str
+
+            updates.append({
+                "id": f"{event_id}_{msg.get('datetime', '')}",
+                "status": state_str,
+                "body": strip_html(msg.get("details", "")),
+                "created_at": parse_iso_date(msg.get("datetime", "")),
+            })
+
+        # Determine incident status and impact
+        if is_maintenance:
+            if latest_status == "resolved":
+                inc_status = "completed"
+            elif latest_status in ("identified", "monitoring"):
+                inc_status = "in_progress"
+            else:
+                inc_status = "scheduled"
+            impact = "maintenance"
+        else:
+            inc_status = latest_status
+            status_code = msg.get("status", 500) if event.get("messages") else 500
+            impact_map = {200: "maintenance", 300: "minor", 400: "major", 500: "critical"}
+            impact = impact_map.get(status_code, "major")
+
+        # Build incident URL
+        url_type = "maintenance" if is_maintenance else "incident"
+        url = f"{api_base}/pages/{url_type}/{page_id}/{event_id}" if api_base else ""
+
+        return {
+            "id": event_id,
+            "name": event_name,
+            "status": inc_status,
+            "impact": impact,
+            "url": url,
+            "created_at": parse_iso_date(event.get("datetime_open", "")),
+            "updated_at": parse_iso_date(
+                updates[-1]["created_at"] if updates else event.get("datetime_open", "")
+            ),
+            "resolved_at": "",
+            "updates": updates,
+            "affected_components": affected_all,
+            "is_maintenance": is_maintenance,
+        }
+
+    # Active incidents
+    for inc in data.get("incidents", []):
+        result["incidents"].append(_parse_status_io_event(inc, is_maintenance=False))
+
+    # Active maintenance
+    for maint in data.get("maintenance", {}).get("active", []):
+        result["incidents"].append(_parse_status_io_event(maint, is_maintenance=True))
+
+    # Upcoming maintenance (include so teams get advance notice)
+    for maint in data.get("maintenance", {}).get("upcoming", []):
+        result["incidents"].append(_parse_status_io_event(maint, is_maintenance=True))
+
+    # Apply incident/region filtering
+    result["incidents"] = _filter_incidents(result["incidents"], source)
+
+    return result
+
+
 def check_html_scrape(product: dict) -> dict:
     """Generic HTML scraper for status pages without structured APIs.
 
@@ -1258,6 +1440,7 @@ SOURCE_HANDLERS = {
     "uptimerobot": check_uptimerobot,
     "cstate": check_cstate,
     "sorry": check_sorry,
+    "status_io": check_status_io,
     "html_scrape": check_html_scrape,
     "exlibris": check_exlibris,
 }

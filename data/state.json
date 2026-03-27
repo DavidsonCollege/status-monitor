@@ -12595,16 +12595,7 @@
         }
       ]
     },
-    "clickup": {
-      "overall_status": "operational",
-      "incidents": [],
-      "components": [
-        {
-          "name": "calculatuindemnizacion public",
-          "status": "operational"
-        }
-      ]
-    },
+    "clickup": {},
     "scribe": {
       "overall_status": "operational",
       "incidents": [],
