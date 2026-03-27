@@ -1,5 +1,31 @@
 [
   {
+    "id": "7341a8c31064df3e",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 monitoring",
+    "link": "https://stspg.io/jchxyv3sp1hv",
+    "summary": "As of 6:40 PT / 13:40 UTC our error rate has returned to the baseline. We are still monitoring the current situation.",
+    "date": "2026-03-27T13:46:20.620000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "9c2575f797f0c371",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 identified",
+    "link": "https://stspg.io/jchxyv3sp1hv",
+    "summary": "We have mitigated the main issue and the error rate for Opus 4.6 is hovering around 0.4% which is still high, but much better than the performance during the previous hours. We are waiting for a more permanent fix to land in the near future.",
+    "date": "2026-03-27T13:34:20.544000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "b6f86d93be8b9fce",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "8db8ac20cfe00d49",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users seeing \"No Accessible Workspaces\" when attempting to login via SSO \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKHQ47FEZ3WT1MW8T8PGGF2J",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-12T23:29:55+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "11b0b6af4992e251",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased errors with ChatGPT file downloads \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKD07DNHFKAWK5JCAMAASYGZ",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-12T22:15:52+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
