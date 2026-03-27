@@ -1,5 +1,18 @@
 [
   {
+    "id": "b6f86d93be8b9fce",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 investigating",
+    "link": "https://stspg.io/jchxyv3sp1hv",
+    "summary": "As of 5:00 PT / 12:00 UTC Sonnet 4.6 is now healthy. We are still working to fix Opus 4.6.",
+    "date": "2026-03-27T12:09:16.207000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "6490348f37663868",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "a07d7585c3ff85e0",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-12T20:02:35.853675+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
