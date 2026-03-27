@@ -1,5 +1,18 @@
 [
   {
+    "id": "fae3877d6b96d3cf",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/jchxyv3sp1hv",
+    "summary": "On March 26\u201327, 2026, customers experienced elevated error rates when using Claude Opus 4.6 and Claude Sonnet 4.6. The issue was caused by a networking performance degradation within our cloud infrastructure that disrupted communication between components of our serving stack. We resolved the incident by migrating the affected workloads to healthy infrastructure, restoring normal service by 9:30 AM PT on March 27.",
+    "date": "2026-03-27T16:46:24.919000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "177567d9e2829b6d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "bacc03df4f1e1b8f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Conversation Errors for Logged out Users \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKKQ8SNFFW363KA3HZQFQNA9",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-13T15:10:34+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
