@@ -1,5 +1,18 @@
 [
   {
+    "id": "740bc0362aecf9da",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-27T04:43:33.431100+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "4476045c4a4a228d",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "80f40525d0089086",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom Services in Saudi Arabia",
-    "link": "https://stspg.io/jckhpsl8pcbt",
-    "summary": "We have successfully identified the root cause affecting Zoom Services in Saudi Arabia\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-    "date": "2026-03-13T10:13:45.948000-07:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
