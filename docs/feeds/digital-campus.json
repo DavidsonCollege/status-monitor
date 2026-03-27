@@ -1,5 +1,18 @@
 [
   {
+    "id": "d4bb377931a56c06",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Scheduled Maintenance Notice: Chat Comments Database Upgrade",
+    "link": "https://status.clickup.com/pages/maintenance/5b6e0963c662144d00913a09/69c56479db45f805977e01cc",
+    "summary": "When: March 27, 2026, 1:00 PM to March, 28, 8:00 AM UTC\r\nWhere: AP Southeast, EU, and US regions\r\nService impact: Chat comments\r\n\r\nWe will perform scheduled maintenance to upgrade the database supporting Chat comments.\r\n\r\nNo significant downtime is expected; however, during the cutover there may be a brief interruption that could cause temporary delays or unavailability of Chat comments.\r\n\r\nIf you experience issues during or after the maintenance window, please contact Support and include the ap",
+    "date": "2026-03-26T16:53:13.808000+00:00",
+    "status": "maintenance_in_progress",
+    "incident_status": "in_progress",
+    "type": "new_incident"
+  },
+  {
     "id": "8e904ba27e1863c3",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "09900a1b4c91883c",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are delayed",
-    "link": "https://stspg.io/7mj7tf087cny",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-13T13:25:05.911000-04:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]

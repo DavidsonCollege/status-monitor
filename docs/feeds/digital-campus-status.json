@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-27T13:28:42.194280+00:00",
+  "last_checked": "2026-03-27T13:31:40.289496+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -396,11 +396,95 @@
       "name": "ClickUp",
       "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
       "status_url": "https://status.clickup.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "maintenance",
+      "active_incidents": 1,
       "components": [
         {
-          "name": "calculatuindemnizacion public",
+          "name": "ClickUp Platform",
+          "status": "operational"
+        },
+        {
+          "name": "AI Notetaker",
+          "status": "operational"
+        },
+        {
+          "name": "Automations",
+          "status": "operational"
+        },
+        {
+          "name": "Brain",
+          "status": "operational"
+        },
+        {
+          "name": "Calendar",
+          "status": "operational"
+        },
+        {
+          "name": "Chat",
+          "status": "maintenance"
+        },
+        {
+          "name": "Chat (Multiple Regions)",
+          "status": "maintenance"
+        },
+        {
+          "name": "Clips",
+          "status": "operational"
+        },
+        {
+          "name": "Comments",
+          "status": "operational"
+        },
+        {
+          "name": "Dashboards",
+          "status": "operational"
+        },
+        {
+          "name": "Docs",
+          "status": "operational"
+        },
+        {
+          "name": "Fields",
+          "status": "operational"
+        },
+        {
+          "name": "Hierarchy",
+          "status": "operational"
+        },
+        {
+          "name": "Hubs",
+          "status": "operational"
+        },
+        {
+          "name": "Integrations",
+          "status": "operational"
+        },
+        {
+          "name": "Notifications",
+          "status": "operational"
+        },
+        {
+          "name": "Public API",
+          "status": "operational"
+        },
+        {
+          "name": "Search",
+          "status": "operational"
+        },
+        {
+          "name": "Tasks",
+          "status": "operational"
+        },
+        {
+          "name": "Templates",
+          "status": "operational"
+        },
+        {
+          "name": "Views",
+          "status": "operational"
+        },
+        {
+          "name": "Whiteboards",
           "status": "operational"
         }
       ]
