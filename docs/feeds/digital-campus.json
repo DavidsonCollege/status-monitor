@@ -1,5 +1,18 @@
 [
   {
+    "id": "a6607ce2862f73dd",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-03-28T11:40:28.055191+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "d24e4674b467caba",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "7d3001c42c42ee26",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are delayed \u2014 monitoring",
-    "link": "https://stspg.io/7mj7tf087cny",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-13T15:03:12.886000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
