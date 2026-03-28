@@ -1,5 +1,18 @@
 [
   {
+    "id": "367281bbd68a3a4d",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Operational",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-03-28T06:02:59.460546+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "19a155935d67bb28",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-13T18:36:54.834000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "a47b685ff2623e43",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are delayed \u2014 identified",
-    "link": "https://stspg.io/7mj7tf087cny",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-03-13T14:27:13.452000-04:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
