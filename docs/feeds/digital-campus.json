@@ -1,5 +1,31 @@
 [
   {
+    "id": "2d9d6d09aaa151fa",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-28T04:16:15.746380+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a3d580424d86f3a4",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues while sending messages and loading message history is impacting some users",
+    "link": "https://slack-status.com",
+    "summary": "We're investigating a new incident.\nCurrent impact to end users:\u00a0Some users may experience issues while sending messages and loading message history in Slack.\u00a0\nWe'll provide an update within 30 minutes including further details on current actions being taken.",
+    "date": "2026-03-27T21:12:33-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "d4bb377931a56c06",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2571,32 +2597,6 @@
     "date": "2026-03-13T10:32:22.893000-07:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "8b064eb9f6e3b2aa",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom Services in Saudi Arabia \u2014 Resolved",
-    "link": "https://stspg.io/jckhpsl8pcbt",
-    "summary": "This incident has been resolved and the affected services have been restored.",
-    "date": "2026-03-13T10:41:21.056000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "24bcdd337bbf725f",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive & Pocket - Some customers may experience print job release failures in the US hosting region \u2014 identified",
-    "link": "https://stspg.io/2kpb04r33b82",
-    "summary": "Our engineering team has identified the contributing cause of print release failures and a fix has been deployed to mitigate these issues.\n\nWe will continue to provide updates as they become available.",
-    "date": "2026-03-13T17:11:23.776000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
