@@ -1,5 +1,18 @@
 [
   {
+    "id": "8d538151f8421810",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues while sending messages and loading message history is impacting some users \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We continue to investigate the issue.\nCurrent status and actions being taken:\u00a0We have identified high resource utilization as a potential trigger. We continue to investigate and determine the best path to resolution.\nEstimated time to resolution:\u00a0We don't have the exact resolution time at the moment and will update you once we have additional information.\nScope: This is only impacting a small subset of users.\nCurrent impact to end users:\u00a0Some users may experience issues while sending messages an",
+    "date": "2026-03-27T21:42:18-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "2d9d6d09aaa151fa",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "e5e8b1c5c7544b69",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom Services in Saudi Arabia \u2014 monitoring",
-    "link": "https://stspg.io/jckhpsl8pcbt",
-    "summary": "The service degradation affecting Zoom Services in Saudi Arabia has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-    "date": "2026-03-13T10:32:22.893000-07:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
