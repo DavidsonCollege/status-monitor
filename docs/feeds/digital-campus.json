@@ -1,5 +1,18 @@
 [
   {
+    "id": "3bb523d9b96814be",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-03-28T18:38:48.387202+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "a6607ce2862f73dd",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/2kpb04r33b82",
     "summary": "This incident has now been fully resolved. We have confirmed that print jobs are releasing successfully for multiple customers.\n\nOur apologies for any downtime that you experienced as a result of this outage. We will be performing a full retro, as we do with all issues that impact our customers.\n\nIf you experience other issues please report this via https://www.papercut.com/support/.",
     "date": "2026-03-13T20:05:47.768000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "68e4f163476232d7",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Scans are delayed \u2014 Resolved",
-    "link": "https://stspg.io/7mj7tf087cny",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-13T15:35:04.538000-04:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
