@@ -1,5 +1,18 @@
 [
   {
+    "id": "d24e4674b467caba",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-03-28T07:27:02.444441+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "367281bbd68a3a4d",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/7mj7tf087cny",
     "summary": "A fix has been implemented and we are monitoring the results.",
     "date": "2026-03-13T15:03:12.886000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "4e69c15d312fb0d6",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive & Pocket - Some customers may experience print job release failures in the US hosting region \u2014 monitoring",
-    "link": "https://stspg.io/2kpb04r33b82",
-    "summary": "Monitoring and customer reports have confirmed that print release functionality has been restored. No action is required by customers to resume printing.\n\nWe are continuing to monitor this incident. If you're still experiencing issues please report this via https://www.papercut.com/support/.",
-    "date": "2026-03-13T18:36:54.834000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"

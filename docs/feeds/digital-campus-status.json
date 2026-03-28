@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-28T06:58:43.604842+00:00",
+  "last_checked": "2026-03-28T07:27:06.686153+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -396,8 +396,8 @@
       "name": "ClickUp",
       "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
       "status_url": "https://status.clickup.com",
-      "overall_status": "maintenance",
-      "active_incidents": 1,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "ClickUp Platform",
@@ -421,11 +421,7 @@
         },
         {
           "name": "Chat",
-          "status": "maintenance"
-        },
-        {
-          "name": "Chat (Multiple Regions)",
-          "status": "maintenance"
+          "status": "operational"
         },
         {
           "name": "Clips",
