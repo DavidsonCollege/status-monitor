@@ -1,5 +1,18 @@
 [
   {
+    "id": "19a155935d67bb28",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues while sending messages and loading message history is impacting some users \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Our work on this issue is still ongoing.\nCurrent status and actions being taken: We are reviewing additional logs and diagnostic information to determine the best path to resolution.\nWe'll provide another update in 60 minutes until the impact is resolved for all users.",
+    "date": "2026-03-27T22:19:21-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "8d538151f8421810",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "28024ac8e4bc5b11",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Under Maintenance",
-    "date": "2026-03-13T17:49:34.239238+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
