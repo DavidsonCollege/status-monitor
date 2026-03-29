@@ -1,5 +1,31 @@
 [
   {
+    "id": "fb4fb68140996633",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-29T00:58:47.042737+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "25827df2893a268c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Dispatch sessions not responding in Claude Desktop",
+    "link": "https://stspg.io/jvrqr2005k9r",
+    "summary": "We've identified an issue in the latest Claude Desktop release (Claude 1.1.9310) where Dispatch sessions stop responding. Messages sent to Dispatch are received and processed, but replies do not appear in the conversation. We have identified the cause and are working on a fix. As a workaround, you can continue using standard Cowork sessions, which are unaffected.",
+    "date": "2026-03-29T00:53:21.503000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "974ce67e6f210bc1",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/ns5813nph8zs",
     "summary": "This incident has been resolved.",
     "date": "2026-03-13T21:27:50.158000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "1979f58749816830",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-13T20:15:58.889637+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "944542bc2021d5d6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API errors when using background mode \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKMB9HWS1B9452FT6BV6KDD6",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-13T20:03:53+00:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
