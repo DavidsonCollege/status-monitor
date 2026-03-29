@@ -1,5 +1,31 @@
 [
   {
+    "id": "041d090e3a1c7b50",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-03-29T22:45:52.176799+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "2a01cbc63d5ef1ee",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issue with Sending and Receiving Messages",
+    "link": "https://slack-status.com",
+    "summary": "We're investigating a new incident.\nCurrent impact to end users: Some users may experience elevated error rates and message-related degradations when sending and receiving messages across the Slack platform\nTeams are actively engaged to identify the root cause and remediate the service impact and will provide updates as information is available. \u00a0\nWe apologize for the inconvenience and will continue sharing updates as they become available.",
+    "date": "2026-03-29T15:38:57-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "3bb523d9b96814be",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/qk18hw11wlq9",
     "summary": "This incident has been resolved.",
     "date": "2026-03-13T17:57:56.555000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "f9bfcb6a83b9fd59",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Apple Business Manager Device Assignment Sync (DEP sync) experiencing significant delays for manual syncs",
-    "link": "https://stspg.io/qk18hw11wlq9",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-03-13T17:09:55.263000-04:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "104d2c9ef23c9d2c",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive & Pocket - Some customers may experience print job release failures in the US hosting region \u2014 Resolved",
-    "link": "https://stspg.io/2kpb04r33b82",
-    "summary": "This incident has now been fully resolved. We have confirmed that print jobs are releasing successfully for multiple customers.\n\nOur apologies for any downtime that you experienced as a result of this outage. We will be performing a full retro, as we do with all issues that impact our customers.\n\nIf you experience other issues please report this via https://www.papercut.com/support/.",
-    "date": "2026-03-13T20:05:47.768000+00:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
