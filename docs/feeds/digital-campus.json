@@ -1,5 +1,18 @@
 [
   {
+    "id": "9b4746beada52b12",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issue with Sending and Receiving Messages \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We\u2019re continuing to investigate the issue. We have identified two affected shards that are becoming overloaded, causing elevated query failures and message-related degradations. We are in the process of testing a potential fix. We\u2019ll provide the next update once new information becomes available.",
+    "date": "2026-03-29T16:30:00-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "041d090e3a1c7b50",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "99e301ee55370d87",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM: Apple Business Manager Device Assignment Sync (DEP sync) experiencing significant delays for manual syncs \u2014 Resolved",
-    "link": "https://stspg.io/qk18hw11wlq9",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-13T17:57:56.555000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
