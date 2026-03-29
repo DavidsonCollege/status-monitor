@@ -1,5 +1,44 @@
 [
   {
+    "id": "2a22e38aef409f57",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-29T07:06:21.777102+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d261b1fa181922fd",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Account creation and login are unstable across all surfaces \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KMW2RQMDA0395HN282YX5JFC",
+    "summary": "Status: monitoring",
+    "date": "2026-03-29T06:57:50+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "dee637f8d0348e06",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Account creation and login are unstable across all surfaces \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KMW2RQMDA0395HN282YX5JFC",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-29T07:00:23+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "27df4dc2488861a1",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "0d18fe91b35e6189",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-16T13:03:28.797235+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b6e52f71930eb782",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 Resolved",
-    "link": "https://stspg.io/tft2q4bntkkv",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-16T12:36:51.775000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "55e7e8c2dc3e237a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 monitoring",
-    "link": "https://stspg.io/tft2q4bntkkv",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-16T12:27:33.819000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
