@@ -1,5 +1,18 @@
 [
   {
+    "id": "c3859be0fa6a3ab9",
+    "product_id": "accruent-ems",
+    "product_name": "Accruent EMS",
+    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
+    "title": "Accruent EMS: Degraded Performance",
+    "link": "https://status.accruent.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-30T15:56:01.919230+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "24db3bceb2bd02f0",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/yjrpr90xb4mw",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-03-14T17:00:07.255000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "4731aff1dd3a2bbc",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Decommissioning Numbers for Zoom Audio Conferencing. \u2014 Resolved",
-    "link": "https://stspg.io/dyhy0sdb9lc2",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-13T20:00:07.131000-07:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
