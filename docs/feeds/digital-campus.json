@@ -1,5 +1,18 @@
 [
   {
+    "id": "61023bca52a1430a",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-30T17:50:17.065755+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "355ad8a1c46f73b3",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-15T00:00:07.206000-07:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "040181cbed60815c",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Update the client Slow version for Zoom Commercial (March 15, 2026) \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/kny58htz2ysd",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-03-14T23:00:12.145000-07:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
