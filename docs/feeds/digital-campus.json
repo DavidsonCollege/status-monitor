@@ -1,5 +1,18 @@
 [
   {
+    "id": "355ad8a1c46f73b3",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-30T16:56:03.570659+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "c3859be0fa6a3ab9",
     "product_id": "accruent-ems",
     "product_name": "Accruent EMS",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "1a3ff3255d32663a",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom Audio Conference Infrastructure Upgrade (NRT - Japan) \u2014 Resolved",
-    "link": "https://stspg.io/yjrpr90xb4mw",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-14T17:00:07.255000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
