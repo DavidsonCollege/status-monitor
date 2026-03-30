@@ -1,5 +1,18 @@
 [
   {
+    "id": "c06fc950763c0eaa",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issue with Sending and Receiving Messages \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "A fix has been deployed to the affected shards. ProcessMessage jobs had been paused, and these have now been unpaused on the affected shards. We are monitoring performance to assess whether the shards have returned to expected performance levels.",
+    "date": "2026-03-29T17:29:49-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "9b4746beada52b12",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-13T17:00:07.163000-07:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "95b8f50e81256fd4",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Decommissioning Numbers for Zoom Audio Conferencing. \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/dyhy0sdb9lc2",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-03-13T16:00:11.528000-07:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
