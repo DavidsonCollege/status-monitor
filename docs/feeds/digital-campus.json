@@ -1,5 +1,18 @@
 [
   {
+    "id": "f422a0e28fa4382a",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident: Issues with Automations and Reports \u2014 identified",
+    "link": "https://stspg.io/c96ymh0hjh6r",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-03-31T13:07:42.612000-04:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "7b325f7a9120402b",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "297ccfad781f2c8f",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect device scans and deployment statues are delayed \u2014 investigating",
-    "link": "https://stspg.io/gss27v0zymgw",
-    "summary": "This issue is still under investigation as we work to determine a resolution for the degraded performance.",
-    "date": "2026-03-16T11:26:46.574000-04:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
