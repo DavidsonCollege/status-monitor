@@ -1,5 +1,44 @@
 [
   {
+    "id": "c7ed4eee0c2a6542",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-03-31T15:48:08.320462+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e1407d06bfaa90f9",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-03-31T15:48:11.162147+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "54245243885bc9a1",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable \u2014 monitoring",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69cbda953bf81a0583269495",
+    "summary": "We have mitigated the issue leading to missing Workspace features in our web, desktop, and mobile applications. We will continue monitoring to ensure the issue is fully resolved.",
+    "date": "2026-03-31T15:24:53.734000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "b75e4edc140119ab",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2559,44 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "29aab7ac9f8cd5af",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect device scans and deployment statues are delayed",
-    "link": "https://stspg.io/gss27v0zymgw",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-03-16T09:54:24.894000-04:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "2129d4f10d992f2a",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-03-16T08:34:14.893006+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c56ed1bf167b3d98",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Network Maintenance in Ashburn (IAD) Datacenter \u2014 Resolved",
-    "link": "https://stspg.io/pqzkz63l8rvn",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-16T01:00:07.374000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
