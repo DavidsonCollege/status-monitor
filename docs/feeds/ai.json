@@ -1,5 +1,31 @@
 [
   {
+    "id": "02461f879cf0d6d1",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Partial Outage",
+    "date": "2026-03-31T21:03:01.067376+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "41f6a4d1004586c4",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Opus 4.6 error rate elevated \u2014 identified",
+    "link": "https://stspg.io/r7hg2hm3js9h",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-03-31T21:01:33.284000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "7b0f2c3a82b25a77",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "9a8d4537f4693c0e",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors for sign-in and account creation",
-    "link": "https://status.openai.com/incidents/01KKWW47249GJZZP9ZGR1PTHV5",
-    "summary": "",
-    "date": "2026-03-17T03:06:13+00:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "c3a825017ae1b75c",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated Errors Affecting ChatGPT Free and Guest Plan Users",
-    "link": "https://status.openai.com/incidents/01KKWVN6G352TSSB6XFQCA8H7D",
-    "summary": "",
-    "date": "2026-03-17T02:58:01+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
