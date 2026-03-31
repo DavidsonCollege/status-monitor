@@ -1,5 +1,18 @@
 [
   {
+    "id": "7b0f2c3a82b25a77",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Unavailable connectors in Claude.ai desktop applications",
+    "link": "https://stspg.io/5mv6w1t4x8ly",
+    "summary": "We have identified an issue which has resulted in some Claude.ai connectors becoming unavailable within the desktop application. We are working to restore access to these extensions, and will provide an update as soon as possible.",
+    "date": "2026-03-31T20:12:05.864000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "3af59605045af1dd",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "a9c326c8a37f8688",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-16T16:43:05.178521+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
