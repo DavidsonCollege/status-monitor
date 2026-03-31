@@ -1,5 +1,18 @@
 [
   {
+    "id": "4f68c6de48ff45eb",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated failures for some users joining ChatGPT Enterprise and ChatGPT Edu workspaces via SSO.",
+    "link": "https://status.openai.com/incidents/01KN2572VPZRK41ZVAVP9FS5JR",
+    "summary": "",
+    "date": "2026-03-31T14:36:59+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "fb1591c01aa7e59a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "1848b7b1d131f9a5",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 identified",
-    "link": "https://stspg.io/p46bdr8km63c",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-16T15:13:28.460000+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]

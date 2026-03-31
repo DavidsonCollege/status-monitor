@@ -1,5 +1,31 @@
 [
   {
+    "id": "b75e4edc140119ab",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Partial Outage",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-31T14:44:46.114536+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1a62028db987c263",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69cbda953bf81a0583269495",
+    "summary": "We're investigating reports of missing Workspace features in our web and desktop applications. We\u2019ll have frequent updates until we have a monitoring status.",
+    "date": "2026-03-31T14:30:45.026000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "45a66049c764285b",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/pqzkz63l8rvn",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-03-16T01:00:07.374000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "f59330a1b2fbf6bc",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: India Data Centers CRC Capacity Expansion \u2014 Resolved",
-    "link": "https://stspg.io/jkzhln549n6r",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-16T00:30:07.325000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "72ab591353481d2e",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Update the client Slow version for Zoom Commercial (March 15, 2026) \u2014 Resolved",
-    "link": "https://stspg.io/kny58htz2ysd",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-15T23:30:07.187000-07:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
