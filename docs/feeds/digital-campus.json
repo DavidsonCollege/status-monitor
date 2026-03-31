@@ -1,5 +1,31 @@
 [
   {
+    "id": "21af2cdc68fe0e4c",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Partial Outage",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-03-31T19:55:38.707401+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e26554ec0e4481b0",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable \u2014 identified",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69cbda953bf81a0583269495",
+    "summary": "After receiving new reports, we are investigating additional cases of certain Workspace features across our web, desktop, and mobile applications not appearing as expected.\r\n\r\nThis issue has been identified as originating from a third-party vendor, and we are actively working with their team toward a resolution. We\u2019ll continue to provide updates until we return to a monitoring status.",
+    "date": "2026-03-31T19:30:26.542000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "577fc3c111cc392a",
     "product_id": "shortio",
     "product_name": "Short.io",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "331d0662aad9a694",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Real Time Media Streams (RTMS) \u2014 identified",
-    "link": "https://stspg.io/23nfdwhg9mby",
-    "summary": "Our team continues to work on a resolution. An update will be provided when more information becomes available. \n\nThank you for your patience.",
-    "date": "2026-03-16T11:48:08.285000-07:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "5b080f3599ba4b63",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-16T17:55:57.734163+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
