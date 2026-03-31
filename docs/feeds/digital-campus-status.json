@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-03-31T13:27:55.836831+00:00",
+  "last_checked": "2026-03-31T14:08:37.637215+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -69,6 +69,46 @@
       "overall_status": "operational",
       "active_incidents": 0,
       "components": [
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
+        {
+          "name": "Unknown",
+          "status": "unknown"
+        },
         {
           "name": "Unknown",
           "status": "unknown"
@@ -244,7 +284,7 @@
       "name": "Zoom",
       "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
       "status_url": "https://status.zoom.us",
-      "overall_status": "operational",
+      "overall_status": "degraded",
       "active_incidents": 1,
       "components": []
     },
