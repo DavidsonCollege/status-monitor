@@ -1,5 +1,31 @@
 [
   {
+    "id": "4dacf2cc0e7c2923",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident: Issues with Automations and Reports \u2014 Resolved",
+    "link": "https://stspg.io/c96ymh0hjh6r",
+    "summary": "This incident has been resolved.",
+    "date": "2026-03-31T13:16:43.301000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "8c032d63c5535064",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation Affecting Sign In and Joining Meetings",
+    "link": "https://stspg.io/3dw3gwkqw5vd",
+    "summary": "A subset of users might have experienced error code 1132 with sign in and joining meetings.\n\nOn 03/31/206 Between 03:15 UTC to 17:02 UTC, A subset of us may have experienced error code 1132 with sign in and joining meetings.\n\nThis incident has been resolved and the affected services have been restored.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
+    "date": "2026-03-31T10:28:21.765000-07:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "f422a0e28fa4382a",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "b981d014c38b7054",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Real Time Media Streams (RTMS)",
-    "link": "https://stspg.io/23nfdwhg9mby",
-    "summary": "We are currently investigating a service degradation with Real Time Media Streams.\n\nOur team is actively working to identify the impact and root cause. We will provide an update as soon as more information becomes available.\n\nWe appreciate your patience as we work to resolve this issue.",
-    "date": "2026-03-16T10:37:25.096000-07:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "2bfafcaf76d0c1b4",
-    "product_id": "scribe",
-    "product_name": "Scribe",
-    "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
-    "title": "Scribe: Operational",
-    "link": "https://status.scribehow.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-03-16T16:15:46.427965+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
