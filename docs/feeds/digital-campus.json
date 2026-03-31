@@ -1,5 +1,18 @@
 [
   {
+    "id": "7b325f7a9120402b",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident: Issues with Automations and Reports",
+    "link": "https://stspg.io/c96ymh0hjh6r",
+    "summary": "We are continuing to investigate this issue.",
+    "date": "2026-03-31T12:23:41.955000-04:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "c7ed4eee0c2a6542",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "08a91a7862a05b9b",
-    "product_id": "scribe",
-    "product_name": "Scribe",
-    "icon_url": "https://www.google.com/s2/favicons?domain=scribehow.com&sz=64",
-    "title": "Scribe: Major Outage",
-    "link": "https://status.scribehow.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-16T15:45:39.681291+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
