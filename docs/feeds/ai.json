@@ -1,5 +1,18 @@
 [
   {
+    "id": "0260fa4ec5d9f330",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Unavailable connectors in Claude.ai desktop applications \u2014 Resolved",
+    "link": "https://stspg.io/5mv6w1t4x8ly",
+    "summary": "We have resolved an issue that resulted in the unavailability of connectors in the Claude.ai desktop application. Affected connectors were removed from organization allowlists, and can be manually re-added while we work to automatically restore impacted allowlists.",
+    "date": "2026-03-31T22:59:37.233000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "a0dd09bb7fb6f5e2",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "c49d674457834e58",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors for sign-in and account creation \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKWW47249GJZZP9ZGR1PTHV5",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-17T04:09:53+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
