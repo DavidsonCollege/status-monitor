@@ -1,5 +1,18 @@
 [
   {
+    "id": "8f43a26613507160",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: SimpleMDM Scheduled Maintenance Window. Service down temporarily. \u2014 Resolved",
+    "link": "https://stspg.io/hpk90jszf3d1",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-03-31T18:00:07.845000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "654c974f3df86ce3",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-16T19:55:33.317233+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "13fe5db070473799",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-16T19:55:44.633833+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
