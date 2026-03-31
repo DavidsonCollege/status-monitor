@@ -4136,64 +4136,6 @@
         }
       ]
     },
-    "accruent-ems": {
-      "overall_status": "operational",
-      "incidents": [],
-      "components": [
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        },
-        {
-          "name": "Unknown",
-          "status": "unknown"
-        }
-      ]
-    },
     "google-workspace": {
       "overall_status": "operational",
       "incidents": [],
