@@ -1,5 +1,18 @@
 [
   {
+    "id": "577fc3c111cc392a",
+    "product_id": "shortio",
+    "product_name": "Short.io",
+    "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
+    "title": "Short.io: Degraded Performance",
+    "link": "https://shortiostatus.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-03-31T19:29:58.147301+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "4dacf2cc0e7c2923",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0605e7b080c68aac",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Real Time Media Streams (RTMS) \u2014 identified",
-    "link": "https://stspg.io/23nfdwhg9mby",
-    "summary": "We have successfully identified the root cause affecting Real Time Media Streams.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-    "date": "2026-03-16T10:49:49.019000-07:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
