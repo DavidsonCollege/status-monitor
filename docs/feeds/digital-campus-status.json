@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-01T12:47:10.121130+00:00",
+  "last_checked": "2026-04-01T13:21:46.501280+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -454,8 +454,8 @@
       "name": "Slack",
       "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
       "status_url": "https://slack-status.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "major_outage",
+      "active_incidents": 1,
       "components": []
     },
     {

@@ -1,5 +1,31 @@
 [
   {
+    "id": "46ae4fd79a6e5f18",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-01T13:21:44.526199+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "2c1c9fa4d77852da",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slackbot button in the top navigation is disappearing",
+    "link": "https://slack-status.com",
+    "summary": "We\u2019re aware of an issue introduced in build 121247 that affects the Slackbot button in the top navigation bar. As a result, the button may no longer be visible to users. We've identified a fix and are performing a rollback to restore the button for all affected users. We will provide an update in 30 minutes, or sooner if additional information becomes available. Thank you for your patience while we continue to investigate the situation.",
+    "date": "2026-04-01T06:01:28-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "0a780c42dec166e5",
     "product_id": "shortio",
     "product_name": "Short.io",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "97cc6e0fdede80c7",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-16T22:00:26.645237+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "a7250af77e5e64e4",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling",
-    "link": "https://stspg.io/k12sd5f08kb4",
-    "summary": "We will be performing an un-scheduled maintenance on March 16, 2025 at 10:00 pm EST. We expect maintenance to be completed at or before December 09, 11:00 pm EST.\n\nDuring this time, PDQ Connect will experience a brief downtime. \n\nIf you have any questions, please let us know at support@pdq.com",
-    "date": "2026-03-16T17:10:38.761000-04:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
