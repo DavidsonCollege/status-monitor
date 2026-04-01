@@ -1,5 +1,31 @@
 [
   {
+    "id": "e135d35bf4236716",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-01T01:49:57.245887+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "5de350fe41792603",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors and latency on Claude Haiku 4.5",
+    "link": "https://stspg.io/41zdshl7bt0z",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-01T01:27:50.853000+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "0260fa4ec5d9f330",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2571,32 +2597,6 @@
     "date": "2026-03-17T05:21:16+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "b2fa1134f72ddef7",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated Errors Affecting ChatGPT Free and Guest Plan Users \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKWVN6G352TSSB6XFQCA8H7D",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-17T05:20:01+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "dbd54a0a6c1129f7",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors for sign-in and account creation \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KKWW47249GJZZP9ZGR1PTHV5",
-    "summary": "Status: identified",
-    "date": "2026-03-17T04:49:15+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
