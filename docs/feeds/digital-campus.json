@@ -1,5 +1,31 @@
 [
   {
+    "id": "98b95bea2e024d12",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-01T00:17:01.918564+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "cbd0d92a72f9c646",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable \u2014 monitoring",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69cbda953bf81a0583269495",
+    "summary": "We have worked with our third-party vendor to mitigate the issue leading to missing Workspace features in our web, desktop, and mobile applications. Functionality should be restored at this point. We will continue monitoring to ensure the issue is fully resolved.",
+    "date": "2026-04-01T00:07:11.020000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "8f43a26613507160",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "c3682b0d22e36a35",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Real Time Media Streams (RTMS) \u2014 Resolved",
-    "link": "https://stspg.io/23nfdwhg9mby",
-    "summary": "This incident has been resolved and the affected services have been restored.",
-    "date": "2026-03-16T12:56:05.545000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "9f672cff7909a926",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Degraded Performance",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-16T19:55:33.317233+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
