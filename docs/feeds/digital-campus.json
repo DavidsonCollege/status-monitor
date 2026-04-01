@@ -1,5 +1,18 @@
 [
   {
+    "id": "d6b0d4413079586f",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-01T21:26:51.394361+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "fa39992342d04684",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "c95f9665c3829bc1",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Update the client Prompted version for Zoom Commercial (March 19, 2026) \u2014 Resolved",
-    "link": "https://stspg.io/fjb70fkgp0gr",
-    "summary": "This maintenance has been cancelled.",
-    "date": "2026-03-16T19:44:46.047000-07:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
