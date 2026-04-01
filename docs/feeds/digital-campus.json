@@ -1,5 +1,18 @@
 [
   {
+    "id": "0a780c42dec166e5",
+    "product_id": "shortio",
+    "product_name": "Short.io",
+    "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
+    "title": "Short.io: Operational",
+    "link": "https://shortiostatus.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-01T06:41:21.866259+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "98b95bea2e024d12",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "ef872240d1de5122",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect device scans and deployment statues are delayed \u2014 Resolved",
-    "link": "https://stspg.io/gss27v0zymgw",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-16T16:02:58.989000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]

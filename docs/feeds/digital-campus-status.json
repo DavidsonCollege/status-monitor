@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-01T05:55:08.875558+00:00",
+  "last_checked": "2026-04-01T06:41:31.268459+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -162,20 +162,20 @@
       "name": "Short.io",
       "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
       "status_url": "https://shortiostatus.com",
-      "overall_status": "degraded",
+      "overall_status": "operational",
       "active_incidents": 0,
       "components": [
         {
           "name": "Redirects",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "API",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Dashboard",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Landing page",
