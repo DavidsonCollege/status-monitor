@@ -1,5 +1,18 @@
 [
   {
+    "id": "5724a0ee60e79b7c",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slackbot button in the top navigation is disappearing \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Our work on this issue is still ongoing.\nCurrent status and actions being taken:\u00a0 We've identified the cause of the issue affecting the Slackbot button in the top navigation bar and have taken steps to address it. The issue is no longer present for affected users. Users who are currently experiencing the issue may need to reload Slack for the fix to take effect. We're continuing to monitor and will provide an update once service has been fully restored.\nWe'll provide another update in 30 minutes",
+    "date": "2026-04-01T06:44:24-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "46ae4fd79a6e5f18",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-16T22:00:07.912000-04:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "0fbb6c0611aed73a",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/k12sd5f08kb4",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-03-16T21:00:11.042000-04:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
