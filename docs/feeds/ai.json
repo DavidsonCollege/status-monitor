@@ -1,5 +1,18 @@
 [
   {
+    "id": "1ab58e949cddae1f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Errors on the Claude.ai desktop application",
+    "link": "https://stspg.io/tfgv19v6g9vk",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-01T22:15:35.287000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "3be93aaffa3fbc70",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "50d3f29d6feed326",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 identified",
-    "link": "https://stspg.io/0mg0y9xsmh4z",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-17T11:59:41.493000+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
