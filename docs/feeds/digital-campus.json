@@ -1,5 +1,18 @@
 [
   {
+    "id": "4c6aa264e1a200d1",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 Resolved",
+    "link": "https://stspg.io/2qdv5y4dbgsb",
+    "summary": "Monitoring complete. No additional issues.",
+    "date": "2026-04-02T21:07:01.537000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "4922dee04d8dd6fc",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-17T20:18:37.419101+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "3af94ee142d9aaec",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-17T18:07:52.252585+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
