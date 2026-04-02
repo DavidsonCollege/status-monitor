@@ -1,5 +1,31 @@
 [
   {
+    "id": "e578771269dd89e3",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (USE)",
+    "link": "https://stspg.io/2qdv5y4dbgsb",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-04-02T12:53:00.192000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
+    "id": "66ea546d5f4fc1bc",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: Platform/Build loading issues",
+    "link": "https://stspg.io/rjxh6h6tx2fq",
+    "summary": "This issue was caused by a temporary disruption during recent updates that impacted connectivity between services. Service was restored shortly after the issue was identified. We are taking steps to improve deployment processes and reduce the risk of similar disruptions in the future.",
+    "date": "2026-04-01T11:00:00-06:00",
+    "status": "resolved",
+    "incident_status": "postmortem",
+    "type": "new_incident"
+  },
+  {
     "id": "da30d5812cfa33f1",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "83d0250a6ee4bc53",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling \u2014 monitoring",
-    "link": "https://stspg.io/k12sd5f08kb4",
-    "summary": "Verification is currently underway for the maintenance items.",
-    "date": "2026-03-16T22:31:51.558000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "dab83e388c58148a",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Unscheduled Connect Maintenance - Managed DB Connection Pooling \u2014 Resolved",
-    "link": "https://stspg.io/k12sd5f08kb4",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-03-16T22:49:27.281000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
