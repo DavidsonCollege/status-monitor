@@ -1,5 +1,44 @@
 [
   {
+    "id": "e0edafec37f4add2",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 monitoring",
+    "link": "https://stspg.io/2qdv5y4dbgsb",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-02T15:37:10.721000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "cd2f0273c7041b1e",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive & PaperCut MF - Some users experiencing failures Scanning to Google Drive \u2014 Resolved",
+    "link": "https://stspg.io/jbnrq218szvz",
+    "summary": "This incident has now been fully resolved. We have confirmed that Scan to Google drive is operational via internal testing and reports from multiple customers.\n\nIf you experience other issues please report this via https://www.papercut.com/support/.",
+    "date": "2026-04-02T15:29:43.407000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "325ef99bf5922432",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Planned Maintenance - Connect",
+    "link": "https://stspg.io/j5hg8h3txwtr",
+    "summary": "We will be performing scheduled maintenance for Connect on April 15, 2026 at 10:00 pm EDT. \n\nDuring this time, there will be a brief interruption of service. \n\nWe expect maintenance to be completed by or before April 16, 12:00 am EDT.",
+    "date": "2026-04-02T11:31:28.092000-04:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "fd9a59bc63cb0b5d",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "e3328820b114eb93",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 monitoring",
-    "link": "https://stspg.io/08xd342xn4j3",
-    "summary": "The service degradation affecting Zoom AIC and Zoom Virtual Agent in US region has been successfully resolved. \n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-    "date": "2026-03-17T00:38:39.257000-07:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "21f6b13d737ac5d1",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Major Outage",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-17T07:34:04.724574+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "dd9c91c9ffe84065",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 identified",
-    "link": "https://stspg.io/08xd342xn4j3",
-    "summary": "We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.",
-    "date": "2026-03-16T23:35:32.170000-07:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
