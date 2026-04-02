@@ -1,5 +1,18 @@
 [
   {
+    "id": "fbda37e954ef8c1a",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: High error rate for completionsapi-gpt-5-nano",
+    "link": "https://status.openai.com/incidents/01KN6HYER5GRV8WVNZXCAC5FA3",
+    "summary": "",
+    "date": "2026-04-02T07:36:25+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "1ab58e949cddae1f",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "690290177048fa2f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 Resolved",
-    "link": "https://stspg.io/f8cydcj4ygk8",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-17T11:45:52.337000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
