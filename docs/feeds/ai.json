@@ -1,5 +1,18 @@
 [
   {
+    "id": "f146608c0ff5aed0",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT Dictation Elevated Error Rate \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KN78XN18M5VB6DSRTCWMJRYN",
+    "summary": "Status: investigating",
+    "date": "2026-04-02T16:38:36+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "f39b609a1a34f997",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-17T15:28:42.872000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "98df9b15a4699f7a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 identified",
-    "link": "https://stspg.io/bc01y922m27g",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-17T15:21:58.757000+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
