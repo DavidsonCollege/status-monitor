@@ -1,5 +1,31 @@
 [
   {
+    "id": "7f637e20ec49c6eb",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 identified",
+    "link": "https://stspg.io/2qdv5y4dbgsb",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-04-02T13:03:06.782000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "c724923b6ec5ddcb",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive & PaperCut MF - Some users experiencing failures Scanning to Google Drive \u2014 monitoring",
+    "link": "https://stspg.io/jbnrq218szvz",
+    "summary": "We have pushed a fix to production which means functionality should now be fully restored. No action is needed to resume scanning to Google Drive.\n\nWe are continuing to monitor this incident. If you're still experiencing issues please report this via https://www.papercut.com/support/.",
+    "date": "2026-04-02T13:42:20.476000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "e578771269dd89e3",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2571,32 +2597,6 @@
     "date": "2026-03-16T22:18:21.465000-07:00",
     "status": "degraded",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "291ec3eba726be58",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 investigating",
-    "link": "https://stspg.io/08xd342xn4j3",
-    "summary": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.",
-    "date": "2026-03-16T21:50:16.628000-07:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "e688155a6b979bf9",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 investigating",
-    "link": "https://stspg.io/08xd342xn4j3",
-    "summary": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.",
-    "date": "2026-03-16T20:54:04.692000-07:00",
-    "status": "degraded",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
