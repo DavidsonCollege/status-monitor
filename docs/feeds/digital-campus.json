@@ -1,5 +1,18 @@
 [
   {
+    "id": "fd9a59bc63cb0b5d",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 identified",
+    "link": "https://stspg.io/2qdv5y4dbgsb",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-04-02T13:56:10.028000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "7f637e20ec49c6eb",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/08xd342xn4j3",
     "summary": "We continue to work on a fix for this issue and will provide updates as soon as there is more information to share.",
     "date": "2026-03-16T23:35:32.170000-07:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "18a560f15a3ef517",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region. \u2014 identified",
-    "link": "https://stspg.io/08xd342xn4j3",
-    "summary": "We have successfully identified the root cause affecting Zoom AIC and Zoom Virtual Agent in US region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
-    "date": "2026-03-16T22:18:21.465000-07:00",
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"

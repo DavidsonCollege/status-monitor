@@ -1,5 +1,31 @@
 [
   {
+    "id": "953ec81fc71adcae",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Partial Outage",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-02T14:18:03.813216+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "b7a8d025287c049f",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT Dictation Elevated Error Rate",
+    "link": "https://status.openai.com/incidents/01KN78XN18M5VB6DSRTCWMJRYN",
+    "summary": "",
+    "date": "2026-04-02T14:17:56+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "0ccc1eb1b56afe40",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "677c2245447a941d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 Resolved",
-    "link": "https://stspg.io/0mg0y9xsmh4z",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-17T13:03:10.882000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "c5837f95f332c62e",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-17T12:30:39.212545+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
