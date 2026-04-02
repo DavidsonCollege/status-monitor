@@ -1,5 +1,18 @@
 [
   {
+    "id": "8c2a422118a6ce99",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - Some users experiencing failures Scanning to Google Drive",
+    "link": "https://stspg.io/jbnrq218szvz",
+    "summary": "PaperCut Hive - Some users experiencing failures Scanning to Google Drive\n\nOur development team are currently investigating an intermittent issue affecting PaperCut Hive's scanning functionality for the UK hosting region only. \n\nThe impacted features are:\n\nIntegrated Scanning: Users may see errors such as \u201c\"Something went wrong sending your scan\" via an email notification that the scan was not delivered. This incident affects only scan to Google Drive.\n\nWe\u2019re actively working to resolve the issu",
+    "date": "2026-04-02T09:20:47.966000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "d6b0d4413079586f",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "b7f98acb52ebf3b5",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Zoom AIC and Zoom Virtual Agent in US region.",
-    "link": "https://stspg.io/08xd342xn4j3",
-    "summary": "We are continuing to investigate this issue and will provide updates as soon as there is more information to share.",
-    "date": "2026-03-16T19:30:27.970000-07:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
