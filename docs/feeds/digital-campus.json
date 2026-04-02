@@ -1,5 +1,18 @@
 [
   {
+    "id": "da30d5812cfa33f1",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive & PaperCut MF - Some users experiencing failures Scanning to Google Drive \u2014 investigating",
+    "link": "https://stspg.io/jbnrq218szvz",
+    "summary": "We are continuing to investigate this issue.",
+    "date": "2026-04-02T09:37:39.954000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "8c2a422118a6ce99",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "55a33e4f9b93d8c1",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-17T03:20:11.549427+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

@@ -1,5 +1,18 @@
 [
   {
+    "id": "0ccc1eb1b56afe40",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: High error rate for completionsapi-gpt-5-nano \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KN6HYER5GRV8WVNZXCAC5FA3",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-02T09:42:05+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "0851245a87d7f777",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "cca6a6dfe4661066",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6 \u2014 monitoring",
-    "link": "https://stspg.io/0mg0y9xsmh4z",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-17T12:13:21.152000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
