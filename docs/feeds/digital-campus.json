@@ -1,5 +1,18 @@
 [
   {
+    "id": "56eefa98851a30f5",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-northeast-1 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/wv11y71hwbp3",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-04-03T15:00:07.264000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "ed7f240b3ab30837",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-18T01:26:21.684000-07:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3c9d9c1da705e2f0",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom Workforce Management Update: March 21, 2026 (No Operational Impact)",
-    "link": "https://stspg.io/txlfynsnx6yd",
-    "summary": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. This update includes self-healing capabilities that automatically detect and resolve issues during intraday operations.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-    "date": "2026-03-18T00:00:55.768000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
     "type": "new_incident"
   }
 ]
