@@ -1,5 +1,31 @@
 [
   {
+    "id": "0f9669e172836d7a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-03T18:21:58.842176+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8749087bcae30eb3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on requests to Claude Sonnet 4.6",
+    "link": "https://stspg.io/n5n5mg7xv9d8",
+    "summary": "We are currently investigating an issue resulting in elevated errors on requests to Claude Sonnet 4.6. We will provide an update as soon as possible.",
+    "date": "2026-04-03T18:12:45.711000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "7fda10aa80a638bf",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "da23c62b7d750315",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Partial Outage",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-03-17T18:33:30.392516+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "53ad499e0374ad8e",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Excel Plugin is inaccessible for some users \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KKYDB848BK4162KR5XFYFZCV",
-    "summary": "Status: identified",
-    "date": "2026-03-17T18:32:15+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
