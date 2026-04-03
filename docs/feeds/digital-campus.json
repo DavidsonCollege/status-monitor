@@ -1,5 +1,18 @@
 [
   {
+    "id": "11e903c5da1aab39",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-southeast-2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/n871w5cd8q6r",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-04-03T13:00:07.167000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "5e3b2fba2312634a",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "928677e0e072e5cf",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-17T22:17:29.905379+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
