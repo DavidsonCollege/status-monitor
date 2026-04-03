@@ -1,5 +1,31 @@
 [
   {
+    "id": "f8658a0d5ec3e115",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-03T19:28:17.028120+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "de20df0fe4f083e1",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on requests to Claude Sonnet 4.6 \u2014 Resolved",
+    "link": "https://stspg.io/n5n5mg7xv9d8",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-03T19:21:08.318000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "0f9669e172836d7a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "7bfe62bf25411d3b",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Excel Plugin is inaccessible for some users \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKYDB848BK4162KR5XFYFZCV",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-17T18:50:07+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "8b3d914d4cb08b84",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: High Error rates with ChatGPT 5.4 Pro \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KKYG7H8Y0BAN8MGWER3H17EV",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-17T18:40:04+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
