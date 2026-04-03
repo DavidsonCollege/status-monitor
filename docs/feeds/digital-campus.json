@@ -1,5 +1,31 @@
 [
   {
+    "id": "d9f04f098bd47f4e",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for germany-westcentral \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/tvbd8qp5zv4t",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-03T21:00:08.040000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "eb42f038a705e28e",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-central-1 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/kkjlyzv8b214",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-03T21:00:07.789000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "91279e971b550b83",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "69f656f783aa0a45",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom Audio Conference Infrastructure Upgrade (SIN - Singapore)",
-    "link": "https://stspg.io/4nrrcj960bqx",
-    "summary": "We will perform scheduled PSTN telephony backend maintenance to enhance operational reliability and resiliency for Zoom Audio Conferencing during the maintenance windows and locations listed. We do not anticipate any service interruptions during this time.\n\nSingapore Time (SGT): March 27, 05:00 PM \u2013 March 29, 05:00 AM\n\nPacific Time (PDT): March 27, 02:00 AM \u2013 March 28, 2:00 PM\n\nGMT: March 27, 09:00 AM \u2013 March 28, 09:00 PM",
-    "date": "2026-03-18T10:33:47.504000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "039fb0d4535ae454",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Infrastructure Maintenance - CA/US/US2",
-    "link": "https://stspg.io/qgnh9cf30tbz",
-    "summary": "We will be performing scheduled infrastructure maintenance to enhance your service experience.",
-    "date": "2026-03-18T10:18:09.543000-05:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
