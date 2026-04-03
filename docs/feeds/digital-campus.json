@@ -1,5 +1,18 @@
 [
   {
+    "id": "91279e971b550b83",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-southeast-2 \u2014 Resolved",
+    "link": "https://stspg.io/n871w5cd8q6r",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-03T19:00:07.142000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "56eefa98851a30f5",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-18T10:18:09.543000-05:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "ce3be2e1234b67e7",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Webpages of zoom.us, Zoom Rooms, Zoom Contact Center Analytics.",
-    "link": "https://stspg.io/4hqdhfh04sm4",
-    "summary": "This incident has been resolved and the affected services have been restored.",
-    "date": "2026-03-18T01:26:21.684000-07:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
