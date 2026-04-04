@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-04T06:36:11.751955+00:00",
+  "last_checked": "2026-04-04T07:04:21.949464+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -76,7 +76,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
       "status_url": "https://status.jamf.com",
       "overall_status": "operational",
-      "active_incidents": 5,
+      "active_incidents": 4,
       "components": [
         {
           "name": "Jamf Cloud Connector",
