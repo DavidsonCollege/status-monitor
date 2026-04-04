@@ -1,5 +1,18 @@
 [
   {
+    "id": "e757904df1dc9e90",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for germany-westcentral \u2014 Resolved",
+    "link": "https://stspg.io/tvbd8qp5zv4t",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-04T00:00:09.811000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "50c937064f48e83d",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-19T10:40:29.454645+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "43545ba517e6fcc1",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Operational",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-03-19T04:08:42.431170+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
