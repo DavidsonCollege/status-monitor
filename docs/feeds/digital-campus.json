@@ -1,5 +1,31 @@
 [
   {
+    "id": "9062dee027ed7b0f",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for us-west-2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/b2skwtr5q7h0",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-04T06:00:16.433000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "76bc745187027057",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-west-2 \u2014 Resolved",
+    "link": "https://stspg.io/jl5zrxhw7gqd",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-04T06:00:07.188000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "620b6df8dcd77276",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/57kj9kx4n7mz",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2025-12-19T09:05:11.808000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "0bb37ab6fb167907",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule Monthly Maintenance - November 2025",
-    "link": "https://stspg.io/hk08qhsw2l8f",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-11-13T16:40:46.019000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
-    "type": "new_incident"
-  },
-  {
-    "id": "678c54be57135419",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule Monthly Maintenance - October 2025",
-    "link": "https://stspg.io/lhhy2y24ylyh",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2025-10-17T11:57:25.563000-05:00",
     "status": "resolved",
     "incident_status": "completed",
     "type": "new_incident"
