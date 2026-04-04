@@ -1,5 +1,18 @@
 [
   {
+    "id": "2fe21ac550e96487",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Sonnet 4.6 and Opus 4.6 elevated error rate",
+    "link": "https://stspg.io/bppjxlqtspvj",
+    "summary": "Between 10:09 and 10:31 PDT, Sonnet 4.6 and Opus 4.6 experienced elevated error rates across most product surfaces.",
+    "date": "2026-04-04T17:30:00+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "f8658a0d5ec3e115",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "3018c6e1be38fb03",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-03-17T19:01:32.246107+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
