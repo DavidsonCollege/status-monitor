@@ -1,5 +1,18 @@
 [
   {
+    "id": "942ea93c24419ec6",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for us-west-2 \u2014 Resolved",
+    "link": "https://stspg.io/b2skwtr5q7h0",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-04T18:00:10.265000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "09bf128fd7e37fa3",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/nwdjdd3p45s2",
     "summary": "This incident has been resolved.",
     "date": "2024-10-11T12:45:44.881000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "126c4c564b57e0b5",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule - Report VPN users unable to login",
-    "link": "https://stspg.io/18kgktndqn5w",
-    "summary": "This incident has been resolved.",
-    "date": "2024-09-23T09:32:17.668000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
