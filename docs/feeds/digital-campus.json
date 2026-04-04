@@ -1,5 +1,18 @@
 [
   {
+    "id": "4b669d3daf8ba061",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-central-1 \u2014 Resolved",
+    "link": "https://stspg.io/kkjlyzv8b214",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-04T09:00:07.396000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "8eb46a1a7795446b",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/dxcgwypj984w",
     "summary": "This incident has been resolved.",
     "date": "2024-09-23T09:34:14.888000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "1ca0fbf95441bc82",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra Data Ingestion: Institutions that are part of a large Multi-Institution School System may have stale SIS data.",
-    "link": "https://stspg.io/tvx5xktpgvgj",
-    "summary": "This incident has been resolved.",
-    "date": "2024-09-20T10:07:49.251000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
