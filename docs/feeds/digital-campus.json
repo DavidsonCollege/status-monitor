@@ -1,5 +1,18 @@
 [
   {
+    "id": "09bf128fd7e37fa3",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for us-east-2 \u2014 Resolved",
+    "link": "https://stspg.io/pllkz305rqq1",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-04T13:00:07.126000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "4b669d3daf8ba061",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/18kgktndqn5w",
     "summary": "This incident has been resolved.",
     "date": "2024-09-23T09:32:17.668000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "e0e5934bb0543488",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra: Some Mascots may have stale SIS data",
-    "link": "https://stspg.io/dxcgwypj984w",
-    "summary": "This incident has been resolved.",
-    "date": "2024-09-23T09:34:14.888000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
