@@ -1,5 +1,18 @@
 [
   {
+    "id": "8eb46a1a7795446b",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - StateRAMP: 11.26.1 Upgrade for us-east-1 \u2014 Resolved",
+    "link": "https://stspg.io/0hgr9z2pqdt0",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-04T08:00:07.134000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "06c72e4253e560dc",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2024-09-20T10:07:49.251000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "34173d815817d942",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule Monthly Maintenance - February 2026",
-    "link": "https://stspg.io/gqkzcnrx6yk1",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-02-20T12:06:39.248000-06:00",
-    "status": "resolved",
-    "incident_status": "completed",
     "type": "new_incident"
   }
 ]
