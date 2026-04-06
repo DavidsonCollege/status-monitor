@@ -1,5 +1,18 @@
 [
   {
+    "id": "15b67985ea8cc165",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Protect Degraded Performance \u2014 identified",
+    "link": "https://stspg.io/67ck9ll375nz",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-04-06T17:51:57.481000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "938536cc0a34728f",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/3hwzgqnt89q7",
     "summary": "This incident has been resolved.",
     "date": "2025-02-25T14:59:30.422000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3b5d7b601d26cbfa",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra - Delays in data ingestion for Mascots using API Integration (Ethos/Workday)",
-    "link": "https://stspg.io/gw1rrwx0mn6r",
-    "summary": "This incident has been resolved.",
-    "date": "2025-02-04T08:33:21.748000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
