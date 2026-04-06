@@ -1,5 +1,31 @@
 [
   {
+    "id": "f3a22852387adfd7",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.10 - US2",
+    "link": "https://stspg.io/08rbmw89s571",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-04-06T10:47:31.500000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
+    "id": "6c7c4e0a4c5a79a3",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Protect Degraded Performance",
+    "link": "https://stspg.io/67ck9ll375nz",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-06T15:41:41.777000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "942ea93c24419ec6",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/ww7m2ffhy439",
     "summary": "This incident has been resolved.",
     "date": "2024-12-13T08:50:57.238000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "edcc78a70821fc92",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra: Schedule App - Some Mascots may not be able to load data in the Schedule view. The Align and Courses view are unaffected. This does not impact Astra Schedule 8.",
-    "link": "https://stspg.io/vplgfhdxrr3f",
-    "summary": "This incident has been resolved.",
-    "date": "2024-10-17T09:29:56.277000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "bda2eb214e55203c",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra: Essential Schedule: The Courses list not displaying",
-    "link": "https://stspg.io/nwdjdd3p45s2",
-    "summary": "This incident has been resolved.",
-    "date": "2024-10-11T12:45:44.881000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"

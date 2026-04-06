@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-06T15:26:41.308923+00:00",
+  "last_checked": "2026-04-06T15:50:27.883122+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -9,7 +9,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
       "status_url": "https://status.ninjaone.com",
       "overall_status": "operational",
-      "active_incidents": 0,
+      "active_incidents": 1,
       "components": [
         {
           "name": "United States (US2)",
@@ -76,7 +76,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
       "status_url": "https://status.jamf.com",
       "overall_status": "operational",
-      "active_incidents": 0,
+      "active_incidents": 1,
       "components": [
         {
           "name": "Jamf Cloud Connector",
