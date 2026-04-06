@@ -1,5 +1,31 @@
 [
   {
+    "id": "ee7927094bc7cc12",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-06T21:41:24.679840+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "5abeaeab7f64b1f9",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors",
+    "link": "https://stspg.io/2tdwsnhyqjgs",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-06T21:26:57.114000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "09db164c74e9aad4",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "6c078fe0e289d50a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-03-18T12:33:06.646080+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "a776af60d1604e07",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Increased errors on Opus 4.6",
-    "link": "https://stspg.io/69k3zwmxf312",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-18T12:30:57.440000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
