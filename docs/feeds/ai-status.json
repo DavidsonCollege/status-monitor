@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-06T15:50:32.133899+00:00",
+  "last_checked": "2026-04-06T16:10:32.844849+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -26,7 +26,7 @@
         },
         {
           "name": "platform.claude.com (formerly console.anthropic.com)",
-          "status": "operational"
+          "status": "partial_outage"
         },
         {
           "name": "Claude API (api.anthropic.com)",
@@ -34,7 +34,7 @@
         },
         {
           "name": "Claude Code",
-          "status": "operational"
+          "status": "partial_outage"
         },
         {
           "name": "Claude Cowork",

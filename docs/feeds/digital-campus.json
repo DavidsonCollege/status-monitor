@@ -1,5 +1,18 @@
 [
   {
+    "id": "06d9b0aef6a47423",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: 4/5/2026 Scheduled Kuali Maintenance",
+    "link": "https://stspg.io/740n2rkhxg3y",
+    "summary": "Maintenance will begin as scheduled at 6:00am MDT and finished at 6:15am MDT. \n\nThe scheduled maintenance has been completed.",
+    "date": "2026-04-05T05:00:00-06:00",
+    "status": "resolved",
+    "incident_status": "postmortem",
+    "type": "new_incident"
+  },
+  {
     "id": "f3a22852387adfd7",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/xdh5qyw8kc6w",
     "summary": "This incident has been resolved.",
     "date": "2025-01-23T16:43:55.800000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "eb2224d80318a124",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra Platform: Delays in data ingesting processing for some Mascots",
-    "link": "https://stspg.io/ww7m2ffhy439",
-    "summary": "This incident has been resolved.",
-    "date": "2024-12-13T08:50:57.238000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
