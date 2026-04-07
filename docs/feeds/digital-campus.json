@@ -1,5 +1,18 @@
 [
   {
+    "id": "d7b6ce03997a0e59",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Protect Degraded Performance \u2014 Resolved",
+    "link": "https://stspg.io/67ck9ll375nz",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-07T13:06:11.204000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "8a2fcaff95af2dba",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/gm0wsl0gqzg1",
     "summary": "As this issue is only affecting the small subset of clients that are using Google SMTP for notifications, we will go ahead and close this status page incident in favor of proactively working with those mascots directly for a resolution.",
     "date": "2025-04-30T11:13:42.670000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7097987b1ab9ec31",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Delays in SIS Import Processing",
-    "link": "https://stspg.io/q77pd40mpt9t",
-    "summary": "This incident has been resolved.",
-    "date": "2025-04-14T09:33:36.935000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
