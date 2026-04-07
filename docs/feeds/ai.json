@@ -1,5 +1,31 @@
 [
   {
+    "id": "12674f3833974986",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Major Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-07T15:01:54.056467+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "91c88f867020f2fd",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai",
+    "link": "https://stspg.io/jkzylwdkf66g",
+    "summary": "We have identified an issue resulting in elevated errors on Claude.ai, including desktop and mobile. Users may experience errors when attempting to login, engaging with voice mode, or completing chats with Claude. We are working to resolve this issue as soon as possible.",
+    "date": "2026-04-07T14:55:09.975000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "ec0a4a0bfe619979",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "171d5bf3002914da",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 monitoring",
-    "link": "https://stspg.io/jcjx5xg9f66m",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-18T15:27:48.185000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "8a23f8695fd061e1",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Partial Outage",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-03-18T15:51:43.160313+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
