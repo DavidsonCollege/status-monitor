@@ -1,5 +1,31 @@
 [
   {
+    "id": "ff6bcce1c49bf988",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Partial Outage",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-07T10:30:52.953721+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1b01f528a300085a",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some users may experience issues accessing the ChatGPT website on VPN",
+    "link": "https://status.openai.com/incidents/01KNKQQ4R06K00RDTNXZVX7SFC",
+    "summary": "",
+    "date": "2026-04-07T10:27:25+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "55f146af8e1b40c0",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "c0cbcca24876b0b6",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Increased errors on Opus 4.6 \u2014 Resolved",
-    "link": "https://stspg.io/69k3zwmxf312",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-18T13:58:17.014000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "c6e190ebc9a22485",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-03-18T13:42:32.741232+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
