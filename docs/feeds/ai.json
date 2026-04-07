@@ -1,5 +1,18 @@
 [
   {
+    "id": "726c1a9a7f4a3702",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 monitoring",
+    "link": "https://stspg.io/jkzylwdkf66g",
+    "summary": "We have applied a fix and success rates have returned to normal. We are continuing to monitor closely to ensure there are no further issues.",
+    "date": "2026-04-07T15:22:43.684000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "12674f3833974986",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "ffcd4e8effbe2198",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 Resolved",
-    "link": "https://stspg.io/jcjx5xg9f66m",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-18T16:05:10.845000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
