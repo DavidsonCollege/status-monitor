@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-07T15:39:56.586371+00:00",
+  "last_checked": "2026-04-07T16:10:38.105574+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -17,16 +17,16 @@
       "name": "Anthropic Claude",
       "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
       "status_url": "https://status.anthropic.com",
-      "overall_status": "major_outage",
-      "active_incidents": 1,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "claude.ai",
-          "status": "major_outage"
+          "status": "operational"
         },
         {
           "name": "platform.claude.com (formerly console.anthropic.com)",
-          "status": "major_outage"
+          "status": "operational"
         },
         {
           "name": "Claude API (api.anthropic.com)",
@@ -34,7 +34,7 @@
         },
         {
           "name": "Claude Code",
-          "status": "major_outage"
+          "status": "operational"
         },
         {
           "name": "Claude Cowork",
