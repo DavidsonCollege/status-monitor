@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-07T11:26:56.061549+00:00",
+  "last_checked": "2026-04-07T11:51:42.004303+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,8 +51,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "partial_outage",
-      "active_incidents": 1,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "Fine-tuning",
@@ -88,19 +88,19 @@
         },
         {
           "name": "Conversations",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Voice mode",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Agent",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Connectors/Apps",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Codex Web",
@@ -124,7 +124,7 @@
         },
         {
           "name": "Compliance API",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Login",
@@ -136,7 +136,7 @@
         },
         {
           "name": "ChatGPT Atlas",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Video generation",
