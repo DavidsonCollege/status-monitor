@@ -1,5 +1,18 @@
 [
   {
+    "id": "27b96ca7235a92bb",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Title:**\nCustomers may experience delays in receiving and sending emails.\n**Description:**\nWe are aware of an issue with Gmail users experiencing delays in receiving and sending emails beginning at Wednesday, 2026-04-08 06:30 PDT.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide an update by Wednesday, 2026-04-08 12:00 PDT with current details.\n**Symptoms:**\nCustomers may experience delays in receiving and sending emails.\n**Workaround:**\nNone at this time. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-08T21:49:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "b2ea2f60f787f093",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/yllhcllmnf7x",
     "summary": "This incident has been resolved.",
     "date": "2026-02-05T13:57:11.643000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "ab9c00b2bb12bc3f",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra - Potential delays in data-ingestion and publishing for Mascots integrating with Ethos. This does not impact Astra Schedule 8.",
-    "link": "https://stspg.io/chktyx0zs27c",
-    "summary": "Our technology partner has resolved the issue.",
-    "date": "2026-01-12T16:49:24.967000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
