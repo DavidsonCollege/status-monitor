@@ -1,5 +1,31 @@
 [
   {
+    "id": "05b30cdbff378ee0",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Operational",
+    "link": "https://status.adastra.live/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-08T21:11:32.775785+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "79461ffa68172f5f",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Annual Schedule Grid - Delays in Course or Section Detail updates \u2014 Resolved",
+    "link": "https://stspg.io/79jr6j5p32tf",
+    "summary": "This incident has been resolved. All data in Annual Schedule Grid is current.",
+    "date": "2026-04-08T15:52:30.845000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "6df9d3f5d9e4eedf",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/cgt7qgnd7bjs",
     "summary": "This incident has been resolved.",
     "date": "2025-10-29T12:42:00.781000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "027322f65e222e1d",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra - Intermittent failures",
-    "link": "https://stspg.io/mxzmcj4tldn8",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-20T08:31:16.138000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "8fcc8532778b230c",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Technology Partner outage",
-    "link": "https://stspg.io/blgbsb8gfqjr",
-    "summary": "Between 2:29 and 4:24 CDT, most Ad Astra services were intermittently unavailable due to an incident in AWS us-east-1.\n\nFor more information, please see https://health.aws.amazon.com/health/status",
-    "date": "2025-10-20T02:30:00-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
