@@ -1,5 +1,18 @@
 [
   {
+    "id": "9cedd96ddea0d682",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Title:**\nCustomers may experience delays in receiving and sending emails.\n**Description:**\nWe are aware of an issue with Gmail users experiencing delays in receiving and sending emails beginning at Wednesday, 2026-04-08 06:30 PDT.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide an update by Wednesday, 2026-04-08 12:00 PDT with current details.\n**Symptoms:**\nCustomers may experience delays in receiving and sending emails.\n**Workaround:**\nNone at this time. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-04-08T21:49:48+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "05b30cdbff378ee0",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/fmvptlb5mgf1",
     "summary": "Recent Student Demand Forecasting analyses have completed successfully. Our Engineering team has resolved the bottleneck on background data processing jobs which was causing higher failure rates.",
     "date": "2025-12-03T11:33:11.709000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "fcc35b638061c917",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Some Ellucian Ethos Tenants are not Successfully Ingesting Data",
-    "link": "https://stspg.io/cgt7qgnd7bjs",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-29T12:42:00.781000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
