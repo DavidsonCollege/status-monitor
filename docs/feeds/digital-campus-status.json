@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-08T18:10:02.677590+00:00",
+  "last_checked": "2026-04-08T18:44:08.441602+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -66,8 +66,8 @@
       "name": "Google Workspace",
       "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
       "status_url": "https://www.google.com/appsstatus/dashboard/",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": []
     },
     {
@@ -335,7 +335,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
       "status_url": "https://status.clickup.com",
       "overall_status": "operational",
-      "active_incidents": 0,
+      "active_incidents": 1,
       "components": [
         {
           "name": "ClickUp Platform",
@@ -463,8 +463,8 @@
       "name": "Ad Astra",
       "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
       "status_url": "https://status.adastra.live/",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": []
     }
   ]
