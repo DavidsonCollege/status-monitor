@@ -39,6 +39,16 @@ STATUS_EMOJI = {
     "unknown": ":white_circle:",
 }
 
+# Status → human-readable label for context block
+STATUS_LABELS = {
+    "operational": "Operational",
+    "degraded": "Degraded Performance",
+    "partial_outage": "Partial Outage",
+    "major_outage": "Major Outage",
+    "maintenance": "Maintenance",
+    "unknown": "Status Update",
+}
+
 
 def send_slack_notifications(new_events: list[dict], base_url: str):
     """Send Slack Block Kit notifications for status change events."""
