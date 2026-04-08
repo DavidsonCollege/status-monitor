@@ -1,5 +1,31 @@
 [
   {
+    "id": "ade8cbc78191d9e1",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-08T23:44:25.225117+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "386863f3e10b10ee",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nAppSheet customers are experiencing redirection to asia-southeast.appsheet.com instead of their intended application URLs.\n**Description**\nBeginning on Wednesday, 2026-04-08 14:05 PDT, we are experiencing an issue with AppSheet that caused users to be erroneously redirected to the asia-southeast region.\nOur engineers have identified the cause was due to a recent change and have reverted. Our internal telemetry shows the signs of recovery and are currently monitoring the recovery status. We expect full service recovery within an hour.\nWe will provide an update by Wednesday, 2026-04-08 16:30 PDT with current details\n**Customer Symptoms**\nUsers are automatically redirected to asia-southeast.appsheet.com, which may cause \"Forbidden\" or 403 errors when attempting to access their apps.\n**Workaround**\nNone at this time. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-08T22:40:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "27b96ca7235a92bb",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/z6c4zjqq8kbd",
     "summary": "This incident has been resolved.",
     "date": "2026-03-18T10:01:07.212000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "9f503b05b64dd435",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: (Ad Astra Platform) Unplanned maintenance: Student and Report data within the application may be unavailable",
-    "link": "https://stspg.io/h9ym8kwbpkzz",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-06T09:33:52.377000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "71d9c5c4f9059448",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra Platform: Some clients may experience stale data when making section edits in the new Annual Scheduling Experience. This does not impact Astra Schedule 8",
-    "link": "https://stspg.io/yllhcllmnf7x",
-    "summary": "This incident has been resolved.",
-    "date": "2026-02-05T13:57:11.643000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
