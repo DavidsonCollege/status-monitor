@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-08T17:09:00.575987+00:00",
+  "last_checked": "2026-04-08T17:41:47.847975+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,8 +51,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": [
         {
           "name": "Fine-tuning",
@@ -76,10 +76,6 @@
         },
         {
           "name": "Moderations",
-          "status": "operational"
-        },
-        {
-          "name": "Login",
           "status": "operational"
         },
         {
@@ -153,6 +149,10 @@
         {
           "name": "FedRAMP",
           "status": "operational"
+        },
+        {
+          "name": "Login",
+          "status": "degraded"
         }
       ]
     }
