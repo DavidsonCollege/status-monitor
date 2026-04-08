@@ -1,5 +1,18 @@
 [
   {
+    "id": "b5a873c1ca8f9736",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors \u2014 identified",
+    "link": "https://stspg.io/9p1s3snnkxrj",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-04-08T07:59:02.384000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "fd6156cf3d9cd8d1",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "021aa5956b1beb62",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Sora video generation failing \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
-    "summary": "Status: monitoring",
-    "date": "2026-03-18T18:47:49+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
