@@ -1,5 +1,18 @@
 [
   {
+    "id": "4f0fd80bdaa63ca8",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users are experiencing issues with AI image and video generation \u2014 identified",
+    "link": "https://stspg.io/w2tnj1hn140r",
+    "summary": "Some users may have issues with:\n- Generating videos with Image to Video\n- Using AI Video Effects\n\nOur engineers have identified the issue and are working to resolve it.",
+    "date": "2026-04-08T20:46:16.669000+10:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "4024a1fdcb8c768c",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/q4v1dwgfb79k",
     "summary": "We reverted a change that inadvertently impacted clients integrating with Banner Ethos. All recommendations should function correctly after the next scheduled ingestion.",
     "date": "2025-06-10T10:47:28.543000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "55d9c30cc1ffdc83",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Ad Astra - Ethos API Ingestion",
-    "link": "https://stspg.io/1b74kyjf0t2c",
-    "summary": "Our technology partner has resolved the degraded performance on the Ethos endpoints.",
-    "date": "2025-05-12T10:31:18.026000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
