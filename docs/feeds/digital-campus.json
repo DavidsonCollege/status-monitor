@@ -1,5 +1,18 @@
 [
   {
+    "id": "6df9d3f5d9e4eedf",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-08T20:27:12.882427+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "ca1a326a2ae7591e",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/blgbsb8gfqjr",
     "summary": "Between 2:29 and 4:24 CDT, most Ad Astra services were intermittently unavailable due to an incident in AWS us-east-1.\n\nFor more information, please see https://health.aws.amazon.com/health/status",
     "date": "2025-10-20T02:30:00-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "1a09522a38c1e399",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule 8 (aaiscloud.com) - Site unavailable for a subset of Mascots",
-    "link": "https://stspg.io/dfxb2zfftx0c",
-    "summary": "This incident has been resolved.",
-    "date": "2025-10-10T16:56:32.023000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
