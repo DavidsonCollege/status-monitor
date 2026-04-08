@@ -1,5 +1,31 @@
 [
   {
+    "id": "de81ec0feffb976f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-08T06:48:43.070206+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "0cb225faa1c5ac24",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors",
+    "link": "https://stspg.io/9p1s3snnkxrj",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-08T06:23:25.066000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "81d05aaa2c7433c5",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2571,32 +2597,6 @@
     "date": "2026-03-18T18:32:53+00:00",
     "status": "partial_outage",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "d97dde81b5286d93",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Sora video generation failing \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
-    "summary": "Status: investigating",
-    "date": "2026-03-18T17:56:00+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "71a7e79a1d250302",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: User Requests Timing Out / Content Not Loading \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KM0T1EX1951XDWA8CN82PEHA",
-    "summary": "Status: investigating",
-    "date": "2026-03-18T17:31:46+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
