@@ -1,5 +1,18 @@
 [
   {
+    "id": "0f62ad6e341dab3d",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Title:**\nCustomers may experience delays in receiving and sending emails.\n**Description:**\nWe are aware of an issue with Gmail users experiencing delays in receiving and sending emails beginning at Wednesday, 2026-04-08 06:30 PDT.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide an update by Wednesday, 2026-04-08 12:00 PDT with current details.\n**Symptoms:**\nCustomers may experience delays in receiving and sending emails.\n**Workaround:**\nNone at this time. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-04-08T19:02:21+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "3e42d60333cac975",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/dg68575bmm6z",
     "summary": "This incident has been resolved.",
     "date": "2025-08-28T16:34:46-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "93de150f33a3cf6b",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Intermittent issues with Courses App",
-    "link": "https://stspg.io/hqcwlq8yk0x8",
-    "summary": "This issue has been resolved with a fix that was applied on 8/18/25. The intermittent issues with recommendation data not loading and impacting the Courses application are no longer occurring.",
-    "date": "2025-08-12T11:42:00.305000-05:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
