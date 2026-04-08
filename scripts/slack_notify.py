@@ -101,13 +101,17 @@ def _build_card_blocks(event: dict) -> list[dict]:
     blocks: list[dict] = []
 
     # Row 1: Product icon + name + status emoji
+    # Use a section block with accessory image for a larger icon (~48px)
+    # instead of a context block (~20px).
     if icon_url:
         blocks.append({
-            "type": "context",
-            "elements": [
-                {"type": "image", "image_url": icon_url, "alt_text": product_name},
-                {"type": "mrkdwn", "text": f"*{product_name}*  {emoji}"},
-            ],
+            "type": "section",
+            "text": {"type": "mrkdwn", "text": f"*{product_name}*  {emoji}"},
+            "accessory": {
+                "type": "image",
+                "image_url": icon_url,
+                "alt_text": product_name,
+            },
         })
     else:
         blocks.append({
