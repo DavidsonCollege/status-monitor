@@ -1,5 +1,18 @@
 [
   {
+    "id": "b2ea2f60f787f093",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nAppSheet customers are experiencing redirection to asia-southeast.appsheet.com instead of their intended application URLs.\n**Description**\nBeginning on Wednesday, 2026-04-08 14:05 PDT, we are experiencing an issue with AppSheet that caused users to be erroneously redirected to the asia-southeast region.\nOur engineers have identified the cause was due to a recent change and have reverted. Our internal telemetry shows the signs of recovery and are currently monitoring the recovery status. We expect full service recovery within an hour.\nWe will provide an update by Wednesday, 2026-04-08 16:30 PDT with current details\n**Customer Symptoms**\nUsers are automatically redirected to asia-southeast.appsheet.com, which may cause \"Not Found\" or 403 errors when attempting to access their apps.\n**Workaround**\nNone at this time.",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "",
+    "date": "2026-04-08T21:05:00+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "9cedd96ddea0d682",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/chktyx0zs27c",
     "summary": "Our technology partner has resolved the issue.",
     "date": "2026-01-12T16:49:24.967000-06:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "15de93e83ac98b32",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Failures and Delays running Student Demand Forecasting analyses",
-    "link": "https://stspg.io/fmvptlb5mgf1",
-    "summary": "Recent Student Demand Forecasting analyses have completed successfully. Our Engineering team has resolved the bottleneck on background data processing jobs which was causing higher failure rates.",
-    "date": "2025-12-03T11:33:11.709000-06:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
