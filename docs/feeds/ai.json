@@ -1,5 +1,18 @@
 [
   {
+    "id": "b78096d8f26f164a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors \u2014 Resolved",
+    "link": "https://stspg.io/9p1s3snnkxrj",
+    "summary": "The incident is now resolved. Sonnet 4.6 exhibited errors above baseline between 23:00 PT / 7:00 UTC and 1:50 PT / 9:50 UTC.",
+    "date": "2026-04-08T09:33:39.659000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "04a695bba478725a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "bd6937db10b2a350",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors across surfaces",
-    "link": "https://stspg.io/f87vxdn6g57k",
-    "summary": "We are currently investigating this issue. Our team is actively working to identify the root cause.",
-    "date": "2026-03-19T00:28:57.039000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
