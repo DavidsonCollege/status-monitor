@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-08T19:16:58.811646+00:00",
+  "last_checked": "2026-04-08T19:48:26.964104+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -334,7 +334,7 @@
       "name": "ClickUp",
       "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
       "status_url": "https://status.clickup.com",
-      "overall_status": "operational",
+      "overall_status": "degraded",
       "active_incidents": 1,
       "components": [
         {
@@ -367,7 +367,11 @@
         },
         {
           "name": "Comments",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Comments (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Dashboards",
@@ -407,7 +411,11 @@
         },
         {
           "name": "Tasks",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Tasks (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Templates",

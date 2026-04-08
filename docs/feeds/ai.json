@@ -1,5 +1,18 @@
 [
   {
+    "id": "dd1a362795066611",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Outage affecting Workspace Creation",
+    "link": "https://stspg.io/vxzqkwltrx9k",
+    "summary": "The issue affecting API workspace creation has been resolved. Impact occurred from approximately 4:15 PM to 7:30 PM UTC.",
+    "date": "2026-04-08T19:22:09.645000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "1abe65a4b2b80d00",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0686535fa6464761",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
-    "link": "https://stspg.io/tvhvqkbn10mk",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-19T15:59:48.516000+00:00",
-    "status": "major_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
