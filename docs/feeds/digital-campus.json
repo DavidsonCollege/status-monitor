@@ -1,5 +1,18 @@
 [
   {
+    "id": "9959a00ae84ba5d8",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Current status and actions being taken: We believe we've identified an issue that's still causing impact to occur even after our upstream provider has resolved impact from their end. We expect a code fix to take at least an hour to complete and pass through various test environments.\u00a0\n\nWe'll provide another update in 60 minutes.",
+    "date": "2026-04-09T05:58:37-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "9aa443c02913fd0f",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "c3f7b16c18ad50e0",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-03-20T23:01:14.472258+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
