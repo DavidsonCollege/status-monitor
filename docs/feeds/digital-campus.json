@@ -1,5 +1,18 @@
 [
   {
+    "id": "9331a123275d3109",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Current status and actions being taken: We've begun deploying the code fix to production. Once complete we'll begin monitoring the performance of Slackbot, as well as our other AI-powered features.\n\nWe'll provide another update in 60 minutes.",
+    "date": "2026-04-09T06:59:41-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "9959a00ae84ba5d8",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "c5af56714d4203b8",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 monitoring",
-    "link": "https://stspg.io/jn0w9kv5x31l",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-20T23:22:44.901000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
