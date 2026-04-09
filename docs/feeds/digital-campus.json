@@ -1,5 +1,18 @@
 [
   {
+    "id": "8fbdd89d7fc6296a",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Our work on this issue is still ongoing. Users may continue to experience intermittent trouble with Slackbot responses and other Slack AI-powered features such as Search Answers, Meeting Notes, and Translation. \n\nCurrent status and actions being taken: We remain engaged with our third-party provider.\u00a0\n\nWe'll provide another update in 60 minutes until the impact is resolved for all users.",
+    "date": "2026-04-09T01:59:25-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "a3bc101b91ede7bb",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "d648eaa76f7b073d",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 investigating",
-    "link": "https://stspg.io/jn0w9kv5x31l",
-    "summary": "We are continuing to investigate this incident.",
-    "date": "2026-03-20T16:06:54.715000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
