@@ -1,5 +1,44 @@
 [
   {
+    "id": "0564561628b1755e",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 monitoring",
+    "link": "https://stspg.io/08rbmw89s571",
+    "summary": "Verification is currently underway for the maintenance items.",
+    "date": "2026-04-09T00:07:54.012000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "c80119f5ada1831f",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/08rbmw89s571",
+    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
+    "date": "2026-04-08T23:43:53.452000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "9bf933707dde0020",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-09T05:20:12.184097+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "d898c150ccdaa84d",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2559,44 +2598,5 @@
     "status": "unknown",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "24c199b0bf8f4cea",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-19T22:13:24.312500+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "855de6872bae6b35",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-19T21:44:24.710983+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "70dd381215b58844",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: EU - Performance Degraded \u2014 Resolved",
-    "link": "https://stspg.io/1g1zqwyt6ry7",
-    "summary": "During operating hours in EU, we experienced a larger than normal volume of NinjaOne Remote session traffic. This increase caused a backlog in our session validation processing that our system struggled to keep up with. The delay in session validation caused NinjaOne Remote to invalidate sessions to ensure our customers\u2019 security, resulting in a failure to stay connected to devices during the outage. To provide immediate relief, NinjaOne began scaling up infrastructure services and identified fu",
-    "date": "2026-03-09T10:25:12.813000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
