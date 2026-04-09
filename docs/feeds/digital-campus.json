@@ -1,5 +1,18 @@
 [
   {
+    "id": "22478c0d46f866a0",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Delay in Group Recounts \u2014 investigating",
+    "link": "https://stspg.io/3whckhqzywjd",
+    "summary": "We are continuing to investigate the issue.",
+    "date": "2026-04-09T14:02:36.954000-04:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "7bfcaec83c5d950c",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "f529267b56fc3a7b",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: Major Outage",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-21T03:58:07.656209+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
