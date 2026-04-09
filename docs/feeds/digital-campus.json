@@ -1,5 +1,18 @@
 [
   {
+    "id": "74deb99646545339",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/08rbmw89s571",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-08T19:00:16.674000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "ade8cbc78191d9e1",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2585,18 +2598,5 @@
     "status": "unknown",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "030efcefd14602ee",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: AstraSchedule Single Sign-On Partial Outage",
-    "link": "https://stspg.io/z6c4zjqq8kbd",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-18T10:01:07.212000-05:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
   }
 ]

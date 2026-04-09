@@ -1,5 +1,18 @@
 [
   {
+    "id": "0b337c22c5e0dce2",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Errors when connecting to Claude.ai",
+    "link": "https://stspg.io/7kl6qq3lldmg",
+    "summary": "Some users experienced an error when trying to access Claude.ai on desktop and the web from 23:22\u201323:50 UTC. This issue has now been resolved.",
+    "date": "2026-04-08T23:57:07.068000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "dd1a362795066611",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "ace7556903e39a4e",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Major Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-19T16:04:00.876820+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
