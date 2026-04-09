@@ -1,5 +1,31 @@
 [
   {
+    "id": "839972d68d677edd",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-09T17:10:47.213085+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e9694628e46c21af",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated Connector Error Rates",
+    "link": "https://stspg.io/3qh7qtgrvprd",
+    "summary": "Certain connectors are experiencing higher error rates. We are investigating the issue.",
+    "date": "2026-04-09T16:54:18.801000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "fae6eb8465a7cf81",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "afa1f7ba518da9ae",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Pinned chats are not loading on web browsers for ChatGPT \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ",
-    "summary": "Status: monitoring",
-    "date": "2026-03-20T17:32:40+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "86ad0f9f9f12c985",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Pinned chats are not loading on web browsers for ChatGPT \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ",
-    "summary": "Status: identified",
-    "date": "2026-03-20T15:24:46+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
