@@ -1,5 +1,31 @@
 [
   {
+    "id": "77c7cf5e4a5ac0ab",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Operational",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-04-09T06:44:54.415293+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d8e13b998e62e572",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 Resolved",
+    "link": "https://stspg.io/08rbmw89s571",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-09T01:35:03.962000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "0564561628b1755e",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://status.ninjaone.com",
     "summary": "Status changed from Operational to Unknown",
     "date": "2026-03-20T10:22:19.102914+00:00",
-    "status": "unknown",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "de3cb2b9cf7d9f11",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: Unknown",
-    "link": "https://status.papercut.com",
-    "summary": "Status changed from Operational to Unknown",
-    "date": "2026-03-20T05:54:35.803412+00:00",
-    "status": "unknown",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d662581129a774ca",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Unknown",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Operational to Unknown",
-    "date": "2026-03-20T03:19:30.413986+00:00",
     "status": "unknown",
     "incident_status": "",
     "type": "status_change"
