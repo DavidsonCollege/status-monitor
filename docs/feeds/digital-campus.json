@@ -1,5 +1,18 @@
 [
   {
+    "id": "b3fa5d57c0225b70",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Delay in Group Recounts \u2014 Resolved",
+    "link": "https://stspg.io/3whckhqzywjd",
+    "summary": "All delays have now caught up and group counts are up to date.",
+    "date": "2026-04-09T17:00:10.659000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "11a19845390c42ba",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "bd91cfe3026ed899",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule Monthly Maintenance - March 2026 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/w3pmdm8bbbwh",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-03-21T22:00:07.540000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
   }
 ]
