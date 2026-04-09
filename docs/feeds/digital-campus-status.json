@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-09T18:07:37.462364+00:00",
+  "last_checked": "2026-04-09T18:35:00.063281+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -222,8 +222,8 @@
       "name": "Zoom",
       "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
       "status_url": "https://status.zoom.us",
-      "overall_status": "operational",
-      "active_incidents": 1,
+      "overall_status": "maintenance",
+      "active_incidents": 0,
       "components": []
     },
     {

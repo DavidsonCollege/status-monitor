@@ -1,5 +1,31 @@
 [
   {
+    "id": "4bd204df6f66fc04",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-04-09T18:34:53.583832+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d35be27772abf337",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Current status and actions being taken: We've deployed an emergency fix to address the issues contributing to intermittent errors with Slackbot and Workflows. We're now seeing significant recovery across all affected services and are continuing to monitor the situation closely to ensure performance remains stable.\u00a0\n\nWe'll provide another update in 60 minutes.",
+    "date": "2026-04-09T11:13:03-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "22478c0d46f866a0",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "6754a6c5baa33a91",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nWe are experiencing an issue with Google Keep where users may be unable to access keep.google.com via browser.\n**Description**\nThe issue began on Friday, 2026-03-20 15:30 US/Pacific.\nOur engineering team is aware of the situation and is actively implementing mitigations. We do not have any ETA at the moment.\nWe will provide the next update by Friday, 2026-03-20 21:00 US/Pacific.\n**Customer Symptoms**\nImpacted users may encounter connection timeouts or error pages (such as 502 Bad Gateway) when attempting to reach keep.google.com via a web browser. The Google Keep mobile applications are currently unaffected and remain operational.\n**Workaround**\nUsers are able to use Google Keep via the Android or iOS mobile app. \u2014 Resolved",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-21T05:03:00+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "63e5f39eb19e8c1e",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nWe are experiencing an issue with Google Keep where users may be unable to access keep.google.com via browser.\n**Description**\nThe issue began on Friday, 2026-03-20 15:30 US/Pacific.\nOur engineering team is aware of the situation and is actively implementing mitigations. We do not have any ETA at the moment.\nWe will provide the next update by Friday, 2026-03-20 21:00 US/Pacific.\n**Customer Symptoms**\nImpacted users may encounter connection timeouts or error pages (such as 502 Bad Gateway) when attempting to reach keep.google.com via a web browser. The Google Keep mobile applications are currently unaffected and remain operational.\n**Workaround**\nUsers are able to use Google Keep via the Android or iOS mobile app. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-03-21T05:33:44+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
