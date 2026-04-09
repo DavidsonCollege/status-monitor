@@ -1,5 +1,31 @@
 [
   {
+    "id": "a3bc101b91ede7bb",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-09T08:43:09.648209+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "7cc3a760e4562fba",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slackbot and Slack AI services",
+    "link": "https://slack-status.com",
+    "summary": "We're investigating a new incident.\n\nCurrent impact to end users: Some users may be experiencing trouble with Slackbot responses. Other Slack functionality that leverages AI services may also be experiencing issues. We're on the case and we'll provide an update within 30 minutes including further details on current actions being taken.",
+    "date": "2026-04-09T00:58:38-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "77c7cf5e4a5ac0ab",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "82f085a63abb44df",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release.",
-    "link": "https://stspg.io/jn0w9kv5x31l",
-    "summary": "PaperCut Hive - some users have reported intermittent issues releasing print jobs and navigating sections of the admin UI within the US hosting region.\n\nWe\u2019re actively working to resolve the issues and will provide updates as they become available.",
-    "date": "2026-03-20T14:41:14.984000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "488a3a4bf9d21184",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Unknown",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Operational to Unknown",
-    "date": "2026-03-20T10:22:19.102914+00:00",
-    "status": "unknown",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
