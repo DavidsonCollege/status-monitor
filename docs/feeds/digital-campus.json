@@ -1,5 +1,31 @@
 [
   {
+    "id": "f12b9e8220df9846",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users are experiencing issues with AI image and video generation. \u2014 Resolved",
+    "link": "https://stspg.io/w2tnj1hn140r",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-04-09T19:54:37.284000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "7e4910aeba1dae9d",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Current status and actions being taken: We're continuing to engage with our third-party provider to find a solution. We're also exploring multiple avenues on our side to try to alleviate impact on Slackbot and AI-powered features until the upstream issue is resolved.\u00a0\n\nWe'll provide another update in 60 minutes until the impact is resolved for all users.",
+    "date": "2026-04-09T02:51:52-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "8fbdd89d7fc6296a",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "f1f622b689ba118b",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive - We are currently investigating an issue affecting PaperCut Hive's UI and print release. \u2014 investigating",
-    "link": "https://stspg.io/jn0w9kv5x31l",
-    "summary": "We are actively investigating this incident, currently we have engaged our cloud infrastructure service partner. Our joint teams are working together to resolve the issue.",
-    "date": "2026-03-20T19:11:09.799000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "b8a1b87326e2f1e9",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule Monthly Maintenance - March 2026",
-    "link": "https://stspg.io/w3pmdm8bbbwh",
-    "summary": "We will be undergoing scheduled maintenance during this time.",
-    "date": "2026-03-20T11:41:08.059000-05:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
