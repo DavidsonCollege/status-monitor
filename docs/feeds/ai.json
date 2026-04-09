@@ -1,5 +1,44 @@
 [
   {
+    "id": "b80a7bae5d52ef4f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-09T17:40:35.329414+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "3a0f68e88760547a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated Connector Error Rates \u2014 monitoring",
+    "link": "https://stspg.io/3qh7qtgrvprd",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-09T17:33:33.263000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "a4e95e72a5f828db",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated Connector Error Rates \u2014 Resolved",
+    "link": "https://stspg.io/3qh7qtgrvprd",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-09T17:34:00.052000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "839972d68d677edd",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2557,45 +2596,6 @@
     "summary": "Status changed from Operational to Partial Outage",
     "date": "2026-03-21T00:47:16.545064+00:00",
     "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "2f5b91855ff2509f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Claude Opus and Sonnet 4.6",
-    "link": "https://stspg.io/0mwh6fvb2tms",
-    "summary": "We have identified an issue resulting in elevated errors on both Claude Opus and Sonnet 4.6, and are working to resolve this issue as quickly as possible.",
-    "date": "2026-03-21T00:07:41.483000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "5fed208cb64c819e",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Pinned chats are not loading on web browsers for ChatGPT \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KM5W5ZPAFRXPRGXDEARXFHJZ",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-21T00:07:29+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "0f5319af4065469c",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-20T17:48:35.258011+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
