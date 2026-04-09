@@ -1,5 +1,18 @@
 [
   {
+    "id": "d898c150ccdaa84d",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-09T04:27:07.700667+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "e71c198f0a471673",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "26c23b5a0a49c847",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Unknown",
-    "link": "https://pdq.statuspage.io",
-    "summary": "Status changed from Operational to Unknown",
-    "date": "2026-03-19T20:27:12.750613+00:00",
-    "status": "unknown",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
