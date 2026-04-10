@@ -1,5 +1,31 @@
 [
   {
+    "id": "e2e208739b71487c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-10T16:39:39.982144+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "88068849cd98945e",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on requests to Claude models",
+    "link": "https://stspg.io/hfbfvplmg5s1",
+    "summary": "We are investigating reports of elevated errors on requests to Claude across all products. We will provide an update as soon as possible.",
+    "date": "2026-04-10T16:30:38.844000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "50539c7bba8eed8d",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-22T11:15:52.477234+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "6e66b34bcb8b0bc3",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Delayed response completion on Claude.ai",
-    "link": "https://stspg.io/vjg9kks1kgcb",
-    "summary": "Since approximately 20:00 UTC / 13:00 PT on Friday, March 20, Claude.ai responses may appear to \"hang\" for around 5 seconds after the text has finished streaming before the message completes. The Anthropic API is not affected.",
-    "date": "2026-03-22T11:14:20.581000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "3dc85b310349058d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-03-21T02:14:28.169092+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
