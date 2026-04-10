@@ -1,5 +1,18 @@
 [
   {
+    "id": "a1bd454e5732e5dc",
+    "product_id": "omnilert",
+    "product_name": "Omnilert",
+    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
+    "title": "Omnilert: Omnilert Service Outage from 04/02/2026",
+    "link": "https://stspg.io/7xjt461bbrhb",
+    "summary": "On April 2nd, 2026 a production incident caused unavailability of Omnilert ENS administrative portals\nand messaging services. The issue was identified and recified by Omnilert. \n\nDuration: 1h 45m\nScope: All Omnilert ENS Services",
+    "date": "2026-04-02T10:51:00-04:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "b0904c3eb7b0b59a",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "da49202ff503ead3",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Authorization Failure Errors Connecting to the Slack MCP Sever",
-    "link": "https://slack-status.com",
-    "summary": "We are aware that customers are receiving authorization failure errors when trying to connect to the Slack MCP server. We are currently investigating the issue and will provide an update as soon as more information becomes available. We're very sorry for any inconvience this may be causing your business.",
-    "date": "2026-03-22T19:40:19-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
