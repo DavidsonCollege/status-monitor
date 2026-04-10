@@ -1,5 +1,31 @@
 [
   {
+    "id": "b0904c3eb7b0b59a",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-10T15:28:02.166648+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a13d11bb09d4d633",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nGoogle Workspace users using Google IdP are unable to sign into their accounts using security keys and hardware based passkeys.\n**Description**\nWe are experiencing an issue with Workspace users beginning on Thursday, 2026-04-09 19:08 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Friday, 2026-04-10 04:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nGoogle Workspace users using Google IdP are unable to sign into their accounts using security keys and hardware based passkeys.\n**Workaround**\nBelow steps should be performed by Admin as the workaround:\n- Admin should revoke the key.\n- Admin to create the verification code to sign-in.\n- The user should sign-in using Backup verification code and then re-enrolls the security key. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-10T14:50:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "0e205884bd2e9f8f",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "17b84be17b299fec",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-22T23:31:07.967246+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "39f30d0f4b8dd12d",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may encounter issues loading Canva. \u2014 Resolved",
-    "link": "https://stspg.io/8ksw69tzyx28",
-    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
-    "date": "2026-03-23T10:09:28.967000+11:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
