@@ -1,5 +1,18 @@
 [
   {
+    "id": "5d2e8f6f68d74c0f",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble Sending Messages \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We are actively working to resolve the current platform functionality issues.\nCurrent status and actions being taken: We have processed the affected service PODs to expedite recovery, resulting in significant recovery across the platform. We're now monitoring all systems to ensure performance remains stable.\nEstimated time to resolution: No ETA at this time.\nScope: This issue isn't affecting any specific region, but a percentage of users may be affected globally.\nCurrent impact to end users: Som",
+    "date": "2026-04-10T13:21:31-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "f2aa7fb0406fc2b8",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "9e505d2e67e37858",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Major Outage",
-    "link": "https://status.code42.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-23T21:59:12.532343+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
