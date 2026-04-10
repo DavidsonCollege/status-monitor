@@ -1,5 +1,18 @@
 [
   {
+    "id": "0e205884bd2e9f8f",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may experience issues accessing AI Voice",
+    "link": "https://stspg.io/fcmrpr8vwq87",
+    "summary": "Users may be unable to access the AI Voice feature for video creation. We are aware of the issue and are investigating a fix.",
+    "date": "2026-04-11T00:39:57.269000+10:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "958588909f1863c8",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "21d1201f1dea8ac9",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-22T22:57:40.623323+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
