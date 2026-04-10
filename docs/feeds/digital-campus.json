@@ -1,5 +1,18 @@
 [
   {
+    "id": "f54fed5524ff150d",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Operational",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-04-10T21:59:51.916636+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "b3acfbb32837972f",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/b4swnp4z9z0r",
     "summary": "We are continuing to work on a fix for this issue.",
     "date": "2026-03-23T18:24:22.837000-05:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "8550e087b1d8ebae",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Failing Logins for Incydr \u2014 identified",
-    "link": "https://stspg.io/b4swnp4z9z0r",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-23T17:40:29.279000-05:00",
     "status": "major_outage",
     "incident_status": "identified",
     "type": "incident_update"
