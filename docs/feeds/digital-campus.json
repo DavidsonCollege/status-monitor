@@ -1,5 +1,18 @@
 [
   {
+    "id": "958588909f1863c8",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule 8: Website unavailable for some clients",
+    "link": "https://stspg.io/jm9xljw0505v",
+    "summary": "From 8:50 CDT to 10:59 CDT AS8 was intermittently unavailable for a subset of clients. A sub-process was in a bad state and filled up the system drive, leading to unsuitability. We detected the failure but were delayed in resolving the issue while we investigated. We've implemented several mitigation to both detect and prevent this issue.",
+    "date": "2026-04-09T08:50:00-05:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "838d978bdfdcffbe",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "eb3b194c07f9db69",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may encounter issues loading Canva. \u2014 monitoring",
-    "link": "https://stspg.io/8ksw69tzyx28",
-    "summary": "We\u2019ve applied a fix for this issue and are currently monitoring to make sure everything is working as expected. We\u2019ll continue to keep a close eye on things and share any updates if needed.",
-    "date": "2026-03-23T09:44:44.614000+11:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
