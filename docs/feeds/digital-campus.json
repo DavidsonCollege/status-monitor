@@ -1,5 +1,18 @@
 [
   {
+    "id": "f2aa7fb0406fc2b8",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble Sending Messages \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We are actively working to resolve the current platform functionality issues.\nCurrent status and actions being taken: We've identified a fix and are actively deploying it across the platform. Once the rollout is complete, we'll monitor system performance to ensure full stability.\nEstimated time to resolution: No ETA at this time.\nScope: This issue isn't affecting any specific region, but a percentage of users may be affected globally.\nCurrent impact to end users: Some users may experience troubl",
+    "date": "2026-04-10T12:44:44-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "e3484ca5c8f5dc52",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "99a07e2af7fe759c",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Failing Logins for Incydr",
-    "link": "https://stspg.io/b4swnp4z9z0r",
-    "summary": "The issue with logins has been and identified and a fix is being worked on.",
-    "date": "2026-03-23T16:56:45.535000-05:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
