@@ -1,5 +1,18 @@
 [
   {
+    "id": "73b24d8cedee11e4",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may experience issues accessing AI Voice \u2014 Resolved",
+    "link": "https://stspg.io/fcmrpr8vwq87",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-04-11T15:04:17.391000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "f54fed5524ff150d",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/b4swnp4z9z0r",
     "summary": "We are continuing to work on a fix for this issue.",
     "date": "2026-03-23T18:33:25.445000-05:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "513527b4f35ed77b",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Failing Logins for Incydr \u2014 identified",
-    "link": "https://stspg.io/b4swnp4z9z0r",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-23T18:24:22.837000-05:00",
     "status": "major_outage",
     "incident_status": "identified",
     "type": "incident_update"
