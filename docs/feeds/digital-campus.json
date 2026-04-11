@@ -1,5 +1,18 @@
 [
   {
+    "id": "b1b41d11f8c40109",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Degraded Performance",
+    "date": "2026-04-11T09:04:34.879212+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "d1d7a4231dd5a586",
     "product_id": "securew2",
     "product_name": "SecureW2",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "8287d15ba7c95605",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Failing Logins for Incydr \u2014 identified",
-    "link": "https://stspg.io/b4swnp4z9z0r",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-23T18:53:47.054000-05:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
