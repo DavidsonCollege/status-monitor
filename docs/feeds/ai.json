@@ -1,5 +1,31 @@
 [
   {
+    "id": "56f9faacac8ebb5f",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some users may experience issues accessing ChatGPT \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KNX13FBVMC6GJHJ2BQBSRKT8",
+    "summary": "Status: monitoring",
+    "date": "2026-04-11T01:37:02+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "46d252f7ed69d44a",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some users may experience issues accessing ChatGPT \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KNX13FBVMC6GJHJ2BQBSRKT8",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-11T01:48:46+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "dad3b35c52cdc117",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "6a647e3242dc2d67",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude.ai and Claude login down \u2014 monitoring",
-    "link": "https://stspg.io/63m2xnvx648y",
-    "summary": "A mitigation has been applied. Logins have returned to normal, the team is continuing to monitor the situation.",
-    "date": "2026-03-22T18:43:45.062000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "14fa6fe74572f8ec",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude.ai and Claude login down \u2014 Resolved",
-    "link": "https://stspg.io/63m2xnvx648y",
-    "summary": "This incident has been resolved. Logins and authentication for claude.ai and platform.claude.com have returned to normal",
-    "date": "2026-03-22T18:51:39.209000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
