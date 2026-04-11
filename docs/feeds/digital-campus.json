@@ -1,5 +1,18 @@
 [
   {
+    "id": "0ea64bae5ffa7853",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Under Maintenance",
+    "date": "2026-04-11T09:48:24.266935+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "b1b41d11f8c40109",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "ce6c957bbe730dcb",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Operational",
-    "link": "https://status.code42.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-03-23T23:58:21.948610+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
