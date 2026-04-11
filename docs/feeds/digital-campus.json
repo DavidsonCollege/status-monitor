@@ -1,5 +1,18 @@
 [
   {
+    "id": "d1d7a4231dd5a586",
+    "product_id": "securew2",
+    "product_name": "SecureW2",
+    "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
+    "title": "SecureW2: Degraded Performance",
+    "link": "https://status.securew2.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-11T06:10:03.217717+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "73b24d8cedee11e4",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/b4swnp4z9z0r",
     "summary": "We are continuing to work on a fix for this issue.",
     "date": "2026-03-23T18:53:47.054000-05:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "ecfd2dfa28ed271b",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Failing Logins for Incydr \u2014 identified",
-    "link": "https://stspg.io/b4swnp4z9z0r",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-23T18:33:25.445000-05:00",
     "status": "major_outage",
     "incident_status": "identified",
     "type": "incident_update"
