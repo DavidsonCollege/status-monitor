@@ -1,5 +1,18 @@
 [
   {
+    "id": "8c211b4de36eec39",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Email login down",
+    "link": "https://stspg.io/tp29skc2n4p9",
+    "summary": "Email login was broken between approximately 3:46 PM and 4:52 PM PDT on April 10, 2026.",
+    "date": "2026-04-11T00:00:20.098000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "81b7c72d648d141f",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "dbc770cc739c5ef7",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Console login down",
-    "link": "https://stspg.io/63m2xnvx648y",
-    "summary": "We are investigating an issue with users authenticating to claude.ai and Claude Console (platform.claude.com)",
-    "date": "2026-03-22T18:31:58.063000+00:00",
-    "status": "major_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
