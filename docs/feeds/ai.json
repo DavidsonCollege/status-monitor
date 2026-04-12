@@ -1,5 +1,18 @@
 [
   {
+    "id": "2f6a74d29132dbd1",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
+    "summary": "Status: monitoring",
+    "date": "2026-04-12T22:28:22+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "743a840ee477fed3",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-24T03:53:38+00:00",
     "status": "operational",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "ce00b49e6aab62d5",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai [retroactive]",
-    "link": "https://stspg.io/v3pzmj9jkzhd",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-23T17:03:37.232000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
