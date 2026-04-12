@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-12T20:20:24.122559+00:00",
+  "last_checked": "2026-04-12T20:40:55.299367+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -52,7 +52,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
       "overall_status": "operational",
-      "active_incidents": 0,
+      "active_incidents": 1,
       "components": [
         {
           "name": "Fine-tuning",
