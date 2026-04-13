@@ -1,5 +1,44 @@
 [
   {
+    "id": "b3235b4b1808b48c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-04-13T16:37:44.705490+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "b9b57daa981f5894",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai down \u2014 identified",
+    "link": "https://stspg.io/b0rjmf00qb07",
+    "summary": "We have identified the issue affecting Claude.ai and Claude Code logins. We are working to apply a fix for this issue, and will provide an additional update as soon as possible.",
+    "date": "2026-04-13T16:16:54.583000+00:00",
+    "status": "major_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "922cd9872d42e690",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai down \u2014 Resolved",
+    "link": "https://stspg.io/b0rjmf00qb07",
+    "summary": "We have resolved the issue resulting in elevated errors on login for Claude.ai and Claude Code betwen 15:31 to 16:19 UTC.",
+    "date": "2026-04-13T16:35:58.062000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "db572a29a3ab20a8",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d6a0871767418118",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-24T10:51:53+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "868d3c0dc621b17d",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased errors creating new sync apps and sync delays with existing apps",
-    "link": "https://status.openai.com/incidents/01KMFPEA68469V3NQAFCZAA6JB",
-    "summary": "",
-    "date": "2026-03-24T10:32:27+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "e24afae0c8400b8d",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
-    "summary": "Status: monitoring",
-    "date": "2026-03-24T10:22:58+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
