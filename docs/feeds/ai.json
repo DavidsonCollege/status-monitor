@@ -1,5 +1,18 @@
 [
   {
+    "id": "13ee2220921bfe84",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
+    "summary": "Status: identified",
+    "date": "2026-04-13T20:14:02+00:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "5ce4adca8ba60de3",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "bf9581aa0a743b61",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased errors creating new sync apps and sync delays with existing apps \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KMFPEA68469V3NQAFCZAA6JB",
-    "summary": "Status: monitoring",
-    "date": "2026-03-24T11:12:39+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
