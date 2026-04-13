@@ -1,5 +1,18 @@
 [
   {
+    "id": "6db21f948af41e6d",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - Some users are intermittently unable to release print jobs or experience intermittent loading in the Hive admin portal",
+    "link": "https://stspg.io/mcpl6q0mvfqq",
+    "summary": "We're currently investigating an intermittent issue affecting PaperCut Hive's print release for the EU hosting region only. \n\nUsers may experience intermittent slow loading of pages within the Hive admin portal.\n\nWe\u2019re actively working to resolve the issues and will provide updates as they become available.",
+    "date": "2026-04-13T09:04:07.862000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "ba89f1d76e834dac",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "a0d08552c247b4a1",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Software Tab missing some data from software scans",
-    "link": "https://stspg.io/dqwkqjxtqny5",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-03-24T12:47:25.264000-04:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
