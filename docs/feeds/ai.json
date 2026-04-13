@@ -1,5 +1,31 @@
 [
   {
+    "id": "6617d682de21738d",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-13T23:47:08.692167+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a097c02a0701fcac",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
+    "summary": "Status: identified",
+    "date": "2026-04-13T23:26:27+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "13ee2220921bfe84",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d891ce107276e509",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates on Realtime API SIP endpoints",
-    "link": "https://status.openai.com/incidents/01KMGE1FY97K34FN718KDBKR12",
-    "summary": "",
-    "date": "2026-03-24T17:24:53+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "5083eb8babee6378",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased errors creating new sync apps and sync delays with existing apps \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KMFPEA68469V3NQAFCZAA6JB",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-24T12:21:05+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
