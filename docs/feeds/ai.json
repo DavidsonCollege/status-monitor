@@ -1,5 +1,18 @@
 [
   {
+    "id": "7672d814d3f2e1e6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
+    "summary": "Status: monitoring",
+    "date": "2026-04-13T06:34:30+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "a61f64b79e34aefe",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "8307e0a04be9cd40",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
-    "summary": "Status: investigating",
-    "date": "2026-03-24T04:24:21+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
