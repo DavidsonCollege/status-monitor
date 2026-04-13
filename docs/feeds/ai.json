@@ -1,5 +1,31 @@
 [
   {
+    "id": "db572a29a3ab20a8",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Major Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-13T15:59:34.367490+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e1ae789a05bf64a3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai down",
+    "link": "https://stspg.io/b0rjmf00qb07",
+    "summary": "We are continuing to investigate elevated errors on Claude.ai, primarily affecting login. We will provide an update as soon as possible.",
+    "date": "2026-04-13T15:40:43.567000+00:00",
+    "status": "major_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "f85f8834e62ab792",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2571,32 +2597,6 @@
     "date": "2026-03-24T10:22:58+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "1c53d52f8b146c0c",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
-    "summary": "Status: monitoring",
-    "date": "2026-03-24T09:15:54+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "53a4c1c7b1d54ebd",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some customer may encounter errors creating, updating projects, and uploading files \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KMEZM1ETZZREZ5N61MSXTH4C",
-    "summary": "Status: identified",
-    "date": "2026-03-24T05:44:54+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
