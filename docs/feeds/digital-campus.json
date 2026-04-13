@@ -1,5 +1,18 @@
 [
   {
+    "id": "1e001082c6ea2829",
+    "product_id": "calendly",
+    "product_name": "Calendly",
+    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
+    "title": "Calendly: Calendly Site Unavailable",
+    "link": "https://stspg.io/56hs50vw5ymk",
+    "summary": "Calendly was down from ~9:09am EDT (13:09 UTC) to ~9:18am EDT (13:18 UTC).",
+    "date": "2026-04-13T09:00:00-04:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "7c0592b0a71aa802",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "954388ebd3869931",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-24T21:58:13.818973+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
