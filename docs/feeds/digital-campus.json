@@ -1,5 +1,18 @@
 [
   {
+    "id": "536d2887e10e98cb",
+    "product_id": "papercut",
+    "product_name": "PaperCut",
+    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
+    "title": "PaperCut: PaperCut Hive - Some users are intermittently unable to release print jobs or experience intermittent loading in the Hive admin portal \u2014 monitoring",
+    "link": "https://stspg.io/mcpl6q0mvfqq",
+    "summary": "The issue is now resolved and the teams will continue to monitor the cloud services.",
+    "date": "2026-04-13T09:51:40.297000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "6db21f948af41e6d",
     "product_id": "papercut",
     "product_name": "PaperCut",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0adb03dca05cccb9",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Software Tab missing some data from software scans \u2014 monitoring",
-    "link": "https://stspg.io/dqwkqjxtqny5",
-    "summary": "A fix has been implemented, we are monitoring the results, some data may be stale for the next few hours, and we will be working on fixing the data.",
-    "date": "2026-03-24T16:41:10.727000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
