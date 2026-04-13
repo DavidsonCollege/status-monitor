@@ -1,5 +1,18 @@
 [
   {
+    "id": "ba89f1d76e834dac",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Users may experience issues opening new and existing designs \u2014 Resolved",
+    "link": "https://stspg.io/1pml5fk8h0lm",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-04-13T15:56:17.887000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "e6e5013d25615b07",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2585,18 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "2fff812be6f37363",
-    "product_id": "crashplan",
-    "product_name": "CrashPlan",
-    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
-    "title": "CrashPlan: Failing Logins for Incydr \u2014 Resolved",
-    "link": "https://stspg.io/b4swnp4z9z0r",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-24T07:40:25.183000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
