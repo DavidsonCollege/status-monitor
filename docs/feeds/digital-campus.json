@@ -1,5 +1,18 @@
 [
   {
+    "id": "e6e5013d25615b07",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Users may experience issues opening new and existing designs",
+    "link": "https://stspg.io/1pml5fk8h0lm",
+    "summary": "The incident is now mitigated. We will continue to monitor and resolve after confirming operations are stable.",
+    "date": "2026-04-13T10:28:19.460000+10:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "9dc09fc309969a33",
     "product_id": "securew2",
     "product_name": "SecureW2",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "1e2c56bb3a51659e",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom FileServer Release: March, 2026 (No Operational Impact)",
-    "link": "https://stspg.io/rhndjq2s5gh2",
-    "summary": "We will be performing a scheduled maintenance for a upgrade related to our file services. This update covers multiple file-related components and is aimed at improving overall stability, scalability, and feature support.\n\nNo operational impact is expected. This maintenance introduces the following new features and improvements:\n\nEnabled range-based filtering for batch file downloads to support AI-powered workflows.\nEnhanced file metadata queries to more accurately detect encryption status and in",
-    "date": "2026-03-24T03:38:20.553000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
