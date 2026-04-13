@@ -1,5 +1,18 @@
 [
   {
+    "id": "5ce4adca8ba60de3",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
+    "summary": "Status: identified",
+    "date": "2026-04-13T17:10:06+00:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "b3235b4b1808b48c",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "8a90675dd80cf6e6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-24T10:58:20.969416+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
