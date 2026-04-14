@@ -1,5 +1,31 @@
 [
   {
+    "id": "dbba895dd8f377d8",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-14T09:10:02.765641+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "992533ef28aa271a",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-14T08:41:42+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "c4311dc0c0fdb13e",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "66b0739cf9091fac",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates on Realtime API SIP endpoints \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KMGE1FY97K34FN718KDBKR12",
-    "summary": "Status: monitoring",
-    "date": "2026-03-24T19:31:10+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "4998407317fda2e1",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates on Realtime API SIP endpoints \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KMGE1FY97K34FN718KDBKR12",
-    "summary": "Status: identified",
-    "date": "2026-03-24T17:55:35+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
