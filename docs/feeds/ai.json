@@ -1,5 +1,18 @@
 [
   {
+    "id": "69b90cd3cd954632",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded service on usage and analytics admin API endpoints \u2014 identified",
+    "link": "https://stspg.io/w2qlkm4lprv5",
+    "summary": "Root cause identified. Fixes have been merged and are progressing through our deployment pipeline. Intermittent 503 errors on usage and analytics admin API endpoints may continue until the rollout completes. We will update once the fix is live in production.",
+    "date": "2026-04-14T11:47:03.320000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "c2ee9652a962b5ba",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "efc98f1f4f8f78b6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Unable to download or preview project files",
-    "link": "https://status.openai.com/incidents/01KMH5C6HVAYJ9SS3REEAWXB6R",
-    "summary": "",
-    "date": "2026-03-25T00:12:41+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
