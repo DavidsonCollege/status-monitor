@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-14T13:11:35.502543+00:00",
+  "last_checked": "2026-04-14T13:57:40.271335+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -23,7 +23,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
       "status_url": "https://www.calendlystatus.com",
       "overall_status": "operational",
-      "active_incidents": 0,
+      "active_incidents": 1,
       "components": [
         {
           "name": "calendly.com",
@@ -222,7 +222,7 @@
       "name": "Zoom",
       "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
       "status_url": "https://status.zoom.us",
-      "overall_status": "maintenance",
+      "overall_status": "operational",
       "active_incidents": 1,
       "components": []
     },

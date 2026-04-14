@@ -1,5 +1,31 @@
 [
   {
+    "id": "908a5e8f56ee8bc1",
+    "product_id": "calendly",
+    "product_name": "Calendly",
+    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
+    "title": "Calendly: Scheduled Maintenance: Status Page Migration to Incident.io",
+    "link": "https://stspg.io/f0t9714nb0rq",
+    "summary": "Whats changing?\nOn April 15, 2026 - April 17, 2026 we will start migrating our status page to incident.io. This migration is part of our ongoing efforts to enhance monitoring, observability, and platform reliability.\n\nWith incident.io, we\u2019re integrating our incident response, on-call management, and post-incident reviews into a single platform, ensuring a smoother incident response process and the best support for our customers during incidents.\n\nWhat you need to know\nDuring this migration, the ",
+    "date": "2026-04-14T09:19:36.158000-04:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
+    "id": "3d25241cca9563fb",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-04-14T13:57:33.438989+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "74b5498e22d61bff",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-03-25T02:09:39.273171+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "cedf4bca28a4396a",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom FileServer Release: March, 2026 (No Operational Impact) \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/rhndjq2s5gh2",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-03-24T19:00:07.363000-07:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "3012b1e370c1ddab",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Degraded Performance",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-25T01:20:00.604050+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
