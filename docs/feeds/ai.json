@@ -1,5 +1,31 @@
 [
   {
+    "id": "6b64655560680c91",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-14T15:49:19.501260+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "62ff8403976ada68",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded service on usage and analytics admin API endpoints \u2014 Resolved",
+    "link": "https://stspg.io/w2qlkm4lprv5",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-14T15:21:03.965000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "2656fe24744b5f35",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "92e1af537dfc6c69",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6",
-    "link": "https://stspg.io/vxw2q92fdnx2",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-25T09:35:42.331000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "0dd22a118315e6b2",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Unable to download or preview project files \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KMH5C6HVAYJ9SS3REEAWXB6R",
-    "summary": "Status: identified",
-    "date": "2026-03-25T07:39:54+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
