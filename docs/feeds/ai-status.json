@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-14T16:47:23.802314+00:00",
+  "last_checked": "2026-04-14T17:19:56.413724+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -54,6 +54,14 @@
       "overall_status": "operational",
       "active_incidents": 0,
       "components": [
+        {
+          "name": "Login",
+          "status": "operational"
+        },
+        {
+          "name": "Login",
+          "status": "operational"
+        },
         {
           "name": "Fine-tuning",
           "status": "operational"
@@ -119,10 +127,6 @@
           "status": "operational"
         },
         {
-          "name": "Login",
-          "status": "operational"
-        },
-        {
           "name": "Video viewing",
           "status": "operational"
         },
@@ -144,10 +148,6 @@
         },
         {
           "name": "FedRAMP",
-          "status": "operational"
-        },
-        {
-          "name": "Login",
           "status": "operational"
         },
         {
