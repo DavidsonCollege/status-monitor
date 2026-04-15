@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-15T19:44:38.214693+00:00",
+  "last_checked": "2026-04-15T20:11:28.864491+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -23,10 +23,38 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
       "status_url": "https://www.calendlystatus.com",
       "overall_status": "operational",
-      "active_incidents": 1,
+      "active_incidents": 0,
       "components": [
         {
-          "name": "calendly.com",
+          "name": "Calendly API",
+          "status": "operational"
+        },
+        {
+          "name": "Exchange",
+          "status": "operational"
+        },
+        {
+          "name": "Google Analytics",
+          "status": "operational"
+        },
+        {
+          "name": "Intercom",
+          "status": "operational"
+        },
+        {
+          "name": "iCloud",
+          "status": "operational"
+        },
+        {
+          "name": "Google",
+          "status": "operational"
+        },
+        {
+          "name": "GoToMeeting",
+          "status": "operational"
+        },
+        {
+          "name": "PayPal",
           "status": "operational"
         },
         {
@@ -35,6 +63,34 @@
         },
         {
           "name": "Calendly for Chrome",
+          "status": "operational"
+        },
+        {
+          "name": "Salesforce",
+          "status": "operational"
+        },
+        {
+          "name": "Zoom",
+          "status": "operational"
+        },
+        {
+          "name": "Outlook.com & Office 365",
+          "status": "operational"
+        },
+        {
+          "name": "Stripe",
+          "status": "operational"
+        },
+        {
+          "name": "calendly.com",
+          "status": "operational"
+        },
+        {
+          "name": "Outlook Desktop",
+          "status": "operational"
+        },
+        {
+          "name": "Webhooks",
           "status": "operational"
         }
       ]
