@@ -1,5 +1,31 @@
 [
   {
+    "id": "8df90b3d97825b6c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-15T18:03:47.156582+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "309b4f99961dc609",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai, API, Claude Code \u2014 Resolved",
+    "link": "https://stspg.io/k80mg4g9k3sf",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-15T17:42:57.229000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "566a7e94fbff42a0",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "3ac34aa8731cea3c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 monitoring",
-    "link": "https://stspg.io/dv1mb1z3pwj2",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-25T15:37:51.918000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "ceb21616e284dc06",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated Errors on claude.ai \u2014 monitoring",
-    "link": "https://stspg.io/pjj05p7lrfxg",
-    "summary": "We are currently seeing recovery, and our engineers are working to ensure no further recurrences. We will provide an update as soon as possible.",
-    "date": "2026-03-25T15:27:34.777000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
