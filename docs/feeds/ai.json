@@ -1,5 +1,18 @@
 [
   {
+    "id": "c52c34900f4a6c67",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT FedRAMP workspaces not loading",
+    "link": "https://status.openai.com/incidents/01KP96N94V5AJX22P8APDX6XH2",
+    "summary": "",
+    "date": "2026-04-15T18:32:35+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "8df90b3d97825b6c",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "139c152b2ebcc01b",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated Errors on claude.ai \u2014 Resolved",
-    "link": "https://stspg.io/pjj05p7lrfxg",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-25T15:43:20.034000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
