@@ -1,5 +1,18 @@
 [
   {
+    "id": "1de9f32d7de12f7d",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Public API endpoint issue: devices-detailed \u2014 monitoring",
+    "link": "https://stspg.io/5znwmpbvpcl0",
+    "summary": "We are continuing to monitor for any further issues.",
+    "date": "2026-04-16T13:14:31.273000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "69544d6a4f042389",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://status.zoom.us",
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-30T16:56:03.570659+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c3859be0fa6a3ab9",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Degraded Performance",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-30T15:56:01.919230+00:00",
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
