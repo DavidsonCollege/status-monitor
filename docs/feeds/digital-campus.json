@@ -1,5 +1,18 @@
 [
   {
+    "id": "07788b4bea45ed4f",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Public API endpoint issue: devices-detailed \u2014 Resolved",
+    "link": "https://stspg.io/5znwmpbvpcl0",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-16T15:27:29.908000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "d730a83bc6ae92b7",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2582,19 +2595,6 @@
     "link": "https://status.accruent.com",
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-03-30T19:34:33.221875+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "61023bca52a1430a",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-30T17:50:17.065755+00:00",
     "status": "operational",
     "incident_status": "",
     "type": "status_change"

@@ -1,5 +1,18 @@
 [
   {
+    "id": "d7f485e1b55f5cd8",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Responses API Streaming Error \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KPBWZ18HR2G685X2XMZD78EP",
+    "summary": "Status: monitoring",
+    "date": "2026-04-16T20:31:31+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "296088c131ead75a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2584,19 +2597,6 @@
     "date": "2026-03-25T20:06:06.503000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "befd5102c231e26d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 investigating",
-    "link": "https://stspg.io/dv1mb1z3pwj2",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-25T20:01:53.633000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
