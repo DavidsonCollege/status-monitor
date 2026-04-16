@@ -1,5 +1,18 @@
 [
   {
+    "id": "ef5f361d5d216f1a",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-16T07:28:12.179211+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "0d40e8a0b35ab74e",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "19a155935d67bb28",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Issues while sending messages and loading message history is impacting some users \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "Our work on this issue is still ongoing.\nCurrent status and actions being taken: We are reviewing additional logs and diagnostic information to determine the best path to resolution.\nWe'll provide another update in 60 minutes until the impact is resolved for all users.",
-    "date": "2026-03-27T22:19:21-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
