@@ -1,5 +1,18 @@
 [
   {
+    "id": "2c1276ecb173e313",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Public API endpoint issue: devices-detailed \u2014 identified",
+    "link": "https://stspg.io/5znwmpbvpcl0",
+    "summary": "We expect to have a hotfix ready and deployed within the next two hours. This will result in a brief disruption of the API while we apply the hotfix, but it is expected to be brief",
+    "date": "2026-04-16T10:23:53.023000-05:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "180f270b296055cd",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Under Maintenance to Operational",
     "date": "2026-03-28T18:38:48.387202+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "a6607ce2862f73dd",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-03-28T11:40:28.055191+00:00",
-    "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
   }
