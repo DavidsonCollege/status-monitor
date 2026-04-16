@@ -1,5 +1,18 @@
 [
   {
+    "id": "f7b7d8f94d8beb2b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Failures to add Credentials to Vaults",
+    "link": "https://stspg.io/hn2qr6ds399k",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-16T22:26:00.677000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "8303cd34476bf9ab",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "148d4c8924171c71",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API Increased Error Rates \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KMP0CDV3T8QX1YPXHQMRN2EP",
-    "summary": "Status: investigating",
-    "date": "2026-03-26T21:35:24+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
