@@ -1,5 +1,18 @@
 [
   {
+    "id": "73e5b3ae9e56fe33",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Announcing IP Address Changes (No Operational Impact)",
+    "link": "https://stspg.io/jzt8mfkz3z67",
+    "summary": "The following IPv4 subnets will be removed from the Zoom Meeting, Zoom Contact Center, and Cloud Room Connector services. These IPv4 ranges no longer host resources and will be removed from Zoom\u2019s inventory starting no earlier than 30 days from the posting of this notice. Due to this, we recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\u00a0\n\nRemoved Zoom Meeting and Webinar IP ranges:\n4.34.125.128/25\n4.35.64",
+    "date": "2026-04-16T14:13:16.111000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "724be940fb553b6f",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "45a66049c764285b",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-31T14:08:23.342218+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
