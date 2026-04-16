@@ -1,5 +1,18 @@
 [
   {
+    "id": "e38ba96930083bf8",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-16T09:29:58.935614+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "ef5f361d5d216f1a",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://status.clickup.com",
     "summary": "Status changed from Under Maintenance to Operational",
     "date": "2026-03-28T07:27:02.444441+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "367281bbd68a3a4d",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-03-28T06:02:59.460546+00:00",
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
