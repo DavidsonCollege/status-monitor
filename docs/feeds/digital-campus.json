@@ -1,5 +1,18 @@
 [
   {
+    "id": "d730a83bc6ae92b7",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect is down \u2014 Resolved",
+    "link": "https://stspg.io/j94r3l2ysj0b",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-16T14:18:43.570000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "1de9f32d7de12f7d",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-03-30T17:50:17.065755+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "355ad8a1c46f73b3",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-30T16:56:03.570659+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
