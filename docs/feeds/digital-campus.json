@@ -1,5 +1,31 @@
 [
   {
+    "id": "183c7007c4814ed9",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Public API endpoint issue: devices-detailed \u2014 monitoring",
+    "link": "https://stspg.io/5znwmpbvpcl0",
+    "summary": "A hotfix has been deployed and we are currently validating the change.",
+    "date": "2026-04-16T11:42:23.443000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "eb4632d9e0d2d247",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-16T16:43:11.826553+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "2c1276ecb173e313",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Major Outage",
     "date": "2026-03-29T22:45:52.176799+00:00",
     "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "2a01cbc63d5ef1ee",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Issue with Sending and Receiving Messages",
-    "link": "https://slack-status.com",
-    "summary": "We're investigating a new incident.\nCurrent impact to end users: Some users may experience elevated error rates and message-related degradations when sending and receiving messages across the Slack platform\nTeams are actively engaged to identify the root cause and remediate the service impact and will provide updates as information is available. \u00a0\nWe apologize for the inconvenience and will continue sharing updates as they become available.",
-    "date": "2026-03-29T15:38:57-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "3bb523d9b96814be",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-03-28T18:38:48.387202+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
