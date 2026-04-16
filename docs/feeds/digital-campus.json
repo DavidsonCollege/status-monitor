@@ -1,5 +1,18 @@
 [
   {
+    "id": "16a8de971c2d7a86",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect is down",
+    "link": "https://stspg.io/j94r3l2ysj0b",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-16T12:59:58.063000-04:00",
+    "status": "major_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "183c7007c4814ed9",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "041d090e3a1c7b50",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Major Outage",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-29T22:45:52.176799+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
