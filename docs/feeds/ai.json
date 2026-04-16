@@ -1,5 +1,18 @@
 [
   {
+    "id": "c9769a69e8baf68e",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude Cowork not starting for some users \u2014 identified",
+    "link": "https://stspg.io/zv6xsc3wm28c",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-04-16T20:47:32.516000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "d7f485e1b55f5cd8",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "20637076b8304e07",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 monitoring",
-    "link": "https://stspg.io/dv1mb1z3pwj2",
-    "summary": "The issue has been mitigated. We are monitoring.",
-    "date": "2026-03-25T20:06:06.503000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]

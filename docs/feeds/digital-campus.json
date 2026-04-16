@@ -1,5 +1,18 @@
 [
   {
+    "id": "724be940fb553b6f",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-16T20:58:20.356727+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "07788b4bea45ed4f",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-31T14:08:23.342218+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b06661fba3159606",
-    "product_id": "accruent-ems",
-    "product_name": "Accruent EMS",
-    "icon_url": "https://www.google.com/s2/favicons?domain=accruent.com&sz=64",
-    "title": "Accruent EMS: Operational",
-    "link": "https://status.accruent.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-30T19:34:33.221875+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
