@@ -1,5 +1,18 @@
 [
   {
+    "id": "7c78b6c5df058888",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Planned Maintenance - Connect \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/j5hg8h3txwtr",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-04-15T22:00:08.689000-04:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "afd85da222d3a706",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "2d9d6d09aaa151fa",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Major Outage",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-03-28T04:16:15.746380+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
