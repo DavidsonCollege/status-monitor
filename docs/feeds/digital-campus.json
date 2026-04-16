@@ -1,5 +1,44 @@
 [
   {
+    "id": "69544d6a4f042389",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect is down \u2014 monitoring",
+    "link": "https://stspg.io/j94r3l2ysj0b",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-16T13:29:12.903000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "5ed5a9cc4e2ed582",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect is down \u2014 monitoring",
+    "link": "https://stspg.io/j94r3l2ysj0b",
+    "summary": "A fix has been implemented. The web console is now working. We're monitoring the system for some time before calling this fully resolved.",
+    "date": "2026-04-16T13:28:43.278000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "ea422a2023ef121d",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect is down \u2014 identified",
+    "link": "https://stspg.io/j94r3l2ysj0b",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-04-16T13:23:59.070000-04:00",
+    "status": "major_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "16a8de971c2d7a86",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "24db3bceb2bd02f0",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-03-30T01:49:18.693109+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c06fc950763c0eaa",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Issue with Sending and Receiving Messages \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "A fix has been deployed to the affected shards. ProcessMessage jobs had been paused, and these have now been unpaused on the affected shards. We are monitoring performance to assess whether the shards have returned to expected performance levels.",
-    "date": "2026-03-29T17:29:49-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "9b4746beada52b12",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Issue with Sending and Receiving Messages \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "We\u2019re continuing to investigate the issue. We have identified two affected shards that are becoming overloaded, causing elevated query failures and message-related degradations. We are in the process of testing a potential fix. We\u2019ll provide the next update once new information becomes available.",
-    "date": "2026-03-29T16:30:00-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
