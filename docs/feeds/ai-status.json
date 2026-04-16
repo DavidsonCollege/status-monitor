@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-16T19:21:24.029907+00:00",
+  "last_checked": "2026-04-16T19:49:31.999241+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -17,8 +17,8 @@
       "name": "Anthropic Claude",
       "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
       "status_url": "https://status.anthropic.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "partial_outage",
+      "active_incidents": 1,
       "components": [
         {
           "name": "claude.ai",
@@ -38,7 +38,7 @@
         },
         {
           "name": "Claude Cowork",
-          "status": "operational"
+          "status": "partial_outage"
         },
         {
           "name": "Claude for Government",
@@ -51,8 +51,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": [
         {
           "name": "Login",
@@ -61,6 +61,10 @@
         {
           "name": "Login",
           "status": "operational"
+        },
+        {
+          "name": "Responses",
+          "status": "degraded"
         },
         {
           "name": "Fine-tuning",
@@ -148,10 +152,6 @@
         },
         {
           "name": "FedRAMP",
-          "status": "operational"
-        },
-        {
-          "name": "Embeddings",
           "status": "operational"
         }
       ]
