@@ -1,5 +1,18 @@
 [
   {
+    "id": "afd85da222d3a706",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Planned Maintenance - Connect \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/j5hg8h3txwtr",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-15T21:00:10.696000-04:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "7a629252df2af6a4",
     "product_id": "calendly",
     "product_name": "Calendly",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "a3d580424d86f3a4",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Issues while sending messages and loading message history is impacting some users",
-    "link": "https://slack-status.com",
-    "summary": "We're investigating a new incident.\nCurrent impact to end users:\u00a0Some users may experience issues while sending messages and loading message history in Slack.\u00a0\nWe'll provide an update within 30 minutes including further details on current actions being taken.",
-    "date": "2026-03-27T21:12:33-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
