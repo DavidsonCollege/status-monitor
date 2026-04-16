@@ -1,5 +1,18 @@
 [
   {
+    "id": "180f270b296055cd",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Public API endpoint issue: devices-detailed",
+    "link": "https://stspg.io/5znwmpbvpcl0",
+    "summary": "Known issue with the devices-detailed Public API endpoint now requiring pagination. We are working on rolling back this change. Until it is fixed customers can access all devices using the pageSize and after query parameters.",
+    "date": "2026-04-16T07:35:14.809000-05:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "e38ba96930083bf8",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Under Maintenance",
     "date": "2026-03-28T11:40:28.055191+00:00",
     "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d24e4674b467caba",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Operational",
-    "link": "https://status.clickup.com",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-03-28T07:27:02.444441+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
