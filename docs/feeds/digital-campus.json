@@ -1,5 +1,18 @@
 [
   {
+    "id": "e980e510147495ad",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Unplanned Connect Maintenance",
+    "link": "https://stspg.io/90m31mb6kywd",
+    "summary": "We will be performing unplanned Connect maintenance on April 16, 2026 at 10:00 pm EST, lasting for approximately 1 hour. During this time, there may be brief downtime or service degradation. \n\nIf you have any questions, please let us know at support@pdq.com",
+    "date": "2026-04-16T17:31:15.616000-04:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "73e5b3ae9e56fe33",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "1a62028db987c263",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Multiple Features Unavailable",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69cbda953bf81a0583269495",
-    "summary": "We're investigating reports of missing Workspace features in our web and desktop applications. We\u2019ll have frequent updates until we have a monitoring status.",
-    "date": "2026-03-31T14:30:45.026000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
