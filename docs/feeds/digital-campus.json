@@ -1,5 +1,18 @@
 [
   {
+    "id": "a7d150a42f72895a",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Service Degradation (Deployments and Group membership affected) \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "Connect is currently experiencing issues with Deployments and other services. We're working on a fix for the issue and hope to have things back up and running soon.",
+    "date": "2026-04-17T09:59:38.556000-04:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "f53ed06bc5271457",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "654c974f3df86ce3",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: SimpleMDM Scheduled Maintenance Window. Service down temporarily.",
-    "link": "https://stspg.io/hpk90jszf3d1",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-03-31T16:59:40.647000-04:00",
-    "status": "maintenance_in_progress",
-    "incident_status": "in_progress",
-    "type": "new_incident"
   }
 ]
