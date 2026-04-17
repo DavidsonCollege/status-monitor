@@ -1,5 +1,18 @@
 [
   {
+    "id": "ad9d9e80de013ebf",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Unplanned Connect Maintenance \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/90m31mb6kywd",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-16T21:00:11.993000-04:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "e980e510147495ad",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "b75e4edc140119ab",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Partial Outage",
-    "link": "https://status.clickup.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-03-31T14:44:46.114536+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
