@@ -1,5 +1,18 @@
 [
   {
+    "id": "994a97f7dbc5e298",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - April 2026",
+    "link": "https://stspg.io/0gw0jpdqhb45",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-04-17T14:24:23.966000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "7af5f2a19e2dd873",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "cbd0d92a72f9c646",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Multiple Features Unavailable \u2014 monitoring",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69cbda953bf81a0583269495",
-    "summary": "We have worked with our third-party vendor to mitigate the issue leading to missing Workspace features in our web, desktop, and mobile applications. Functionality should be restored at this point. We will continue monitoring to ensure the issue is fully resolved.",
-    "date": "2026-04-01T00:07:11.020000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
