@@ -1,5 +1,18 @@
 [
   {
+    "id": "5e2028a4b4a56cfc",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Connect is down \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "All Connect services are currently down. We are continuing to work on a fix.",
+    "date": "2026-04-17T03:57:28.526000-04:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "e5eeaf78b22fe394",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "4dacf2cc0e7c2923",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident: Issues with Automations and Reports \u2014 Resolved",
-    "link": "https://stspg.io/c96ymh0hjh6r",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-31T13:16:43.301000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
