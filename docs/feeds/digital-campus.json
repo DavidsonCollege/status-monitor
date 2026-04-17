@@ -1,5 +1,31 @@
 [
   {
+    "id": "f64fe0c9052502dd",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Service Degradation",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "We are currently experiencing issues with degradation of Connect services. You may experience slower than normal responses for deployments, etc.",
+    "date": "2026-04-16T23:48:37.284000-04:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
+    "id": "7c94dc4186c16e5a",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Unplanned Connect Maintenance \u2014 Resolved",
+    "link": "https://stspg.io/90m31mb6kywd",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-16T23:00:07.503000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "6901e4a259053d72",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "c7ed4eee0c2a6542",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-31T15:48:08.320462+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "e1407d06bfaa90f9",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Operational",
-    "link": "https://status.clickup.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-03-31T15:48:11.162147+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
