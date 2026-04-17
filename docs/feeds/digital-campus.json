@@ -1,5 +1,18 @@
 [
   {
+    "id": "92a0b5a0cf397889",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Connect is Down \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "All Connect services are currently down and we are working to restore service. Thank you for your patience.",
+    "date": "2026-04-17T16:17:39.952000-04:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "994a97f7dbc5e298",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2582,19 +2595,6 @@
     "link": "https://shortiostatus.com",
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-04-01T06:41:21.866259+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "98b95bea2e024d12",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Operational",
-    "link": "https://status.clickup.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-04-01T00:17:01.918564+00:00",
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
