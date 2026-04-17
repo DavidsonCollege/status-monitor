@@ -1,5 +1,44 @@
 [
   {
+    "id": "e5eeaf78b22fe394",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Service Degradation \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-04-17T02:19:14.417000-04:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "06aa8ac83444c918",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Service Degradation \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-04-17T02:08:45.756000-04:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "9719db8233e8dcb4",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Service Degradation \u2014 monitoring",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-17T02:07:00.725000-04:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "f64fe0c9052502dd",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "8c032d63c5535064",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Service Degradation Affecting Sign In and Joining Meetings",
-    "link": "https://stspg.io/3dw3gwkqw5vd",
-    "summary": "A subset of users might have experienced error code 1132 with sign in and joining meetings.\n\nOn 03/31/206 Between 03:15 UTC to 17:02 UTC, A subset of us may have experienced error code 1132 with sign in and joining meetings.\n\nThis incident has been resolved and the affected services have been restored.\n\nOur team will continue to monitor the situation closely and keep you informed of any further developments.",
-    "date": "2026-03-31T10:28:21.765000-07:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "f422a0e28fa4382a",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident: Issues with Automations and Reports \u2014 identified",
-    "link": "https://stspg.io/c96ymh0hjh6r",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-03-31T13:07:42.612000-04:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "7b325f7a9120402b",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident: Issues with Automations and Reports",
-    "link": "https://stspg.io/c96ymh0hjh6r",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-03-31T12:23:41.955000-04:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
