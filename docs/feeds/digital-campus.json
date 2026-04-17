@@ -1,5 +1,18 @@
 [
   {
+    "id": "8789b43475dd6c80",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Service Degradation (Deployments and Group membership etc. affected) \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "We've applied a fix and we're working to get services back to normal.",
+    "date": "2026-04-17T04:50:57.011000-04:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "5e2028a4b4a56cfc",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "577fc3c111cc392a",
-    "product_id": "shortio",
-    "product_name": "Short.io",
-    "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
-    "title": "Short.io: Degraded Performance",
-    "link": "https://shortiostatus.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-31T19:29:58.147301+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
