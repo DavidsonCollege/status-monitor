@@ -13,8 +13,8 @@ Uses the Zoom Chatbot API (/v2/im/chat/messages) with client_credentials
 OAuth to post as a named bot in Team Chat channels.
 
 Required environment variables:
-  ZOOM_CLIENT_ID          - App Client ID (from Zoom Marketplace)
-  ZOOM_CLIENT_SECRET      - App Client Secret
+  ZOOM_CHATBOT_CLIENT_ID  - Chatbot App Client ID (from Zoom Marketplace)
+  ZOOM_CHATBOT_CLIENT_SECRET - Chatbot App Client Secret
   ZOOM_ACCOUNT_ID         - Zoom account ID
   ZOOM_BOT_JID            - Bot JID (from app Surface > Team Chat Subscription)
   ZOOM_USER_JID           - JID of a user who authorized the app
@@ -57,11 +57,16 @@ STATUS_EMOJI_TEXT = {
 # ── Authentication ─────────────────────────────────────────────────────────────
 
 def _get_chatbot_token() -> str:
-    """Obtain a Zoom Chatbot token using client_credentials grant."""
-    client_id = os.environ.get("ZOOM_CLIENT_ID", "")
-    client_secret = os.environ.get("ZOOM_CLIENT_SECRET", "")
+    """Obtain a Zoom Chatbot token using client_credentials grant.
+
+    Uses the Chatbot App credentials (ZOOM_CHATBOT_CLIENT_ID / SECRET),
+    which are separate from the Server-to-Server OAuth credentials
+    (ZOOM_CLIENT_ID / SECRET) used for other Zoom API calls.
+    """
+    client_id = os.environ.get("ZOOM_CHATBOT_CLIENT_ID", "")
+    client_secret = os.environ.get("ZOOM_CHATBOT_CLIENT_SECRET", "")
     if not client_id or not client_secret:
-        raise RuntimeError("Missing ZOOM_CLIENT_ID or ZOOM_CLIENT_SECRET")
+        raise RuntimeError("Missing ZOOM_CHATBOT_CLIENT_ID or ZOOM_CHATBOT_CLIENT_SECRET")
 
     credentials = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
     resp = requests.post(
@@ -182,14 +187,14 @@ def _send_message(channel_id: str, body: list[dict], token: str,
 def send_zoom_notifications(new_events: list[dict], base_url: str):
     """Send Zoom Team Chat notifications for status change events."""
     # Check required credentials
-    client_id = os.environ.get("ZOOM_CLIENT_ID", "")
+    chatbot_client_id = os.environ.get("ZOOM_CHATBOT_CLIENT_ID", "")
     robot_jid = os.environ.get("ZOOM_BOT_JID", "")
     account_id = os.environ.get("ZOOM_ACCOUNT_ID", "")
     user_jid = os.environ.get("ZOOM_USER_JID", "")
 
-    if not client_id or not robot_jid:
+    if not chatbot_client_id or not robot_jid:
         if new_events:
-            print("  Zoom: missing ZOOM_CLIENT_ID or ZOOM_BOT_JID – skipping")
+            print("  Zoom: missing ZOOM_CHATBOT_CLIENT_ID or ZOOM_BOT_JID – skipping")
         return
 
     if not new_events:

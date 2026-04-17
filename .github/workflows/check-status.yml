@@ -75,6 +75,8 @@ jobs:
           ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
           ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
           ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
+          ZOOM_CHATBOT_CLIENT_ID: ${{ secrets.ZOOM_CHATBOT_CLIENT_ID }}
+          ZOOM_CHATBOT_CLIENT_SECRET: ${{ secrets.ZOOM_CHATBOT_CLIENT_SECRET }}
           ZOOM_BOT_JID: ${{ secrets.ZOOM_BOT_JID }}
           ZOOM_USER_JID: ${{ vars.ZOOM_USER_JID }}
           TEST_TEAMS: ${{ github.event.inputs.test_teams }}
@@ -89,6 +91,8 @@ jobs:
           ZOOM_ACCOUNT_ID: ${{ secrets.ZOOM_ACCOUNT_ID }}
           ZOOM_CLIENT_ID: ${{ secrets.ZOOM_CLIENT_ID }}
           ZOOM_CLIENT_SECRET: ${{ secrets.ZOOM_CLIENT_SECRET }}
+          ZOOM_CHATBOT_CLIENT_ID: ${{ secrets.ZOOM_CHATBOT_CLIENT_ID }}
+          ZOOM_CHATBOT_CLIENT_SECRET: ${{ secrets.ZOOM_CHATBOT_CLIENT_SECRET }}
           ZOOM_BOT_JID: ${{ secrets.ZOOM_BOT_JID }}
           ZOOM_USER_JID: ${{ vars.ZOOM_USER_JID }}
         run: python scripts/check_status.py
