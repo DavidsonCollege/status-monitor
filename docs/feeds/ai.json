@@ -1,5 +1,31 @@
 [
   {
+    "id": "43850b672c8360d9",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-17T19:00:26.648861+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "34d98875953f2631",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Errors uploading documents to Google Drive in Claude.ai",
+    "link": "https://stspg.io/1085mzzhwf2v",
+    "summary": "We are investigating an issue causing errors when uploading documents to Google Drive from Claude.ai, including the desktop app and Cowork.",
+    "date": "2026-04-17T18:59:56.526000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "f7b7d8f94d8beb2b",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Partial Outage",
     "date": "2026-03-26T21:58:54.785978+00:00",
     "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "4e4e838b9d81d2b5",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 and Sonnet 4.6",
-    "link": "https://stspg.io/y9rm3rvqbfzx",
-    "summary": "We are currently investigating an issue resulting in elevated errors on requests to Claude Opus 4.6 and Sonnet 4.6. We will provide an update as soon as possible.",
-    "date": "2026-03-26T21:56:24.142000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "4b5dc6e4085ef1e1",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded Performance",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Partial Outage to Degraded Performance",
-    "date": "2026-03-26T21:46:17.713002+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
