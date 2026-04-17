@@ -1,5 +1,18 @@
 [
   {
+    "id": "f91b79ba4d03959b",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident- Connect is Currently Down \u2014 identified",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "PDQ Connect is currently experiencing a service disruption that began at approximately 12:00 AM ET (04:00 UTC) April 17th. \n\nThe issue is related to an unexpected database problem that has caused the application to be intermittently unavailable and has resulted in delays in deployment and device data processing. \n\nOur team is actively working to resolve the issue and restore full service. We apologize for the disruption and will provide updates as they become available.",
+    "date": "2026-04-17T17:09:30.866000-04:00",
+    "status": "major_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "92a0b5a0cf397889",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "0a780c42dec166e5",
-    "product_id": "shortio",
-    "product_name": "Short.io",
-    "icon_url": "https://www.google.com/s2/favicons?domain=short.io&sz=64",
-    "title": "Short.io: Operational",
-    "link": "https://shortiostatus.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-01T06:41:21.866259+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
