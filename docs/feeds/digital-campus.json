@@ -1,5 +1,18 @@
 [
   {
+    "id": "948bdfc656ee8bdc",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-18T07:40:22.740965+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "303130507b3ca3c0",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-04-01T21:26:51.394361+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "fa39992342d04684",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-04-01T14:44:39.593434+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
