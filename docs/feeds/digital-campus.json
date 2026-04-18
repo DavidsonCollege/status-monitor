@@ -1,5 +1,18 @@
 [
   {
+    "id": "fea3bc77cc0956b2",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-18T02:44:57.197612+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "f91b79ba4d03959b",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "2c1c9fa4d77852da",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Slackbot button in the top navigation is disappearing",
-    "link": "https://slack-status.com",
-    "summary": "We\u2019re aware of an issue introduced in build 121247 that affects the Slackbot button in the top navigation bar. As a result, the button may no longer be visible to users. We've identified a fix and are performing a rollback to restore the button for all affected users. We will provide an update in 30 minutes, or sooner if additional information becomes available. Thank you for your patience while we continue to investigate the situation.",
-    "date": "2026-04-01T06:01:28-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
