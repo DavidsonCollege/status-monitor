@@ -1,5 +1,18 @@
 [
   {
+    "id": "303130507b3ca3c0",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Intermittent Connect Outages \u2014 Resolved",
+    "link": "https://stspg.io/lkbhmqck0db2",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-18T00:07:38.226000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "8a0787c40b4204a8",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "5724a0ee60e79b7c",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Slackbot button in the top navigation is disappearing \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "Our work on this issue is still ongoing.\nCurrent status and actions being taken:\u00a0 We've identified the cause of the issue affecting the Slackbot button in the top navigation bar and have taken steps to address it. The issue is no longer present for affected users. Users who are currently experiencing the issue may need to reload Slack for the fix to take effect. We're continuing to monitor and will provide an update once service has been fully restored.\nWe'll provide another update in 30 minutes",
-    "date": "2026-04-01T06:44:24-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
