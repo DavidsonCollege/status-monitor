@@ -1,5 +1,18 @@
 [
   {
+    "id": "a83f0bfd26f5390f",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - April 2026 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/0gw0jpdqhb45",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-18T21:00:09.618000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "6f8b2512545c94e0",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "resolved",
     "incident_status": "postmortem",
     "type": "new_incident"
-  },
-  {
-    "id": "da30d5812cfa33f1",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive & PaperCut MF - Some users experiencing failures Scanning to Google Drive \u2014 investigating",
-    "link": "https://stspg.io/jbnrq218szvz",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-04-02T09:37:39.954000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
