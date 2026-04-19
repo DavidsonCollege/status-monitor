@@ -1,5 +1,18 @@
 [
   {
+    "id": "e90bd55ed6ac736f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Opus 4.6",
+    "link": "https://stspg.io/qlwclyv64k56",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-19T22:44:32.175000+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "4404aea0332ddc1e",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "fbd3ef992cc66df5",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors for MCP calls",
-    "link": "https://stspg.io/n5zljwcyfpr7",
-    "summary": "We are currently investigating an issue resulting in elevated errors for some MCP calls. We will provide an update as soon as possible.",
-    "date": "2026-03-26T22:25:40.025000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
