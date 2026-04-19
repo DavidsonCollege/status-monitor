@@ -1,5 +1,31 @@
 [
   {
+    "id": "f56e514adb4d5be7",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-04-19T09:08:00.530368+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "4c943fc7017a313f",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Workforce Management Update: April 19, 2026 (No Operational Impact) \u2014 Resolved",
+    "link": "https://stspg.io/blgdjxv0j7n9",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-19T02:00:07.217000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "e93345254fd761ef",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-02T13:56:10.028000+00:00",
     "status": "degraded",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "7f637e20ec49c6eb",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 identified",
-    "link": "https://stspg.io/2qdv5y4dbgsb",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-04-02T13:03:06.782000+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "c724923b6ec5ddcb",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive & PaperCut MF - Some users experiencing failures Scanning to Google Drive \u2014 monitoring",
-    "link": "https://stspg.io/jbnrq218szvz",
-    "summary": "We have pushed a fix to production which means functionality should now be fully restored. No action is needed to resume scanning to Google Drive.\n\nWe are continuing to monitor this incident. If you're still experiencing issues please report this via https://www.papercut.com/support/.",
-    "date": "2026-04-02T13:42:20.476000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]
