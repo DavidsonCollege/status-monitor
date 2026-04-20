@@ -1,5 +1,18 @@
 [
   {
+    "id": "123288bea300ca79",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KPMVSSRWY55RX257730KS2FA",
+    "summary": "Status: monitoring",
+    "date": "2026-04-20T09:43:35+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "3f5f5b44049bfcc0",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "73185414ab6f6764",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API and Sora Increased Error Rates \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KMP0CDV3T8QX1YPXHQMRN2EP",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-26T23:17:25+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
