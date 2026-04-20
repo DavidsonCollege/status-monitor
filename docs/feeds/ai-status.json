@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-20T16:47:20.305908+00:00",
+  "last_checked": "2026-04-20T17:17:41.276112+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,7 +51,7 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "partial_outage",
+      "overall_status": "operational",
       "active_incidents": 2,
       "components": [
         {
@@ -112,7 +112,7 @@
         },
         {
           "name": "ChatGPT Atlas",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Video generation",
@@ -148,11 +148,11 @@
         },
         {
           "name": "File uploads",
-          "status": "partial_outage"
+          "status": "operational"
         },
         {
           "name": "Conversations",
-          "status": "partial_outage"
+          "status": "operational"
         }
       ]
     }
