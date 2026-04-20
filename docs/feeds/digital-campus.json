@@ -1,5 +1,18 @@
 [
   {
+    "id": "cbaefeade2d1e5ad",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2",
+    "link": "https://stspg.io/sznmvx0kx1gt",
+    "summary": "We will be undergoing scheduled maintenance.",
+    "date": "2026-04-20T11:32:34.749000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "fd6ba5b8a2ac8774",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "cd2f0273c7041b1e",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive & PaperCut MF - Some users experiencing failures Scanning to Google Drive \u2014 Resolved",
-    "link": "https://stspg.io/jbnrq218szvz",
-    "summary": "This incident has now been fully resolved. We have confirmed that Scan to Google drive is operational via internal testing and reports from multiple customers.\n\nIf you experience other issues please report this via https://www.papercut.com/support/.",
-    "date": "2026-04-02T15:29:43.407000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
