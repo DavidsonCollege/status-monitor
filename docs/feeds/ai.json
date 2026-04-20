@@ -1,5 +1,31 @@
 [
   {
+    "id": "fc47c5250d9f7ff6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Partial Outage",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Partial Outage",
+    "date": "2026-04-20T15:15:53.766762+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "f9fb965ccf2161fb",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users unable to load ChatGPT and Codex \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
+    "summary": "Status: investigating",
+    "date": "2026-04-20T15:13:21+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "67487aa49062eddc",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Major Outage",
     "date": "2026-03-27T11:20:17.179355+00:00",
     "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "984b35a7414ee484",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 investigating",
-    "link": "https://stspg.io/jchxyv3sp1hv",
-    "summary": "We are continuing to investigate the ongoing incident.",
-    "date": "2026-03-27T11:04:15.387000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "24204c45bddccb39",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-27T07:10:22.454632+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
