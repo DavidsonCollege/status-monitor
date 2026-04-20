@@ -1,5 +1,18 @@
 [
   {
+    "id": "363e32a765e3b8fe",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users unable to load ChatGPT, Codex and API Platform \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-20T18:48:04+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "4c72fc1b52b129e7",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "fae3877d6b96d3cf",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 Resolved",
-    "link": "https://stspg.io/jchxyv3sp1hv",
-    "summary": "On March 26\u201327, 2026, customers experienced elevated error rates when using Claude Opus 4.6 and Claude Sonnet 4.6. The issue was caused by a networking performance degradation within our cloud infrastructure that disrupted communication between components of our serving stack. We resolved the incident by migrating the affected workloads to healthy infrastructure, restoring normal service by 9:30 AM PT on March 27.",
-    "date": "2026-03-27T16:46:24.919000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
