@@ -1,5 +1,18 @@
 [
   {
+    "id": "8d50899082fc8dbc",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-20T07:03:14.424995+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "f56e514adb4d5be7",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "fd9a59bc63cb0b5d",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 identified",
-    "link": "https://stspg.io/2qdv5y4dbgsb",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-04-02T13:56:10.028000+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
