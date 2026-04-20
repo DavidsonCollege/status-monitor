@@ -1,5 +1,18 @@
 [
   {
+    "id": "10a4c895069c7ebd",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPMVSSRWY55RX257730KS2FA",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-20T19:33:19+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "363e32a765e3b8fe",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "c7164ba2507bc25e",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Opus 4.6 Fast Mode",
-    "link": "https://stspg.io/9fjhg6m0v771",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-03-28T13:01:10.335000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
