@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-20T13:57:46.873337+00:00",
+  "last_checked": "2026-04-20T14:43:11.291214+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -17,12 +17,12 @@
       "name": "Anthropic Claude",
       "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
       "status_url": "https://status.anthropic.com",
-      "overall_status": "degraded",
-      "active_incidents": 1,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "platform.claude.com (formerly console.anthropic.com)",
@@ -30,7 +30,7 @@
         },
         {
           "name": "Claude API (api.anthropic.com)",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Code",
@@ -51,8 +51,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "operational",
-      "active_incidents": 1,
+      "overall_status": "degraded",
+      "active_incidents": 2,
       "components": [
         {
           "name": "Login",
@@ -91,27 +91,7 @@
           "status": "operational"
         },
         {
-          "name": "Conversations",
-          "status": "operational"
-        },
-        {
-          "name": "Voice mode",
-          "status": "operational"
-        },
-        {
-          "name": "Agent",
-          "status": "operational"
-        },
-        {
-          "name": "Connectors/Apps",
-          "status": "operational"
-        },
-        {
           "name": "Codex Web",
-          "status": "operational"
-        },
-        {
-          "name": "App",
           "status": "operational"
         },
         {
@@ -127,16 +107,12 @@
           "status": "operational"
         },
         {
-          "name": "Compliance API",
-          "status": "operational"
-        },
-        {
           "name": "Video viewing",
           "status": "operational"
         },
         {
           "name": "ChatGPT Atlas",
-          "status": "operational"
+          "status": "degraded"
         },
         {
           "name": "Video generation",
@@ -153,6 +129,30 @@
         {
           "name": "FedRAMP",
           "status": "operational"
+        },
+        {
+          "name": "Embeddings",
+          "status": "operational"
+        },
+        {
+          "name": "Chat Completions",
+          "status": "operational"
+        },
+        {
+          "name": "Realtime",
+          "status": "operational"
+        },
+        {
+          "name": "Files",
+          "status": "operational"
+        },
+        {
+          "name": "File uploads",
+          "status": "degraded"
+        },
+        {
+          "name": "Compliance API",
+          "status": "degraded"
         }
       ]
     }
