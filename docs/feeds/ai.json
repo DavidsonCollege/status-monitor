@@ -1,5 +1,31 @@
 [
   {
+    "id": "ecfe31099c160062",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-20T13:57:45.340045+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "eefeb0e00bc31e58",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors for uploading files",
+    "link": "https://stspg.io/85x6j0cg0yhs",
+    "summary": "We are currently investigating an issue related to uploading files on Claude.ai and Claude API. Some users will see their uploads failing and they are advised to retry.",
+    "date": "2026-04-20T13:31:05.010000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "123288bea300ca79",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "e93d475be02ce2e1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 and Sonnet 4.6 \u2014 identified",
-    "link": "https://stspg.io/y9rm3rvqbfzx",
-    "summary": "We have identified an issue resulting in a low rate of errors on requests to Claude Opus 4.6 and Sonnet 4.6, we are continuing to work to fully resolve this issue and will provide additional updates.",
-    "date": "2026-03-26T23:06:49.415000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "c4b25510052a8039",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API and Sora Increased Error Rates \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KMP0CDV3T8QX1YPXHQMRN2EP",
-    "summary": "Status: monitoring",
-    "date": "2026-03-26T23:03:45+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
