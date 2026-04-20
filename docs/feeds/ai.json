@@ -1,5 +1,31 @@
 [
   {
+    "id": "690d614bcf212d78",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-20T18:12:11.777254+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e3c78bb7f531a67c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users unable to load ChatGPT, Codex and API Platform \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
+    "summary": "Status: monitoring",
+    "date": "2026-04-20T17:43:59+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "38d3f6d4232a7f7e",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "13b1a47b3936f36c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated connection reset errors in Cowork \u2014 Resolved",
-    "link": "https://stspg.io/5zt95qbyf06z",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-27T15:05:30.558000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "7341a8c31064df3e",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 \u2014 monitoring",
-    "link": "https://stspg.io/jchxyv3sp1hv",
-    "summary": "As of 6:40 PT / 13:40 UTC our error rate has returned to the baseline. We are still monitoring the current situation.",
-    "date": "2026-03-27T13:46:20.620000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
