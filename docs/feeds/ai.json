@@ -1,5 +1,18 @@
 [
   {
+    "id": "b167d646a2ee54ee",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some users will is higher error rates on Codex",
+    "link": "https://status.openai.com/incidents/01KPPJX4KHFAWS8YQE3KW235X7",
+    "summary": "",
+    "date": "2026-04-20T23:16:43+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "10a4c895069c7ebd",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "d4ae88f0adac26ad",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-03-28T13:25:10.274944+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
