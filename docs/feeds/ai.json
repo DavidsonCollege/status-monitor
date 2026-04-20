@@ -1,5 +1,18 @@
 [
   {
+    "id": "b1df5c6317a21a57",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Some users will see higher error rates on Codex \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPPJX4KHFAWS8YQE3KW235X7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-20T23:42:43+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "b167d646a2ee54ee",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "a7eb1faf38839709",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Opus 4.6 Fast Mode \u2014 monitoring",
-    "link": "https://stspg.io/9fjhg6m0v771",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-03-28T13:55:19.120000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
