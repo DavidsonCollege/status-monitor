@@ -1,5 +1,18 @@
 [
   {
+    "id": "9c139912b5ab94b2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users unable to load ChatGPT, Codex and API Platform \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
+    "summary": "Status: investigating",
+    "date": "2026-04-20T15:29:45+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "fc47c5250d9f7ff6",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "36a0be228f21c4a2",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Major Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Major Outage",
-    "date": "2026-03-27T11:20:17.179355+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
