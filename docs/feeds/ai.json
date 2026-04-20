@@ -1,5 +1,18 @@
 [
   {
+    "id": "b2b19df568d978e9",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users unable to load ChatGPT, Codex and API Platform \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
+    "summary": "Status: investigating",
+    "date": "2026-04-20T16:03:14+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "9c139912b5ab94b2",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/jchxyv3sp1hv",
     "summary": "As of 5:00 PT / 12:00 UTC Sonnet 4.6 is now healthy. We are still working to fix Opus 4.6.",
     "date": "2026-03-27T12:09:16.207000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "6490348f37663868",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Opus 4.6 and Sonnet 4.6 \u2014 investigating",
-    "link": "https://stspg.io/jchxyv3sp1hv",
-    "summary": "Sonnet 4.6 is also showing elevated errors.",
-    "date": "2026-03-27T11:21:47.523000+00:00",
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
