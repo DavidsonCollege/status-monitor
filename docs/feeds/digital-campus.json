@@ -1,5 +1,18 @@
 [
   {
+    "id": "c170dc22accb775c",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Trust / Private Access Connectivity Interruption \u2014 Resolved",
+    "link": "https://stspg.io/7jhf2d623fpy",
+    "summary": "Full service has been restored, and we will conduct a post-incident review.\nWe appreciate your patience and apologise for any disruption caused.",
+    "date": "2026-04-21T03:03:06.690000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "2480fe53e985ad5b",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/wv11y71hwbp3",
     "summary": "We are performing upgrades on Jamf Cloud beginning on April 03 at 15:00 UTC and running through April 03 at 23:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
     "date": "2026-04-02T17:21:17.248000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "b746e69d9fda6e6c",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-southeast-2",
-    "link": "https://stspg.io/n871w5cd8q6r",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on April 03 at 13:00 UTC and running through April 03 at 19:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
-    "date": "2026-04-02T17:19:06.126000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
