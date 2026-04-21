@@ -1,5 +1,18 @@
 [
   {
+    "id": "2480fe53e985ad5b",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Trust / Private Access Connectivity Interruption",
+    "link": "https://stspg.io/7jhf2d623fpy",
+    "summary": "Infrastructure has been successfully scaled up. Services are being monitored to confirm stability. No action is required from customers and Jamf Trust should reconnect automatically.",
+    "date": "2026-04-21T02:15:55.412000+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "cbaefeade2d1e5ad",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "e0edafec37f4add2",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 monitoring",
-    "link": "https://stspg.io/2qdv5y4dbgsb",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-02T15:37:10.721000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
