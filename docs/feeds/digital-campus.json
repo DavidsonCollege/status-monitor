@@ -1,5 +1,31 @@
 [
   {
+    "id": "34ad8f529a6af607",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-21T14:02:16.658460+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e2aa88efce198430",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Custom status not expiring",
+    "link": "https://slack-status.com",
+    "summary": "We're aware of an issue affecting Slack. Some users who have set a custom status to expire at a specific time are finding that their status is not automatically clearing as expected. We're actively investigating and we'll provide an update as soon as we have more information available.",
+    "date": "2026-04-21T06:46:30-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "c170dc22accb775c",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/tvbd8qp5zv4t",
     "summary": "We are performing upgrades on Jamf Cloud beginning on April 03 at 22:00 UTC and running through April 04 at 00:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
     "date": "2026-04-02T17:21:44.266000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "f637a7eb3f85e298",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-central-1",
-    "link": "https://stspg.io/kkjlyzv8b214",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on April 03 at 22:00 UTC and running through April 04 at 09:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
-    "date": "2026-04-02T17:21:31.553000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "3bdba4bacdf6ea46",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-northeast-1",
-    "link": "https://stspg.io/wv11y71hwbp3",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on April 03 at 15:00 UTC and running through April 03 at 23:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
-    "date": "2026-04-02T17:21:17.248000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
