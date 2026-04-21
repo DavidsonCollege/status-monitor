@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-21T00:11:04.117435+00:00",
+  "last_checked": "2026-04-21T01:04:11.928713+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -67,6 +67,18 @@
           "status": "operational"
         },
         {
+          "name": "Codex Web",
+          "status": "operational"
+        },
+        {
+          "name": "VS Code extension",
+          "status": "operational"
+        },
+        {
+          "name": "Codex API",
+          "status": "operational"
+        },
+        {
           "name": "Fine-tuning",
           "status": "operational"
         },
@@ -91,19 +103,7 @@
           "status": "operational"
         },
         {
-          "name": "Codex Web",
-          "status": "operational"
-        },
-        {
-          "name": "Codex API",
-          "status": "operational"
-        },
-        {
           "name": "CLI",
-          "status": "operational"
-        },
-        {
-          "name": "VS Code extension",
           "status": "operational"
         },
         {
