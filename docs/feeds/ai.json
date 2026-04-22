@@ -1,5 +1,31 @@
 [
   {
+    "id": "47ebb9a19a829bfe",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-22T19:40:54.539406+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "746c20e6e0286e98",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Enterprise, business & education workspaces seeing elevated rate of conversation errors \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPTQAPRRSTTSSPDBGNG34FD5",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-22T19:23:34+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "5060439e9f6c2a40",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "9d20708bf4b04361",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 Resolved",
-    "link": "https://stspg.io/tnlwcsl8gg6v",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-31T09:44:41.406000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "38d6347e8f3a6691",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.6 \u2014 monitoring",
-    "link": "https://stspg.io/tnlwcsl8gg6v",
-    "summary": "At baseline error rate from 2:19 PT / 9:19 UTC.",
-    "date": "2026-03-31T09:21:13.632000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
