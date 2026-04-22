@@ -1,5 +1,31 @@
 [
   {
+    "id": "5bac8fc41be393db",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Partial Outage",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-22T16:38:04.571691+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8d8a6e8b5ddb0d61",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69e8f9078a263706006e81e5",
+    "summary": "We're investigating reports of missing Workspace features, including some that are in beta, across our web and desktop applications. We'll have frequent updates until we have a monitoring status.",
+    "date": "2026-04-22T16:36:23.835000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "d6b393e70e575608",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/wv11y71hwbp3",
     "summary": "Maintenance will begin as scheduled in 60 minutes.",
     "date": "2026-04-03T14:00:10.356000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "11e903c5da1aab39",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-southeast-2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/n871w5cd8q6r",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-03T13:00:07.167000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "5e3b2fba2312634a",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-southeast-2 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/n871w5cd8q6r",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-03T12:00:07.387000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
