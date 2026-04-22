@@ -1,5 +1,18 @@
 [
   {
+    "id": "19e7d7c6e641926e",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable \u2014 identified",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69e8f9078a263706006e81e5",
+    "summary": "We\u2019ve identified the root cause behind certain Workspace features not appearing as expected across web, desktop, and mobile.\r\n\r\nThe issue originates from a third-party vendor, and we\u2019re actively working with their team on a resolution. We\u2019ll continue sharing updates here until the issue is resolved and we\u2019ve moved into a monitoring state.",
+    "date": "2026-04-22T20:25:58.438000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "5bac8fc41be393db",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-03T15:00:07.264000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "ed7f240b3ab30837",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-northeast-1 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/wv11y71hwbp3",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-03T14:00:10.356000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
