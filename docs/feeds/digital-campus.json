@@ -1,5 +1,18 @@
 [
   {
+    "id": "eef2fe4c37c21f78",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/sznmvx0kx1gt",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-04-21T19:00:10.778000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "abf2c53ae12813da",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/0hgr9z2pqdt0",
     "summary": "We are performing upgrades on Jamf Cloud beginning on April 04 at 04:00 UTC and running through April 04 at 08:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
     "date": "2026-04-02T17:22:13.516000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "53acb728b98ff908",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-west-2",
-    "link": "https://stspg.io/jl5zrxhw7gqd",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on April 03 at 23:00 UTC and running through April 04 at 06:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
-    "date": "2026-04-02T17:21:57.152000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
