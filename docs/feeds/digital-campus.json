@@ -1,5 +1,31 @@
 [
   {
+    "id": "30b50f04c13bbf99",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Operational",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-04-22T02:47:06.764070+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "51695ef534ef34b0",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 Resolved",
+    "link": "https://stspg.io/sznmvx0kx1gt",
+    "summary": "The release scheduled for tonight has been postponed. We are rescheduling to ensure all components meet our quality standards. A new maintenance window will be announced shortly. No impact on current system stability is expected.",
+    "date": "2026-04-21T20:54:49.721000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "73c7385185f3687e",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "4922dee04d8dd6fc",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for us-west-2",
-    "link": "https://stspg.io/b2skwtr5q7h0",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on April 04 at 07:00 UTC and running through April 04 at 18:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
-    "date": "2026-04-02T17:22:50.185000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "495a97dd3de81515",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Azure: 11.26.1 Upgrade for central-us",
-    "link": "https://stspg.io/22569jvcz36k",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on April 04 at 05:00 UTC and running through April 04 at 07:00 UTC. More information will be available on Jamf Nation here:\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-26-1-now-available-58000\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.26.1/New_Features_and_Enhancements",
-    "date": "2026-04-02T17:22:38.330000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
