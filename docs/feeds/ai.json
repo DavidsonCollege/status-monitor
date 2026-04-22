@@ -1,5 +1,18 @@
 [
   {
+    "id": "1a30a27536180bf0",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT free users are seeing errors when having conversations",
+    "link": "https://status.openai.com/incidents/01KPSB0GQZ0G7FT3GAV3H2Q8D8",
+    "summary": "",
+    "date": "2026-04-22T00:56:29+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "06b2755d788ca72f",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "b1b967cb97afc59c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Dispatch sessions not responding in Claude Desktop \u2014 Resolved",
-    "link": "https://stspg.io/jvrqr2005k9r",
-    "summary": "The issue affecting Dispatch has been resolved. We fixed an underlying issue that prevent the agent from sending responses to user messages. Please update to Claude desktop app 1.1.9493. We apologize for any inconvenience caused.",
-    "date": "2026-03-29T04:44:46.917000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
