@@ -1,5 +1,18 @@
 [
   {
+    "id": "d6b393e70e575608",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2",
+    "link": "https://stspg.io/zq8sbm65fqh0",
+    "summary": "We will be undergoing scheduled maintenance.",
+    "date": "2026-04-22T09:30:55.283000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "30b50f04c13bbf99",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "4c6aa264e1a200d1",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf School: Degraded Performance (USE & EU) \u2014 Resolved",
-    "link": "https://stspg.io/2qdv5y4dbgsb",
-    "summary": "Monitoring complete. No additional issues.",
-    "date": "2026-04-02T21:07:01.537000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
