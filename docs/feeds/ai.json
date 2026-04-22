@@ -1,5 +1,31 @@
 [
   {
+    "id": "eff1686d959c9bfd",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-22T03:54:12.466821+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "cd5d8e74a945fdeb",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT free users are seeing errors when having conversations \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPSB0GQZ0G7FT3GAV3H2Q8D8",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-22T03:35:13+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "981462849151646c",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d261b1fa181922fd",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Account creation and login are unstable across all surfaces \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KMW2RQMDA0395HN282YX5JFC",
-    "summary": "Status: monitoring",
-    "date": "2026-03-29T06:57:50+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "dee637f8d0348e06",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Account creation and login are unstable across all surfaces \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KMW2RQMDA0395HN282YX5JFC",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-29T07:00:23+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
