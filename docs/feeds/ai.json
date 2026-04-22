@@ -1,5 +1,31 @@
 [
   {
+    "id": "57821def4b6e23a0",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Partial Outage",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-22T01:44:55.666683+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "589af88c65740ba1",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT free users are seeing errors when having conversations \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KPSB0GQZ0G7FT3GAV3H2Q8D8",
+    "summary": "Status: investigating",
+    "date": "2026-04-22T01:00:28+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "1a30a27536180bf0",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-03-29T06:02:29.603001+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c3cfa19b3058a10e",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Account creation and login are unstable across all surfaces",
-    "link": "https://status.openai.com/incidents/01KMW2RQMDA0395HN282YX5JFC",
-    "summary": "",
-    "date": "2026-03-29T05:58:45+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "fcba1a1e1641c1f8",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-03-29T04:46:17.429276+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
