@@ -1,5 +1,18 @@
 [
   {
+    "id": "5ebaebc86c8c698f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: MCP apps unavailable on Claude.ai",
+    "link": "https://stspg.io/rx62k66jm0lj",
+    "summary": "We have resolved the issue impacting MCP Apps on Claude.ai.",
+    "date": "2026-04-23T00:41:43.270000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "47ebb9a19a829bfe",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "fb1591c01aa7e59a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-03-31T10:12:58.694940+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

@@ -1,5 +1,31 @@
 [
   {
+    "id": "ee99d3f7172fef54",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Operational",
+    "link": "https://www.canvastatus.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-23T01:04:04.099822+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "dc67fb263c06e439",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Users are having issues accessing designs \u2014 Resolved",
+    "link": "https://stspg.io/ckzq7hwr2x3w",
+    "summary": "This incident is resolved. Thank you for patience and understanding.",
+    "date": "2026-04-23T10:28:17.898000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "eec5dfb29907a20d",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-03T22:00:07.171000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "d9f04f098bd47f4e",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for germany-westcentral \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/tvbd8qp5zv4t",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-03T21:00:08.040000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "eb42f038a705e28e",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-central-1 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/kkjlyzv8b214",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-03T21:00:07.789000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]

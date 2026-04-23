@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-04-23T00:08:02.036516+00:00",
+  "last_checked": "2026-04-23T01:04:09.260190+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -296,8 +296,8 @@
       "name": "Canva",
       "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
       "status_url": "https://www.canvastatus.com",
-      "overall_status": "degraded",
-      "active_incidents": 1,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "Login and signup",
@@ -309,7 +309,7 @@
         },
         {
           "name": "Viewing designs",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Saving designs",
