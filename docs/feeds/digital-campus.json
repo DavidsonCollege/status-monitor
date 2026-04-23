@@ -1,5 +1,31 @@
 [
   {
+    "id": "3db8203a2319af92",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-23T07:30:23.653153+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "50b0eafcfecf6412",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slack Threads Not Loading",
+    "link": "https://slack-status.com",
+    "summary": "Some users are having trouble loading Threads in Slack, this is affecting Windows and Chrome users. Users may receive an error asking them to \u2018Try Again\u2019.\u00a0\nWe apologize for the inconvenience and will report back as more information becomes available.",
+    "date": "2026-04-23T00:27:17-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "7bfd1f7286034014",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/jl5zrxhw7gqd",
     "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
     "date": "2026-04-03T23:00:07.124000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "05abe42a92806251",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-west-2 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/jl5zrxhw7gqd",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-03T22:00:07.564000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "0b6ee249f5768386",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-central-1 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/kkjlyzv8b214",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-03T22:01:07.102000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
