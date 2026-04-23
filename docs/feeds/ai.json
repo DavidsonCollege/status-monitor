@@ -1,5 +1,18 @@
 [
   {
+    "id": "0097d047ee62e3b9",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Issues with responses using structured outputs on the API",
+    "link": "https://stspg.io/w2jwfp21p198",
+    "summary": "We have identified and resolved an issue which resulted in issues with model responses when making use of structured outputs via the Anthropic API between 16:10 UTC on April 22 and 01:59 UTC on April 23. During this period, structured outputs containing some forms of grammar requirements returned with reduced quality. This did not impact any requests not using structured outputs, as detailed here: https://platform.claude.com/docs/en/build-with-claude/structured-outputs.",
+    "date": "2026-04-23T02:00:00+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "5f0cbafbffbd8b63",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-01T09:06:18.974000+00:00",
     "status": "identified",
     "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "0a74b5a395533e20",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated timeouts on requests to Claude Opus 4.6 and Sonnet 4.6",
-    "link": "https://stspg.io/0h1g3bkh1v1q",
-    "summary": "We have identified an issue which resulted in elevated rates of timeouts when making requests to Claude Opus 4.6 and Sonnet 4.6 from 17:45 UTC on March 31 through 05:52 UTC on April 1. This issue has been resolved.",
-    "date": "2026-04-01T07:01:04.599000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
