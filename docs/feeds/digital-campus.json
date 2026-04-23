@@ -1,5 +1,18 @@
 [
   {
+    "id": "7bfd1f7286034014",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Multiple Features Unavailable \u2014 identified",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69e8f9078a263706006e81e5",
+    "summary": "Coordination with our third-party vendor is ongoing. We believe a majority of impacted users have a working solution at this time but additional testing, re-validation, and broader checks are being completed for a full path forward and complete resolution.\r\n\r\nWe greatly appreciate your patience and will provide additional meaningful updates as they are made available.",
+    "date": "2026-04-23T04:21:59.170000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "ee99d3f7172fef54",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/kkjlyzv8b214",
     "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
     "date": "2026-04-03T22:01:07.102000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "c6af2f254a7dc64a",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for germany-westcentral \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/tvbd8qp5zv4t",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-03T22:00:07.171000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
