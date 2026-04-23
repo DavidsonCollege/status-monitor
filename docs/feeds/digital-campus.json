@@ -1,5 +1,18 @@
 [
   {
+    "id": "277ec9a20cff0aa0",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-23T16:59:47.690759+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "62f6a652144fccd6",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "e757904df1dc9e90",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for germany-westcentral \u2014 Resolved",
-    "link": "https://stspg.io/tvbd8qp5zv4t",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-04T00:00:09.811000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]

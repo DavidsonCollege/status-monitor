@@ -1,5 +1,31 @@
 [
   {
+    "id": "f7d703331c005b68",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-23T16:59:54.917173+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8880797a56756bf3",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates and latency for Moderation API",
+    "link": "https://status.openai.com/incidents/01KPXKMRJ72KA5SYTEH509CQA5",
+    "summary": "",
+    "date": "2026-04-23T16:44:18+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "36336feba900a5b4",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "02461f879cf0d6d1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Partial Outage",
-    "date": "2026-03-31T21:03:01.067376+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "41f6a4d1004586c4",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Opus 4.6 error rate elevated \u2014 identified",
-    "link": "https://stspg.io/r7hg2hm3js9h",
-    "summary": "We are continuing to work on a fix for this issue.",
-    "date": "2026-03-31T21:01:33.284000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
