@@ -1,5 +1,18 @@
 [
   {
+    "id": "08c3ec76ef7203d2",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: MCP apps unavailable on Claude.ai \u2014 Resolved",
+    "link": "https://stspg.io/rx62k66jm0lj",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-23T02:09:00.622000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "5ebaebc86c8c698f",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "4f68c6de48ff45eb",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated failures for some users joining ChatGPT Enterprise and ChatGPT Edu workspaces via SSO.",
-    "link": "https://status.openai.com/incidents/01KN2572VPZRK41ZVAVP9FS5JR",
-    "summary": "",
-    "date": "2026-03-31T14:36:59+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
