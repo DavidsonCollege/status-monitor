@@ -1,5 +1,44 @@
 [
   {
+    "id": "5cf5fbd6542e0c1b",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-23T18:09:13.480146+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e2e7d12d7b977693",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates and latency for Moderation API \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KPXKMRJ72KA5SYTEH509CQA5",
+    "summary": "Status: monitoring",
+    "date": "2026-04-23T17:41:58+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "098128cc6bccc561",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates and latency for Moderation API \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPXKMRJ72KA5SYTEH509CQA5",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-23T17:57:19+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "f7d703331c005b68",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2559,44 +2598,5 @@
     "status": "monitoring",
     "incident_status": "monitoring",
     "type": "new_incident"
-  },
-  {
-    "id": "0260fa4ec5d9f330",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Unavailable connectors in Claude.ai desktop applications \u2014 Resolved",
-    "link": "https://stspg.io/5mv6w1t4x8ly",
-    "summary": "We have resolved an issue that resulted in the unavailability of connectors in the Claude.ai desktop application. Affected connectors were removed from organization allowlists, and can be manually re-added while we work to automatically restore impacted allowlists.",
-    "date": "2026-03-31T22:59:37.233000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "a0dd09bb7fb6f5e2",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-03-31T22:21:16.553316+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "9101aacef81ca39d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Opus 4.6 and Sonnet 4.6 error rate elevated \u2014 Resolved",
-    "link": "https://stspg.io/r7hg2hm3js9h",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-31T22:09:13.844000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
