@@ -1,5 +1,18 @@
 [
   {
+    "id": "d5bcce4605c66d5d",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slack Threads Not Loading \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We\u2019re still investigating these issues with Threads not loading. No additional information to share just yet, but we\u2019ll keep you posted as soon as we have an update.",
+    "date": "2026-04-23T01:05:20-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "3db8203a2319af92",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "0f6a1c471b908a6f",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-west-2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/jl5zrxhw7gqd",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-03T23:00:07.124000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
   }
 ]
