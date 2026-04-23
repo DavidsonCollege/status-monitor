@@ -1,5 +1,31 @@
 [
   {
+    "id": "0834115c550d1571",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-23T15:44:10.314454+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "c5dda91021e37731",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/pkskbt30gw7r",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-23T15:29:04.130000+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "08c3ec76ef7203d2",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "54978a3b1d72cde1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Opus 4.6 error rate elevated",
-    "link": "https://stspg.io/r7hg2hm3js9h",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-03-31T19:41:35.022000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "a97f718bf3b73cb8",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated failures for some users joining ChatGPT Enterprise and ChatGPT Edu workspaces via SSO. \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KN2572VPZRK41ZVAVP9FS5JR",
-    "summary": "This incident has been resolved.",
-    "date": "2026-03-31T15:00:24+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
