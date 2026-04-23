@@ -1,5 +1,31 @@
 [
   {
+    "id": "eec5dfb29907a20d",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Degraded Performance",
+    "link": "https://www.canvastatus.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-23T00:07:56.547562+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "b92764fe33612c9b",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Users are having issues accessing designs",
+    "link": "https://stspg.io/ckzq7hwr2x3w",
+    "summary": "The incident is now mitigated. We will continue to monitor and resolve after confirming accessing designs are stable.",
+    "date": "2026-04-23T09:48:47.239000+10:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "19e7d7c6e641926e",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-03T21:00:07.789000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "91279e971b550b83",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-southeast-2 \u2014 Resolved",
-    "link": "https://stspg.io/n871w5cd8q6r",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-03T19:00:07.142000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "56eefa98851a30f5",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for ap-northeast-1 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/wv11y71hwbp3",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-03T15:00:07.264000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
     "type": "incident_update"
   }
 ]
