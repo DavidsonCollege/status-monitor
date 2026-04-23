@@ -1,5 +1,31 @@
 [
   {
+    "id": "5f0cbafbffbd8b63",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-23T20:38:42.108655+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "ed8130b43a6ee5b7",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated errors in Codex \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KPXS9FY1X6WHYM2K3BQHJZQW",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-23T20:29:59+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "3cb52a8e3cdf1807",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
-  },
-  {
-    "id": "3edca2e8b3e4657f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-01T02:54:49.931146+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b2c4e1af386c7e97",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors and latency on Claude Haiku 4.5 \u2014 Resolved",
-    "link": "https://stspg.io/41zdshl7bt0z",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-01T02:14:24.419000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
