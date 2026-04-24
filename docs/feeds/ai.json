@@ -1,5 +1,31 @@
 [
   {
+    "id": "53d07aeddcfa54e0",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-24T17:51:28.809860+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "63a8ba1bbd1b8289",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Issues with sign-ups on platform.claude.com \u2014 Resolved",
+    "link": "https://stspg.io/6f9452dhsjt6",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-24T17:32:16.135000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "980be30b35cd4523",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "b7a8d025287c049f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: ChatGPT Dictation Elevated Error Rate",
-    "link": "https://status.openai.com/incidents/01KN78XN18M5VB6DSRTCWMJRYN",
-    "summary": "",
-    "date": "2026-04-02T14:17:56+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "0ccc1eb1b56afe40",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: High error rate for completionsapi-gpt-5-nano \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KN6HYER5GRV8WVNZXCAC5FA3",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-02T09:42:05+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
