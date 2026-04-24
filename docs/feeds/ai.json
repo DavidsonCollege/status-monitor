@@ -1,5 +1,31 @@
 [
   {
+    "id": "8f429997c499d630",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-24T21:43:13.029713+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "585821222a0f2c33",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated errors on model gpt-5.5 in codex",
+    "link": "https://status.openai.com/incidents/01KQ0P3DXVK7YQYB4NJBKSQCZC",
+    "summary": "",
+    "date": "2026-04-24T21:24:59+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "53d07aeddcfa54e0",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "77409d0fc4410f3c",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: ChatGPT Dictation Elevated Error Rate \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KN78XN18M5VB6DSRTCWMJRYN",
-    "summary": "Status: identified",
-    "date": "2026-04-02T14:58:54+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "953ec81fc71adcae",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Partial Outage",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-02T14:18:03.813216+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
