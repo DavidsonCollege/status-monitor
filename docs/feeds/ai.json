@@ -1,5 +1,18 @@
 [
   {
+    "id": "e8d886406692d980",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/qzp2n5sx9zvd",
+    "summary": "We are continuing to investigate this issue.",
+    "date": "2026-04-24T10:05:59.992000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "7b5779a35fb2b64d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "c38fcb6033027d99",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-01T09:35:25.225409+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
