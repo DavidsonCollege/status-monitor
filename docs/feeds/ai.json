@@ -1,5 +1,18 @@
 [
   {
+    "id": "7b5779a35fb2b64d",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Sonnet 4.6",
+    "link": "https://stspg.io/1bbclk6dkxh7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-24T02:55:26.871000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "0097d047ee62e3b9",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "4ce1c4c980976d3d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on requests to Claude Opus 4.6",
-    "link": "https://stspg.io/6mq5vq24mwm8",
-    "summary": "We have identified an issue resulting in elevated errors on requests to Claude Opus 4.6, and are working to resolve this. We will provide an update as soon as possible.",
-    "date": "2026-04-01T09:06:18.974000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
