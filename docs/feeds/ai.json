@@ -1,5 +1,31 @@
 [
   {
+    "id": "980be30b35cd4523",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-24T17:27:30.771732+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "038903bdc4a19a6a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Issues with sign-ups on platform.claude.com",
+    "link": "https://stspg.io/6f9452dhsjt6",
+    "summary": "We are currently investigating an issue resulting in errors when attempting to sign up at platform.claude.com",
+    "date": "2026-04-24T17:03:54.478000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "a0fcfe496ea3b31a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "0851245a87d7f777",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: High error rate for completionsapi-gpt-5-nano \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KN6HYER5GRV8WVNZXCAC5FA3",
-    "summary": "Status: monitoring",
-    "date": "2026-04-02T08:03:58+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "fbda37e954ef8c1a",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: High error rate for completionsapi-gpt-5-nano",
-    "link": "https://status.openai.com/incidents/01KN6HYER5GRV8WVNZXCAC5FA3",
-    "summary": "",
-    "date": "2026-04-02T07:36:25+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
