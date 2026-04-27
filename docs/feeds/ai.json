@@ -1,5 +1,18 @@
 [
   {
+    "id": "f6c8ad86958c9f63",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated billing related errors on Claude.ai",
+    "link": "https://stspg.io/rfmsz6xdfs5c",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-27T14:11:29.158000+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "e05b7391149774fe",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "monitoring",
     "incident_status": "monitoring",
     "type": "new_incident"
-  },
-  {
-    "id": "f88b6a605775a315",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-06T08:54:50.317069+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
