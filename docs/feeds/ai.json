@@ -1,5 +1,18 @@
 [
   {
+    "id": "ad4b393871439c1a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated billing related errors on Claude.ai \u2014 Resolved",
+    "link": "https://stspg.io/rfmsz6xdfs5c",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-27T15:18:47.275000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "f6c8ad86958c9f63",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "e1285b5cbda43838",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: GET /v1/responses endpoint is currently down and unable to serve requests",
-    "link": "https://status.openai.com/incidents/01KNH45H33H4J553XBG6TJ3PQF",
-    "summary": "",
-    "date": "2026-04-06T10:07:16+00:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
   }
 ]
