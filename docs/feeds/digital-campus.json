@@ -1,5 +1,18 @@
 [
   {
+    "id": "026dec35c0b22d0e",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Users May Not Receive Notifications on Slack Thread Replies \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We\u2019re observing positive signals after rolling back the deployment in test environments. We will complete some final validations before rolling back the deployment in the production environment.\n\nThank you for your patience as we work through this one. We\u2019ll report back once production rollback is completed or if there are substantial updates to share.",
+    "date": "2026-04-27T11:07:01-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "e5e5397c275b9701",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "2175511f16980b4c",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-04T05:08:35.057217+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
