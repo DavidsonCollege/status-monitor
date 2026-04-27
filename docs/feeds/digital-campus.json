@@ -1,5 +1,18 @@
 [
   {
+    "id": "253a0bf432e46fa3",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Operational",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-04-27T21:03:04.073204+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "5ff335666dac6d51",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "76bc745187027057",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-west-2 \u2014 Resolved",
-    "link": "https://stspg.io/jl5zrxhw7gqd",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-04T06:00:07.188000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
