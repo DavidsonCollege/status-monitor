@@ -1,5 +1,31 @@
 [
   {
+    "id": "04c700ea2441f9cd",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-28T22:58:52.939092+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "d040688fb7abc3ff",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex stream is disconnecting intermittently",
+    "link": "https://status.openai.com/incidents/01KQB4AMHC9CKFYT863PMXN1YR",
+    "summary": "",
+    "date": "2026-04-28T22:46:00+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "f499fc9f81d90398",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "1f01b3c7102bdc2d",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users may experience issues accessing the ChatGPT website on VPN \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KNKQQ4R06K00RDTNXZVX7SFC",
-    "summary": "Status: monitoring",
-    "date": "2026-04-07T11:00:45+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "ff6bcce1c49bf988",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Partial Outage",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-07T10:30:52.953721+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
