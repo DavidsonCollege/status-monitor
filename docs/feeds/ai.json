@@ -1,5 +1,31 @@
 [
   {
+    "id": "f89f0c8f7ca1ffeb",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Major Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-04-28T18:08:25.865850+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "cc741e3599ea65e2",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai unavailable and elevated errors on the API",
+    "link": "https://stspg.io/mz37pbn6yt3w",
+    "summary": "We have identified an issue resulting in elevated errors on the Anthropic API, as well as issues accessing Claude.ai, including log-in paths for Claude Code. We are working to resolve these issues, and will provide an update as soon as possible.",
+    "date": "2026-04-28T17:41:55.352000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "db39f28847a0146f",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-04-06T21:41:24.679840+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "5abeaeab7f64b1f9",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors",
-    "link": "https://stspg.io/2tdwsnhyqjgs",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-04-06T21:26:57.114000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "09db164c74e9aad4",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-04-06T17:24:26.716732+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
