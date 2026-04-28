@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-28T13:29:03.962207+00:00",
+  "last_checked": "2026-04-28T14:23:52.985757+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,8 +51,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": [
         {
           "name": "Responses",
@@ -95,10 +95,6 @@
           "status": "operational"
         },
         {
-          "name": "Sora",
-          "status": "operational"
-        },
-        {
           "name": "Compliance API",
           "status": "operational"
         },
@@ -137,6 +133,10 @@
         {
           "name": "Realtime",
           "status": "operational"
+        },
+        {
+          "name": "Sora",
+          "status": "degraded"
         },
         {
           "name": "Conversations",
