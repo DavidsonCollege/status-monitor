@@ -1,5 +1,44 @@
 [
   {
+    "id": "f499fc9f81d90398",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-04-28T19:25:34.298632+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "04a8e5a2a89380cd",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai unavailable and elevated errors on the API \u2014 monitoring",
+    "link": "https://stspg.io/mz37pbn6yt3w",
+    "summary": "We are seeing success rates across all services return to normal, and are monitoring closely to prevent any further issues. Impact occurred from 17:34\u201318:52 UTC.",
+    "date": "2026-04-28T18:59:47.057000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "b8994b0fb46da94b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai unavailable and elevated errors on the API \u2014 Resolved",
+    "link": "https://stspg.io/mz37pbn6yt3w",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-28T19:15:52.858000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "136c26e1cb209e5c",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2559,44 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "1b01f528a300085a",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users may experience issues accessing the ChatGPT website on VPN",
-    "link": "https://status.openai.com/incidents/01KNKQQ4R06K00RDTNXZVX7SFC",
-    "summary": "",
-    "date": "2026-04-07T10:27:25+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "55f146af8e1b40c0",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-06T21:58:48.204168+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "337775f4f23b7327",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors \u2014 Resolved",
-    "link": "https://stspg.io/2tdwsnhyqjgs",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-06T21:45:48.108000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
