@@ -1,5 +1,31 @@
 [
   {
+    "id": "07c58613da56ad99",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-28T16:52:32.458800+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "753089b5979c23f0",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Title:**\nInvestigating issues with slow loading of AppSheet\n**Description:**\nWe are experiencing an issue with AppSheet beginning at Tuesday, 2026-04-28 00:30 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Tuesday, 2026-04-28 09:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Symptoms:**\nAffected customers would experience slow loading times and internal server errors for AppSheet apps.\n**Workaround:**\nNone at this time. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-28T15:50:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "552a6d3c09b5311d",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/b2skwtr5q7h0",
     "summary": "The scheduled maintenance has been completed.",
     "date": "2026-04-04T18:00:10.265000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "09bf128fd7e37fa3",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for us-east-2 \u2014 Resolved",
-    "link": "https://stspg.io/pllkz305rqq1",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-04T13:00:07.126000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "4b669d3daf8ba061",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: JAMF Pro - Standard: 11.26.1 Upgrade for eu-central-1 \u2014 Resolved",
-    "link": "https://stspg.io/kkjlyzv8b214",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-04T09:00:07.396000+00:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
