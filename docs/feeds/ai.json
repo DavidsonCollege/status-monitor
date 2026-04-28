@@ -1,5 +1,31 @@
 [
   {
+    "id": "4f979b549a28c18f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-28T23:52:20.249504+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "07eab403987cc193",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/gsg6msbs6shy",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-28T23:33:07.339000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "4db84526096387d2",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "12674f3833974986",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Major Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-04-07T15:01:54.056467+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "91c88f867020f2fd",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai",
-    "link": "https://stspg.io/jkzylwdkf66g",
-    "summary": "We have identified an issue resulting in elevated errors on Claude.ai, including desktop and mobile. Users may experience errors when attempting to login, engaging with voice mode, or completing chats with Claude. We are working to resolve this issue as soon as possible.",
-    "date": "2026-04-07T14:55:09.975000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
