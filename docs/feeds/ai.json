@@ -1,5 +1,18 @@
 [
   {
+    "id": "171e37c860a6ed78",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
+    "link": "https://stspg.io/v1941b5q9yxp",
+    "summary": "The incident has now been resolved. The elevated error rate for Haiku 4.5 was between 4:53 PT / 11:53 UTC and 5:36 PT / 12:44 UTC.",
+    "date": "2026-04-28T12:24:00.726000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "ad4b393871439c1a",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "6fd90c4622fec0fd",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: GET /v1/responses endpoint is currently down and unable to serve requests \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KNH45H33H4J553XBG6TJ3PQF",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-06T10:39:36+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
