@@ -1,5 +1,31 @@
 [
   {
+    "id": "6c345a3b61954ea9",
+    "product_id": "crashplan",
+    "product_name": "CrashPlan",
+    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
+    "title": "CrashPlan: Delay in processing agent settings. \u2014 Resolved",
+    "link": "https://stspg.io/rn84s5vvfq86",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-28T18:25:11.115000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "4d20c9e247302f8a",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva",
+    "link": "https://stspg.io/3r77fvk6yjqp",
+    "summary": "Some users may have issues accessing Canva. Our teams are urgently looking into this and we will provide an update soon.",
+    "date": "2026-04-29T09:24:24.276000+10:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "eaca486fc2ae97ad",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-05T05:00:00-06:00",
     "status": "resolved",
     "incident_status": "postmortem",
-    "type": "new_incident"
-  },
-  {
-    "id": "f3a22852387adfd7",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.10 - US2",
-    "link": "https://stspg.io/08rbmw89s571",
-    "summary": "We will be undergoing scheduled maintenance during this time.",
-    "date": "2026-04-06T10:47:31.500000-05:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "6c7c4e0a4c5a79a3",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Protect Degraded Performance",
-    "link": "https://stspg.io/67ck9ll375nz",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-04-06T15:41:41.777000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
     "type": "new_incident"
   }
 ]

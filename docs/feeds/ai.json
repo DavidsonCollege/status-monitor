@@ -1,5 +1,31 @@
 [
   {
+    "id": "4db84526096387d2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-28T23:27:13.464064+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1d5387affa597e95",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex stream is disconnecting intermittently \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KQB4AMHC9CKFYT863PMXN1YR",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-28T23:12:55+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "04c700ea2441f9cd",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "ec0a4a0bfe619979",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-04-07T11:51:41.501020+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "cdbeebac2eef9ae2",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users may experience issues accessing the ChatGPT website on VPN \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KNKQQ4R06K00RDTNXZVX7SFC",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-07T11:49:38+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
