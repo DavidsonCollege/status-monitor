@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-29T22:09:26.804157+00:00",
+  "last_checked": "2026-04-29T22:36:41.455586+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -52,7 +52,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
       "overall_status": "degraded",
-      "active_incidents": 2,
+      "active_incidents": 1,
       "components": [
         {
           "name": "Chat Completions",
@@ -112,15 +112,15 @@
         },
         {
           "name": "Compliance API",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "ChatGPT Atlas",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "File uploads",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Realtime",
@@ -132,15 +132,15 @@
         },
         {
           "name": "Conversations",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Agent",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Voice mode",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Connectors/Apps",
