@@ -1,5 +1,31 @@
 [
   {
+    "id": "b9c006ba99112a34",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Operational",
+    "link": "https://www.canvastatus.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-04-29T23:29:22.350432+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "96e0fd16177d7cff",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva \u2014 Resolved",
+    "link": "https://stspg.io/bvrfnshxpd14",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-04-30T09:26:34.333000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "b9839aec278b0ce0",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "c80119f5ada1831f",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/08rbmw89s571",
-    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-    "date": "2026-04-08T23:43:53.452000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "9bf933707dde0020",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-09T05:20:12.184097+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
