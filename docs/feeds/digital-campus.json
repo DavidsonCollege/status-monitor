@@ -1,5 +1,31 @@
 [
   {
+    "id": "22d5b5c7f6d7fa22",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Operational",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-29T22:09:02.464318+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "445bbb418664675a",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: US2 - MDM Service - Performance Degraded \u2014 Resolved",
+    "link": "https://stspg.io/zj4wt4n0bq7q",
+    "summary": "This incident has been resolved.",
+    "date": "2026-04-29T16:45:37.312000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "4cd9bb9541095a85",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2572,31 +2598,5 @@
     "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "c3e3067a6867d140",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/08rbmw89s571",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-08T20:05:25.807000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "74deb99646545339",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.10 - US2 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/08rbmw89s571",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-08T19:00:16.674000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
   }
 ]
