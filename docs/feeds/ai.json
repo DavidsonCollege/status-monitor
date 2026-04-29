@@ -1,5 +1,31 @@
 [
   {
+    "id": "0901b49b10de4582",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-29T21:13:10.134656+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "380abc0e7b3cb8d2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated errors for ChatGPT Go",
+    "link": "https://status.openai.com/incidents/01KQDGQKRTSJ02E03R134H5JFD",
+    "summary": "",
+    "date": "2026-04-29T21:01:17+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "5339c98b1b3b25da",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-08T09:01:05.880000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "b5a873c1ca8f9736",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors \u2014 identified",
-    "link": "https://stspg.io/9p1s3snnkxrj",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-04-08T07:59:02.384000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "fd6156cf3d9cd8d1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors \u2014 investigating",
-    "link": "https://stspg.io/9p1s3snnkxrj",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-04-08T07:06:50.255000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
