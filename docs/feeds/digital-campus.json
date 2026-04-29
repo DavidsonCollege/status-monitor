@@ -1,5 +1,18 @@
 [
   {
+    "id": "df4ba5dca9d6913f",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-29T16:00:57.290942+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "6833af1222f57d23",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "9db6f87745fc49ec",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Email with ClickUp (Gmail) Service Degraded \u2014 monitoring",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69d69e8cef7dd310a8f00879",
-    "summary": "We believe we have mitigated the cause of users experiencing issues sending and receiving emails in ClickUp with Gmail accounts. Some users were also unable to connect their Gmail to ClickUp. We will continue monitoring.",
-    "date": "2026-04-08T19:41:56.875000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
