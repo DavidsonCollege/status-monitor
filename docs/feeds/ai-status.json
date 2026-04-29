@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-04-29T04:37:25.812147+00:00",
+  "last_checked": "2026-04-29T05:42:13.392892+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -54,6 +54,10 @@
       "overall_status": "operational",
       "active_incidents": 0,
       "components": [
+        {
+          "name": "Chat Completions",
+          "status": "operational"
+        },
         {
           "name": "Responses",
           "status": "operational"
@@ -116,10 +120,6 @@
         },
         {
           "name": "FedRAMP",
-          "status": "operational"
-        },
-        {
-          "name": "Chat Completions",
           "status": "operational"
         },
         {

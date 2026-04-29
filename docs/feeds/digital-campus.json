@@ -1,5 +1,18 @@
 [
   {
+    "id": "d7d9cf7002a6d3f5",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 monitoring",
+    "link": "https://stspg.io/zq8sbm65fqh0",
+    "summary": "Verification is currently underway for the maintenance items.",
+    "date": "2026-04-29T00:14:50.576000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "f8f8cb415a39e56d",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "85a2627a5a8f43d7",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Degraded Performance",
-    "link": "https://status.adastra.live/",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-08T18:44:07.938083+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
