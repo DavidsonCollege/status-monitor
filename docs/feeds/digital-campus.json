@@ -1,5 +1,18 @@
 [
   {
+    "id": "1dfdbe84538557bf",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Zoom Push Notification Service Release: May, 2026 (No Operational Impact)",
+    "link": "https://stspg.io/00dcrs64nm6t",
+    "summary": "We will be performing scheduled maintenance to upgrade our Push Notification Service.\n\nNo operational impact is expected. This maintenance includes the following enhancements and improvements:\n\n- Added available alert migration and capability-gated delivery enhancements, including the new client capability flag and migrated available-alert handling across presence and login flows.\n\n- Added inbox expired-entry cleanup sync and zset-size observation/trimming controls, improving inbox consistency a",
+    "date": "2026-04-28T23:32:33.425000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "d7d9cf7002a6d3f5",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-08T13:30:00+00:00",
     "status": "degraded",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "39e56ff0b697b0e4",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Email with ClickUp (Gmail) Service Degraded",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69d69e8cef7dd310a8f00879",
-    "summary": "Users may experience issues sending and receiving emails in ClickUp with Gmail accounts. Users may also experience issues connecting your Gmail to ClickUp.",
-    "date": "2026-04-08T18:29:00+00:00",
-    "status": "identified",
-    "incident_status": "identified",
     "type": "new_incident"
   }
 ]

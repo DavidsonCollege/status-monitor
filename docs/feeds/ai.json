@@ -1,5 +1,18 @@
 [
   {
+    "id": "b75ecb78315086ca",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: ChatGPT users may encounter issues in conversation",
+    "link": "https://status.openai.com/incidents/01KQBXGR1S2JW48DA0795D4MGZ",
+    "summary": "",
+    "date": "2026-04-29T06:06:15+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "677fc2d8fd630543",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0cb225faa1c5ac24",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors",
-    "link": "https://stspg.io/9p1s3snnkxrj",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-04-08T06:23:25.066000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
