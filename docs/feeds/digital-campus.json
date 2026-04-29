@@ -1,5 +1,31 @@
 [
   {
+    "id": "7d1bebabcd3ecf2f",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/zq8sbm65fqh0",
+    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
+    "date": "2026-04-28T21:53:25.173000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "956ba6731a136a5c",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/zq8sbm65fqh0",
+    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
+    "date": "2026-04-28T21:03:15.710000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "3ac00ae66fea7d7b",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/79jr6j5p32tf",
     "summary": "We have identified an issue where updates made in Courses or Section Details today between approximately 10:30 AM and 12:30 PM (CT) may not have appeared in the Annual Schedule grid. We are currently resolving this. This does not impact Astra Schedule 8.",
     "date": "2026-04-08T13:32:48.258000-05:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "4f0fd80bdaa63ca8",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users are experiencing issues with AI image and video generation \u2014 identified",
-    "link": "https://stspg.io/w2tnj1hn140r",
-    "summary": "Some users may have issues with:\n- Generating videos with Image to Video\n- Using AI Video Effects\n\nOur engineers have identified the issue and are working to resolve it.",
-    "date": "2026-04-08T20:46:16.669000+10:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "4024a1fdcb8c768c",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users are experiencing issues with AI image and video generation",
-    "link": "https://stspg.io/w2tnj1hn140r",
-    "summary": "Some users may have issues with:\n - Generating AI images in Magic Media\n - Generating AI images in the Elements tab\n - Generating images with Dreamlab\n - Generating videos with Image to Video\n - Using AI Video Effects\n\n Our engineers have identified the issue and are working to resolve it.",
-    "date": "2026-04-08T19:23:38.602000+10:00",
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
