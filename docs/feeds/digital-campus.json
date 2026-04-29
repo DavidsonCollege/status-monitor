@@ -1,5 +1,18 @@
 [
   {
+    "id": "6833af1222f57d23",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva",
+    "link": "https://stspg.io/rfdb13xzccwp",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-04-29T23:49:28.862000+10:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "9359679677b697f1",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-08T19:41:56.875000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "0f62ad6e341dab3d",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Title:**\nCustomers may experience delays in receiving and sending emails.\n**Description:**\nWe are aware of an issue with Gmail users experiencing delays in receiving and sending emails beginning at Wednesday, 2026-04-08 06:30 PDT.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide an update by Wednesday, 2026-04-08 12:00 PDT with current details.\n**Symptoms:**\nCustomers may experience delays in receiving and sending emails.\n**Workaround:**\nNone at this time. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-04-08T19:02:21+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]

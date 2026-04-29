@@ -1,5 +1,18 @@
 [
   {
+    "id": "5339c98b1b3b25da",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
+    "link": "https://stspg.io/m50jwrs9k9hf",
+    "summary": "The incident is resolved. The elevated error rate was between 05:37 PT / 12:37 UTC and 06:58 PT / 13:37 UTC.",
+    "date": "2026-04-29T13:47:45.184000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "b75ecb78315086ca",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "de81ec0feffb976f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-08T06:48:43.070206+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
