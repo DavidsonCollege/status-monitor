@@ -1,5 +1,31 @@
 [
   {
+    "id": "9359679677b697f1",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Operational",
+    "link": "https://status.ninjaone.com",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-04-29T07:32:33.156908+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "849be44f595f499e",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 Resolved",
+    "link": "https://stspg.io/zq8sbm65fqh0",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-04-29T01:47:47.029000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "1dfdbe84538557bf",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "3e42d60333cac975",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: Degraded Performance",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-08T18:43:49.255591+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "290f74bfcc848017",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Title:**\nCustomers may experience delays in receiving and sending emails.\n**Description:**\nWe are aware of an issue with Gmail users experiencing delays in receiving and sending emails beginning at Wednesday, 2026-04-08 06:30 PDT.\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide an update by Wednesday, 2026-04-08 12:00 PDT with current details.\n**Symptoms:**\nCustomers may experience delays in receiving and sending emails.\n**Workaround:**\nNone at this time.",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "",
-    "date": "2026-04-08T13:30:00+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
