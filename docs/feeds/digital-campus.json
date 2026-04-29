@@ -1,5 +1,31 @@
 [
   {
+    "id": "b9839aec278b0ce0",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Partial Outage",
+    "link": "https://www.canvastatus.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-04-29T23:03:52.971807+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a0d77ed53bd3d63c",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva",
+    "link": "https://stspg.io/bvrfnshxpd14",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-04-30T09:01:13.071000+10:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "22d5b5c7f6d7fa22",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-04-09T05:20:12.184097+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d898c150ccdaa84d",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-09T04:27:07.700667+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "e71c198f0a471673",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Under Maintenance",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-04-09T01:23:49.492168+00:00",
-    "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
   }
