@@ -1,5 +1,18 @@
 [
   {
+    "id": "f8f8cb415a39e56d",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/zq8sbm65fqh0",
+    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
+    "date": "2026-04-28T22:51:27.875000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "7d1bebabcd3ecf2f",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "3ffa604230079941",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Annual Schedule Grid - Delays in Course or Section Detail updates",
-    "link": "https://stspg.io/79jr6j5p32tf",
-    "summary": "We have identified an issue where updates made in Courses or Section Details today between approximately 10:30 AM and 12:30 PM (CT) may not have appeared in the Annual Schedule grid. We are currently resolving this. This does not impact Astra Schedule 8.",
-    "date": "2026-04-08T13:32:48.258000-05:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
