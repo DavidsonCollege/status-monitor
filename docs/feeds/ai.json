@@ -1,5 +1,31 @@
 [
   {
+    "id": "5b994c147954d8c6",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-04-30T13:47:08.582080+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a17f32bf470e9dd1",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
+    "link": "https://stspg.io/7hh9mtmr0z16",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-04-30T13:10:09.292000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "bcfeabcfe5cb99e2",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "ce9fd9554e7db9e5",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors",
-    "link": "https://stspg.io/f2kvgw1r8ky0",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-04-09T08:07:21.160000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "0b337c22c5e0dce2",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Errors when connecting to Claude.ai",
-    "link": "https://stspg.io/7kl6qq3lldmg",
-    "summary": "Some users experienced an error when trying to access Claude.ai on desktop and the web from 23:22\u201323:50 UTC. This issue has now been resolved.",
-    "date": "2026-04-08T23:57:07.068000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
   }
 ]
