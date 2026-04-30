@@ -1,5 +1,18 @@
 [
   {
+    "id": "6b9df1929656b04d",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in AMS Datacenter 5/21/2026",
+    "link": "https://stspg.io/zl0rdym6crck",
+    "summary": "Zoom will perform service maintenance at AMS Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
+    "date": "2026-04-30T16:08:04.663000-07:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "043338593ce07ab2",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://slack-status.com",
     "summary": "Current status and actions being taken: Upon further review, we've identified issues with secondary caching and are currently working on a configuration fix. In parallel, we're continuing to investigate and assess several solutions to restore \u200cservices.\n\nWe'll provide another update in 60 minutes.",
     "date": "2026-04-09T08:55:14-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "064382b1e7cde4b2",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "Current status and actions being taken: The code fix hasn't successfully addressed the impact and we're resuming our investigations.\u00a0\n\nWe'll provide another update in 60 minutes.",
-    "date": "2026-04-09T07:52:26-07:00",
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
