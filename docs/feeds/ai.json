@@ -1,5 +1,31 @@
 [
   {
+    "id": "01f3b2cea9bc76df",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-04-30T14:36:33.064035+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "b31586b41c65f9b4",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5 \u2014 Resolved",
+    "link": "https://stspg.io/7hh9mtmr0z16",
+    "summary": "The incident has been resolved. Error rates were elevated between 5:20 PT / 12:48 PT and 6:48 PT / 13:48 PT.",
+    "date": "2026-04-30T14:01:41.394000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "5b994c147954d8c6",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-04-09T09:14:50.964629+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "68429f558fdd629a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Sonnet 4.6 elevated rate of errors \u2014 Resolved",
-    "link": "https://stspg.io/f2kvgw1r8ky0",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-09T08:53:20.029000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "ce574fe9a8b3476d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-09T08:43:14.270642+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
