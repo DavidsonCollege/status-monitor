@@ -1,5 +1,44 @@
 [
   {
+    "id": "c194e4f916203a96",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rate for Responses API \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KQHYX4D53W6GT8FDTT9PHBQ3",
+    "summary": "Status: monitoring",
+    "date": "2026-05-01T15:04:46+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "3f563a8defbacfe7",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates for image generation \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KQHWZ9710V886SZKWE20HFAX",
+    "summary": "Status: monitoring",
+    "date": "2026-05-01T14:52:30+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "711557a7938b35c6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates for image generation \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KQHWZ9710V886SZKWE20HFAX",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-01T14:53:55+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "68eee02e1b7d3ea5",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2557,45 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Operational",
     "date": "2026-04-09T17:40:35.329414+00:00",
     "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "3a0f68e88760547a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated Connector Error Rates \u2014 monitoring",
-    "link": "https://stspg.io/3qh7qtgrvprd",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-09T17:33:33.263000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "a4e95e72a5f828db",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated Connector Error Rates \u2014 Resolved",
-    "link": "https://stspg.io/3qh7qtgrvprd",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-09T17:34:00.052000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "839972d68d677edd",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-09T17:10:47.213085+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }

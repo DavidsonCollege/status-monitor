@@ -1,5 +1,18 @@
 [
   {
+    "id": "244330119b3cfbad",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-northeast-1 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/npyq8wjs6ml3",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-01T15:00:08.622000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "3d3557e0a8bf949a",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2583,19 +2596,6 @@
     "summary": "Current status and actions being taken: We've deployed an emergency fix to address the issues contributing to intermittent errors with Slackbot and Workflows. We're now seeing significant recovery across all affected services and are continuing to monitor the situation closely to ensure performance remains stable.\u00a0\n\nWe'll provide another update in 60 minutes.",
     "date": "2026-04-09T11:13:03-07:00",
     "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "22478c0d46f866a0",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Delay in Group Recounts \u2014 investigating",
-    "link": "https://stspg.io/3whckhqzywjd",
-    "summary": "We are continuing to investigate the issue.",
-    "date": "2026-04-09T14:02:36.954000-04:00",
-    "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
   }
