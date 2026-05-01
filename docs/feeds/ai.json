@@ -1,5 +1,18 @@
 [
   {
+    "id": "68eee02e1b7d3ea5",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rate for Responses API",
+    "link": "https://status.openai.com/incidents/01KQHYX4D53W6GT8FDTT9PHBQ3",
+    "summary": "",
+    "date": "2026-05-01T14:25:56+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "202839949dc2d68c",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "e9694628e46c21af",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated Connector Error Rates",
-    "link": "https://stspg.io/3qh7qtgrvprd",
-    "summary": "Certain connectors are experiencing higher error rates. We are investigating the issue.",
-    "date": "2026-04-09T16:54:18.801000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
