@@ -1,5 +1,44 @@
 [
   {
+    "id": "e04044387fc7dbb0",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-west-2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/pw5v7jc15gwh",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-01T22:00:07.542000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "1f4966e3e4ec0467",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for germany-westcentral \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/4ck5pd9cbhk3",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-01T22:00:07.580000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "5e3c06fbac9ca9b1",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-central-1 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/v88dztnyfqvs",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-01T22:00:07.117000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "e2a5c0cdfb694915",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "b3fa5d57c0225b70",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Delay in Group Recounts \u2014 Resolved",
-    "link": "https://stspg.io/3whckhqzywjd",
-    "summary": "All delays have now caught up and group counts are up to date.",
-    "date": "2026-04-09T17:00:10.659000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "11a19845390c42ba",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Delay in Group Recounts \u2014 investigating",
-    "link": "https://stspg.io/3whckhqzywjd",
-    "summary": "After monitoring the implemented fix we determined the issue is still occurring and are back to investigating the issue. Group count updates are delayed.",
-    "date": "2026-04-09T15:39:08.395000-04:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "37fd16ea76457a0b",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Delay in Group Recounts \u2014 monitoring",
-    "link": "https://stspg.io/3whckhqzywjd",
-    "summary": "A fix has been implemented. Group recounts are still behind, but catching up. We are monitoring the fix to make sure the groups continue to update counts.",
-    "date": "2026-04-09T15:16:31.442000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
