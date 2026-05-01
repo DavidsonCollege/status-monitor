@@ -1,5 +1,18 @@
 [
   {
+    "id": "a460064bf5b26fc0",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-southeast-2 \u2014 Resolved",
+    "link": "https://stspg.io/nhws6mnrr8xv",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-01T20:00:08.819000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "244330119b3cfbad",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d35be27772abf337",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "Current status and actions being taken: We've deployed an emergency fix to address the issues contributing to intermittent errors with Slackbot and Workflows. We're now seeing significant recovery across all affected services and are continuing to monitor the situation closely to ensure performance remains stable.\u00a0\n\nWe'll provide another update in 60 minutes.",
-    "date": "2026-04-09T11:13:03-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
