@@ -1,5 +1,31 @@
 [
   {
+    "id": "e2a5c0cdfb694915",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for germany-westcentral \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/4ck5pd9cbhk3",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-01T21:00:08.383000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "313d5b5c78add509",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-central-1 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/v88dztnyfqvs",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-01T21:00:07.194000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "a460064bf5b26fc0",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "f15c003f34c7a719",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-04-09T19:38:36.292926+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "4bd204df6f66fc04",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-04-09T18:34:53.583832+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
