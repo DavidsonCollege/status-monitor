@@ -1,5 +1,18 @@
 [
   {
+    "id": "202839949dc2d68c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates for image generation",
+    "link": "https://status.openai.com/incidents/01KQHWZ9710V886SZKWE20HFAX",
+    "summary": "",
+    "date": "2026-05-01T13:52:09+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "01f3b2cea9bc76df",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "fae6eb8465a7cf81",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-09T09:14:50.964629+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

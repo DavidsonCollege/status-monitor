@@ -1,5 +1,31 @@
 [
   {
+    "id": "3d3557e0a8bf949a",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-northeast-1 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/npyq8wjs6ml3",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-01T14:00:07.752000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "78a1499efcc2542a",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-southeast-2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/nhws6mnrr8xv",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-01T14:00:07.153000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "d99ce0124ec9ed45",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "7bfcaec83c5d950c",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "Current status and actions being taken: We\u2019ve deployed a configuration fix, resulting in significant improvements to Slackbot success rates and health metrics. We're now monitoring the situation as we investigate a secondary cache issue that may be contributing to intermittent errors or degraded workflow performance.\n\nWe'll provide another update in 60 minutes.",
-    "date": "2026-04-09T10:11:14-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "3e225120cf010902",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Delay in Group Recounts",
-    "link": "https://stspg.io/3whckhqzywjd",
-    "summary": "We are currently investigating an issue with a delay in group count calculations. With group count delays automations triggered off groups will be delayed.",
-    "date": "2026-04-09T13:02:35.747000-04:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
