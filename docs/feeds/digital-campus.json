@@ -1,5 +1,18 @@
 [
   {
+    "id": "d99ce0124ec9ed45",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-southeast-2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/nhws6mnrr8xv",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-01T13:00:08.756000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "6b9df1929656b04d",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "9533281a7a78b8ec",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble with Slackbot and AI-powered features \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "Current status and actions being taken: Upon further review, we've identified issues with secondary caching and are currently working on a configuration fix. In parallel, we're continuing to investigate and assess several solutions to restore \u200cservices.\n\nWe'll provide another update in 60 minutes.",
-    "date": "2026-04-09T08:55:14-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
