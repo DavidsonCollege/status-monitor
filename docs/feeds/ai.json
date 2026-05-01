@@ -1,5 +1,18 @@
 [
   {
+    "id": "78cfd47bcb199c1c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rate for Responses API \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KQHYX4D53W6GT8FDTT9PHBQ3",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-01T15:38:32+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "c194e4f916203a96",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
-  },
-  {
-    "id": "b80a7bae5d52ef4f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-09T17:40:35.329414+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

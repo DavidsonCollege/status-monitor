@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-05-01T15:37:40.913845+00:00",
+  "last_checked": "2026-05-01T16:04:29.885011+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -52,7 +52,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
       "overall_status": "degraded",
-      "active_incidents": 2,
+      "active_incidents": 1,
       "components": [
         {
           "name": "Chat Completions",
@@ -60,7 +60,7 @@
         },
         {
           "name": "Responses",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "VS Code extension",
