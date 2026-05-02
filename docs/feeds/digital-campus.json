@@ -1,5 +1,44 @@
 [
   {
+    "id": "122a8e68fc85cc93",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Azure: 11.27.1 Upgrade for central-us \u2014 Resolved",
+    "link": "https://stspg.io/m0yhqv6llwhp",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-02T07:00:08.391000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "20eb6e7a5d0fa15b",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-west-2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/9y76spjg75q8",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-02T07:00:07.214000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "61efb725939bdf91",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-05-02T07:40:01.787192+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "d68678d82de018d7",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "f54fed5524ff150d",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-04-10T21:59:51.916636+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b3acfbb32837972f",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble Sending Messages \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "We are actively working to resolve the current platform functionality issues.\nCurrent status and actions being taken: We're still working toward resolving the issue and to reduce the likelihood of symptoms recurring. We'll continue to monitor internal metrics as we work through this.\u00a0\nEstimated time to resolution: No ETA at this time.\nScope: This issue isn't affecting any specific region, but a percentage of users may be affected globally.\nCurrent impact to end users: Some users may experience t",
-    "date": "2026-04-10T14:22:49-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "5d2e8f6f68d74c0f",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble Sending Messages \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "We are actively working to resolve the current platform functionality issues.\nCurrent status and actions being taken: We have processed the affected service PODs to expedite recovery, resulting in significant recovery across the platform. We're now monitoring all systems to ensure performance remains stable.\nEstimated time to resolution: No ETA at this time.\nScope: This issue isn't affecting any specific region, but a percentage of users may be affected globally.\nCurrent impact to end users: Som",
-    "date": "2026-04-10T13:21:31-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
