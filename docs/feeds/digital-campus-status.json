@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-05-02T10:34:22.351832+00:00",
+  "last_checked": "2026-05-02T11:00:09.543718+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -209,7 +209,7 @@
       "name": "SecureW2",
       "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
       "status_url": "https://status.securew2.com",
-      "overall_status": "degraded",
+      "overall_status": "operational",
       "active_incidents": 0,
       "components": []
     },
