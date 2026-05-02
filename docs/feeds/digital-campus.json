@@ -1,5 +1,18 @@
 [
   {
+    "id": "01a6eae13605e43a",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-east-2 \u2014 Resolved",
+    "link": "https://stspg.io/pjkkpn02n0bg",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-02T13:00:10.447000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "900e845b9ca16d6a",
     "product_id": "securew2",
     "product_name": "SecureW2",
@@ -2585,18 +2598,5 @@
     "status": "monitoring",
     "incident_status": "monitoring",
     "type": "new_incident"
-  },
-  {
-    "id": "9dc09fc309969a33",
-    "product_id": "securew2",
-    "product_name": "SecureW2",
-    "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
-    "title": "SecureW2: Operational",
-    "link": "https://status.securew2.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-11T11:00:46.765980+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
