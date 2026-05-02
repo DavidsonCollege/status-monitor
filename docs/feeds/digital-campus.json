@@ -1,5 +1,18 @@
 [
   {
+    "id": "b054a48c550b4d55",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-west-2 \u2014 Resolved",
+    "link": "https://stspg.io/9y76spjg75q8",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-02T18:00:07.185000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "01a6eae13605e43a",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "e6e5013d25615b07",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users may experience issues opening new and existing designs",
-    "link": "https://stspg.io/1pml5fk8h0lm",
-    "summary": "The incident is now mitigated. We will continue to monitor and resolve after confirming operations are stable.",
-    "date": "2026-04-13T10:28:19.460000+10:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
   }
 ]
