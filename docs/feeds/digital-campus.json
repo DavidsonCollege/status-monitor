@@ -1,5 +1,44 @@
 [
   {
+    "id": "d68678d82de018d7",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-west-2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/9y76spjg75q8",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-02T06:00:10.160000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "2c077a321dfabcc4",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-west-2 \u2014 Resolved",
+    "link": "https://stspg.io/pw5v7jc15gwh",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-02T06:00:07.209000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "aa07742ddd88197f",
+    "product_id": "securew2",
+    "product_name": "SecureW2",
+    "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
+    "title": "SecureW2: Degraded Performance",
+    "link": "https://status.securew2.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-02T06:10:25.770953+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "1c9801f74708aea9",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "f2aa7fb0406fc2b8",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble Sending Messages \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "We are actively working to resolve the current platform functionality issues.\nCurrent status and actions being taken: We've identified a fix and are actively deploying it across the platform. Once the rollout is complete, we'll monitor system performance to ensure full stability.\nEstimated time to resolution: No ETA at this time.\nScope: This issue isn't affecting any specific region, but a percentage of users may be affected globally.\nCurrent impact to end users: Some users may experience troubl",
-    "date": "2026-04-10T12:44:44-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "e3484ca5c8f5dc52",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Major Outage",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-04-10T19:28:56.123213+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "0a866403ef8bac6f",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Trouble Sending Messages",
-    "link": "https://slack-status.com",
-    "summary": "We're investigating a new incident.\nCurrent impact to end users:\u00a0Some users may experience trouble sending messages. We're investigating the issue and we regret any inconvenience this is causing.\u00a0\n\nWe'll provide an update within 30 minutes including further details on current actions being taken.",
-    "date": "2026-04-10T12:09:27-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
