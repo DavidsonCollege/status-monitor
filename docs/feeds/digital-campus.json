@@ -1,5 +1,18 @@
 [
   {
+    "id": "307c04dad8d42529",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-05-02T08:47:57.396965+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "f0722a0aae293928",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://status.zoom.us",
     "summary": "Status changed from Under Maintenance to Degraded Performance",
     "date": "2026-04-11T09:04:34.879212+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d1d7a4231dd5a586",
-    "product_id": "securew2",
-    "product_name": "SecureW2",
-    "icon_url": "https://www.google.com/s2/favicons?domain=securew2.com&sz=64",
-    "title": "SecureW2: Degraded Performance",
-    "link": "https://status.securew2.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-11T06:10:03.217717+00:00",
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
