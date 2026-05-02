@@ -1,5 +1,18 @@
 [
   {
+    "id": "160909e8dd1fd670",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for germany-westcentral \u2014 Resolved",
+    "link": "https://stspg.io/4ck5pd9cbhk3",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-02T00:00:07.182000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "cad075d72d015bce",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2582,19 +2595,6 @@
     "link": "https://www.google.com/appsstatus/dashboard/",
     "summary": "Status: investigating",
     "date": "2026-04-10T11:27:56+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "d93f6e6e134c682f",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nGoogle Workspace users using Google IdP are unable to sign into their accounts using security keys and hardware based passkeys.\n**Description**\nWe are experiencing an issue with Workspace users beginning on Thursday, 2026-04-09 19:08 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide an update by Friday, 2026-04-10 04:00 PDT with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nGoogle Workspace users using Google IdP are unable to sign into their accounts using security keys and hardware based passkeys.\n**Workaround**\nBelow steps should be performed by Admin as the workaround:\n- Admin should revoke the key.\n- Admin to create the verification code to sign-in.\n- The user should sign-in using Backup verification code and then re-enrolls the security key. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-04-10T10:55:50+00:00",
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
