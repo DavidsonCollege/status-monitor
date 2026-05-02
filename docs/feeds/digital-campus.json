@@ -1,5 +1,18 @@
 [
   {
+    "id": "079d7bf3dcf42693",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-central-1 \u2014 Resolved",
+    "link": "https://stspg.io/v88dztnyfqvs",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-02T09:00:07.293000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "307c04dad8d42529",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Degraded Performance to Under Maintenance",
     "date": "2026-04-11T09:48:24.266935+00:00",
     "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b1b41d11f8c40109",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Under Maintenance to Degraded Performance",
-    "date": "2026-04-11T09:04:34.879212+00:00",
-    "status": "degraded",
     "incident_status": "",
     "type": "status_change"
   }
