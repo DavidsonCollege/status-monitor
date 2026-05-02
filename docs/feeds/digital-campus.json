@@ -1,5 +1,18 @@
 [
   {
+    "id": "1c9801f74708aea9",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Pro - Azure: 11.27.1 Upgrade for central-us \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/m0yhqv6llwhp",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-02T05:00:07.165000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "98e710b46462a3e0",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-10T12:09:27-07:00",
     "status": "partial_outage",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "a1bd454e5732e5dc",
-    "product_id": "omnilert",
-    "product_name": "Omnilert",
-    "icon_url": "https://www.google.com/s2/favicons?domain=omnilert.net&sz=64",
-    "title": "Omnilert: Omnilert Service Outage from 04/02/2026",
-    "link": "https://stspg.io/7xjt461bbrhb",
-    "summary": "On April 2nd, 2026 a production incident caused unavailability of Omnilert ENS administrative portals\nand messaging services. The issue was identified and recified by Omnilert. \n\nDuration: 1h 45m\nScope: All Omnilert ENS Services",
-    "date": "2026-04-02T10:51:00-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
