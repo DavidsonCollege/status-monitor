@@ -1,5 +1,18 @@
 [
   {
+    "id": "d2bcf69785152081",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-05-03T00:45:34.512691+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "b054a48c550b4d55",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "ba89f1d76e834dac",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users may experience issues opening new and existing designs \u2014 Resolved",
-    "link": "https://stspg.io/1pml5fk8h0lm",
-    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
-    "date": "2026-04-13T15:56:17.887000+10:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
