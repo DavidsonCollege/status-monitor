@@ -1,5 +1,18 @@
 [
   {
+    "id": "697852dba44f4812",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Operational",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-05-04T17:56:35.304717+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "ee987e402cccb5d2",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2581,19 +2594,6 @@
     "title": "Calendly: Outlook Desktop Plugin",
     "link": "https://www.calendlystatus.com/incidents/01KP8VQR5VE81D5C02BPT2HN1Y",
     "summary": "Outlook Desktop functionality has been restored for all users.",
-    "date": "2026-04-15T15:21:42+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "7071887bd4b91e76",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Deleting an event in your calendar may not cancel Calendly events",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQRB43P2MWQWVRCEYDE44",
-    "summary": "Google has resolved their API issues and all Calendly functionality is now restored.",
     "date": "2026-04-15T15:21:42+00:00",
     "status": "resolved",
     "incident_status": "resolved",
