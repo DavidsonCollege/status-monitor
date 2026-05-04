@@ -1,5 +1,57 @@
 [
   {
+    "id": "af84604468fc6495",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-04T15:12:09.552879+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "fa5b10f84de9be21",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 and Sonnet 4.5 \u2014 monitoring",
+    "link": "https://stspg.io/23s852zsyx18",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-05-04T14:27:54.633000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "085accbc76da6093",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 and Sonnet 4.5 \u2014 Resolved",
+    "link": "https://stspg.io/23s852zsyx18",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-04T14:45:58.262000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "08947b511f691098",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7 \u2014 Resolved",
+    "link": "https://stspg.io/115pgb379g4v",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-04T14:33:46.074000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "a7fab9880513f86d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2545,58 +2597,6 @@
     "date": "2026-04-12T20:40:24+00:00",
     "status": "operational",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "56f9faacac8ebb5f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users may experience issues accessing ChatGPT \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KNX13FBVMC6GJHJ2BQBSRKT8",
-    "summary": "Status: monitoring",
-    "date": "2026-04-11T01:37:02+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "46d252f7ed69d44a",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users may experience issues accessing ChatGPT \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KNX13FBVMC6GJHJ2BQBSRKT8",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-11T01:48:46+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "dad3b35c52cdc117",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some user may experience issues accessing ChatGPT",
-    "link": "https://status.openai.com/incidents/01KNX13FBVMC6GJHJ2BQBSRKT8",
-    "summary": "",
-    "date": "2026-04-11T01:04:36+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "8c211b4de36eec39",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Email login down",
-    "link": "https://stspg.io/tp29skc2n4p9",
-    "summary": "Email login was broken between approximately 3:46 PM and 4:52 PM PDT on April 10, 2026.",
-    "date": "2026-04-11T00:00:20.098000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
