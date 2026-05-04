@@ -1,5 +1,18 @@
 [
   {
+    "id": "c28c4c7ec85d6efa",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slow behaviour in Slack \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "The investigation identified elevated latency in EU backend services as the cause of workflows not completing. Approximately 25% of workflow trigger attempts are affected, primarily impacting EU customers. Pod restarts have stopped, and error rates are improving. A fix is being prepared and will be deployed shortly. We'll provide another update as soon as possible.",
+    "date": "2026-05-04T04:43:11-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "93cdbb70a5acf823",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "3d25241cca9563fb",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-04-14T13:57:33.438989+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
