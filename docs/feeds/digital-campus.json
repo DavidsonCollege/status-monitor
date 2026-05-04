@@ -1,5 +1,31 @@
 [
   {
+    "id": "93cdbb70a5acf823",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-05-04T10:35:41.319280+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "be8040d01dc7ee79",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slow behaviour in Slack",
+    "link": "https://slack-status.com",
+    "summary": "Some users are experiencing issues with workflows. Triggered workflows may fail to complete, with the first step not executing. We'll provide another update as soon as possible.",
+    "date": "2026-05-04T03:00:38-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "27a4b59022f90a49",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "74b5498e22d61bff",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Zoom Workforce Management Update: April 19, 2026 (No Operational Impact)",
-    "link": "https://stspg.io/blgdjxv0j7n9",
-    "summary": "We will be providing an update to Zoom Workforce Management. Please refer to https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0068337 for more details. \n\nThis update includes adjustments to historical data for special days.\n\nThere is no operational impact. All services will be available during this scheduled update.",
-    "date": "2026-04-14T02:43:52.284000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "1e001082c6ea2829",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly Site Unavailable",
-    "link": "https://stspg.io/56hs50vw5ymk",
-    "summary": "Calendly was down from ~9:09am EDT (13:09 UTC) to ~9:18am EDT (13:18 UTC).",
-    "date": "2026-04-13T09:00:00-04:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
   }
 ]
