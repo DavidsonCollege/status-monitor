@@ -1,5 +1,18 @@
 [
   {
+    "id": "27a4b59022f90a49",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-05-04T08:54:03.865698+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "4f32766090a1773a",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
-  },
-  {
-    "id": "7c0592b0a71aa802",
-    "product_id": "papercut",
-    "product_name": "PaperCut",
-    "icon_url": "https://www.google.com/s2/favicons?domain=papercut.com&sz=64",
-    "title": "PaperCut: PaperCut Hive - Some users are intermittently unable to release print jobs or experience intermittent loading in the Hive admin portal \u2014 Resolved",
-    "link": "https://stspg.io/mcpl6q0mvfqq",
-    "summary": "This incident has now been fully resolved. We have confirmed that print jobs are releasing successfully. \n\nOur apologies for any downtime that you experienced as a result of this outage. We will be performing a full retro and incident analysis, as we do with all issues that impact our customers.\n\nIf you experience other issues please report this via https://www.papercut.com/support/.",
-    "date": "2026-04-13T11:52:10.479000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]

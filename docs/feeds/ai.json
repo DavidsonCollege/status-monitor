@@ -1,5 +1,31 @@
 [
   {
+    "id": "baa81aaeea800121",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-04T08:54:16.574398+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "9a012d47d03ce0e5",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5",
+    "link": "https://stspg.io/4mxbctc1ncgy",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-05-04T08:09:37.657000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "78cfd47bcb199c1c",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KNTWSXK5MAKGBNNSY093X29H",
     "summary": "",
     "date": "2026-04-10T05:10:59+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "5039bd58d41cba0d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance on Vaults",
-    "link": "https://stspg.io/fzv1qyjb3j1b",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-10T04:28:06.379000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "18438a713dba081f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Issues with share link creation on web UI",
-    "link": "https://status.openai.com/incidents/01KNTTM5EQY332QC4P7ZQA4X0K",
-    "summary": "",
-    "date": "2026-04-10T04:32:54+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
