@@ -1,5 +1,18 @@
 [
   {
+    "id": "d6df3b787c399269",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Slow behaviour in Slack \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "A fix has been deployed to address the elevated latency in EU backend services. The team is monitoring the environment to ensure service stability and full recovery. We'll provide another update as soon as possible.",
+    "date": "2026-05-04T06:08:54-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "c28c4c7ec85d6efa",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "908a5e8f56ee8bc1",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Scheduled Maintenance: Status Page Migration to Incident.io",
-    "link": "https://stspg.io/f0t9714nb0rq",
-    "summary": "Whats changing?\nOn April 15, 2026 - April 17, 2026 we will start migrating our status page to incident.io. This migration is part of our ongoing efforts to enhance monitoring, observability, and platform reliability.\n\nWith incident.io, we\u2019re integrating our incident response, on-call management, and post-incident reviews into a single platform, ensuring a smoother incident response process and the best support for our customers during incidents.\n\nWhat you need to know\nDuring this migration, the ",
-    "date": "2026-04-14T09:19:36.158000-04:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
