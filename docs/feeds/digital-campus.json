@@ -1,5 +1,18 @@
 [
   {
+    "id": "5317e575d0d32247",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Annual Scheduling degraded load times \u2014 Resolved",
+    "link": "https://stspg.io/grybz5kxdkgy",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-05T16:36:31.380000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "780627b26a79e136",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2581,19 +2594,6 @@
     "title": "Calendly: Calendly Site Not Loading",
     "link": "https://www.calendlystatus.com/incidents/01KP8VQNFKJ5EWD3E304GWC454",
     "summary": "Calendly site is back up and fully functioning.",
-    "date": "2026-04-15T15:21:39+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "a5b55d7281b1a3d0",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly site not loading",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQNPDXBYQGBQA6Q2TWM4Z",
-    "summary": "Issue has been resolved and we are continuing to monitor.",
     "date": "2026-04-15T15:21:39+00:00",
     "status": "resolved",
     "incident_status": "resolved",
