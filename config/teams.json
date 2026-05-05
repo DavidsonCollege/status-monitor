@@ -7,6 +7,7 @@
       "slack_channel": "C0AKTENQN49",
       "zoom_channel": "1cba8a62eebb4cf484dd7a7b07c3cd32",
       "gchat_webhook": "https://chat.googleapis.com/v1/spaces/AAQAbb0bC_g/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=Wrd1uZxb7KaDL4fYoZQVYLzLCvZ__a7k8IhxP7gELYM",
+      "gchat_space_name": "DC Product Ops",
       "products": [
         {
           "id": "ninjaone",
@@ -635,6 +636,7 @@
       "slack_channel": "C0AK9C6MXFD",
       "zoom_channel": "b54d218b92ff4971bc51f84201fb77e8",
       "gchat_webhook": "https://chat.googleapis.com/v1/spaces/AAQAYr75wjk/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=keiFKT9Y0n7K9ZVE9nmhPh_RU9aYMtysO6_DDjskcHA",
+      "gchat_space_name": "AI Product Ops",
       "products": [
         {
           "id": "google-gemini",
