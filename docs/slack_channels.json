@@ -502,7 +502,7 @@
       "name": "proj-rapid-identity-cloud",
       "is_private": false,
       "topic": "",
-      "num_members": 6
+      "num_members": 5
     },
     {
       "id": "C01S7P31U2H",
@@ -761,7 +761,7 @@
       "name": "team-io",
       "is_private": false,
       "topic": "",
-      "num_members": 13
+      "num_members": 12
     },
     {
       "id": "C03SHVDPLJX",
@@ -796,7 +796,7 @@
       "name": "team-vrt",
       "is_private": false,
       "topic": "",
-      "num_members": 8
+      "num_members": 7
     },
     {
       "id": "C07UDKQNR7E",
@@ -953,6 +953,6 @@
       "num_members": 1
     }
   ],
-  "last_updated": "2026-05-05T18:44:47.288506+00:00",
+  "last_updated": "2026-05-05T19:18:05.678025+00:00",
   "fetch_status": "success"
 }
