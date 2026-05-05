@@ -1,5 +1,31 @@
 [
   {
+    "id": "ed4d7d0a40200c86",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded Performance",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-05T16:29:24.963342+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "3944107a217eb72d",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded performance",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69fa184454fd6005141db1e7",
+    "summary": "We're aware and investigating reduced performance in our web and desktop applications. Users may experience issues with seeing real time updates, and will need to perform a refresh to see those updates. We have all hands on deck and we'll update here as soon as we have a resolution.",
+    "date": "2026-05-05T16:18:12.599000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "99d9ad04a7082309",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2569,32 +2595,6 @@
     "link": "https://www.calendlystatus.com/incidents/01KP8VQQCRYEQK0SPQF3X5TTT9",
     "summary": "Zoom has deployed a patch that resolves an issue with OAuth authorizations that affected a small segment of users. We believe that this issue has been resolved. If you continue to experience any issues, please reach out to support@calendly.com.",
     "date": "2026-04-15T15:21:41+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "d53dfaa4516be687",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly.com experiencing issues",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQQKSNBS84MR6KPR70RNW",
-    "summary": "Service has been fully restored.",
-    "date": "2026-04-15T15:21:41+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "3852d68a7a20a607",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly.com experiencing issues",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQQVHMA0QZ9X856MSBCTA",
-    "summary": "The team has resolved issues that were preventing users from loading calendly.com",
-    "date": "2026-04-15T15:21:42+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"

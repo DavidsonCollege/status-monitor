@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-05-05T16:13:12.435265+00:00",
+  "last_checked": "2026-05-05T16:29:30.472250+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -390,92 +390,344 @@
       "name": "ClickUp",
       "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
       "status_url": "https://status.clickup.com",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "degraded",
+      "active_incidents": 1,
       "components": [
         {
           "name": "ClickUp Platform",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "ClickUp Platform (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "ClickUp Platform (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "ClickUp Platform (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "AI Notetaker",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "AI Notetaker (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "AI Notetaker (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "AI Notetaker (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Automations",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Automations (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Automations (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Automations (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Brain",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Brain (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Brain (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Brain (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Calendar",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Calendar (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Calendar (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Calendar (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Chat",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Chat (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Chat (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Chat (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Clips",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Clips (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Clips (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Clips (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Comments",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Comments (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Comments (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Comments (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Dashboards",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Dashboards (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Dashboards (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Dashboards (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Docs",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Docs (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Docs (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Docs (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Fields",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Fields (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Fields (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Fields (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Hierarchy",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Hierarchy (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Hierarchy (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Hierarchy (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Hubs",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Hubs (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Hubs (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Hubs (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Integrations",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Integrations (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Integrations (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Integrations (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Notifications",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Notifications (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Notifications (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Notifications (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Public API",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Public API (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Public API (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Public API (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Search",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Search (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Search (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Search (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Tasks",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Tasks (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Tasks (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Tasks (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Templates",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Templates (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Templates (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Templates (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Views",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Views (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Views (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Views (All Regions)",
+          "status": "degraded"
         },
         {
           "name": "Whiteboards",
-          "status": "operational"
+          "status": "degraded"
+        },
+        {
+          "name": "Whiteboards (Single Region)",
+          "status": "degraded"
+        },
+        {
+          "name": "Whiteboards (Multiple Regions)",
+          "status": "degraded"
+        },
+        {
+          "name": "Whiteboards (All Regions)",
+          "status": "degraded"
         }
       ]
     },
