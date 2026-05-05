@@ -1,5 +1,31 @@
 [
   {
+    "id": "ed41fd39bb85b0f6",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-05T18:46:28.416675+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "eca97fc2ab5e6ec4",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded performance \u2014 monitoring",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69fa184454fd6005141db1e7",
+    "summary": "The issue impacting real-time updates should now be mitigated. Users should now see changes reflected across the platform without needing to refresh.\r\n\r\nWe\u2019ll continue to monitor to ensure everything remains stable.",
+    "date": "2026-05-05T18:13:50.384000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "80c119cf50bbda27",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2569,32 +2595,6 @@
     "link": "https://www.calendlystatus.com/incidents/01KP8VQPPE3JY3TPERE8BTKPHJ",
     "summary": "DNS issues affecting logins using the Outlook 365 service appear to have been resolved. If you experience any further issues, please reach out to support@calendly.com",
     "date": "2026-04-15T15:21:40+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "6d0a4760e88b815a",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Zoom Video Conferencing Degraded Service",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQQ16VT9E5T1ZEX841A1M",
-    "summary": "Zoom has returned to full functionality and links should resume automatically generating. If you require any additional assistance please reach out to support@calendly.com.",
-    "date": "2026-04-15T15:21:41+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "a6c80b2fb372efa8",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Google Login Issues",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQQ6B43X848HS9XNPE4CJ",
-    "summary": "All login services have returned to stable at this time.",
-    "date": "2026-04-15T15:21:41+00:00",
     "status": "resolved",
     "incident_status": "resolved",
     "type": "new_incident"
