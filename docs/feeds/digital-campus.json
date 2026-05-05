@@ -1,5 +1,18 @@
 [
   {
+    "id": "210fbe2447154d6c",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Annual Scheduling degraded load times \u2014 identified",
+    "link": "https://stspg.io/grybz5kxdkgy",
+    "summary": "We've identified a performance issue with one of our databases. We are currently implementing several mitigation plans. Response times have improved slightly as we continue to work toward a full resolution.",
+    "date": "2026-05-05T14:26:04.624000-05:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "ed41fd39bb85b0f6",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2581,19 +2594,6 @@
     "title": "Calendly: Issue Enabling Third Party Integrations",
     "link": "https://www.calendlystatus.com/incidents/01KP8VQPDK17W6D2VVD0M66FAZ",
     "summary": "This incident has been resolved for all users",
-    "date": "2026-04-15T15:21:40+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "0afd4ff271ab527a",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Outlook 365 Login Issues",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQPPE3JY3TPERE8BTKPHJ",
-    "summary": "DNS issues affecting logins using the Outlook 365 service appear to have been resolved. If you experience any further issues, please reach out to support@calendly.com",
     "date": "2026-04-15T15:21:40+00:00",
     "status": "resolved",
     "incident_status": "resolved",
