@@ -1,5 +1,18 @@
 [
   {
+    "id": "80c119cf50bbda27",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded performance \u2014 identified",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69fa184454fd6005141db1e7",
+    "summary": "We've identified the cause of the reduced performance affecting our web and desktop applications. Our engineering team is actively working on a fix. In the meantime, users may still need to refresh their browser or desktop app to see the latest updates.",
+    "date": "2026-05-05T17:04:26.565000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "ed4d7d0a40200c86",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2581,19 +2594,6 @@
     "title": "Calendly: Google Login Issues",
     "link": "https://www.calendlystatus.com/incidents/01KP8VQQ6B43X848HS9XNPE4CJ",
     "summary": "All login services have returned to stable at this time.",
-    "date": "2026-04-15T15:21:41+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "e3d784e7e1b61d63",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Degraded Connectivity with Zoom Video Conferencing",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQQCRYEQK0SPQF3X5TTT9",
-    "summary": "Zoom has deployed a patch that resolves an issue with OAuth authorizations that affected a small segment of users. We believe that this issue has been resolved. If you continue to experience any issues, please reach out to support@calendly.com.",
     "date": "2026-04-15T15:21:41+00:00",
     "status": "resolved",
     "incident_status": "resolved",
