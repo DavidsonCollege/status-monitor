@@ -1,5 +1,31 @@
 [
   {
+    "id": "a65c4d727aa9de6b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-05-06T22:34:16.715936+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1519ddce925b9fab",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Connection failures for organizations restricting GitHub access by IP address",
+    "link": "https://stspg.io/0vv7h1hfdddc",
+    "summary": "We have identified an issue affecting organizations that restrict GitHub access by source IP address. A recent infrastructure change altered the IP addresses Anthropic uses for outbound connections to GitHub, which may cause Claude Code remote sessions, GitHub Enterprise plugin syncing, and Claude Security to fail. We are reverting the change to restore the previous IP ranges; no allowlist changes will be needed on your side. We will post an update once the fix is deployed.",
+    "date": "2026-05-06T22:32:53.981000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "0482327525328ee9",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "a097c02a0701fcac",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
-    "summary": "Status: identified",
-    "date": "2026-04-13T23:26:27+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "13ee2220921bfe84",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated 401 errors for API endpoints \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KP1PS4WFSH4CVJT0DJBKQ3FT",
-    "summary": "Status: identified",
-    "date": "2026-04-13T20:14:02+00:00",
-    "status": "operational",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
