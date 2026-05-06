@@ -1,5 +1,18 @@
 [
   {
+    "id": "83757e4e0b6a042d",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-05-06T03:22:40+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "2c6714c85d8e0685",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2581,19 +2594,6 @@
     "title": "Calendly: Google Cloud Service Disruption",
     "link": "https://www.calendlystatus.com/incidents/01KP8VQM95Z3QT3ERWTQHCGAJ7",
     "summary": "Google reports that its services have been fully restored and the issues are now resolved.",
-    "date": "2026-04-15T15:21:38+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "e502c23e3aeeba8d",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Calendly Outage",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQMEH4WCMWQ4DQ1CJDVJH",
-    "summary": "The issue has been resolved and we are continuing to monitor performance.",
     "date": "2026-04-15T15:21:38+00:00",
     "status": "resolved",
     "incident_status": "resolved",
