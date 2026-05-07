@@ -1,5 +1,18 @@
 [
   {
+    "id": "777887683f0f394d",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users might experience errors when trying to access designs",
+    "link": "https://stspg.io/3tk0vdjwvv0q",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-07T13:29:13.991000+10:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "0a634c7a7a7c1081",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-15T22:00:08.689000-04:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "afd85da222d3a706",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Planned Maintenance - Connect \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/j5hg8h3txwtr",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-15T21:00:10.696000-04:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
