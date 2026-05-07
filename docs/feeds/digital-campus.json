@@ -1,5 +1,18 @@
 [
   {
+    "id": "0a634c7a7a7c1081",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users might experience errors when trying to access designs \u2014 Resolved",
+    "link": "https://stspg.io/393nn4jgy9b7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-07T12:11:11.491000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "ee77d77e309bb32a",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "7a629252df2af6a4",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Google Authentication Issues",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQJ66PCHBS0BFQW7CDFVA",
-    "summary": "Google has reported that the issue has been resolved and we are no longer seeing any issues for our customers. We will continue to monitor to ensure that customers are no longer affected.",
-    "date": "2026-04-15T15:21:36+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
   }
 ]
