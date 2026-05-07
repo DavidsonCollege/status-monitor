@@ -1,5 +1,18 @@
 [
   {
+    "id": "8abb1ac62d1c9f96",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Connection failures for organizations restricting GitHub access by IP address \u2014 monitoring",
+    "link": "https://stspg.io/0vv7h1hfdddc",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-05-07T15:17:03.112000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "8d7034fa0b0c4fee",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "2656fe24744b5f35",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded service on usage and analytics admin API endpoints \u2014 monitoring",
-    "link": "https://stspg.io/w2qlkm4lprv5",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-14T13:20:20.477000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
