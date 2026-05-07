@@ -1,5 +1,18 @@
 [
   {
+    "id": "86571cdd2e03a616",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated transcription failures affecting ChatGPT & Codex \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
+    "summary": "Status: investigating",
+    "date": "2026-05-07T20:17:50+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "ea5e0ed23ac64a46",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "57640a63d7089a48",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Major Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-04-15T14:57:39.755395+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
