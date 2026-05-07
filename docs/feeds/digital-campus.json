@@ -1,5 +1,18 @@
 [
   {
+    "id": "a4f138f6614bce62",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva",
+    "link": "https://stspg.io/087nxp195qqv",
+    "summary": "Some users may have issues accessing Canva. Our teams are urgently looking into this and we will provide an update soon.",
+    "date": "2026-05-07T10:03:33.205000+10:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "e549c1a6152f6147",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2581,19 +2594,6 @@
     "title": "Calendly: Calendly down",
     "link": "https://www.calendlystatus.com/incidents/01KP8VQKH3H7NV177PQ6R332MB",
     "summary": "Cloudflare systems have recovered and access to Calendly and Zendesk has been restored. Our developers will continue to monitor going forward.",
-    "date": "2026-04-15T15:21:37+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "ab0d36a9b5b4d8e9",
-    "product_id": "calendly",
-    "product_name": "Calendly",
-    "icon_url": "https://www.google.com/s2/favicons?domain=calendly.com&sz=64",
-    "title": "Calendly: Unable to connect to Google Calendar service",
-    "link": "https://www.calendlystatus.com/incidents/01KP8VQKVB6BBK166Q8JGCNK2Y",
-    "summary": "Google reports that its services have been fully restored and the issues are now resolved.\n\nMore information on the status of the Google Calendar service can be found at https://www.google.com/appsstatus#hl=en&v=issue&sid=2&iid=cc21ebe3962430b2e4ae2b52e3dde98f",
     "date": "2026-04-15T15:21:37+00:00",
     "status": "resolved",
     "incident_status": "resolved",
