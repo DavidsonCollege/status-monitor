@@ -1,5 +1,18 @@
 [
   {
+    "id": "79a2d73f9d4c6d77",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated transcription failures affecting ChatGPT & Codex \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
+    "summary": "Status: investigating",
+    "date": "2026-05-07T23:47:08+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "86571cdd2e03a616",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/k80mg4g9k3sf",
     "summary": "The Claude API has fully recovered as of 8:01 PT / 16:01 UTC. We are currently working on mitigating the ongoing errors for Claude AI. Claude Code users who are logged in are still able to use it, but logging in is still broken.",
     "date": "2026-04-15T15:20:03.212000+00:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "5744f2ebf3c62a3d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude.ai, API, Claude Code \u2014 identified",
-    "link": "https://stspg.io/k80mg4g9k3sf",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-04-15T15:03:39.249000+00:00",
     "status": "major_outage",
     "incident_status": "identified",
     "type": "incident_update"
