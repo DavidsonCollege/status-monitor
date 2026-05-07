@@ -1,5 +1,18 @@
 [
   {
+    "id": "f6c5055984b69375",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Connection failures for organizations restricting GitHub access by IP address \u2014 Resolved",
+    "link": "https://stspg.io/0vv7h1hfdddc",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-07T16:36:27.816000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "8abb1ac62d1c9f96",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "62ff8403976ada68",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded service on usage and analytics admin API endpoints \u2014 Resolved",
-    "link": "https://stspg.io/w2qlkm4lprv5",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-14T15:21:03.965000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]

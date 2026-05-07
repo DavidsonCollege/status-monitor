@@ -1,5 +1,18 @@
 [
   {
+    "id": "2b4c54aa977ab22f",
+    "product_id": "smartdeploy",
+    "product_name": "SmartDeploy",
+    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
+    "title": "SmartDeploy: Connect Incident - Delayed device group membership updates and automations \u2014 Resolved",
+    "link": "https://stspg.io/sp1fs90qcqwq",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-07T13:01:04.775000-04:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "2ea90970cb70c405",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0d40e8a0b35ab74e",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Planned Maintenance - Connect \u2014 Resolved",
-    "link": "https://stspg.io/j5hg8h3txwtr",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-16T00:00:07.498000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
