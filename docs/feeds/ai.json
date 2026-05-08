@@ -1,5 +1,44 @@
 [
   {
+    "id": "f415d3d2a9a36fa4",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased Error Rate for gpt-5.5 model in the API \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KR3S3Q2RE54PVJ7GZPQNEY8Y",
+    "summary": "Status: monitoring",
+    "date": "2026-05-08T13:57:35+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "94c36792c9aada49",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased Error Rate for gpt-5.5 model in the API \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KR3S3Q2RE54PVJ7GZPQNEY8Y",
+    "summary": "Status: identified",
+    "date": "2026-05-08T13:42:57+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
+    "id": "9999bc42a8e6b0e2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increased Error Rate for gpt-5.5 model in the API \u2014 investigating",
+    "link": "https://status.openai.com/incidents/01KR3S3Q2RE54PVJ7GZPQNEY8Y",
+    "summary": "Status: investigating",
+    "date": "2026-05-08T13:26:14+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "713a7be7481dd552",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d99520c288cb36bc",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API Streaming Error",
-    "link": "https://status.openai.com/incidents/01KPBWZ18HR2G685X2XMZD78EP",
-    "summary": "",
-    "date": "2026-04-16T19:40:52+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "03ba582f6fa7938d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-16T08:10:45.963192+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "431960423b1d6ce1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Opus 4.6 elevated rate of errors \u2014 Resolved",
-    "link": "https://stspg.io/90n2vmmkj1df",
-    "summary": "Earlier today we had an outage on Opus 4.6 that started at 23:03 PT / 6:03 UTC and ended at 00:26 PT / 7:26 UTC.",
-    "date": "2026-04-16T07:43:32+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
