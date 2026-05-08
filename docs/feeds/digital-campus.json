@@ -1,5 +1,31 @@
 [
   {
+    "id": "7f1e9a7df9e17916",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Degraded Performance",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-08T05:48:19.938606+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "7bcc67067c210792",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-05-08T05:16:23+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "5fc4e7282197d048",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "ea422a2023ef121d",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect is down \u2014 identified",
-    "link": "https://stspg.io/j94r3l2ysj0b",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-04-16T13:23:59.070000-04:00",
-    "status": "major_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "16a8de971c2d7a86",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect is down",
-    "link": "https://stspg.io/j94r3l2ysj0b",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-04-16T12:59:58.063000-04:00",
-    "status": "major_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
