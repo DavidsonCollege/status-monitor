@@ -1,5 +1,31 @@
 [
   {
+    "id": "0af1954188506738",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-05-08T12:46:17.274013+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "615a3d9cdb99b2b2",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Scheduled Grid Migrations are experiencing extended downtime",
+    "link": "https://slack-status.com",
+    "summary": "Users who are undergoing scheduled Grid Migrations are experiencing extended downtime. Downtime is expected during a Grid Migration however it's taking longer than usual. During the downtime users are unable to access Slack until the migration completes. We've identified an issue with Job Queues, which may be the cause and are investigating this further. The next update will be provided once additional information becomes available.",
+    "date": "2026-05-08T05:13:46-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "d2d2fb904f59aaf7",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "07788b4bea45ed4f",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Public API endpoint issue: devices-detailed \u2014 Resolved",
-    "link": "https://stspg.io/5znwmpbvpcl0",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-16T15:27:29.908000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "d730a83bc6ae92b7",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect is down \u2014 Resolved",
-    "link": "https://stspg.io/j94r3l2ysj0b",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-16T14:18:43.570000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
