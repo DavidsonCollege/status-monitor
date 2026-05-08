@@ -1,5 +1,18 @@
 [
   {
+    "id": "2e5c3db28192f2d4",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/w5d9m5b0dv86",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-05-08T17:01:08.466000+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "9b474b681da72199",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-17T18:59:56.526000+00:00",
     "status": "degraded",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "f7b7d8f94d8beb2b",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Failures to add Credentials to Vaults",
-    "link": "https://stspg.io/hn2qr6ds399k",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-16T22:26:00.677000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
