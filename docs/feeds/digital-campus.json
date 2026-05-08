@@ -1,5 +1,31 @@
 [
   {
+    "id": "fe8720f6b6f32bf8",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-08T19:33:50.831079+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "4aa058db3b16dda4",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: EKM customers experiencing issues with channel loading and message delivery \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We\u2019re investigating this issue:\nCurrent status and actions being taken: \u00a0We believe an issue with an upstream provider may be impacting some Slack services. We\u2019re partnering with them to help with our investigation and are waiting on additional details from their analysis. In parallel, we\u2019re actively reviewing the cache configuration to alleviate the impact.\nEstimated time to resolution: No ETA at this time.\nScope: This is not affecting any specific region, but a percentage of Enterprise Key Man",
+    "date": "2026-05-08T12:20:05-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "5c4d972ad3951cb5",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-17T02:19:14.417000-04:00",
     "status": "operational",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "06aa8ac83444c918",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Service Degradation \u2014 identified",
-    "link": "https://stspg.io/lkbhmqck0db2",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-04-17T02:08:45.756000-04:00",
-    "status": "operational",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "9719db8233e8dcb4",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Service Degradation \u2014 monitoring",
-    "link": "https://stspg.io/lkbhmqck0db2",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-17T02:07:00.725000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]
