@@ -1,5 +1,18 @@
 [
   {
+    "id": "524cb9ea75a2c844",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-05-08T15:53:13+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "6ed13344b526b858",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/90m31mb6kywd",
     "summary": "We will be performing unplanned Connect maintenance on April 16, 2026 at 10:00 pm EST, lasting for approximately 1 hour. During this time, there may be brief downtime or service degradation. \n\nIf you have any questions, please let us know at support@pdq.com",
     "date": "2026-04-16T17:31:15.616000-04:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "73e5b3ae9e56fe33",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Announcing IP Address Changes (No Operational Impact)",
-    "link": "https://stspg.io/jzt8mfkz3z67",
-    "summary": "The following IPv4 subnets will be removed from the Zoom Meeting, Zoom Contact Center, and Cloud Room Connector services. These IPv4 ranges no longer host resources and will be removed from Zoom\u2019s inventory starting no earlier than 30 days from the posting of this notice. Due to this, we recommend that network administrators, with Zoom-specific firewall or network rules, update their systems as soon as possible in preparation.\u00a0\n\nRemoved Zoom Meeting and Webinar IP ranges:\n4.34.125.128/25\n4.35.64",
-    "date": "2026-04-16T14:13:16.111000-07:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
