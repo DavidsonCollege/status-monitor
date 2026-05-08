@@ -1,5 +1,44 @@
 [
   {
+    "id": "d1dae0f438eb2a71",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-08T01:34:54.892510+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "559e1e85b4a44bb7",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-08T00:00:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "eb30d3508acec53c",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva \u2014 identified",
+    "link": "https://stspg.io/r2m1mhnzpp7j",
+    "summary": "We\u2019re currently experiencing intermittent issues due to an ongoing AWS service disruption. AWS has acknowledged the issue on their status page. We\u2019re monitoring the situation closely and will update as more information becomes available. For vendor updates, see: https://health.aws.amazon.com/health/status",
+    "date": "2026-05-08T10:56:05.097000+10:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "03f90147661a8200",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "eb4632d9e0d2d247",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-16T16:43:11.826553+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "2c1276ecb173e313",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Public API endpoint issue: devices-detailed \u2014 identified",
-    "link": "https://stspg.io/5znwmpbvpcl0",
-    "summary": "We expect to have a hotfix ready and deployed within the next two hours. This will result in a brief disruption of the API while we apply the hotfix, but it is expected to be brief",
-    "date": "2026-04-16T10:23:53.023000-05:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "180f270b296055cd",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Public API endpoint issue: devices-detailed",
-    "link": "https://stspg.io/5znwmpbvpcl0",
-    "summary": "Known issue with the devices-detailed Public API endpoint now requiring pagination. We are working on rolling back this change. Until it is fixed customers can access all devices using the pageSize and after query parameters.",
-    "date": "2026-04-16T07:35:14.809000-05:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
