@@ -1,5 +1,18 @@
 [
   {
+    "id": "d4315c3990ded956",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva \u2014 monitoring",
+    "link": "https://stspg.io/r2m1mhnzpp7j",
+    "summary": "We're continuing to monitor for any impact while we wait for AWS to resolve the underlying issue.",
+    "date": "2026-05-08T16:01:24.092000+10:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "7f1e9a7df9e17916",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/j94r3l2ysj0b",
     "summary": "A fix has been implemented and we are monitoring the results.",
     "date": "2026-04-16T13:29:12.903000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "5ed5a9cc4e2ed582",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect is down \u2014 monitoring",
-    "link": "https://stspg.io/j94r3l2ysj0b",
-    "summary": "A fix has been implemented. The web console is now working. We're monitoring the system for some time before calling this fully resolved.",
-    "date": "2026-04-16T13:28:43.278000-04:00",
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
