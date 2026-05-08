@@ -1,5 +1,18 @@
 [
   {
+    "id": "37f5b79f295d46eb",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7 \u2014 Resolved",
+    "link": "https://stspg.io/w5d9m5b0dv86",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-08T17:25:40.350000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "2e5c3db28192f2d4",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "34d98875953f2631",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Errors uploading documents to Google Drive in Claude.ai",
-    "link": "https://stspg.io/1085mzzhwf2v",
-    "summary": "We are investigating an issue causing errors when uploading documents to Google Drive from Claude.ai, including the desktop app and Cowork.",
-    "date": "2026-04-17T18:59:56.526000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
