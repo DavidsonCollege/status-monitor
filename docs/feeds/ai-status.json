@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-05-08T10:17:43.404187+00:00",
+  "last_checked": "2026-05-08T10:53:01.499695+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -42,7 +42,7 @@
         },
         {
           "name": "Claude for Government",
-          "status": "partial_outage"
+          "status": "operational"
         }
       ]
     },

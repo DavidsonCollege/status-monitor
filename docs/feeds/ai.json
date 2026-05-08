@@ -1,5 +1,18 @@
 [
   {
+    "id": "f76e85eb6fd1f5a9",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors across Claude Models \u2014 identified",
+    "link": "https://stspg.io/zl0w1dmccgf7",
+    "summary": "We have identified the cause and a fix is being rolled out. As of 10:22 UTC, the remaining impact is limited to Claude Opus 4.1 and Fast Mode for Claude Opus 4.6.",
+    "date": "2026-05-08T10:26:46.749000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "f2d08470983ce10b",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "566a7e94fbff42a0",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Major Outage to Partial Outage",
-    "date": "2026-04-15T16:34:39.836983+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
