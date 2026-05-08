@@ -1,5 +1,57 @@
 [
   {
+    "id": "cd366970992f0cab",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated Errors on File Operations \u2014 Resolved",
+    "link": "https://stspg.io/yh3q9c4qgdvk",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-08T15:17:02.018000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "2c31bcc6bde2716b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.6",
+    "link": "https://stspg.io/ld9rfd0x347q",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-08T15:03:50.656000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
+    "id": "ce1e7babaa899ec4",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-08T15:30:10.880333+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e88afac5f6f417b4",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance with Codex Cloud Tasks",
+    "link": "https://status.openai.com/incidents/01KR421V8PCTFKA8EJJC2VCGA3",
+    "summary": "",
+    "date": "2026-05-08T15:07:16+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "b24ba4be62c5aabb",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2546,57 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "57e59448a2bde853",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-16T21:23:34.263732+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "ce9ec06694b7dc2f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API Streaming Error \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KPBWZ18HR2G685X2XMZD78EP",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-16T21:21:07+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "c9769a69e8baf68e",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Cowork not starting for some users \u2014 identified",
-    "link": "https://stspg.io/zv6xsc3wm28c",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-04-16T20:47:32.516000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "d7f485e1b55f5cd8",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Responses API Streaming Error \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KPBWZ18HR2G685X2XMZD78EP",
-    "summary": "Status: monitoring",
-    "date": "2026-04-16T20:31:31+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
