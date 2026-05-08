@@ -1,5 +1,18 @@
 [
   {
+    "id": "f6aea5ab5b4131d6",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Some users may have issues accessing Canva \u2014 Resolved",
+    "link": "https://stspg.io/r2m1mhnzpp7j",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-09T08:43:04.413000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "6b6186e4f850f165",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-17T09:59:38.556000-04:00",
     "status": "operational",
     "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "f53ed06bc5271457",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Service Degradation (Deployments and Group membership affected) \u2014 monitoring",
-    "link": "https://stspg.io/lkbhmqck0db2",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-17T05:22:55.194000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
     "type": "incident_update"
   }
 ]
