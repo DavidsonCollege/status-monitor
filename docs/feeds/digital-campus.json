@@ -1,5 +1,18 @@
 [
   {
+    "id": "ce896e6debb0f2fd",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: EKM customers experiencing issues with channel loading and message delivery \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We\u2019re investigating this issue:\nCurrent status and actions being taken: We continue to monitor the issue as our upstream provider continues their work toward a resolution. Affected customers may already be seeing improvements, and we\u2019ll continue to monitor the situation closely until it is fully resolved.\nEstimated time to resolution: No ETA at this time.\nScope: This is not affecting any specific region, but a percentage of Enterprise Key Management customers may experience impact globally.\nCurr",
+    "date": "2026-05-08T13:57:18-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "0e3039c4645b5763",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/lkbhmqck0db2",
     "summary": "We are continuing to work on a fix for this issue.",
     "date": "2026-04-17T04:51:45.520000-04:00",
-    "status": "operational",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "8789b43475dd6c80",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Service Degradation (Deployments and Group membership etc. affected) \u2014 identified",
-    "link": "https://stspg.io/lkbhmqck0db2",
-    "summary": "We've applied a fix and we're working to get services back to normal.",
-    "date": "2026-04-17T04:50:57.011000-04:00",
     "status": "operational",
     "incident_status": "identified",
     "type": "incident_update"
