@@ -1,5 +1,18 @@
 [
   {
+    "id": "7e7d0a1788ac11bf",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Under Maintenance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Under Maintenance",
+    "date": "2026-05-08T16:43:09.911685+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "524cb9ea75a2c844",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "e980e510147495ad",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Unplanned Connect Maintenance",
-    "link": "https://stspg.io/90m31mb6kywd",
-    "summary": "We will be performing unplanned Connect maintenance on April 16, 2026 at 10:00 pm EST, lasting for approximately 1 hour. During this time, there may be brief downtime or service degradation. \n\nIf you have any questions, please let us know at support@pdq.com",
-    "date": "2026-04-16T17:31:15.616000-04:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
   }
 ]
