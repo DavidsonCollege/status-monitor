@@ -1,5 +1,31 @@
 [
   {
+    "id": "6b185ed738fc7cfc",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-09T08:05:10.910335+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "80bce9275de6372a",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.1",
+    "link": "https://stspg.io/w7xkngb4k75r",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-05-09T07:57:05.663000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "c4e8caf90f2f945d",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "3f5f5b44049bfcc0",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Sonnet 4.5 error spike \u2014 Resolved",
-    "link": "https://stspg.io/9xlxt35zjzcp",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-20T07:25:21.435000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "da9f28899319dda5",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour",
-    "link": "https://status.openai.com/incidents/01KPMVSSRWY55RX257730KS2FA",
-    "summary": "",
-    "date": "2026-04-20T07:13:42+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
