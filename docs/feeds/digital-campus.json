@@ -1,5 +1,31 @@
 [
   {
+    "id": "9d06afcc28a46630",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: Operational",
+    "link": "https://status.kuali.co",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-05-10T16:00:29.995761+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8c10c4199ec2406e",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: Scheduled Maintenance for Kuali Platform (Kuali Build and Next Generation Products) \u2014 Resolved",
+    "link": "https://stspg.io/lsdhtz7026kb",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-10T10:00:07.401000-06:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "9aa0e96e389f222b",
     "product_id": "kuali-build",
     "product_name": "Kuali Build",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "948bdfc656ee8bdc",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-18T07:40:22.740965+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "303130507b3ca3c0",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Intermittent Connect Outages \u2014 Resolved",
-    "link": "https://stspg.io/lkbhmqck0db2",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-18T00:07:38.226000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
