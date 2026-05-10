@@ -1,5 +1,31 @@
 [
   {
+    "id": "9aa0e96e389f222b",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: Under Maintenance",
+    "link": "https://status.kuali.co",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-05-10T13:02:48.600814+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a4c943a9ec930622",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: Scheduled Maintenance for Kuali Platform (Kuali Build and Next Generation Products)",
+    "link": "https://stspg.io/lsdhtz7026kb",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-10T06:54:34.750000-06:00",
+    "status": "maintenance_in_progress",
+    "incident_status": "in_progress",
+    "type": "new_incident"
+  },
+  {
     "id": "413f217c9e6531e2",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "8a0787c40b4204a8",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Intermittent Connect Outages \u2014 monitoring",
-    "link": "https://stspg.io/lkbhmqck0db2",
-    "summary": "A fix has been implemented and we are monitoring the results",
-    "date": "2026-04-17T23:14:08.299000-04:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "fea3bc77cc0956b2",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-18T02:44:57.197612+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-05-10T12:34:39.466436+00:00",
+  "last_checked": "2026-05-10T13:03:05.713295+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -145,12 +145,12 @@
       "name": "Kuali Build",
       "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
       "status_url": "https://status.kuali.co",
-      "overall_status": "operational",
-      "active_incidents": 0,
+      "overall_status": "maintenance",
+      "active_incidents": 1,
       "components": [
         {
           "name": "United States (Oregon)",
-          "status": "operational"
+          "status": "maintenance"
         }
       ]
     },
