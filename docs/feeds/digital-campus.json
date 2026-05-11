@@ -1,5 +1,18 @@
 [
   {
+    "id": "0fd93a86d019998e",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: EKM customers experiencing issues with channel loading and message delivery \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Our work on this issue is still ongoing.\nCurrent status and actions being taken: Customer impact effectively stopped around 8:00AM PT and has remained stable. Our monitoring has shown no further instability and we have considered this incident now under control. We are continuing to monitor closely and we'll update again when there's another meaningful update to share.\u00a0\nWe apologize for the disruption.",
+    "date": "2026-05-11T12:02:41-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "590d5599e90a2276",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-21T20:14:51.472000-05:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "eef2fe4c37c21f78",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/sznmvx0kx1gt",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-04-21T19:00:10.778000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
