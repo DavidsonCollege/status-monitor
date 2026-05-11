@@ -1,5 +1,18 @@
 [
   {
+    "id": "67762e5f734e107e",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-05-11T08:45:58.970194+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "32ce72fb9084e40a",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "0e6ebd541f01877e",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Astra Schedule Monthly Maintenance - April 2026 \u2014 Resolved",
-    "link": "https://stspg.io/0gw0jpdqhb45",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-18T23:00:07.362000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
