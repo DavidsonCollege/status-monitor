@@ -1,5 +1,18 @@
 [
   {
+    "id": "efb5862a9b7182b5",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates with GPT 5.5",
+    "link": "https://status.openai.com/incidents/01KRBZTV511HR7SWVFZJ0438D6",
+    "summary": "",
+    "date": "2026-05-11T17:02:24+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "e6413c9abb695548",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "fc882b5f3aefea9f",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Users unable to load ChatGPT, Codex and API Platform \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KPNN2V2SMP3TAN3MCJK87W50",
-    "summary": "Status: monitoring",
-    "date": "2026-04-20T16:48:49+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
