@@ -1,5 +1,18 @@
 [
   {
+    "id": "16c0fb39313d6ab4",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Degraded Performance",
+    "date": "2026-05-11T06:12:51.858825+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "2a445b770840ce4d",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "6f8b2512545c94e0",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-04-19T00:04:07.091229+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
