@@ -1,5 +1,31 @@
 [
   {
+    "id": "59768d9a45b68151",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: EKM customers experiencing issues with channel loading and message delivery \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Current status and actions being taken: \u00a0We're continuing to investigate elevated error rates affecting a subset of users. We've identified additional load contributing to the issue and have taken steps to reduce it. We've also engaged our third-party vendor to assist in providing additional troubleshooting.\nEstimated time to resolution: Under investigation. No ETA available at this time.\nScope: Customers using Enterprise Key Management (EKM)\nCurrent impact to end users: Customers using Enterpri",
+    "date": "2026-05-11T09:05:26-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "4ea79d9e8fd3d072",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: EKM customers experiencing issues with channel loading and message delivery \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Current status and actions being taken: We have identified contributing factors to the issue impacting EKM customers and have taken mitigating actions, including reducing the rate of KMS requests by approximately 50% and increasing cache capacity. We are continuing to monitor closely and are actively investigating the underlying cause in partnership with our third-party provider.\u00a0\nEstimated time to resolution: The incident has been stable for over an hour with no new customer-facing impact detec",
+    "date": "2026-05-11T09:38:03-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "6a4c65ff40fbca1a",
     "product_id": "smartdeploy",
     "product_name": "SmartDeploy",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-21T06:46:30-07:00",
     "status": "partial_outage",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "c170dc22accb775c",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Trust / Private Access Connectivity Interruption \u2014 Resolved",
-    "link": "https://stspg.io/7jhf2d623fpy",
-    "summary": "Full service has been restored, and we will conduct a post-incident review.\nWe appreciate your patience and apologise for any disruption caused.",
-    "date": "2026-04-21T03:03:06.690000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "2480fe53e985ad5b",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Trust / Private Access Connectivity Interruption",
-    "link": "https://stspg.io/7jhf2d623fpy",
-    "summary": "Infrastructure has been successfully scaled up. Services are being monitored to confirm stability. No action is required from customers and Jamf Trust should reconnect automatically.",
-    "date": "2026-04-21T02:15:55.412000+00:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
     "type": "new_incident"
   }
 ]
