@@ -1,5 +1,31 @@
 [
   {
+    "id": "2af83aaecf89a678",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-12T23:17:24.325741+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "247dc91011e79fcf",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded Search in the Desktop App \u2014 identified",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/6a03ad80c45d27050d60bf59",
+    "summary": "We've determined the cause of infinite loading in Search within our desktop application and a resolution is on the way.\r\n\r\nAs a potential workaround, open the AI Command Bar (formerly called Command Center) and, with the bar open, press CMD + R (Mac) or CTRL + R (PC) to refresh the AI Command Bar directly.",
+    "date": "2026-05-12T22:56:35.080000+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "765cd4975b86b443",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "ee99d3f7172fef54",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Operational",
-    "link": "https://www.canvastatus.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-23T01:04:04.099822+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "dc67fb263c06e439",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users are having issues accessing designs \u2014 Resolved",
-    "link": "https://stspg.io/ckzq7hwr2x3w",
-    "summary": "This incident is resolved. Thank you for patience and understanding.",
-    "date": "2026-04-23T10:28:17.898000+10:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
