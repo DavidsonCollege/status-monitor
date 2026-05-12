@@ -1,5 +1,31 @@
 [
   {
+    "id": "d7bfc4bee930de16",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-05-12T23:43:32.809183+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "7118ed3af4ae0238",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/m2skyvnzdzl4",
+    "summary": "The issue has been identified and a fix is being implemented.",
+    "date": "2026-05-12T23:38:56.745000+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "aaae885c001d963f",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2569,32 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KPPJX4KHFAWS8YQE3KW235X7",
     "summary": "This incident has been resolved.",
     "date": "2026-04-20T23:42:43+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "b167d646a2ee54ee",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users will is higher error rates on Codex",
-    "link": "https://status.openai.com/incidents/01KPPJX4KHFAWS8YQE3KW235X7",
-    "summary": "",
-    "date": "2026-04-20T23:16:43+00:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "10a4c895069c7ebd",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Users may encounter issue with ChatGPT Business after upgrade or adding new seats for up to an hour \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KPMVSSRWY55RX257730KS2FA",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-20T19:33:19+00:00",
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
