@@ -1,5 +1,31 @@
 [
   {
+    "id": "765cd4975b86b443",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded Performance",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-12T22:48:16.871030+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "004d40edd411da53",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Degraded Search in the Desktop App",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/6a03ad80c45d27050d60bf59",
+    "summary": "We're investigating reports of infinite loading in Search in our desktop application. We\u2019ll have frequent updates until we have a monitoring status.",
+    "date": "2026-05-12T22:45:20.027000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "f09c04e879d08875",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "eec5dfb29907a20d",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Degraded Performance",
-    "link": "https://www.canvastatus.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-23T00:07:56.547562+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b92764fe33612c9b",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users are having issues accessing designs",
-    "link": "https://stspg.io/ckzq7hwr2x3w",
-    "summary": "The incident is now mitigated. We will continue to monitor and resolve after confirming accessing designs are stable.",
-    "date": "2026-04-23T09:48:47.239000+10:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
   }
 ]
