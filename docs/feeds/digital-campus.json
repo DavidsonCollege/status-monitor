@@ -1,5 +1,18 @@
 [
   {
+    "id": "f09c04e879d08875",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-12T05:57:09.771277+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "e54690d7ad7a19e7",
     "product_id": "canva",
     "product_name": "Canva",
@@ -2585,18 +2598,5 @@
     "status": "monitoring",
     "incident_status": "monitoring",
     "type": "new_incident"
-  },
-  {
-    "id": "19e7d7c6e641926e",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Multiple Features Unavailable \u2014 identified",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69e8f9078a263706006e81e5",
-    "summary": "We\u2019ve identified the root cause behind certain Workspace features not appearing as expected across web, desktop, and mobile.\r\n\r\nThe issue originates from a third-party vendor, and we\u2019re actively working with their team on a resolution. We\u2019ll continue sharing updates here until the issue is resolved and we\u2019ve moved into a monitoring state.",
-    "date": "2026-04-22T20:25:58.438000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
