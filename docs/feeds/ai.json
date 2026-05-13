@@ -1,5 +1,31 @@
 [
   {
+    "id": "31e33085becbca6d",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Realtime API  - SIP/WebRTC flow are down \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KRG0AZKH41DV4D9SNJSXM33Q",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-13T09:23:49+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "2842aac2775e16ac",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex 5.5 engines are experiencing high error rate \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KRG6MF021JQ997JCR7R8Y9A0",
+    "summary": "Status: identified",
+    "date": "2026-05-13T09:00:20+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "b0e8b7226613f890",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2571,32 +2597,6 @@
     "date": "2026-04-22T02:38:04+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "57821def4b6e23a0",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Partial Outage",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-22T01:44:55.666683+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "589af88c65740ba1",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: ChatGPT free users are seeing errors when having conversations \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KPSB0GQZ0G7FT3GAV3H2Q8D8",
-    "summary": "Status: investigating",
-    "date": "2026-04-22T01:00:28+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
