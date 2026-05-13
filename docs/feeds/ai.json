@@ -1,5 +1,18 @@
 [
   {
+    "id": "b5803d028fdfab0d",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Realtime API  - SIP/WebRTC flow are down",
+    "link": "https://status.openai.com/incidents/01KRG0AZKH41DV4D9SNJSXM33Q",
+    "summary": "",
+    "date": "2026-05-13T06:28:11+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "a3cb377c7f0ee0ee",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "a3ec740d73b9cbc4",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Some users may encounter issues with GPT-5.4-C model in Codex \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KPPY7B8PMYHJWDNFY9TMJX33",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-21T04:33:18+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
