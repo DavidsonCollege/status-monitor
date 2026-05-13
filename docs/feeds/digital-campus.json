@@ -1,5 +1,18 @@
 [
   {
+    "id": "8ea733c9ce4938e8",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-13T02:06:31.575463+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "a753ca9460678016",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2582,19 +2595,6 @@
     "link": "https://status.clickup.com",
     "summary": "Status changed from Partial Outage to Operational",
     "date": "2026-04-23T16:59:47.690759+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "62f6a652144fccd6",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-04-23T10:17:52.909969+00:00",
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
