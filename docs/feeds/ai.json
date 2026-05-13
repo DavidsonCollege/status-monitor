@@ -1,5 +1,31 @@
 [
   {
+    "id": "048b862b027d5590",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-13T14:58:52.527906+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "28c3615704288888",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Claude.ai is experiencing elevated error rates \u2014 Resolved",
+    "link": "https://stspg.io/hctlccf3y6s8",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-13T14:45:32.586000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "a27702e8de38bc25",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "47ebb9a19a829bfe",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-22T19:40:54.539406+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "746c20e6e0286e98",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Enterprise, business & education workspaces seeing elevated rate of conversation errors \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KPTQAPRRSTTSSPDBGNG34FD5",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-22T19:23:34+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
