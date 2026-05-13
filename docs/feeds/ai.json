@@ -1,5 +1,18 @@
 [
   {
+    "id": "eb965dbf22d35868",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Issues accessing ChatGPT for logged-out users",
+    "link": "https://status.openai.com/incidents/01KRHSDQP7DZPAVANG3R1RCNVW",
+    "summary": "",
+    "date": "2026-05-13T23:05:50+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "048b862b027d5590",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "5ebaebc86c8c698f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: MCP apps unavailable on Claude.ai",
-    "link": "https://stspg.io/rx62k66jm0lj",
-    "summary": "We have resolved the issue impacting MCP Apps on Claude.ai.",
-    "date": "2026-04-23T00:41:43.270000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
