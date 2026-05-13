@@ -1,5 +1,18 @@
 [
   {
+    "id": "dd8a0ce0b2e9acd7",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nSome Cameyo by Google customers could not start their sessions after rolling out the new channel version.\n**Description**\nWe were experiencing an issue with Cameyo by Google, beginning on Tuesday, 12 May 2026 09:01 US/Pacific.\nThe issue was mitigated on Tuesday, 12 May 2026 15:16 US/Pacific by restarting the RAP system service, and performing full server reboots.\nFrom preliminary investigation, this was caused by a faulty code for logging improvement on the Player VMs. Log files were unexpectedly duplicated until the disk was full leading to the session failures.\nSome customers were recovered automatically after the channel binaries were rolled back, while the others were required to restart their VMs manually.\nCurrently, the issue is fully mitigated and change is rolled back.\nWe apologise to those who were impacted by this issue.\n**Customer Symptoms**\nThe customers were experiencing an issue that couldn\u2019t connect to the Player VMs normally. The disk utilization on the affected VMs reaches 99% or even 100%.\n**Workaround**\nNot needed because all affected servers have been mitigated.",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "",
+    "date": "2026-05-12T16:01:00+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "43a8a7312c335009",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "026dec35c0b22d0e",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Users May Not Receive Notifications on Slack Thread Replies \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "We\u2019re observing positive signals after rolling back the deployment in test environments. We will complete some final validations before rolling back the deployment in the production environment.\n\nThank you for your patience as we work through this one. We\u2019ll report back once production rollback is completed or if there are substantial updates to share.",
-    "date": "2026-04-27T11:07:01-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
