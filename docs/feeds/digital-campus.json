@@ -1,5 +1,18 @@
 [
   {
+    "id": "43a8a7312c335009",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Release 13.0.30 - US2 \u2014 Resolved",
+    "link": "https://stspg.io/bvgmtd5qg03l",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-13T08:09:52.384000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "07012f193aa7938d",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2585,18 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "e5e5397c275b9701",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Major Outage",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-04-27T17:15:35.655285+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
