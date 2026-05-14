@@ -1,5 +1,18 @@
 [
   {
+    "id": "26b70fba6832580c",
+    "product_id": "crashplan",
+    "product_name": "CrashPlan",
+    "icon_url": "https://www.google.com/s2/favicons?domain=crashplan.com&sz=64",
+    "title": "CrashPlan: Delay in Processing events from Cloud and Email Connectors \u2014 identified",
+    "link": "https://stspg.io/68j75p16t3rf",
+    "summary": "We are continuing to work on a fix for this issue.",
+    "date": "2026-05-13T22:23:23.129000-05:00",
+    "status": "operational",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "344c704da8639bc2",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "253a0bf432e46fa3",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-04-27T21:03:04.073204+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
