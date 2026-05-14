@@ -1,5 +1,31 @@
 [
   {
+    "id": "63205f54cb59655a",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Partial Outage",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-05-14T20:07:19.479806+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "b562c21b8a1bb038",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Outage - Inability to log in to ClickUp",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/6a06288f20fc663a9f0a4bbc",
+    "summary": "We're investigating reports of users being unable to login to ClickUp in our web and desktop applications.\r\n\r\nWe\u2019ll have frequent updates until we have a monitoring status.",
+    "date": "2026-05-14T19:54:55.534000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "a90d37e632119b74",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2572,31 +2598,5 @@
     "status": "maintenance",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "3ac9a0b7fba2d64e",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/zq8sbm65fqh0",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-04-28T20:04:37.309000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "7cb53f8952e96452",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users should be able to access Canva, we are monitoring the fix.",
-    "link": "https://stspg.io/txkpx5f8sfmx",
-    "summary": "This has been resolved.",
-    "date": "2026-04-29T10:21:47.912000+10:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
   }
 ]
