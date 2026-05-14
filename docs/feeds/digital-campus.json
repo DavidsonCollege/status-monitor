@@ -1,5 +1,31 @@
 [
   {
+    "id": "ce8d57372881c14a",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Operational",
+    "link": "https://status.clickup.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-05-14T20:45:24.119296+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a6180d2a5aab3e11",
+    "product_id": "clickup",
+    "product_name": "ClickUp",
+    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
+    "title": "ClickUp: Outage - Inability to log in to ClickUp \u2014 monitoring",
+    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/6a06288f20fc663a9f0a4bbc",
+    "summary": "We have mitigated the inability to log in to ClickUp. Users should be able to log in to ClickUp as expected.\r\n\r\nWe will continue monitoring to ensure this has been resolved.",
+    "date": "2026-05-14T20:20:00+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "63205f54cb59655a",
     "product_id": "clickup",
     "product_name": "ClickUp",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
     "type": "incident_update"
-  },
-  {
-    "id": "956ba6731a136a5c",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/zq8sbm65fqh0",
-    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-    "date": "2026-04-28T21:03:15.710000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "3ac00ae66fea7d7b",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Under Maintenance",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-04-29T01:11:40.996251+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
