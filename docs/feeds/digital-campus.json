@@ -1,5 +1,18 @@
 [
   {
+    "id": "7188a22a2983c8ef",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - May 2026",
+    "link": "https://stspg.io/4n70wl9vp1m2",
+    "summary": "We will perform regular Astra Schedule monthly maintenance on 5/16/2026 at 10PM CDT. As usual, we will apply server and infrastructure updates, but not application updates. Some sites may be temporarily unavailable starting around 8pm CDT as we perform non-routine infrastructure upgrades.",
+    "date": "2026-05-15T15:54:35.417000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "2173ee67ebab22ee",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "849be44f595f499e",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 Resolved",
-    "link": "https://stspg.io/zq8sbm65fqh0",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-04-29T01:47:47.029000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
