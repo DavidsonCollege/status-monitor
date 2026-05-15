@@ -1,5 +1,18 @@
 [
   {
+    "id": "fd8f03c3b106edb2",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (EU-Central) \u2014 monitoring",
+    "link": "https://stspg.io/7wgg2g4sxnqn",
+    "summary": "Normal operations has resumed. Monitoring will continue.",
+    "date": "2026-05-15T01:01:00.105000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "d99e49031f22cee2",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-29T00:14:50.576000-05:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "f8f8cb415a39e56d",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/zq8sbm65fqh0",
-    "summary": "Scheduled maintenance is still in progress. We will provide updates as necessary.",
-    "date": "2026-04-28T22:51:27.875000-05:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
     "type": "incident_update"
   }
 ]
