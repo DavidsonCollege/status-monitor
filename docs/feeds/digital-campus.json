@@ -1,5 +1,18 @@
 [
   {
+    "id": "16c151626e0e8c79",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (EU-Central) \u2014 Resolved",
+    "link": "https://stspg.io/7wgg2g4sxnqn",
+    "summary": "The interruption with Jamf School has been resolved. This issue effected read speed with our database. We apologize for any inconvenience. \n\nCustomer Impact: General slowness of Jamf School application in the European cluster.",
+    "date": "2026-05-15T01:57:40.913000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "fd8f03c3b106edb2",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2585,18 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "d7d9cf7002a6d3f5",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Release v13.0.20 - US2 \u2014 monitoring",
-    "link": "https://stspg.io/zq8sbm65fqh0",
-    "summary": "Verification is currently underway for the maintenance items.",
-    "date": "2026-04-29T00:14:50.576000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
