@@ -73,6 +73,12 @@
       "members_count": 0
     },
     {
+      "id": "web_sch_8db675cd0d5f454196a2887dff0b375a",
+      "name": "AI Research/Recs Presentation",
+      "type": 4,
+      "members_count": 0
+    },
+    {
       "id": "web_sch_069934425c1c4b0d8b6bb255ce406223",
       "name": "AI Search Committee Zoom decisions",
       "type": 4,
@@ -655,6 +661,6 @@
       "members_count": 0
     }
   ],
-  "last_updated": "2026-05-15T15:29:14.073304+00:00",
+  "last_updated": "2026-05-15T16:16:55.408488+00:00",
   "fetch_status": "success"
 }
