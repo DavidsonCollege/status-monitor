@@ -1,5 +1,31 @@
 [
   {
+    "id": "00f316ae8d042fe3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-05-16T18:18:18.427819+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "5e6ac5999ef42854",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on requests to multiple models",
+    "link": "https://stspg.io/vsxny8nscrf2",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-05-16T18:08:45.590000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "ad6938a15fdba8ae",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "8efab28a9945f599",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7 \u2014 Resolved",
-    "link": "https://stspg.io/qzp2n5sx9zvd",
-    "summary": "The incident has been resolved. We had 3 blips of unavailability:\n* 2:53 PT / 9:53 UTC -- 2:57 PT / 9:57 UTC\n* 3:01 PT / 10:01 UTC -- 3:06 PT / 10:06 UTC\n* 3:34 PT / 10:34 UTC -- 3:36 PT / 10:36 UTC",
-    "date": "2026-04-24T10:59:52.400000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "e8d886406692d980",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
-    "link": "https://stspg.io/qzp2n5sx9zvd",
-    "summary": "We are continuing to investigate this issue.",
-    "date": "2026-04-24T10:05:59.992000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
