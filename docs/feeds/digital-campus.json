@@ -1,5 +1,31 @@
 [
   {
+    "id": "6890c64a56e2ac18",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Degraded Performance",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-16T03:19:15.522657+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "49479d3eae332025",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nGmail Android users using Microsoft Exchange Online may fail to log in due to authentication issues.\n**Description**\nWe are experiencing an issue with Gmail beginning on Saturday 2026-05-06.\nOur engineering team continues to investigate the issue.\nWe will provide more information by Monday, 2026-05-18 15:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nImpacted users may experience authentication failures while logging in to Microsoft Exchange Online through\nGmail App on Android devices.\n**Workaround**\nAffected users can use Microsoft web app to access the Inbox.",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "",
+    "date": "2026-05-06T16:00:00+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "7188a22a2983c8ef",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-04-29T16:00:57.290942+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "6833af1222f57d23",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may have issues accessing Canva",
-    "link": "https://stspg.io/rfdb13xzccwp",
-    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
-    "date": "2026-04-29T23:49:28.862000+10:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "9359679677b697f1",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Operational",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-04-29T07:32:33.156908+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
