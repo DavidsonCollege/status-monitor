@@ -1,5 +1,18 @@
 [
   {
+    "id": "ad6938a15fdba8ae",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: GPT5.5 Performance Degradation \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KRP6FM6HSKWB3MS1EJTY6AT4",
+    "summary": "Status: monitoring",
+    "date": "2026-05-16T00:35:00+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "e4f9111aeded3298",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-04-24T10:05:59.992000+00:00",
     "status": "degraded",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "7b5779a35fb2b64d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Sonnet 4.6",
-    "link": "https://stspg.io/1bbclk6dkxh7",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-24T02:55:26.871000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
