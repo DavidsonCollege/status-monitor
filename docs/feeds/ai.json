@@ -1,5 +1,18 @@
 [
   {
+    "id": "04b88dc659415c11",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: GPT5.5 Performance Degradation \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KRP6FM6HSKWB3MS1EJTY6AT4",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-17T00:15:05+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "95fe397a107da1f2",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "980be30b35cd4523",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-24T17:27:30.771732+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

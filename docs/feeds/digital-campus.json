@@ -1,5 +1,31 @@
 [
   {
+    "id": "fd8818e9774ba828",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Under Maintenance",
+    "link": "https://status.adastra.live/",
+    "summary": "Status changed from Operational to Under Maintenance",
+    "date": "2026-05-17T01:15:35.807529+00:00",
+    "status": "maintenance",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "c5057b668eba5ada",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Astra Schedule Monthly Maintenance - May 2026 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/4n70wl9vp1m2",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-16T20:00:09.139000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "558699ce87126a16",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-04-29T19:41:56.367126+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "cbb9782637ef6c53",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Title:**\nInvestigating issues with Classroom.\n**Description:**\nWe are experiencing an issue with Classroom beginning at Wednesday, 2026-04-29 11:30 PDT.\nOur engineering team continues to investigate the issue.\nWe will provide more information by Wednesday, 2026-04-29 13:00 PDT.\n**Symptoms:**\nAffected users may experience issues accessing classroom.\n**Workaround:**\nNo workarounds available at this time.",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "",
-    "date": "2026-04-29T18:30:00+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "25c052b80b879033",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-29T19:01:17.671556+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
