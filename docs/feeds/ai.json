@@ -1,5 +1,31 @@
 [
   {
+    "id": "8f1c639e4c4fc1ca",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-05-18T22:39:07.719551+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "f13139e2d8185be6",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors for Claude Opus 4.7 \u2014 Resolved",
+    "link": "https://stspg.io/wyyn9n652gsz",
+    "summary": "The issue affecting Claude services has been resolved. Impact occurred from 21:47 to 22:18 UTC.",
+    "date": "2026-05-18T22:19:34.931000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "019ec5f28f4b4518",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "0924feaca0826b3c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Claude Opus 4.7 \u2014 Resolved",
-    "link": "https://stspg.io/5vfcjppbplnt",
-    "summary": "The issue affecting requests to Claude Opus 4.7 has been resolved. Impact occurred from 01:24\u201301:59 UTC.",
-    "date": "2026-04-25T02:34:30.182000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "a96bfcf4c60b464a",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Partial Outage",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Partial Outage",
-    "date": "2026-04-25T01:43:25.470577+00:00",
-    "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
