@@ -1,5 +1,31 @@
 [
   {
+    "id": "f0453c297581dff3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-18T08:03:15.020161+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "e1e752b5503a8234",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5 \u2014 monitoring",
+    "link": "https://stspg.io/2714qpyvwbd5",
+    "summary": "A fix has been implemented and we are monitoring the results.",
+    "date": "2026-05-18T07:28:06.068000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "71565448c17d7886",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "8f429997c499d630",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded Performance",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-24T21:43:13.029713+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "585821222a0f2c33",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors on model gpt-5.5 in codex",
-    "link": "https://status.openai.com/incidents/01KQ0P3DXVK7YQYB4NJBKSQCZC",
-    "summary": "",
-    "date": "2026-04-24T21:24:59+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
