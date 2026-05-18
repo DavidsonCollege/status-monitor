@@ -1,5 +1,18 @@
 [
   {
+    "id": "5fcbca4b83dcfe9f",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in Frankfurt Data Center: May 18, 2026 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/p7psnc4d2tdm",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-18T14:00:07.371000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "14bf4ee747f31bec",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "96e0fd16177d7cff",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may have issues accessing Canva \u2014 Resolved",
-    "link": "https://stspg.io/bvrfnshxpd14",
-    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
-    "date": "2026-04-30T09:26:34.333000+10:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
