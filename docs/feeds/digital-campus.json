@@ -1,5 +1,18 @@
 [
   {
+    "id": "df7b38024024e3be",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nGmail Android users using Microsoft Exchange Online may fail to log in due to authentication issues.\n**Description**\nWe are experiencing an issue with Gmail beginning on Saturday 2026-05-06.\nOur engineering team continues to investigate the issue.\nWe will provide more information by Monday, 2026-05-18 15:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nImpacted users may experience authentication failures while logging in to Microsoft Exchange Online through\nGmail App on Android devices.\n**Workaround**\nAffected users can use Microsoft web app to access the Inbox. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-05-18T21:45:35+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "5fcbca4b83dcfe9f",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "b9c006ba99112a34",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Operational",
-    "link": "https://www.canvastatus.com",
-    "summary": "Status changed from Partial Outage to Operational",
-    "date": "2026-04-29T23:29:22.350432+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
