@@ -1,5 +1,18 @@
 [
   {
+    "id": "9b5d54ef35937017",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5 \u2014 Resolved",
+    "link": "https://stspg.io/2714qpyvwbd5",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-18T08:07:44.258000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "f0453c297581dff3",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "af7a9beb94ccd4a6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors on model gpt-5.5 in codex \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KQ0P3DXVK7YQYB4NJBKSQCZC",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-24T22:15:07+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
