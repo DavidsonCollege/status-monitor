@@ -1,5 +1,44 @@
 [
   {
+    "id": "4ac5006b974a7f90",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Operational",
+    "link": "https://status.cloud.microsoft/m365",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-18T18:43:41.248097+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "f4b9f44752f360ca",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions \u2014 Resolved",
+    "link": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
+    "summary": "Impact Statement: Starting from 13:59 UTC on 18 May 2026, customers using Microsoft Fabric - including Power BI and PowerBI Embedded - may be experiencing delays or failures while interacting with the service. This issue is affecting multiple regions in the Azure public cloud. The Microsoft Fabric service status page is being updated at: https://support.fabric.microsoft.com/support/. Current Status: We identified that an unexpected increase in request traffic is causing a portion of the infrastr",
+    "date": "Mon, 18 May 2026 18:33:10 Z",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "06515710610c667c",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-18T18:43:49.561202+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "5e570a480a8f5549",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "a0d77ed53bd3d63c",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may have issues accessing Canva",
-    "link": "https://stspg.io/bvrfnshxpd14",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-30T09:01:13.071000+10:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "22d5b5c7f6d7fa22",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Operational",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-29T22:09:02.464318+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "445bbb418664675a",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: US2 - MDM Service - Performance Degraded \u2014 Resolved",
-    "link": "https://stspg.io/zj4wt4n0bq7q",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-29T16:45:37.312000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
