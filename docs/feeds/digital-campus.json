@@ -1,5 +1,44 @@
 [
   {
+    "id": "5e570a480a8f5549",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf School: Degraded Performance (EU-Central) \u2014 Resolved",
+    "link": "https://stspg.io/nnljcrd5rrsm",
+    "summary": "This issue has been resolved.",
+    "date": "2026-05-18T17:50:17.203000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "b086056af055b61b",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Degraded Performance",
+    "link": "https://status.cloud.microsoft/m365",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-18T17:56:02.409480+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "7c437bb1cf0ba036",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Active - Microsoft Fabric / Power BI / Power BI Embedded - Degraded performance in multiple regions",
+    "link": "https://azurestatusprodscus2.azurewebsites.net/en-us/status/",
+    "summary": "Impact Statement: Starting from 13:59 UTC on 18 May 2026, customers using Microsoft Fabric - including Power BI and PowerBI Embedded - may be experiencing delays or failures while interacting with the service. This issue is affecting multiple regions in the Azure public cloud. Current Status: We are aware of this issue and are actively investigating. Our analysis indicates that an unexpected increase in request traffic is causing a portion of the infrastructure to operate below optimal levels. O",
+    "date": "Mon, 18 May 2026 17:24:21 Z",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "2638cd23b471747b",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "4cd9bb9541095a85",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: Degraded Performance",
-    "link": "https://status.ninjaone.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-29T21:41:20.598241+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "8577e197f7a27f5a",
-    "product_id": "ninjaone",
-    "product_name": "NinjaOne",
-    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
-    "title": "NinjaOne: US2 - MDM Service - Performance Degraded",
-    "link": "https://stspg.io/zj4wt4n0bq7q",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-04-29T16:21:29.077000-05:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "a157b521cff71029",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: Operational",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-29T21:12:47.506778+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
