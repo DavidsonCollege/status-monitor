@@ -1,5 +1,31 @@
 [
   {
+    "id": "e16be624e7fe9112",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-19T23:37:37.075027+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "81ccb05f5dad515c",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: API users may see increased error rates for GPT-5.4 and GPT-5.5",
+    "link": "https://status.openai.com/incidents/01KS19AHSEE3DAX1HHKNQB166F",
+    "summary": "",
+    "date": "2026-05-19T23:32:19+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "75a375fee5ee181c",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "a544874ae1ed6316",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates in Sora API for some users \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KQA5SDSC9P4VGBZ9EPPR06MH",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-28T16:10:47+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "1a0b9bdf86776e51",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Sonnet 4.5",
-    "link": "https://stspg.io/65gx9qk9yyd6",
-    "summary": "The incident has now been resolved. The timeline for the elevated errors was 6:22 PT / 13:22 UTC -> 6:39 PT / 13:39 UTC.",
-    "date": "2026-04-28T13:29:56.320000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
   }
 ]
