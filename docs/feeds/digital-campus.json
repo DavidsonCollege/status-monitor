@@ -1,5 +1,18 @@
 [
   {
+    "id": "c193c8588c167994",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Operational",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Major Outage to Operational",
+    "date": "2026-05-19T22:37:51.322286+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "69f079bce4459d30",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/pjkkpn02n0bg",
     "summary": "We are performing upgrades on Jamf Cloud beginning on May 02 at 04:00 UTC and running through May 02 at 13:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
     "date": "2026-04-30T18:33:29.907000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "cca22c47b7407d7f",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - StateRAMP: 11.27.1 Upgrade for us-east-1",
-    "link": "https://stspg.io/22tx4gj74m3f",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on May 02 at 04:00 UTC and running through May 02 at 08:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
-    "date": "2026-04-30T18:33:05+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
