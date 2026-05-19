@@ -1,5 +1,31 @@
 [
   {
+    "id": "314128545d5a4898",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-05-19T20:52:19.018653+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "dd7dfa05e3b32891",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble uploading files and emojis in Slack",
+    "link": "https://slack-status.com",
+    "summary": "We've identified the trigger, causing slow file and emoji uploads in Slack, and have deployed a fix. At this time, we are monitoring the environment to confirm full resolution.\n- Current status and actions being taken: We've identified a frontend error as the cause of the issue and have deployed a fix. We're actively monitoring our health metrics to confirm the fix has resolved the issue for all users.\n- Estimated time to resolution: No ETA at this time.\n- Scope: Users globally may be experienci",
+    "date": "2026-05-19T13:51:23-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "89a1a0b391b260cb",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/4ck5pd9cbhk3",
     "summary": "We are performing upgrades on Jamf Cloud beginning on May 01 at 22:00 UTC and running through May 02 at 00:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
     "date": "2026-04-30T18:32:14.135000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "2479edc3e025cc0d",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-central-1",
-    "link": "https://stspg.io/v88dztnyfqvs",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on May 01 at 22:00 UTC and running through May 02 at 09:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
-    "date": "2026-04-30T18:31:47.362000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "011e82fe56b3503c",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-northeast-1",
-    "link": "https://stspg.io/npyq8wjs6ml3",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on May 01 at 15:00 UTC and running through May 01 at 23:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
-    "date": "2026-04-30T18:31:15.692000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
