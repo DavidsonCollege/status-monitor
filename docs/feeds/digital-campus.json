@@ -1,5 +1,18 @@
 [
   {
+    "id": "89a1a0b391b260cb",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in AMS Datacenter: 5/19/2026 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/99prkfwprf8p",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-19T13:00:16.041000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "b99f0bc5c5bd765c",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/npyq8wjs6ml3",
     "summary": "We are performing upgrades on Jamf Cloud beginning on May 01 at 15:00 UTC and running through May 01 at 23:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
     "date": "2026-04-30T18:31:15.692000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "7d149b6d04a1584c",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-southeast-2",
-    "link": "https://stspg.io/nhws6mnrr8xv",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on May 01 at 14:00 UTC and running through May 01 at 20:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
-    "date": "2026-04-30T18:29:15.971000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
