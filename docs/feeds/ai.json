@@ -1,5 +1,31 @@
 [
   {
+    "id": "26f61de865308fe2",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-19T04:50:27.872565+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "bc15df6939d09217",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai and Claude Code login",
+    "link": "https://stspg.io/212syk16lf55",
+    "summary": "From 04:34\u201304:42 UTC, we saw elevated errors and latency on requests within the Claude.ai applications. Additionally, users may have experienced errors when attempting to login, including authenticating Claude Code via Claude.ai. We are monitoring closely to ensure no further issues, and will provide an additional update shortly.",
+    "date": "2026-05-19T04:46:49.487000+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "8f1c639e4c4fc1ca",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "c7992260d14fbad1",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude Code v2.1.120 Crashes on Startup",
-    "link": "https://stspg.io/7l6byl14vf9m",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-25T01:45:32.619000+00:00",
-    "status": "resolved",
-    "incident_status": "resolved",
-    "type": "new_incident"
-  },
-  {
-    "id": "acaab788a08aa7a2",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated error rates on Claude Opus 4.7 \u2014 monitoring",
-    "link": "https://stspg.io/5vfcjppbplnt",
-    "summary": "A fix has been deployed for Claude Opus 4.7 and we are seeing success rates at normal levels. We are continuing to monitor, and ensure no further recurrence.",
-    "date": "2026-04-25T02:15:52.136000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
