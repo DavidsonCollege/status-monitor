@@ -1,5 +1,18 @@
 [
   {
+    "id": "8a1b83748f23c300",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Haiku 4.5",
+    "link": "https://stspg.io/phfk3c71g727",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-20T08:14:01.565000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "c6c0e814a1a4f886",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "136c26e1cb209e5c",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude.ai unavailable and elevated errors on the API \u2014 identified",
-    "link": "https://stspg.io/mz37pbn6yt3w",
-    "summary": "We are continuing to work to resolve the issues preventing users from accessing Claude.ai, and causing elevated authentication errors for requests to the API and Claude Code.",
-    "date": "2026-04-28T18:33:55.434000+00:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
