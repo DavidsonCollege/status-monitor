@@ -1,5 +1,18 @@
 [
   {
+    "id": "5ec48fe4d3f704bc",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nNotebookLM customers are experiencing an issue where account tiers are being incorrectly downgraded. Affected Ultra & Pro tier users are seeing Free tier features.\n**Description**\nWe are continuing to investigate an issue with NotebookLM where customers may experience a temporary downgrade in their account tier.\nOur engineering team has identified a potential root cause related to a recent software update and is currently working on a mitigation plan.\nWe will provide an update by Tuesday, 2026-05-19 20:30 PDT with current details.\n**Customer Symtomps**\nCustomers may notice lower resource limits (e.g., hitting limits for Studio artifacts, source count per notebook, etc) and the absence of premium features like advanced sharing and analytics.\n**Workaround**\nNone at this time \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-05-20T03:20:15+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "f27c60902d1ab9f9",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/zl0rdym6crck",
     "summary": "Zoom will perform service maintenance at AMS Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
     "date": "2026-04-30T16:08:04.663000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "043338593ce07ab2",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Network Maintenance in AMS Datacenter 5/20/2026",
-    "link": "https://stspg.io/pvxx26pcxvml",
-    "summary": "Zoom will perform service maintenance at AMS Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
-    "date": "2026-04-30T15:48:37.054000-07:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
