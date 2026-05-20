@@ -1,5 +1,31 @@
 [
   {
+    "id": "01ba4b8fab1550d6",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-20T15:36:26.944099+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "78337d7634d923ea",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/z9shk9tw2g09",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-05-20T14:43:17.638000+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "8a1b83748f23c300",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "04a8e5a2a89380cd",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude.ai unavailable and elevated errors on the API \u2014 monitoring",
-    "link": "https://stspg.io/mz37pbn6yt3w",
-    "summary": "We are seeing success rates across all services return to normal, and are monitoring closely to prevent any further issues. Impact occurred from 17:34\u201318:52 UTC.",
-    "date": "2026-04-28T18:59:47.057000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "b8994b0fb46da94b",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Claude.ai unavailable and elevated errors on the API \u2014 Resolved",
-    "link": "https://stspg.io/mz37pbn6yt3w",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-28T19:15:52.858000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
