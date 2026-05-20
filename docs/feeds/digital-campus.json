@@ -1,5 +1,18 @@
 [
   {
+    "id": "53d5358ae9ed05cd",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in Frankfurt Data Center: May 19, 2026 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/g2djch9np23y",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-19T17:00:10.810000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "55d7fa8f85e9ddbd",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/9y76spjg75q8",
     "summary": "We are performing upgrades on Jamf Cloud beginning on May 02 at 07:00 UTC and running through May 02 at 18:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
     "date": "2026-04-30T18:34:21.613000+00:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "94fa80ad6c8fc6f2",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Azure: 11.27.1 Upgrade for central-us",
-    "link": "https://stspg.io/m0yhqv6llwhp",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on May 02 at 05:00 UTC and running through May 02 at 07:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
-    "date": "2026-04-30T18:33:57.127000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"

@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-05-19T23:37:37.578431+00:00",
+  "last_checked": "2026-05-20T00:05:57.855261+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,12 +51,12 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "degraded",
+      "overall_status": "operational",
       "active_incidents": 1,
       "components": [
         {
           "name": "Responses",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Fine-tuning",
