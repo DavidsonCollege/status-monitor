@@ -1,5 +1,31 @@
 [
   {
+    "id": "dc8c37382aea6d75",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation affecting multiple Services in the North America region \u2014 monitoring",
+    "link": "https://stspg.io/5d279rwjngsn",
+    "summary": "We have successfully restored all affected services. We apologies for the service interruption and will be monitoring closely.",
+    "date": "2026-05-20T14:22:26.848000-07:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "31216a45a8dc7c14",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation affecting multiple Services in the North America region \u2014 Resolved",
+    "link": "https://stspg.io/5d279rwjngsn",
+    "summary": "This incident has been resolved and the affected services have been restored.",
+    "date": "2026-05-20T14:45:05.949000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "07458e90a3b69683",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "313d5b5c78add509",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-central-1 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/v88dztnyfqvs",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-05-01T21:00:07.194000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "a460064bf5b26fc0",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for ap-southeast-2 \u2014 Resolved",
-    "link": "https://stspg.io/nhws6mnrr8xv",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-05-01T20:00:08.819000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
