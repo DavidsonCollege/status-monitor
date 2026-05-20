@@ -1,7 +1,7 @@
 {
   "team_id": "digital-campus",
   "team_name": "Digital Campus",
-  "last_checked": "2026-05-20T00:05:54.753032+00:00",
+  "last_checked": "2026-05-20T01:18:10.617612+00:00",
   "products": [
     {
       "id": "ninjaone",
@@ -123,7 +123,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
       "status_url": "https://www.google.com/appsstatus/dashboard/",
       "overall_status": "degraded",
-      "active_incidents": 1,
+      "active_incidents": 2,
       "components": []
     },
     {
@@ -279,7 +279,7 @@
       "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
       "status_url": "https://status.zoom.us",
       "overall_status": "degraded",
-      "active_incidents": 7,
+      "active_incidents": 6,
       "components": []
     },
     {

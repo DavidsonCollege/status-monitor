@@ -1,5 +1,31 @@
 [
   {
+    "id": "f27c60902d1ab9f9",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nNotebookLM customers are experiencing an issue where account tiers are being incorrectly downgraded. Affected Ultra & Pro tier users are seeing Free tier features.\n**Description**\nWe are continuing to investigate an issue with NotebookLM where customers may experience a temporary downgrade in their account tier.\nOur engineering team has identified a potential root cause related to a recent software update and is currently working on a mitigation plan.\nWe will provide an update by Tuesday, 2026-05-19 20:30 PDT with current details.\n**Customer Symtomps**\nCustomers may notice lower resource limits (e.g., hitting limits for Studio artifacts, source count per notebook, etc) and the absence of premium features like advanced sharing and analytics.\n**Workaround**\nNone at this time",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "",
+    "date": "2026-05-19T22:29:00+00:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
+    "id": "2b4c445338c7038a",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in AMS Datacenter: 5/19/2026 \u2014 Resolved",
+    "link": "https://stspg.io/99prkfwprf8p",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-19T18:00:07.499000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "53d5358ae9ed05cd",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://stspg.io/pvxx26pcxvml",
     "summary": "Zoom will perform service maintenance at AMS Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
     "date": "2026-04-30T15:48:37.054000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "e76edb08a0a04d95",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Network Maintenance in AMS Datacenter: 5/19/2026",
-    "link": "https://stspg.io/99prkfwprf8p",
-    "summary": "Zoom will perform service maintenance at AMS Datacenter. During the maintenance window, Users may experience an impact for a brief amount of time for services mentioned.",
-    "date": "2026-04-30T15:36:37.885000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "5593385b65bdc906",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-west-2",
-    "link": "https://stspg.io/9y76spjg75q8",
-    "summary": "We are performing upgrades on Jamf Cloud beginning on May 02 at 07:00 UTC and running through May 02 at 18:00 UTC. More information will be available on Jamf Nation here:\nhttps://learn.jamf.com/r/en-US/jamf-pro-release-notes-11.27.1/New_Features_and_Enhancements\nhttps://community.jamf.com/release-announcements-177/jamf-pro-11-27-1-now-available-58204",
-    "date": "2026-04-30T18:34:21.613000+00:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
