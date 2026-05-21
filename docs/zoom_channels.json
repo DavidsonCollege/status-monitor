@@ -493,6 +493,12 @@
       "members_count": 0
     },
     {
+      "id": "web_sch_3f70d2f16861496283f2173ce166986c",
+      "name": "Performance Management for Managers",
+      "type": 4,
+      "members_count": 0
+    },
+    {
       "id": "web_sch_875e2fba6f18450ab8afb474f22f0e30",
       "name": "Performance Review - Kathi",
       "type": 4,
@@ -661,6 +667,6 @@
       "members_count": 0
     }
   ],
-  "last_updated": "2026-05-21T13:03:26.351194+00:00",
+  "last_updated": "2026-05-21T14:15:20.329299+00:00",
   "fetch_status": "success"
 }
