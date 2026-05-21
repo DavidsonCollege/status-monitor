@@ -1,5 +1,44 @@
 [
   {
+    "id": "4998a4877cd63520",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Operational",
+    "link": "https://www.canvastatus.com",
+    "summary": "Status changed from Partial Outage to Operational",
+    "date": "2026-05-21T06:34:56.219502+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "6b68cb8fae1edfb7",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Intermittent errors uploading images and videos or using media editing tools \u2014 monitoring",
+    "link": "https://stspg.io/fyxlys1q04b7",
+    "summary": "We have implemented a fix and are monitoring the results.\n\nA very small proportion of users may experience issues uploading new images and videos, or using functionality which edits or transforms images and videos.\n\nWe expect the issue to be fully recovered within ~20 minutes.",
+    "date": "2026-05-21T15:40:52.439000+10:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "8868a973ef6448f1",
+    "product_id": "canva",
+    "product_name": "Canva",
+    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
+    "title": "Canva: Intermittent errors uploading images and videos or using media editing tools \u2014 Resolved",
+    "link": "https://stspg.io/fyxlys1q04b7",
+    "summary": "This incident is now resolved. Thank you for your patience and understanding.",
+    "date": "2026-05-21T16:28:41.389000+10:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "9d822d180859f40d",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
     "type": "incident_update"
-  },
-  {
-    "id": "e8f937d8b5302042",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - StateRAMP: 11.27.1 Upgrade for us-east-1 \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/22tx4gj74m3f",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-05-02T04:00:07.197000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "f0801a0ca7585f26",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - StateRAMP: 11.27.1 Upgrade for us-east-1 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/22tx4gj74m3f",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-05-02T03:00:11.517000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "160909e8dd1fd670",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for germany-westcentral \u2014 Resolved",
-    "link": "https://stspg.io/4ck5pd9cbhk3",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-05-02T00:00:07.182000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
