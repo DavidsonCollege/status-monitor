@@ -1,5 +1,18 @@
 [
   {
+    "id": "477019360c6aceb6",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated latency and error rates for ChatGPT 5.5 Thinking \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KS695P8GHC0NCMFE96C34KJ1",
+    "summary": "Status: monitoring",
+    "date": "2026-05-21T22:25:40+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "03551919d57c7084",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "4ad3b71700fb0270",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: claude.ai and API unavailable \u2014 Resolved",
-    "link": "https://stspg.io/znrp4xjyfk2h",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-30T01:51:16.534000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
