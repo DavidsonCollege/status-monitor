@@ -1,5 +1,18 @@
 [
   {
+    "id": "f3d6531696e5e5d7",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in AMS Datacenter 5/20/2026 \u2014 Resolved",
+    "link": "https://stspg.io/pvxx26pcxvml",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-20T18:00:07.287000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "05bca241b578d60f",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2584,19 +2597,6 @@
     "date": "2026-05-01T22:00:07.542000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_scheduled",
-    "type": "incident_update"
-  },
-  {
-    "id": "1f4966e3e4ec0467",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for germany-westcentral \u2014 maintenance_in_progress",
-    "link": "https://stspg.io/4ck5pd9cbhk3",
-    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
-    "date": "2026-05-01T22:00:07.580000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_in_progress",
     "type": "incident_update"
   }
 ]
