@@ -1,5 +1,44 @@
 [
   {
+    "id": "5c740df7f514e6de",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-21T15:34:11.990273+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a60302f8780ae466",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates on ChatGPT paid plans \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KS5CYS472SA003BQSXSBM8EW",
+    "summary": "Status: monitoring",
+    "date": "2026-05-21T14:52:56+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "5b166e734bf2d100",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates on ChatGPT paid plans \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KS5CYS472SA003BQSXSBM8EW",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-21T15:23:34+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "0d1e6224eb390a05",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "185a19a226910f7f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7 \u2014 Resolved",
-    "link": "https://stspg.io/gsg6msbs6shy",
-    "summary": "The incident is now resolved. The impact was between 16:25 PT / 23:25 UTC and 16:33 PT / 23:33 UTC.",
-    "date": "2026-04-29T00:00:29.047000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "4f979b549a28c18f",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Degraded Performance",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-04-28T23:52:20.249504+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "07eab403987cc193",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
-    "link": "https://stspg.io/gsg6msbs6shy",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-04-28T23:33:07.339000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
