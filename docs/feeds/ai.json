@@ -1,5 +1,31 @@
 [
   {
+    "id": "b9d36e6f18b7555e",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude.ai \u2014 Resolved",
+    "link": "https://stspg.io/16wtbm7m7hdy",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-21T21:08:57.362000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "a882b656fdd02236",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated error rates on ChatGPT paid plans \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KS5CYS472SA003BQSXSBM8EW",
+    "summary": "Status: monitoring",
+    "date": "2026-05-21T21:21:07+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "a823dd363e1ca198",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "76d6d5e27118cdb0",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: claude.ai and API unavailable",
-    "link": "https://stspg.io/znrp4xjyfk2h",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-04-30T01:20:26.256000+00:00",
-    "status": "major_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "fd42d55782421694",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated errors for ChatGPT Go (5.3 Thinking) \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KQDGQKRTSJ02E03R134H5JFD",
-    "summary": "This incident has been resolved.",
-    "date": "2026-04-29T22:24:07+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
