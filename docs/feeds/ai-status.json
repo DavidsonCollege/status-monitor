@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-05-21T20:27:27.964455+00:00",
+  "last_checked": "2026-05-21T21:08:29.445862+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -17,12 +17,12 @@
       "name": "Anthropic Claude",
       "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
       "status_url": "https://status.anthropic.com",
-      "overall_status": "degraded",
+      "overall_status": "operational",
       "active_incidents": 1,
       "components": [
         {
           "name": "claude.ai",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Claude Console (platform.claude.com)",
