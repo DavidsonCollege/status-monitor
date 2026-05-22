@@ -1,5 +1,31 @@
 [
   {
+    "id": "901a8ff0b3e0f090",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Degraded Performance",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Partial Outage to Degraded Performance",
+    "date": "2026-05-22T07:52:43.208824+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "bcc6264263208570",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rate on multiple models \u2014 monitoring",
+    "link": "https://stspg.io/fknlkqdwvwnm",
+    "summary": "We are monitoring recovery on Claude Opus 4.7, and working to fully resolve remaining errors impacting Haiku 4.5. We will provide additional updates shortly.",
+    "date": "2026-05-22T06:32:50.735000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "4d60f926d5c5174b",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "monitoring",
     "type": "incident_update"
-  },
-  {
-    "id": "3f563a8defbacfe7",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates for image generation \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KQHWZ9710V886SZKWE20HFAX",
-    "summary": "Status: monitoring",
-    "date": "2026-05-01T14:52:30+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "711557a7938b35c6",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates for image generation \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KQHWZ9710V886SZKWE20HFAX",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-01T14:53:55+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
