@@ -1,5 +1,31 @@
 [
   {
+    "id": "f8f552cd12d0e11b",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nGmail Android users using Microsoft Exchange Online may fail to log in due to authentication issues.\n**Description**\nWe are experiencing an issue with Gmail beginning on Saturday 2026-05-06.\nOur engineering team continues to investigate the issue.\nWe will provide more information by Monday, 2026-05-18 15:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nImpacted users may experience authentication failures while logging in to Microsoft Exchange Online through\nGmail App on Android devices.\n**Workaround**\nAffected users can use Microsoft web app to access the Inbox. \u2014 investigating",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status: investigating",
+    "date": "2026-05-22T00:04:40+00:00",
+    "status": "operational",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "06822f38a59a3866",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in Frankfurt Data Center: May 21, 2026 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/cz4rl97t5vts",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-21T17:00:07.191000-07:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "3ec69678fe025597",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2571,32 +2597,6 @@
     "date": "2026-05-02T07:00:07.214000+00:00",
     "status": "degraded",
     "incident_status": "maintenance_in_progress",
-    "type": "incident_update"
-  },
-  {
-    "id": "61efb725939bdf91",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-05-02T07:40:01.787192+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d68678d82de018d7",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-west-2 \u2014 maintenance_scheduled",
-    "link": "https://stspg.io/9y76spjg75q8",
-    "summary": "Maintenance will begin as scheduled in 60 minutes.",
-    "date": "2026-05-02T06:00:10.160000+00:00",
-    "status": "degraded",
-    "incident_status": "maintenance_scheduled",
     "type": "incident_update"
   }
 ]
