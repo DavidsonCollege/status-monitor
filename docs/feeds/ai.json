@@ -1,5 +1,44 @@
 [
   {
+    "id": "4d60f926d5c5174b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rate on multiple models \u2014 monitoring",
+    "link": "https://stspg.io/fknlkqdwvwnm",
+    "summary": "We are currently working to resolve some additional errors impacting Claude Opus 4.7 and Haiku 4.5, we will provide an additional update shortly.",
+    "date": "2026-05-22T06:17:04.603000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "ccba489337d31656",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rate on multiple models \u2014 monitoring",
+    "link": "https://stspg.io/fknlkqdwvwnm",
+    "summary": "We have seen success rates on Claude Opus 4.7 and Sonnet 4.6 return to normal. We are monitoring closely to ensure no further issues, and will provide an additional update shortly.",
+    "date": "2026-05-22T05:53:09.358000+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "1adb1b4e191f576f",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rate on multiple models \u2014 identified",
+    "link": "https://stspg.io/fknlkqdwvwnm",
+    "summary": "We are continuing to work to fully resolve issues impacting Claude Opus 4.7, and Sonnet 4.6. At this time, success rates on Claude Opus 4.7 have stabilized. We will provide additional updates shortly.",
+    "date": "2026-05-22T05:25:17.964000+00:00",
+    "status": "partial_outage",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "b0f570577138a136",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "68eee02e1b7d3ea5",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rate for Responses API",
-    "link": "https://status.openai.com/incidents/01KQHYX4D53W6GT8FDTT9PHBQ3",
-    "summary": "",
-    "date": "2026-05-01T14:25:56+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "202839949dc2d68c",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated error rates for image generation",
-    "link": "https://status.openai.com/incidents/01KQHWZ9710V886SZKWE20HFAX",
-    "summary": "",
-    "date": "2026-05-01T13:52:09+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "01f3b2cea9bc76df",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-04-30T14:36:33.064035+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
