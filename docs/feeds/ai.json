@@ -1,5 +1,31 @@
 [
   {
+    "id": "7b45c9422915e874",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increase in users hitting Codex rate limits \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KS88SRADTWQW27NYRAXMBAQN",
+    "summary": "Status: monitoring",
+    "date": "2026-05-22T19:16:39+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "8f2e9603169763e7",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increase in users hitting Codex rate limits \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KS88SRADTWQW27NYRAXMBAQN",
+    "summary": "Status: monitoring",
+    "date": "2026-05-22T19:16:26+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "0bf6752109cd77d1",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "a575c76ddde3ff6d",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-05-04T09:48:37.059350+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "5a5bb8a42bb6745b",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 \u2014 monitoring",
-    "link": "https://stspg.io/4mxbctc1ncgy",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-05-04T09:23:04.495000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]

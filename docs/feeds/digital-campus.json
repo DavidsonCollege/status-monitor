@@ -1,5 +1,18 @@
 [
   {
+    "id": "7be7452482e19fc8",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation affecting Presence Interoperability Feature for a subset of users in North America region",
+    "link": "https://stspg.io/88pchqty2fvy",
+    "summary": "We have successfully identified the root cause affecting presence interoperability feature for a subset of users in North America region.\n\nOur team is actively working on a resolution, and we will keep you informed with timely updates as progress is made. \n\nThank you for your patience.",
+    "date": "2026-05-22T12:31:04.143000-07:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
     "id": "2b439c1f25527963",
     "product_id": "google-workspace",
     "product_name": "Google Workspace",
@@ -2583,19 +2596,6 @@
     "summary": "Status changed from Operational to Under Maintenance",
     "date": "2026-05-04T03:20:09.460482+00:00",
     "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "1058e4b63560fdfe",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-05-03T01:22:36.965485+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
