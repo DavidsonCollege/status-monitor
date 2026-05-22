@@ -1,5 +1,18 @@
 [
   {
+    "id": "30f15eedb06eb8ff",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/546qdwzgz0s9",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-22T10:17:30.262000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "3bed04f5cd8f6014",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "9a012d47d03ce0e5",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5",
-    "link": "https://stspg.io/4mxbctc1ncgy",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-05-04T08:09:37.657000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
