@@ -1,5 +1,31 @@
 [
   {
+    "id": "2b439c1f25527963",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: Operational",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-22T19:06:18.967076+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "967f639bd669a68f",
+    "product_id": "google-workspace",
+    "product_name": "Google Workspace",
+    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
+    "title": "Google Workspace: **Summary**\nGmail Android users using Microsoft Exchange Online may fail to log in due to authentication issues.\n**Description**\nWe are experiencing an issue with Gmail beginning on Saturday 2026-05-06.\nOur engineering team continues to investigate the issue.\nWe will provide more information by Monday, 2026-05-18 15:00 US/Pacific with current details.\nWe apologize to all who are affected by the disruption.\n**Customer Symptoms**\nImpacted users may experience authentication failures while logging in to Microsoft Exchange Online through\nGmail App on Android devices.\n**Workaround**\nAffected users can use Microsoft web app to access the Inbox. \u2014 Resolved",
+    "link": "https://www.google.com/appsstatus/dashboard/",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-21T22:00:00+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "8433d4cce04a2ae8",
     "product_id": "calendly",
     "product_name": "Calendly",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d2bcf69785152081",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-05-03T00:45:34.512691+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "b054a48c550b4d55",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for us-west-2 \u2014 Resolved",
-    "link": "https://stspg.io/9y76spjg75q8",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-05-02T18:00:07.185000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
