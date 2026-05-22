@@ -1,5 +1,18 @@
 [
   {
+    "id": "b6d0568b1787f82b",
+    "product_id": "kuali-build",
+    "product_name": "Kuali Build",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kuali.co&sz=64",
+    "title": "Kuali Build: Errors when submitting/saving documents",
+    "link": "https://stspg.io/flj1jfj2g0mr",
+    "summary": "We have received reports of documents that were unable to save due to an error with the user gadget on the form. Our team has resolved the issues, and we identified an error within a recent deploy that has been corrected. We\u2019ll be looking into ways to avoid this type of issue in the future and we apologize for the inconvenience this caused. If you have any further questions please feel free to reach out to our support team.",
+    "date": "2026-05-22T06:30:00-06:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "ec756d6241f07667",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "079d7bf3dcf42693",
-    "product_id": "jamf",
-    "product_name": "Jamf",
-    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
-    "title": "Jamf: Jamf Pro - Standard: 11.27.1 Upgrade for eu-central-1 \u2014 Resolved",
-    "link": "https://stspg.io/v88dztnyfqvs",
-    "summary": "The scheduled maintenance has been completed.",
-    "date": "2026-05-02T09:00:07.293000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
