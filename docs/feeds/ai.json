@@ -1,5 +1,31 @@
 [
   {
+    "id": "adcea713265110a2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-23T11:15:01.956474+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "1fb5d1beffa9ed01",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Increase in users hitting Codex rate limits \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KS88SRADTWQW27NYRAXMBAQN",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-23T10:58:20+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "7b45c9422915e874",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "946f002ec26d3ccd",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 and Sonnet 4.5",
-    "link": "https://stspg.io/23s852zsyx18",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-05-04T13:59:17.710000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
-  },
-  {
-    "id": "ce239153ee0f2b62",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 \u2014 Resolved",
-    "link": "https://stspg.io/4mxbctc1ncgy",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-04T09:49:29.769000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
