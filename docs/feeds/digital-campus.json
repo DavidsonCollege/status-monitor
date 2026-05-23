@@ -1,5 +1,44 @@
 [
   {
+    "id": "98612e181d149225",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-23T04:40:18.261816+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "8ed1cacb28996e25",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation affecting Presence Interoperability Feature for a subset of users in North America region \u2014 monitoring",
+    "link": "https://stspg.io/88pchqty2fvy",
+    "summary": "The issue affecting the presence interoperability feature for a subset of users in the North America region has been successfully resolved. Our team will continue to monitor the situation closely and keep you informed of any further developments.",
+    "date": "2026-05-22T21:04:57.001000-07:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "c66b0800d881ae80",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation affecting Presence Interoperability Feature for a subset of users in North America region \u2014 Resolved",
+    "link": "https://stspg.io/88pchqty2fvy",
+    "summary": "This incident has been resolved and the affected services have been restored.",
+    "date": "2026-05-22T21:15:02.511000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "6d51afe7bed63399",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2559,44 +2598,5 @@
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
-  },
-  {
-    "id": "d6df3b787c399269",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Slow behaviour in Slack \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "A fix has been deployed to address the elevated latency in EU backend services. The team is monitoring the environment to ensure service stability and full recovery. We'll provide another update as soon as possible.",
-    "date": "2026-05-04T06:08:54-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "c28c4c7ec85d6efa",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Slow behaviour in Slack \u2014 investigating",
-    "link": "https://slack-status.com",
-    "summary": "The investigation identified elevated latency in EU backend services as the cause of workflows not completing. Approximately 25% of workflow trigger attempts are affected, primarily impacting EU customers. Pod restarts have stopped, and error rates are improving. A fix is being prepared and will be deployed shortly. We'll provide another update as soon as possible.",
-    "date": "2026-05-04T04:43:11-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "93cdbb70a5acf823",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Major Outage",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-05-04T10:35:41.319280+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
