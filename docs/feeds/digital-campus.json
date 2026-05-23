@@ -1,5 +1,18 @@
 [
   {
+    "id": "6d51afe7bed63399",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Service Degradation affecting Presence Interoperability Feature for a subset of users in North America region \u2014 identified",
+    "link": "https://stspg.io/88pchqty2fvy",
+    "summary": "We continue to work on a fix for this issue affecting the presence interoperability feature for a subset of users in the North America region.\n\nWe appreciate your patience as we work to resolve this issue.",
+    "date": "2026-05-22T19:12:55.369000-07:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "7f730243d11bd537",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "major_outage",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "be8040d01dc7ee79",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Slow behaviour in Slack",
-    "link": "https://slack-status.com",
-    "summary": "Some users are experiencing issues with workflows. Triggered workflows may fail to complete, with the first step not executing. We'll provide another update as soon as possible.",
-    "date": "2026-05-04T03:00:38-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
