@@ -1,5 +1,18 @@
 [
   {
+    "id": "aaf8e61a7e8bea65",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Insights - Maintenance Window \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/cs01wgqjhf3y",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-23T09:00:07.203000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "98612e181d149225",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/g2djch9np23y",
     "summary": "Zoom will perform service maintenance at Frankfurt(FRA) Datacenter. During the maintenance window, users may experience an impact for a brief amount of time for the services mentioned.",
     "date": "2026-05-04T09:26:43.761000-07:00",
-    "status": "maintenance_scheduled",
-    "incident_status": "scheduled",
-    "type": "new_incident"
-  },
-  {
-    "id": "68c1d0d07ccb73e3",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Network Maintenance in Frankfurt Data Center: May 18, 2026",
-    "link": "https://stspg.io/p7psnc4d2tdm",
-    "summary": "Zoom will perform service maintenance at Frankfurt(FRA) Datacenter. During the maintenance window, users may experience an impact for a brief amount of time for the services mentioned.",
-    "date": "2026-05-04T09:20:08.926000-07:00",
     "status": "maintenance_scheduled",
     "incident_status": "scheduled",
     "type": "new_incident"
