@@ -1,5 +1,31 @@
 [
   {
+    "id": "46704a01f216d965",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Operational",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Under Maintenance to Operational",
+    "date": "2026-05-24T08:31:55.613869+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "ca348f50f920c0ea",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Network Maintenance in Hyderabad Datacenter: May 23, 2026 \u2014 Resolved",
+    "link": "https://stspg.io/468ds3xg3xqq",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-24T01:30:07.405000-07:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "5fbd47c012df46a5",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-05-05T16:13:11.931921+00:00",
     "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "8ec97c15e7e45f85",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Annual Scheduling degraded load times",
-    "link": "https://stspg.io/grybz5kxdkgy",
-    "summary": "Annual Scheduling is currently experiencing slower than expected load times. Our team is actively investigating and working urgently to improve performance. Thank you for your patience.",
-    "date": "2026-05-05T11:10:46.576000-05:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "697852dba44f4812",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-05-04T17:56:35.304717+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }
