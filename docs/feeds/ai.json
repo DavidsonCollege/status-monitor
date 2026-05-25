@@ -1,5 +1,18 @@
 [
   {
+    "id": "978ca8620c19df51",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated error rates on Opus 4.7",
+    "link": "https://stspg.io/fv0zvltnh6r5",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-25T10:32:38.909000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "adcea713265110a2",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "2b3382b0abede3c8",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
-    "link": "https://stspg.io/115pgb379g4v",
-    "summary": "The issue has been identified and a fix is being implemented.",
-    "date": "2026-05-04T14:07:57.452000+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]

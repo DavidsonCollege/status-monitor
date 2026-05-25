@@ -1,5 +1,31 @@
 [
   {
+    "id": "1c5dc1c8d783a044",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: Jamf Insights - Maintenance Window \u2014 Resolved",
+    "link": "https://stspg.io/cs01wgqjhf3y",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-25T10:00:07.299000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
+    "id": "8dabcb355ae2551b",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-25T11:14:09.393830+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "46704a01f216d965",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2569,32 +2595,6 @@
     "link": "https://status.clickup.com",
     "summary": "Status changed from Operational to Degraded Performance",
     "date": "2026-05-05T16:29:24.963342+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "3944107a217eb72d",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Degraded performance",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69fa184454fd6005141db1e7",
-    "summary": "We're aware and investigating reduced performance in our web and desktop applications. Users may experience issues with seeing real time updates, and will need to perform a refresh to see those updates. We have all hands on deck and we'll update here as soon as we have a resolution.",
-    "date": "2026-05-05T16:18:12.599000+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "99d9ad04a7082309",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Degraded Performance",
-    "link": "https://status.adastra.live/",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-05-05T16:13:11.931921+00:00",
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
