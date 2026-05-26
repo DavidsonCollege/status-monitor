@@ -1,5 +1,18 @@
 [
   {
+    "id": "63b617ca76ce01f6",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-26T18:24:12.703820+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "29114a44e629d172",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "eca97fc2ab5e6ec4",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Degraded performance \u2014 monitoring",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69fa184454fd6005141db1e7",
-    "summary": "The issue impacting real-time updates should now be mitigated. Users should now see changes reflected across the platform without needing to refresh.\r\n\r\nWe\u2019ll continue to monitor to ensure everything remains stable.",
-    "date": "2026-05-05T18:13:50.384000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
