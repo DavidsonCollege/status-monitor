@@ -1,5 +1,31 @@
 [
   {
+    "id": "2dcd67d03f7b38c3",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Operational",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-26T06:22:13.494298+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "5bf326ef63211381",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors for Claude Code in Slack \u2014 Resolved",
+    "link": "https://stspg.io/m9vnslk2x1kx",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-26T05:19:13.475000+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "ad106aa3bf596b84",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "fa5b10f84de9be21",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 and Sonnet 4.5 \u2014 monitoring",
-    "link": "https://stspg.io/23s852zsyx18",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-05-04T14:27:54.633000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "085accbc76da6093",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.5 and Sonnet 4.5 \u2014 Resolved",
-    "link": "https://stspg.io/23s852zsyx18",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-04T14:45:58.262000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
