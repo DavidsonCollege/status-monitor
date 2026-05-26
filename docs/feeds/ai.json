@@ -1,5 +1,18 @@
 [
   {
+    "id": "7078cdc7c2cb138d",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users unable to access chat support on help center",
+    "link": "https://status.openai.com/incidents/01KSJZHDY7E780KF9J2ZZ8M0GE",
+    "summary": "",
+    "date": "2026-05-26T20:27:39+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "32f53259646af858",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "64bd3de869788016",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Issue affecting some pages on the ChatGPT website \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KQSSQK74KJVJVGCS97TV156G",
-    "summary": "Status: monitoring",
-    "date": "2026-05-04T16:42:51+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]
