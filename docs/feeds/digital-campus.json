@@ -1,5 +1,18 @@
 [
   {
+    "id": "29114a44e629d172",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US/US2",
+    "link": "https://stspg.io/28tsl0fpxx32",
+    "summary": "We will be conducting scheduled maintenance on the Webhook service during this period.",
+    "date": "2026-05-26T04:57:13.897000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "44aaef40db2e9434",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2584,19 +2597,6 @@
     "date": "2026-05-05T18:13:50.384000+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "80c119cf50bbda27",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Degraded performance \u2014 identified",
-    "link": "https://status.clickup.com/pages/incident/5b6e0963c662144d00913a09/69fa184454fd6005141db1e7",
-    "summary": "We've identified the cause of the reduced performance affecting our web and desktop applications. Our engineering team is actively working on a fix. In the meantime, users may still need to refresh their browser or desktop app to see the latest updates.",
-    "date": "2026-05-05T17:04:26.565000+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
     "type": "incident_update"
   }
 ]
