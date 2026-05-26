@@ -764,13 +764,6 @@
       "num_members": 35
     },
     {
-      "id": "C083ULSP466",
-      "name": "team-io",
-      "is_private": false,
-      "topic": "",
-      "num_members": 12
-    },
-    {
       "id": "C03SHVDPLJX",
       "name": "team-moodle",
       "is_private": false,
@@ -960,6 +953,6 @@
       "num_members": 1
     }
   ],
-  "last_updated": "2026-05-26T00:06:57.308334+00:00",
+  "last_updated": "2026-05-26T01:14:24.849220+00:00",
   "fetch_status": "success"
 }
