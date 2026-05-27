@@ -17,7 +17,7 @@ param location string = resourceGroup().location
 param storageAccountName string
 param caeResourceId string
 param acrLoginServer string = 'dczendeskdispatcheracr.azurecr.io'
-param cronSchedule string = '0 */5 * * * *'
+param cronSchedule string = '*/5 * * * *'
 param entraAppId string
 @secure()
 param entraClientSecret string

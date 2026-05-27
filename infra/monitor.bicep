@@ -25,8 +25,8 @@ param acrLoginServer string
 @description('Container image reference. The deploy workflow replaces this.')
 param image string = '${acrLoginServer}/${appName}:placeholder'
 
-@description('Job cron schedule (6-field). Default every 5 minutes.')
-param cronSchedule string = '0 */5 * * * *'
+@description('Job cron schedule (standard 5-field, Kubernetes-style). Default every 5 minutes.')
+param cronSchedule string = '*/5 * * * *'
 
 @description('Entra app (client) ID for Easy Auth.')
 param entraAppId string
