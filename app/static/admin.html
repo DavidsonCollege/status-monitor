@@ -1435,13 +1435,17 @@ function renderPendingChanges(changes) {
 }
 
 async function approveChange(changeId) {
-    if (!confirm('Approve this change request?')) return;
+    if (!confirm('Approve and apply this change? The proposed configuration will replace the current config.')) return;
     try {
         const resp = await fetch(`${API}/admin/changes/${changeId}/approve`, {
             method: 'POST', credentials: 'include',
         });
         if (!resp.ok) throw new Error(`Approve failed: ${resp.status}`);
-        showToast('Change approved');
+        const result = await resp.json();
+        showToast(result.applied ? 'Change approved and applied' : 'Change approved (no config to apply)');
+        // The applied config changed teamsConfig — refresh the in-memory copy and re-render.
+        await loadConfig();
+        render();
         loadPendingChanges();
     } catch (e) {
         console.error('Approve error:', e);

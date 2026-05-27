@@ -103,10 +103,24 @@ def list_changes(status: str = "pending"):
 
 @app.post("/api/admin/changes/{change_id}/approve", dependencies=[Depends(require_authenticated)])
 def approve_change(change_id: str):
+    store = ChangeStore()
     try:
-        return ChangeStore().set_status(change_id, "approved")
+        change = store.get(change_id)
     except KeyError:
         raise HTTPException(status_code=404, detail="Change request not found")
+
+    # Approve = apply: write the request's proposed config into teamsConfig,
+    # then mark it approved. The proposed_config is a full config snapshot, so
+    # this replaces the current config (matching the old PR-merge behavior).
+    proposed = (change.get("data") or {}).get("proposed_config")
+    applied = False
+    if proposed:
+        ConfigStore().write(proposed)
+        applied = True
+
+    result = store.set_status(change_id, "approved")
+    result["applied"] = applied
+    return result
 
 
 @app.post("/api/admin/changes/{change_id}/reject", dependencies=[Depends(require_authenticated)])

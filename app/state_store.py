@@ -108,6 +108,18 @@ class ChangeStore:
         self._client.create_entity(entity)
         return {"id": change_id, "status": "pending"}
 
+    def get(self, change_id: str) -> dict:
+        try:
+            entity = self._client.get_entity("change", change_id)
+        except ResourceNotFoundError:
+            raise KeyError(change_id)
+        return {
+            "id": entity["RowKey"],
+            "status": entity.get("status"),
+            "submitted_at": entity.get("submitted_at"),
+            "data": json.loads(entity.get("data") or "{}"),
+        }
+
     def list(self, status: str | None = "pending") -> list[dict]:
         out: list[dict] = []
         for entity in self._client.list_entities():
