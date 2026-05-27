@@ -1,5 +1,31 @@
 [
   {
+    "id": "96eeb4954bed1e60",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Operational",
+    "link": "https://status.adastra.live/",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-27T20:52:56.822674+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "b44f0d0caef71128",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Unable to sign into Events \u2014 Resolved",
+    "link": "https://stspg.io/r8f9616qj35v",
+    "summary": "We've found no further evidence of any disruption beyond our internal monitoring.",
+    "date": "2026-05-27T15:36:20.834000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "a81bca65173dc06b",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "7fec534784ef1c12",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users in some countries may experience issues trying to access Canva \u2014 Resolved",
-    "link": "https://stspg.io/087nxp195qqv",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-07T10:59:13.944000+10:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "a4f138f6614bce62",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may have issues accessing Canva",
-    "link": "https://stspg.io/087nxp195qqv",
-    "summary": "Some users may have issues accessing Canva. Our teams are urgently looking into this and we will provide an update soon.",
-    "date": "2026-05-07T10:03:33.205000+10:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
   }
 ]
