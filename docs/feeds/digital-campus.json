@@ -1,5 +1,44 @@
 [
   {
+    "id": "ef7cd694cbe0ca5e",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US/US2 \u2014 monitoring",
+    "link": "https://stspg.io/28tsl0fpxx32",
+    "summary": "Verification is currently underway for the maintenance items.",
+    "date": "2026-05-27T03:44:47.719000-05:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "c35106552ee84102",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US/US2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/28tsl0fpxx32",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-27T03:31:07.376000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "4b00f3a01c2ae6f8",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US/US2 \u2014 Resolved",
+    "link": "https://stspg.io/28tsl0fpxx32",
+    "summary": "The scheduled maintenance has been completed.",
+    "date": "2026-05-27T04:00:29.865000-05:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "fd4827fc422cbc3a",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "c34f747b5ec527b6",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Annual Scheduling degraded load times \u2014 monitoring",
-    "link": "https://stspg.io/grybz5kxdkgy",
-    "summary": "We are continuing to monitor for any further issues.",
-    "date": "2026-05-05T16:09:52.162000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "641d2b4d2c97e0ec",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Annual Scheduling degraded load times \u2014 monitoring",
-    "link": "https://stspg.io/grybz5kxdkgy",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-05-05T16:09:44.069000-05:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "210fbe2447154d6c",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Annual Scheduling degraded load times \u2014 identified",
-    "link": "https://stspg.io/grybz5kxdkgy",
-    "summary": "We've identified a performance issue with one of our databases. We are currently implementing several mitigation plans. Response times have improved slightly as we continue to work toward a full resolution.",
-    "date": "2026-05-05T14:26:04.624000-05:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
