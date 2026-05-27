@@ -47,10 +47,22 @@ jobs:
             --resource-group "$WEB_RG" \
             --name "$WEB_APP" \
             --image "$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
+          # Transition ingress from the placeholder port (80) to the production
+          # uvicorn port (8000). Changing the image does NOT update ingress, so
+          # this is required. Idempotent once already at 8000.
+          az containerapp ingress update \
+            --resource-group "$WEB_RG" \
+            --name "$WEB_APP" \
+            --type external \
+            --target-port 8000
 
       - name: Deploy cron Container Apps Job
         run: |
+          # The placeholder job has no command override (uses the placeholder
+          # image entrypoint); set the production command here alongside the
+          # real image. Idempotent once already set.
           az containerapp job update \
             --resource-group "$WEB_RG" \
             --name "$CRON_JOB" \
-            --image "$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG"
+            --image "$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG" \
+            --command "python" "-m" "cron.run"

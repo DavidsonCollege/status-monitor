@@ -33,6 +33,18 @@ param image string = 'mcr.microsoft.com/k8se/quickstart:latest'
 @description('Job cron schedule (standard 5-field, Kubernetes-style). Default every 5 minutes.')
 param cronSchedule string = '*/5 * * * *'
 
+@description('''Web app ingress target port. Defaults to 80 to match the public
+placeholder image so the initial revision passes ingress readiness and reaches
+Succeeded. Production is 8000 (the uvicorn port) — deploy.yml flips this on first
+real push. If you re-run this template for production, pass targetPort=8000.''')
+param targetPort int = 80
+
+@description('''Cron job container command override. Defaults to empty (use the
+placeholder image's own entrypoint) so the job provisions cleanly during the
+placeholder phase. Production is ["python","-m","cron.run"] — deploy.yml sets it
+on first real push. If you re-run this template for production, pass that array.''')
+param jobCommand array = []
+
 @description('Entra app (client) ID for Easy Auth.')
 param entraAppId string
 
@@ -134,6 +146,17 @@ var registries = [
   }
 ]
 
+// Job container: include the command override only when jobCommand is non-empty,
+// so the placeholder phase (empty default) uses the placeholder image's own
+// entrypoint and provisions cleanly.
+var jobContainerBase = {
+  name: appName
+  image: image
+  resources: { cpu: json('0.5'), memory: '1Gi' }
+  env: commonEnv
+}
+var jobContainer = empty(jobCommand) ? jobContainerBase : union(jobContainerBase, { command: jobCommand })
+
 // ── Container App (web / HTTP server) ────────────────────────────────────────
 resource webApp 'Microsoft.App/containerApps@2024-03-01' = {
   name: webAppName
@@ -145,7 +168,7 @@ resource webApp 'Microsoft.App/containerApps@2024-03-01' = {
       activeRevisionsMode: 'Single'
       ingress: {
         external: true
-        targetPort: 8000
+        targetPort: targetPort
         transport: 'auto'
       }
       registries: registries
@@ -212,15 +235,7 @@ resource cronJob 'Microsoft.App/jobs@2024-03-01' = {
       registries: registries
     }
     template: {
-      containers: [
-        {
-          name: appName
-          image: image
-          command: [ 'python', '-m', 'cron.run' ]
-          resources: { cpu: json('0.5'), memory: '1Gi' }
-          env: commonEnv
-        }
-      ]
+      containers: [ jobContainer ]
     }
   }
 }
