@@ -19,9 +19,6 @@ param keyVaultName string = 'dc-${appName}-kv'
 @description('Resource ID of the existing shared Container Apps Environment.')
 param caeResourceId string
 
-@description('ACR login server, e.g. dczendeskdispatcheracr.azurecr.io.')
-param acrLoginServer string
-
 @description('''Container image reference. Defaults to a public Microsoft placeholder
 so the Container App + Job can provision a valid first revision BEFORE the real
 image exists in ACR (chicken-and-egg: a Container App can't create its initial
@@ -44,6 +41,16 @@ placeholder image's own entrypoint) so the job provisions cleanly during the
 placeholder phase. Production is ["python","-m","cron.run"] — deploy.yml sets it
 on first real push. If you re-run this template for production, pass that array.''')
 param jobCommand array = []
+
+@description('''Private container registries. MUST be empty during the placeholder
+phase: a registries entry whose managed identity lacks AcrPull FAILS revision
+provisioning at creation time — but the identities don't exist until the apps are
+provisioned, which can't happen while the registry is coupled (chicken-and-egg).
+Bootstrap leaves this empty (public placeholder image needs no registry auth);
+deploy.yml binds the ACR via "az containerapp [job] registry set --identity system"
+after AcrPull is granted. To re-run this template for production, pass:
+[{ server: <acr-login-server>, identity: "system" }].''')
+param acrRegistries array = []
 
 @description('Entra app (client) ID for Easy Auth.')
 param entraAppId string
@@ -139,12 +146,9 @@ var commonEnv = [
   { name: 'ZOOM_USER_JID', value: zoomUserJid }
 ]
 
-var registries = [
-  {
-    server: acrLoginServer
-    identity: 'system'
-  }
-]
+// Empty during bootstrap (see acrRegistries param). deploy.yml binds the ACR
+// (image + registry) post-AcrPull on first real push.
+var registries = acrRegistries
 
 // Job container: include the command override only when jobCommand is non-empty,
 // so the placeholder phase (empty default) uses the placeholder image's own

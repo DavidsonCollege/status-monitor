@@ -41,6 +41,24 @@ jobs:
             --image "$IMAGE_NAME:latest" \
             .
 
+      - name: Bind ACR registry to app + job (managed identity)
+        run: |
+          # The bootstrap deploy left the registries block empty (a registries
+          # entry whose identity lacks AcrPull fails revision provisioning). By
+          # first real push, AcrPull has been granted to both managed identities,
+          # so bind the ACR now via the system-assigned identity. Must run BEFORE
+          # the image update so the ACR image can be pulled. Idempotent.
+          az containerapp registry set \
+            --resource-group "$WEB_RG" \
+            --name "$WEB_APP" \
+            --server "$ACR_NAME.azurecr.io" \
+            --identity system
+          az containerapp job registry set \
+            --resource-group "$WEB_RG" \
+            --name "$CRON_JOB" \
+            --server "$ACR_NAME.azurecr.io" \
+            --identity system
+
       - name: Deploy web Container App
         run: |
           az containerapp update \

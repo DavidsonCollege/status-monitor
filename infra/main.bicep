@@ -16,7 +16,6 @@ param appName string
 param location string = resourceGroup().location
 param storageAccountName string
 param caeResourceId string
-param acrLoginServer string = 'dczendeskdispatcheracr.azurecr.io'
 param cronSchedule string = '*/5 * * * *'
 param entraAppId string
 @secure()
@@ -32,7 +31,6 @@ module monitor 'monitor.bicep' = {
     location: location
     storageAccountName: storageAccountName
     caeResourceId: caeResourceId
-    acrLoginServer: acrLoginServer
     cronSchedule: cronSchedule
     entraAppId: entraAppId
     entraClientSecret: entraClientSecret
