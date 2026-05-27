@@ -1,5 +1,18 @@
 [
   {
+    "id": "74f138bc5372e57f",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated Latency and Errors on API",
+    "link": "https://status.openai.com/incidents/01KSMYEEWP0BZYANSMAXWJ3K59",
+    "summary": "",
+    "date": "2026-05-27T14:47:02+00:00",
+    "status": "monitoring",
+    "incident_status": "monitoring",
+    "type": "new_incident"
+  },
+  {
     "id": "735f8816fec2bf26",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "a28079f6a260fee6",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors across multiple models \u2014 monitoring",
-    "link": "https://stspg.io/ty4d931rtx9k",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-05-06T16:32:36.047000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
   }
 ]

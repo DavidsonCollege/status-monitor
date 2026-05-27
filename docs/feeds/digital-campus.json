@@ -1,5 +1,18 @@
 [
   {
+    "id": "c55b36cdf0e9934a",
+    "product_id": "zoom",
+    "product_name": "Zoom",
+    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
+    "title": "Zoom: Degraded Performance",
+    "link": "https://status.zoom.us",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-27T16:09:55.664499+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
     "id": "8073b9d8b9fa3c73",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "5317e575d0d32247",
-    "product_id": "ad-astra",
-    "product_name": "Ad Astra",
-    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
-    "title": "Ad Astra: Annual Scheduling degraded load times \u2014 Resolved",
-    "link": "https://stspg.io/grybz5kxdkgy",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-05T16:36:31.380000-05:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
