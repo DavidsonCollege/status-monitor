@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "appName": { "value": "status-monitor" },
+    "location": { "value": "eastus" },
+    "storageAccountName": { "value": "dcstatusmonitor" },
+    "caeResourceId": {
+      "value": "/subscriptions/1db39cb9-f5f8-457e-b3e1-e8af02cfbde1/resourceGroups/dc-zendesk-dispatcher-rg/providers/Microsoft.App/managedEnvironments/dc-zendesk-dispatcher-env"
+    },
+    "acrLoginServer": { "value": "dczendeskdispatcheracr.azurecr.io" },
+    "cronSchedule": { "value": "0 */5 * * * *" },
+    "baseUrl": { "value": "" },
+    "slackDefaultChannel": { "value": "" },
+    "zoomUserJid": { "value": "" }
+  }
+}
