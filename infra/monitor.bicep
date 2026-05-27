@@ -22,8 +22,13 @@ param caeResourceId string
 @description('ACR login server, e.g. dczendeskdispatcheracr.azurecr.io.')
 param acrLoginServer string
 
-@description('Container image reference. The deploy workflow replaces this.')
-param image string = '${acrLoginServer}/${appName}:placeholder'
+@description('''Container image reference. Defaults to a public Microsoft placeholder
+so the Container App + Job can provision a valid first revision BEFORE the real
+image exists in ACR (chicken-and-egg: a Container App can't create its initial
+revision from an image that can't be pulled, which fails the whole deployment).
+The deploy workflow swaps in the real ACR image (status-monitor:<sha>) on first
+push, after AcrPull is granted to the managed identities.''')
+param image string = 'mcr.microsoft.com/k8se/quickstart:latest'
 
 @description('Job cron schedule (standard 5-field, Kubernetes-style). Default every 5 minutes.')
 param cronSchedule string = '*/5 * * * *'
