@@ -1,5 +1,18 @@
 [
   {
+    "id": "7b84dd876bce106d",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US2",
+    "link": "https://stspg.io/zzs3vb5l03lj",
+    "summary": "We will be undergoing scheduled maintenance during this time.",
+    "date": "2026-05-27T17:34:47.616000-05:00",
+    "status": "maintenance_scheduled",
+    "incident_status": "scheduled",
+    "type": "new_incident"
+  },
+  {
     "id": "96eeb4954bed1e60",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2582,19 +2595,6 @@
     "link": "https://stspg.io/087nxp195qqv",
     "summary": "Users in some countries may experience issues trying to access Canva. We are currently rolling out a fix to restore service.",
     "date": "2026-05-07T10:33:44.733000+10:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
-  },
-  {
-    "id": "31a306dea681c85b",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users in some countries may experience issues trying to access Canva \u2014 identified",
-    "link": "https://stspg.io/087nxp195qqv",
-    "summary": "Users in some countries may have issues viewing media in the Canva Editor. We are currently rolling out a fix to restore service.",
-    "date": "2026-05-07T10:23:53.291000+10:00",
     "status": "partial_outage",
     "incident_status": "identified",
     "type": "incident_update"
