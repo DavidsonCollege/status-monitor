@@ -1,5 +1,31 @@
 [
   {
+    "id": "d90650fd78a30021",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Partial Outage",
+    "link": "https://status.anthropic.com",
+    "summary": "Status changed from Operational to Partial Outage",
+    "date": "2026-05-27T08:12:33.174235+00:00",
+    "status": "partial_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "a939cd22cb11c96c",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/c36rbp3h49c7",
+    "summary": "We are currently investigating this issue.",
+    "date": "2026-05-27T08:04:03.976000+00:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "da2304861ee980f6",
     "product_id": "anthropic-claude",
     "product_name": "Anthropic Claude",
@@ -2570,32 +2596,6 @@
     "summary": "Status changed from Operational to Partial Outage",
     "date": "2026-05-06T15:38:48.734228+00:00",
     "status": "partial_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "59faade4c8cfdced",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Elevated errors across multiple models",
-    "link": "https://stspg.io/ty4d931rtx9k",
-    "summary": "We are currently investigating this issue.",
-    "date": "2026-05-06T15:29:02.399000+00:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "0942abb922595222",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Operational",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-05-05T17:31:21.107282+00:00",
-    "status": "operational",
     "incident_status": "",
     "type": "status_change"
   }

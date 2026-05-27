@@ -1,5 +1,18 @@
 [
   {
+    "id": "fd4827fc422cbc3a",
+    "product_id": "ninjaone",
+    "product_name": "NinjaOne",
+    "icon_url": "https://www.google.com/s2/favicons?domain=ninjaone.com&sz=64",
+    "title": "NinjaOne: Infrastructure Maintenance - US/US2 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/28tsl0fpxx32",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-27T02:00:21.623000-05:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
     "id": "63b617ca76ce01f6",
     "product_id": "zoom",
     "product_name": "Zoom",
@@ -2585,18 +2598,5 @@
     "status": "degraded",
     "incident_status": "identified",
     "type": "incident_update"
-  },
-  {
-    "id": "ed41fd39bb85b0f6",
-    "product_id": "clickup",
-    "product_name": "ClickUp",
-    "icon_url": "https://www.google.com/s2/favicons?domain=clickup.com&sz=64",
-    "title": "ClickUp: Operational",
-    "link": "https://status.clickup.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-05-05T18:46:28.416675+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
