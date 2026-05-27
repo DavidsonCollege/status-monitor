@@ -1,5 +1,31 @@
 [
   {
+    "id": "d9744933b7bd159f",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Major Outage",
+    "link": "https://slack-status.com",
+    "summary": "Status changed from Operational to Major Outage",
+    "date": "2026-05-27T23:27:37.287272+00:00",
+    "status": "major_outage",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "24cc5a265dfd002e",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues affecting workflows, message edits, channel renames, apps, and channel creations",
+    "link": "https://slack-status.com",
+    "summary": "We're investigating a new incident.\nCurrent impact to end users:\u00a0 We\u2019re aware of an issue affecting workflows, message edits, channel renames, apps, and channel creations.\nWe'll provide an update within 30 minutes including further details on current actions being taken.",
+    "date": "2026-05-27T16:00:58-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "7b84dd876bce106d",
     "product_id": "ninjaone",
     "product_name": "NinjaOne",
@@ -2572,31 +2598,5 @@
     "status": "monitoring",
     "incident_status": "monitoring",
     "type": "new_incident"
-  },
-  {
-    "id": "5efcef36d768a5f0",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users in some countries may experience issues trying to access Canva \u2014 monitoring",
-    "link": "https://stspg.io/087nxp195qqv",
-    "summary": "A fix has been implemented and we are currently monitoring for any further issues.",
-    "date": "2026-05-07T10:49:28.585000+10:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "23b44f3d333871a2",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Users in some countries may experience issues trying to access Canva \u2014 identified",
-    "link": "https://stspg.io/087nxp195qqv",
-    "summary": "Users in some countries may experience issues trying to access Canva. We are currently rolling out a fix to restore service.",
-    "date": "2026-05-07T10:33:44.733000+10:00",
-    "status": "partial_outage",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]
