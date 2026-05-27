@@ -1,5 +1,31 @@
 [
   {
+    "id": "da2304861ee980f6",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/w4j9tvxhrn0c",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-27T05:43:07.404000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
+    "id": "995ef26d99cb0bd3",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Login issues for FedRAMP users who recently logged out \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KSJKR3EXTMKY0C287HS1BR8P",
+    "summary": "Status: monitoring",
+    "date": "2026-05-27T05:31:12+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "7078cdc7c2cb138d",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "6d501d7fd9dc6dbf",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Partial Disruption of ChatGPT Workspace Connector Write Actions \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KQDM1K1826RP1FFN86ZNA3WG",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-05T17:00:06+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "80eac2bd934a97c1",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Issue affecting some pages on the ChatGPT website \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KQSSQK74KJVJVGCS97TV156G",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-04T17:10:21+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
