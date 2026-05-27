@@ -1,5 +1,44 @@
 [
   {
+    "id": "74a52e2fd4c21bfe",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Degraded Performance",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-27T18:18:59.453455+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "ccd3d3216186e254",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex Context Compaction Latency",
+    "link": "https://status.openai.com/incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+    "summary": "",
+    "date": "2026-05-27T17:57:17+00:00",
+    "status": "identified",
+    "incident_status": "identified",
+    "type": "new_incident"
+  },
+  {
+    "id": "2df03513e19b3455",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Elevated Latency and Errors on API \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KSMYEEWP0BZYANSMAXWJ3K59",
+    "summary": "Status: monitoring",
+    "date": "2026-05-27T17:54:42+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "a0802c6edb171e6a",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "d8bb3bda5a76b3b5",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased error rate with image generation in the API \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KR0PY1JN26FEK5829QZ2F59T",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-07T09:38:00+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "653f6e5711866858",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded Performance",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-05-07T08:49:45.757337+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "dd956ed9b893e81d",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased error rate with image generation in the API",
-    "link": "https://status.openai.com/incidents/01KR0PY1JN26FEK5829QZ2F59T",
-    "summary": "",
-    "date": "2026-05-07T07:55:13+00:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
-    "type": "new_incident"
   }
 ]
