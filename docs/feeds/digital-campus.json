@@ -1,5 +1,31 @@
 [
   {
+    "id": "a81bca65173dc06b",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Degraded Performance",
+    "link": "https://status.adastra.live/",
+    "summary": "Status changed from Partial Outage to Degraded Performance",
+    "date": "2026-05-27T19:58:44.877456+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "904c3d4f2d3d5d80",
+    "product_id": "ad-astra",
+    "product_name": "Ad Astra",
+    "icon_url": "https://www.google.com/s2/favicons?domain=adastra.live&sz=64",
+    "title": "Ad Astra: Unable to sign into Events \u2014 investigating",
+    "link": "https://stspg.io/r8f9616qj35v",
+    "summary": "At this time, we have only observed limited internal impact and have not confirmed widespread customer impact.\n\nIf you are experiencing login issues, please open a support ticket with any relevant details so our team can assist and continue the investigation. \n\nWe will provide additional updates as more information becomes available.",
+    "date": "2026-05-27T14:41:43.295000-05:00",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "bd71b76e54bf2e24",
     "product_id": "ad-astra",
     "product_name": "Ad Astra",
@@ -2572,31 +2598,5 @@
     "status": "partial_outage",
     "incident_status": "investigating",
     "type": "new_incident"
-  },
-  {
-    "id": "e549c1a6152f6147",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-05-06T19:11:02+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "83757e4e0b6a042d",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-05-06T03:22:40+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
