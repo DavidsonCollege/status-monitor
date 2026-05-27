@@ -17,6 +17,8 @@ Each run:
   5. Writes updated feeds to docs/feeds/ and saves state
 """
 
+from __future__ import annotations
+
 import hashlib
 import html
 import json
@@ -1651,35 +1653,80 @@ def build_status_summary(team: dict, product_statuses: dict) -> dict:
 
 # ── Main ───────────────────────────────────────────────────────────────────────
 
-def main():
+# ── Storage adapters (file-based — used by the GitHub Actions checker) ──────────
+
+class _FileStateStore:
+    def read(self) -> dict:
+        if STATE_FILE.exists():
+            with open(STATE_FILE) as f:
+                return json.load(f)
+        return {}
+
+    def write(self, state: dict) -> None:
+        STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+        with open(STATE_FILE, "w") as f:
+            json.dump(state, f, indent=2)
+
+
+class _FileFeedStore:
+    def read_feed(self, team_id: str) -> list:
+        feed_file = FEEDS_DIR / f"{team_id}.json"
+        if feed_file.exists():
+            with open(feed_file) as f:
+                return json.load(f)
+        return []
+
+    def write_feed(self, team_id: str, feed: list) -> None:
+        FEEDS_DIR.mkdir(parents=True, exist_ok=True)
+        with open(FEEDS_DIR / f"{team_id}.json", "w") as f:
+            json.dump(feed, f, indent=2)
+
+    def write_summary(self, team_id: str, summary: dict) -> None:
+        FEEDS_DIR.mkdir(parents=True, exist_ok=True)
+        with open(FEEDS_DIR / f"{team_id}-status.json", "w") as f:
+            json.dump(summary, f, indent=2)
+
+
+class _EnvNotifier:
+    """Wraps an env-based send_*_notifications function as a notifier client."""
+
+    def __init__(self, send_fn):
+        self._send_fn = send_fn
+
+    def send(self, new_events: list, base_url: str) -> None:
+        self._send_fn(new_events, base_url)
+
+
+def run_once(*, config: dict, secrets: dict, state_store, feed_store,
+             notifiers: dict, base_url: str | None = None) -> int:
+    """One monitoring pass. Storage-agnostic: callers inject stores + notifiers.
+
+    Returns the number of new events found. The checker logic is identical to
+    the original file-based run; only persistence and notification dispatch are
+    abstracted behind the injected `state_store`, `feed_store`, and `notifiers`.
+
+    Expected interfaces:
+      state_store.read() -> dict ; state_store.write(state: dict)
+      feed_store.read_feed(team_id) -> list ; .write_feed(team_id, feed)
+                                            ; .write_summary(team_id, summary)
+      notifiers: {label: client} where client.send(events, base_url)
+    """
     print("=" * 70)
     print("  Status Monitor")
     print(f"  Run time: {datetime.now(timezone.utc).isoformat()}")
     print("=" * 70)
     print()
 
-    # Load configuration
-    with open(CONFIG_FILE) as f:
-        config = json.load(f)
-
     teams = config.get("teams", [])
 
-    # Load previous state
-    state: dict = {}
-    if STATE_FILE.exists():
-        with open(STATE_FILE) as f:
-            state = json.load(f)
-
-    # Load seen updates to prevent duplicate notifications
+    state = state_store.read() or {}
     seen_updates: set = set(state.get("_seen_updates", []))
 
-    base_url = os.environ.get(
-        "BASE_URL",
-        "https://davidsoncollege.github.io/status-monitor/",
-    )
-
-    FEEDS_DIR.mkdir(parents=True, exist_ok=True)
-    STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+    if base_url is None:
+        base_url = os.environ.get(
+            "BASE_URL",
+            "https://davidsoncollege.github.io/status-monitor/",
+        )
 
     all_new_events: list[dict] = []
     new_state: dict = {"_seen_updates": []}
@@ -1760,14 +1807,8 @@ def main():
 
             time.sleep(0.5)  # Be polite to APIs
 
-        # Load existing feed
-        feed_file = FEEDS_DIR / f"{team_id}.json"
-        existing_feed: list[dict] = []
-        if feed_file.exists():
-            with open(feed_file) as f:
-                existing_feed = json.load(f)
-
         # Build updated feed
+        existing_feed = feed_store.read_feed(team_id)
         feed = build_feed(team_id, team_events, existing_feed)
 
         # Enrich feed items with icons from config
@@ -1776,15 +1817,11 @@ def main():
             if not item.get("icon_url"):
                 item["icon_url"] = product_icons.get(item.get("product_id", ""), "")
 
-        # Write feed
-        with open(feed_file, "w") as f:
-            json.dump(feed, f, indent=2)
+        feed_store.write_feed(team_id, feed)
 
         # Write status summary for dashboard
         summary = build_status_summary(team, product_statuses)
-        summary_file = FEEDS_DIR / f"{team_id}-status.json"
-        with open(summary_file, "w") as f:
-            json.dump(summary, f, indent=2)
+        feed_store.write_summary(team_id, summary)
 
         new_count = len(team_events)
         total_new += new_count
@@ -1794,33 +1831,51 @@ def main():
         print(f"  Team '{team_name}': {new_count} new event(s), {len(feed)} total in feed")
         print()
 
-    # Save state
-    # Keep only last 5000 seen update IDs to prevent unbounded growth
+    # Save state — keep only last 5000 seen update IDs to prevent unbounded growth
     new_state["_seen_updates"] = list(seen_updates)[-5000:]
-    with open(STATE_FILE, "w") as f:
-        json.dump(new_state, f, indent=2)
+    state_store.write(new_state)
 
     # Send notifications
     if all_new_events:
         print(f"--- Sending notifications for {len(all_new_events)} event(s) ---")
         print()
-
-        print("--- Slack ---")
-        send_slack_notifications(all_new_events, base_url)
-        print()
-
-        print("--- Zoom ---")
-        send_zoom_notifications(all_new_events, base_url)
-        print()
-
-        print("--- Google Chat ---")
-        send_gchat_notifications(all_new_events, base_url)
-        print()
+        for label, notifier in notifiers.items():
+            if not notifier:
+                continue
+            print(f"--- {label} ---")
+            try:
+                notifier.send(all_new_events, base_url)
+            except Exception as exc:
+                print(f"  {label} notifier error: {exc}")
+            print()
 
     print("=" * 70)
     print(f"  Done! {total_new} new event(s) found across all teams.")
-    print(f"  Feeds written to: {FEEDS_DIR}")
     print("=" * 70)
+    return total_new
+
+
+def main():
+    """File-based entry point used by the GitHub Actions checker.
+
+    Behavior is unchanged: reads config/teams.json, persists to data/state.json
+    and docs/feeds/, and notifies via the env-based notify functions.
+    """
+    with open(CONFIG_FILE) as f:
+        config = json.load(f)
+
+    notifiers = {
+        "Slack": _EnvNotifier(send_slack_notifications),
+        "Zoom": _EnvNotifier(send_zoom_notifications),
+        "Google Chat": _EnvNotifier(send_gchat_notifications),
+    }
+    run_once(
+        config=config,
+        secrets={},
+        state_store=_FileStateStore(),
+        feed_store=_FileFeedStore(),
+        notifiers=notifiers,
+    )
 
 
 if __name__ == "__main__":

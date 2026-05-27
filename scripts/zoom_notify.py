@@ -20,6 +20,8 @@ Required environment variables:
   ZOOM_USER_JID           - JID of a user who authorized the app
 """
 
+from __future__ import annotations
+
 import os
 import json
 import base64
@@ -56,15 +58,19 @@ STATUS_EMOJI_TEXT = {
 
 # ── Authentication ─────────────────────────────────────────────────────────────
 
-def _get_chatbot_token() -> str:
+def _get_chatbot_token(client_id: str | None = None,
+                       client_secret: str | None = None) -> str:
     """Obtain a Zoom Chatbot token using client_credentials grant.
 
     Uses the Chatbot App credentials (ZOOM_CHATBOT_CLIENT_ID / SECRET),
     which are separate from the Server-to-Server OAuth credentials
-    (ZOOM_CLIENT_ID / SECRET) used for other Zoom API calls.
+    (ZOOM_CLIENT_ID / SECRET) used for other Zoom API calls. Credentials
+    default to environment variables for backward compatibility.
     """
-    client_id = os.environ.get("ZOOM_CHATBOT_CLIENT_ID", "")
-    client_secret = os.environ.get("ZOOM_CHATBOT_CLIENT_SECRET", "")
+    if client_id is None:
+        client_id = os.environ.get("ZOOM_CHATBOT_CLIENT_ID", "")
+    if client_secret is None:
+        client_secret = os.environ.get("ZOOM_CHATBOT_CLIENT_SECRET", "")
     if not client_id or not client_secret:
         raise RuntimeError("Missing ZOOM_CHATBOT_CLIENT_ID or ZOOM_CHATBOT_CLIENT_SECRET")
 
@@ -184,13 +190,51 @@ def _send_message(channel_id: str, body: list[dict], token: str,
     return False
 
 
-def send_zoom_notifications(new_events: list[dict], base_url: str):
-    """Send Zoom Team Chat notifications for status change events."""
-    # Check required credentials
-    chatbot_client_id = os.environ.get("ZOOM_CHATBOT_CLIENT_ID", "")
-    robot_jid = os.environ.get("ZOOM_BOT_JID", "")
-    account_id = os.environ.get("ZOOM_ACCOUNT_ID", "")
-    user_jid = os.environ.get("ZOOM_USER_JID", "")
+def make_client(secrets: dict):
+    """Return a Zoom notifier client bound to explicit credentials (Azure path).
+
+    `secrets` uses Key Vault names (zoom-chatbot-client-id, etc.). ZOOM_USER_JID
+    is non-secret config and is read from the environment if not in `secrets`.
+    """
+    import os as _os
+    creds = {
+        "chatbot_client_id": secrets.get("zoom-chatbot-client-id", ""),
+        "chatbot_client_secret": secrets.get("zoom-chatbot-client-secret", ""),
+        "robot_jid": secrets.get("zoom-bot-jid", ""),
+        "account_id": secrets.get("zoom-account-id", ""),
+        "user_jid": secrets.get("zoom-user-jid") or _os.environ.get("ZOOM_USER_JID", ""),
+    }
+    return _ZoomClient(creds)
+
+
+class _ZoomClient:
+    def __init__(self, creds: dict):
+        self.creds = creds
+
+    def send(self, new_events: list[dict], base_url: str):
+        send_zoom_notifications(new_events, base_url, creds=self.creds)
+
+
+def send_zoom_notifications(new_events: list[dict], base_url: str,
+                            *, creds: dict | None = None):
+    """Send Zoom Team Chat notifications for status change events.
+
+    Credentials default to environment variables for backward compatibility;
+    the Azure path passes them explicitly via make_client().
+    """
+    if creds is None:
+        creds = {
+            "chatbot_client_id": os.environ.get("ZOOM_CHATBOT_CLIENT_ID", ""),
+            "chatbot_client_secret": os.environ.get("ZOOM_CHATBOT_CLIENT_SECRET", ""),
+            "robot_jid": os.environ.get("ZOOM_BOT_JID", ""),
+            "account_id": os.environ.get("ZOOM_ACCOUNT_ID", ""),
+            "user_jid": os.environ.get("ZOOM_USER_JID", ""),
+        }
+    chatbot_client_id = creds.get("chatbot_client_id", "")
+    chatbot_client_secret = creds.get("chatbot_client_secret", "")
+    robot_jid = creds.get("robot_jid", "")
+    account_id = creds.get("account_id", "")
+    user_jid = creds.get("user_jid", "")
 
     if not chatbot_client_id or not robot_jid:
         if new_events:
@@ -214,7 +258,7 @@ def send_zoom_notifications(new_events: list[dict], base_url: str):
 
     # Get chatbot token
     try:
-        token = _get_chatbot_token()
+        token = _get_chatbot_token(chatbot_client_id, chatbot_client_secret)
     except Exception as exc:
         print(f"  Zoom OAuth error: {exc}")
         return

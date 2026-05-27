@@ -11,6 +11,8 @@ attachment card — the sidebar colour indicates severity:
   - Blue (#3498db): Maintenance
 """
 
+from __future__ import annotations
+
 import os
 import json
 from datetime import datetime, timezone
@@ -50,10 +52,40 @@ STATUS_LABELS = {
 }
 
 
-def send_slack_notifications(new_events: list[dict], base_url: str):
-    """Send Slack Block Kit notifications for status change events."""
-    token = os.environ.get("SLACK_BOT_TOKEN", "")
-    default_channel = os.environ.get("SLACK_DEFAULT_CHANNEL", "")
+def make_client(token: str, default_channel: str = ""):
+    """Return a notifier client bound to an explicit token (Azure path).
+
+    The client exposes .send(new_events, base_url); credentials are passed in
+    rather than read from the environment.
+    """
+    return _SlackClient(token=token, default_channel=default_channel)
+
+
+class _SlackClient:
+    def __init__(self, token: str, default_channel: str = ""):
+        self.token = token
+        self.default_channel = default_channel
+
+    def send(self, new_events: list[dict], base_url: str):
+        send_slack_notifications(
+            new_events, base_url,
+            token=self.token, default_channel=self.default_channel,
+        )
+
+
+def send_slack_notifications(new_events: list[dict], base_url: str,
+                             *, token: str | None = None,
+                             default_channel: str | None = None):
+    """Send Slack Block Kit notifications for status change events.
+
+    token/default_channel default to environment variables for backward
+    compatibility with the GitHub Actions checker; the Azure path passes them
+    explicitly via make_client().
+    """
+    if token is None:
+        token = os.environ.get("SLACK_BOT_TOKEN", "")
+    if default_channel is None:
+        default_channel = os.environ.get("SLACK_DEFAULT_CHANNEL", "")
 
     if not token:
         if new_events:
