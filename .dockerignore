@@ -1,0 +1,13 @@
+.git
+.github
+.gitignore
+__pycache__/
+*.pyc
+.env
+.venv/
+*.egg-info/
+docs/
+data/
+infra/
+*.md
+.DS_Store

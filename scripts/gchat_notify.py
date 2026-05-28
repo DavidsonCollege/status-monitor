@@ -19,6 +19,8 @@ Setup:
 No environment variables required — everything is configured in teams.json.
 """
 
+from __future__ import annotations
+
 import json
 from datetime import datetime, timezone
 
@@ -142,6 +144,20 @@ def _build_footer_card(event_count: int, card_index: int) -> dict:
 
 
 # ── Sending ──────────────────────────────────────────────────────────────────
+
+def make_client():
+    """Return a Google Chat notifier client (Azure path).
+
+    No credentials needed — webhook URLs travel with each event from teams.json.
+    Provided for a uniform notifier interface alongside Slack and Zoom.
+    """
+    return _GChatClient()
+
+
+class _GChatClient:
+    def send(self, new_events: list[dict], base_url: str):
+        send_gchat_notifications(new_events, base_url)
+
 
 def send_gchat_notifications(new_events: list[dict], base_url: str):
     """Send Google Chat webhook notifications for status change events."""
