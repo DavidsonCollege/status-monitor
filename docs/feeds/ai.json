@@ -1,5 +1,18 @@
 [
   {
+    "id": "792328a9ff4d300b",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Billing and subscription management issues",
+    "link": "https://stspg.io/1bm8nzs3bzw2",
+    "summary": "The issue affecting Claude services has been resolved. Impact occurred from 18:27 UTC to 19:05 UTC.",
+    "date": "2026-05-28T19:04:04.091000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "9699a49217e43f1f",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2584,19 +2597,6 @@
     "date": "2026-05-08T06:15:48+00:00",
     "status": "degraded",
     "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "79a2d73f9d4c6d77",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated transcription failures affecting ChatGPT & Codex \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
-    "summary": "Status: investigating",
-    "date": "2026-05-07T23:47:08+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
     "type": "incident_update"
   }
 ]
