@@ -20,7 +20,7 @@ from .config_store import ConfigStore
 from .email_notify import send_change_request_email
 from .feed_store import FeedStore
 from .keyvault import load_secrets
-from .state_store import ChangeStore
+from .state_store import ChangeStore, StateStore
 
 STATIC_DIR = Path(__file__).parent / "static"
 
@@ -60,6 +60,40 @@ def get_feed(team_id: str):
 @app.get("/api/feeds/{team_id}/status")
 def get_feed_status(team_id: str):
     return FeedStore().read_summary(team_id)
+
+
+# ── Legacy-shape passthroughs for the dc-adminapi dispatcher dashboard ───────
+# dc-adminapi historically proxied raw.githubusercontent paths
+#   /api/status-monitor/teams  ←  config/teams.json     (we already serve via /api/config)
+#   /api/status-monitor/state  ←  data/state.json       ← /api/state below
+#   slack/zoom channel-name maps from docs/{slack,zoom}_channels.json
+#                                                       ← /api/channels/{kind} below
+# These endpoints return the same JSON shapes the dispatcher already expects,
+# so its existing fetchMonitorJson + fetchAppChannelNames + enrichment logic
+# keeps working without changes other than swapping the URL host.
+
+@app.get("/api/state")
+def get_state():
+    """Aggregated checker state — matches the legacy data/state.json shape:
+    {"_seen_updates":[...], "<team_id>":{"<product_id>":{
+        "overall_status": str, "incidents": [...], "components": [...]
+    }}}
+    """
+    return StateStore().read()
+
+
+@app.get("/api/channels/{kind}")
+def get_channels(kind: str):
+    """Channel-name map for Slack or Zoom, matching the legacy
+    docs/{slack,zoom}_channels.json shape: {"channels":[{id,name},...], "fetch_status":...}.
+
+    For now this returns an empty (well-formed) stub; the dispatcher's
+    enrichment falls back to raw channel IDs when a name doesn't resolve.
+    Wiring the cron to actually populate these maps is a follow-up.
+    """
+    if kind not in ("slack", "zoom"):
+        raise HTTPException(status_code=404, detail="Unknown channel kind")
+    return {"channels": [], "fetch_status": "ok"}
 
 
 @app.post("/api/changes")
