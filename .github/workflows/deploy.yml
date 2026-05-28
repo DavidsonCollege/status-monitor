@@ -79,8 +79,13 @@ jobs:
           # The placeholder job has no command override (uses the placeholder
           # image entrypoint); set the production command here alongside the
           # real image. Idempotent once already set.
+          #
+          # Direct script invocation (not "python -m cron.run") because
+          # az containerapp job update's argparse interprets dash-prefixed
+          # values like "-m" as flags instead of as --command list entries.
+          # cron/run.py inserts /app onto sys.path so the imports resolve.
           az containerapp job update \
             --resource-group "$WEB_RG" \
             --name "$CRON_JOB" \
             --image "$ACR_NAME.azurecr.io/$IMAGE_NAME:$IMAGE_TAG" \
-            --command "python" "-m" "cron.run"
+            --command "python" "/app/cron/run.py"

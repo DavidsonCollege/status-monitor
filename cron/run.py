@@ -1,11 +1,19 @@
 """Container Apps Job entry point — one status-check pass against Azure stores.
 
-Invoked by the dc-status-monitor-cron job (command override: python -m cron.run).
+Invoked as a script by the dc-status-monitor-cron job:
+    python /app/cron/run.py
+(direct script invocation rather than -m, because az containerapp job update
+argparse rejects dash-prefixed values in --command — see the deploy workflow).
 Wires the Azure-backed stores and Key Vault-sourced notifier clients into the
 shared checker logic in scripts.check_status.run_once().
 """
 
 import os
+import sys
+
+# Direct script invocation puts /app/cron on sys.path, not /app — add /app so
+# the `from app.* import …` and `from scripts import …` imports resolve.
+sys.path.insert(0, "/app")
 
 from app.config_store import ConfigStore
 from app.feed_store import FeedStore
