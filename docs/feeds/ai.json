@@ -1,5 +1,18 @@
 [
   {
+    "id": "5c42e4a44249c1a2",
+    "product_id": "anthropic-claude",
+    "product_name": "Anthropic Claude",
+    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
+    "title": "Anthropic Claude: Elevated errors on Claude Opus 4.7",
+    "link": "https://stspg.io/ghgwbs73kc7s",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-28T08:38:05.067000+00:00",
+    "status": "resolved",
+    "incident_status": "resolved",
+    "type": "new_incident"
+  },
+  {
     "id": "b6772489285408af",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2582,19 +2595,6 @@
     "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
     "summary": "Status: investigating",
     "date": "2026-05-07T20:17:50+00:00",
-    "status": "degraded",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "ea5e0ed23ac64a46",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated transcription failures affecting ChatGPT & Codex \u2014 investigating",
-    "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
-    "summary": "Status: investigating",
-    "date": "2026-05-07T18:44:21+00:00",
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
