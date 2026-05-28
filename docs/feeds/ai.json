@@ -1,5 +1,18 @@
 [
   {
+    "id": "66072eca570bf1e2",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Android ChatGPT Business users having trouble switching workspaces \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KSN40TAYQYGAKFA50HNH22YG",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-28T03:59:09+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "72e0c487b6a26f9d",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "identified",
     "incident_status": "identified",
     "type": "new_incident"
-  },
-  {
-    "id": "f6c5055984b69375",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Connection failures for organizations restricting GitHub access by IP address \u2014 Resolved",
-    "link": "https://stspg.io/0vv7h1hfdddc",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-07T16:36:27.816000+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
