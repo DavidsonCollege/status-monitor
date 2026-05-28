@@ -1,5 +1,44 @@
 [
   {
+    "id": "eb2857b1a7a9ea97",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slack - General Slack functionality issues \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Recovery activities continue, and restoration efforts are progressing well. Slack users should now be able to edit Canvases as the errors have dropped.\u00a0\n\nWe\u2019ll provide an update in the next 30 minutes or sooner, if additional information becomes available.",
+    "date": "2026-05-28T05:25:15-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "2df0a647ad01f8ca",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slack - General Slack functionality issues \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Remediation efforts via configuration adjustments and deployment are in progress. Users may still run into issues updating their status and managing channels.\u00a0\n\nWe\u2019ll provide another update in 30 minutes or as soon as we have more information, and again we are sorry for the inconvenience this is causing.",
+    "date": "2026-05-28T05:55:18-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "8e67eb448c1df4de",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slack - General Slack functionality issues \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Remediation efforts via configuration adjustments and deployment will take several hours to complete to fully resolve channel management and status issues. Slack users may continue to experience intermittent impact.\u00a0\n\nWe'll be back with another update in 30 minutes when we have news to share.",
+    "date": "2026-05-28T06:35:54-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "7882b3acb49af7e4",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2559,44 +2598,5 @@
     "status": "degraded",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "0af1954188506738",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Major Outage",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Operational to Major Outage",
-    "date": "2026-05-08T12:46:17.274013+00:00",
-    "status": "major_outage",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "615a3d9cdb99b2b2",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Scheduled Grid Migrations are experiencing extended downtime",
-    "link": "https://slack-status.com",
-    "summary": "Users who are undergoing scheduled Grid Migrations are experiencing extended downtime. Downtime is expected during a Grid Migration however it's taking longer than usual. During the downtime users are unable to access Slack until the migration completes. We've identified an issue with Job Queues, which may be the cause and are investigating this further. The next update will be provided once additional information becomes available.",
-    "date": "2026-05-08T05:13:46-07:00",
-    "status": "partial_outage",
-    "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "d2d2fb904f59aaf7",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-05-08T10:23:42+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "incident_update"
   }
 ]
