@@ -1,5 +1,18 @@
 [
   {
+    "id": "c7ae7fee4625923c",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues affecting workflows, message edits, channel renames, apps, and channel creations \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We are continuing to work on implementing fixes to fully resolve the issue. Messaging should now be recovered. Users may continue to experience issues with workflow steps completing. Empty pills instead of @-mention; delayed reacji; mismatch in Channel member count and channel membership; and slow loading of messages, user avatars, and unfurls should now all be working properly. We\u2019ll provide an update in the next 30 minutes or sooner, if additional information becomes available.",
+    "date": "2026-05-27T18:41:28-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "0ee7da3604795250",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2584,19 +2597,6 @@
     "date": "2026-05-07T10:59:05.120000-04:00",
     "status": "monitoring",
     "incident_status": "monitoring",
-    "type": "new_incident"
-  },
-  {
-    "id": "777887683f0f394d",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users might experience errors when trying to access designs",
-    "link": "https://stspg.io/3tk0vdjwvv0q",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-07T13:29:13.991000+10:00",
-    "status": "resolved",
-    "incident_status": "resolved",
     "type": "new_incident"
   }
 ]
