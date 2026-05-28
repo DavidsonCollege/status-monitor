@@ -1,5 +1,44 @@
 [
   {
+    "id": "7882b3acb49af7e4",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slack - General Slack functionality issues \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Users continue to experience issues with their ability to manage channels, Canvas edits not saving, and user statuses not clearing or updating correctly. Investigations are underway.\u00a0\nWe're working with urgency to improve platform stability and reduce impact. We\u2019ll provide an update in the next 30 minutes or sooner, if additional information becomes available.",
+    "date": "2026-05-28T04:17:43-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "bf2ef892c933d5d6",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slack - General Slack functionality issues \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "We continue to investigate the issue, and are\u200c gathering the resources necessary to restore services.\u00a0\nWe\u2019ll provide another update in 30 minutes or as soon as we have more information, and again we're sorry for the inconvenience this is causing.",
+    "date": "2026-05-28T04:46:11-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "c80738c271bef068",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Trouble with Slack - General Slack functionality issues \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Our work on this issue is still ongoing.\nCurrent status and actions being taken: Remediation efforts are underway via configuration adjustments and deployment. We're still working to resolve the issues with Canvas.\nWe'll be back with another update once we have news to share.",
+    "date": "2026-05-28T05:01:56-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "cc2d9d3cf0830490",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2559,44 +2598,5 @@
     "status": "operational",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "8a8c9e6904a09dce",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-05-08T07:29:25+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "d4315c3990ded956",
-    "product_id": "canva",
-    "product_name": "Canva",
-    "icon_url": "https://www.google.com/s2/favicons?domain=canva.com&sz=64",
-    "title": "Canva: Some users may have issues accessing Canva \u2014 monitoring",
-    "link": "https://stspg.io/r2m1mhnzpp7j",
-    "summary": "We're continuing to monitor for any impact while we wait for AWS to resolve the underlying issue.",
-    "date": "2026-05-08T16:01:24.092000+10:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "7f1e9a7df9e17916",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: Degraded Performance",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-05-08T05:48:19.938606+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
