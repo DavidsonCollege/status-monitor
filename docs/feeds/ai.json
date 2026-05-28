@@ -1,5 +1,31 @@
 [
   {
+    "id": "72e0c487b6a26f9d",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex Context Compaction Latency \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+    "summary": "Status: monitoring",
+    "date": "2026-05-28T03:09:21+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
+    "id": "403427308c576028",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex Context Compaction Latency \u2014 identified",
+    "link": "https://status.openai.com/incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+    "summary": "Status: identified",
+    "date": "2026-05-28T02:31:07+00:00",
+    "status": "degraded",
+    "incident_status": "identified",
+    "type": "incident_update"
+  },
+  {
     "id": "6f160543bb185721",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "8abb1ac62d1c9f96",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Connection failures for organizations restricting GitHub access by IP address \u2014 monitoring",
-    "link": "https://stspg.io/0vv7h1hfdddc",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-05-07T15:17:03.112000+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "8d7034fa0b0c4fee",
-    "product_id": "anthropic-claude",
-    "product_name": "Anthropic Claude",
-    "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64",
-    "title": "Anthropic Claude: Operational",
-    "link": "https://status.anthropic.com",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-05-07T12:56:52.757919+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]

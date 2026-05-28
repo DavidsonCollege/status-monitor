@@ -1,5 +1,44 @@
 [
   {
+    "id": "ee7d4b8c16e4844a",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues affecting workflows, message edits, channel renames, apps, and channel creations \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Messaging latency has now cleared. Newly triggered workflows should start and complete as normal. Workflows that executed during the impact period ending at approximately 7pm PDT may not have completed. Customers may notice delayed workflow execution for jobs that triggered during the disruption period. We\u2019ll provide an update in the next 30 minutes or sooner, if additional information becomes available.",
+    "date": "2026-05-27T19:17:19-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "d35b5b3d3e91f8af",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues affecting workflows, message edits, channel renames, apps, and channel creations \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Workflow builder jobs that were triggered during the disruption period have been replayed and will complete over the next several hours. We\u2019ll provide an update in the next 30 minutes or sooner, if additional information becomes available.",
+    "date": "2026-05-27T19:46:33-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
+    "id": "c2fe06e378a65541",
+    "product_id": "slack",
+    "product_name": "Slack",
+    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
+    "title": "Slack: Issues affecting workflows, message edits, channel renames, apps, and channel creations \u2014 investigating",
+    "link": "https://slack-status.com",
+    "summary": "Cleanup and recovery efforts continue. Workflow builder job backlogs are being drained. Event subscriptions have been re-enabled. No further impact is expected. We\u2019ll provide an update in the next 30 minutes or sooner, if additional information becomes available.",
+    "date": "2026-05-27T20:22:22-07:00",
+    "status": "partial_outage",
+    "incident_status": "investigating",
+    "type": "incident_update"
+  },
+  {
     "id": "c7ae7fee4625923c",
     "product_id": "slack",
     "product_name": "Slack",
@@ -2558,45 +2597,6 @@
     "date": "2026-05-08T10:43:24.663000+10:00",
     "status": "partial_outage",
     "incident_status": "investigating",
-    "type": "new_incident"
-  },
-  {
-    "id": "77edbcb1334b4ef5",
-    "product_id": "google-workspace",
-    "product_name": "Google Workspace",
-    "icon_url": "https://www.google.com/s2/favicons?domain=workspace.google.com&sz=64",
-    "title": "Google Workspace: **Summary**\nInvestigating elevated error rates with Gemini conversations.\n**Description**\nMitigation work is currently underway by our engineering team.\nWe do not have an ETA for mitigation at this point.\nWe will provide more information by Tuesday, 2026-05-05 20:30 PDT.\n**Symptoms**\nAffected customers are experiencing \"Something went wrong(13)\" error message in their Gemini conversations.\n**Workaround**\nNone at this time. \u2014 investigating",
-    "link": "https://www.google.com/appsstatus/dashboard/",
-    "summary": "Status: investigating",
-    "date": "2026-05-07T23:52:49+00:00",
-    "status": "operational",
-    "incident_status": "investigating",
-    "type": "incident_update"
-  },
-  {
-    "id": "2b4c54aa977ab22f",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Delayed device group membership updates and automations \u2014 Resolved",
-    "link": "https://stspg.io/sp1fs90qcqwq",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-07T13:01:04.775000-04:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
-  },
-  {
-    "id": "2ea90970cb70c405",
-    "product_id": "smartdeploy",
-    "product_name": "SmartDeploy",
-    "icon_url": "https://www.google.com/s2/favicons?domain=smartdeploy.com&sz=64",
-    "title": "SmartDeploy: Connect Incident - Delayed device group membership updates and automations",
-    "link": "https://stspg.io/sp1fs90qcqwq",
-    "summary": "A fix has been implemented and we are monitoring the results.",
-    "date": "2026-05-07T10:59:05.120000-04:00",
-    "status": "monitoring",
-    "incident_status": "monitoring",
     "type": "new_incident"
   }
 ]
