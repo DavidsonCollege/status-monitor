@@ -1,7 +1,7 @@
 {
   "team_id": "ai",
   "team_name": "AI",
-  "last_checked": "2026-05-28T06:33:29.478766+00:00",
+  "last_checked": "2026-05-28T08:00:02.357535+00:00",
   "products": [
     {
       "id": "google-gemini",
@@ -51,8 +51,8 @@
       "name": "OpenAI ChatGPT",
       "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
       "status_url": "https://status.openai.com",
-      "overall_status": "degraded",
-      "active_incidents": 1,
+      "overall_status": "operational",
+      "active_incidents": 0,
       "components": [
         {
           "name": "Responses",
@@ -88,7 +88,7 @@
         },
         {
           "name": "CLI",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "FedRAMP",
@@ -128,7 +128,7 @@
         },
         {
           "name": "Codex API",
-          "status": "degraded"
+          "status": "operational"
         },
         {
           "name": "Deep Research",
@@ -152,7 +152,7 @@
         },
         {
           "name": "VS Code extension",
-          "status": "degraded"
+          "status": "operational"
         }
       ]
     }

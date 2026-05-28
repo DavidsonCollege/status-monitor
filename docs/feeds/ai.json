@@ -1,5 +1,31 @@
 [
   {
+    "id": "b6772489285408af",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-28T08:00:01.853905+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "3f63f31ffe1c8c85",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Codex Context Compaction Latency \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KSN9ATSF1WCJ5ZTQSR1H9CC7",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-28T06:59:35+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "66072eca570bf1e2",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "degraded",
     "incident_status": "investigating",
     "type": "incident_update"
-  },
-  {
-    "id": "35a415e6e240fdac",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Degraded Performance",
-    "link": "https://status.openai.com",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-05-07T17:48:19.698881+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c464da8bd88ea100",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated transcription failures affecting ChatGPT & Codex",
-    "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
-    "summary": "",
-    "date": "2026-05-07T17:15:58+00:00",
-    "status": "identified",
-    "incident_status": "identified",
-    "type": "new_incident"
   }
 ]
