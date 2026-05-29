@@ -1,5 +1,18 @@
 [
   {
+    "id": "44400bed71396e74",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Business plan subscription checkout issues on web and mobile web \u2014 monitoring",
+    "link": "https://status.openai.com/incidents/01KSR5D08APXRBVK8S120N4PDX",
+    "summary": "Status: monitoring",
+    "date": "2026-05-29T00:09:26+00:00",
+    "status": "degraded",
+    "incident_status": "monitoring",
+    "type": "incident_update"
+  },
+  {
     "id": "3bb1a2c89f331228",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2585,18 +2598,5 @@
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
-  },
-  {
-    "id": "f0a13f6b3850a8b9",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Elevated transcription failures affecting ChatGPT & Codex \u2014 Resolved",
-    "link": "https://status.openai.com/incidents/01KR1Q0SWZESWXQVWQRKRDJCHK",
-    "summary": "This incident has been resolved.",
-    "date": "2026-05-08T08:31:20+00:00",
-    "status": "operational",
-    "incident_status": "resolved",
-    "type": "incident_resolved"
   }
 ]
