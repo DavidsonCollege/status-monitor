@@ -1,30 +1,34 @@
-"""
-Fetch Slack channels and save as a static JSON file for the dashboard.
-Uses the SLACK_BOT_TOKEN env var to call conversations.list,
-then writes docs/slack_channels.json with channel metadata.
-Requires bot scopes: channels:read, groups:read
+"""Fetch Slack channels via conversations.list, return a list of channel dicts.
+
+Library-only — callers persist the result wherever they like (the Azure cron
+writes to Blob via app.channel_store.ChannelStore). Requires the bot to have
+channels:read and groups:read scopes.
 """
 
-import json
-import os
+from __future__ import annotations
+
 import time
-from datetime import datetime, timezone
-from pathlib import Path
 
 import requests
 
 SLACK_API_URL = "https://slack.com/api/conversations.list"
-OUTPUT_PATH = Path(__file__).resolve().parent.parent / "docs" / "slack_channels.json"
 
 
-def fetch_channels(token: str) -> list[dict]:
+def fetch(token: str) -> list[dict]:
+    """Return all Slack channels (public + private) accessible to the bot, as
+    a list of {id, name, is_private, topic, num_members} sorted by lowercase
+    name. Raises RuntimeError on empty token or a non-ok API response.
+    """
+    if not token:
+        raise RuntimeError("Slack token is empty")
+
     headers = {"Authorization": f"Bearer {token}"}
     params = {
         "types": "public_channel,private_channel",
         "exclude_archived": "true",
         "limit": 100,
     }
-    channels = []
+    channels: list[dict] = []
     cursor = None
     retries = 5
 
@@ -67,36 +71,8 @@ def fetch_channels(token: str) -> list[dict]:
         if not cursor:
             break
 
-        # Small delay between pages to avoid rate limits
+        # Be polite between pages
         time.sleep(1)
 
     channels.sort(key=lambda c: c["name"].lower())
     return channels
-
-
-def main():
-    token = os.environ.get("SLACK_BOT_TOKEN", "")
-    result = {
-        "channels": [],
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "fetch_status": "success",
-    }
-
-    if not token:
-        print("  SLACK_BOT_TOKEN not set -- writing stub slack_channels.json")
-        result["fetch_status"] = "no_token"
-    else:
-        try:
-            result["channels"] = fetch_channels(token)
-            print(f"  Fetched {len(result['channels'])} Slack channels")
-        except Exception as exc:
-            print(f"  Error fetching Slack channels: {exc}")
-            result["fetch_status"] = f"error: {exc}"
-
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(result, indent=2) + "\n")
-    print(f"  Wrote {OUTPUT_PATH}")
-
-
-if __name__ == "__main__":
-    main()

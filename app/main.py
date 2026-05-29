@@ -16,6 +16,7 @@ from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
 from .auth import get_principal, require_authenticated
+from .channel_store import ChannelStore
 from .config_store import ConfigStore
 from .email_notify import send_change_request_email
 from .feed_store import FeedStore
@@ -85,15 +86,21 @@ def get_state():
 @app.get("/api/channels/{kind}")
 def get_channels(kind: str):
     """Channel-name map for Slack or Zoom, matching the legacy
-    docs/{slack,zoom}_channels.json shape: {"channels":[{id,name},...], "fetch_status":...}.
+    docs/{slack,zoom}_channels.json shape: {"channels":[{id,name,...},...], "fetch_status":...}.
 
-    For now this returns an empty (well-formed) stub; the dispatcher's
-    enrichment falls back to raw channel IDs when a name doesn't resolve.
-    Wiring the cron to actually populate these maps is a follow-up.
+    Reads from Blob Storage (channels/{kind}.json in the feeds container),
+    written each cron tick by cron/run.py. Returns an empty list if the blob
+    doesn't exist yet (first deploy, or persistent fetch failure) — the
+    dispatcher's enrichment falls back to raw channel IDs cleanly in that case.
     """
     if kind not in ("slack", "zoom"):
         raise HTTPException(status_code=404, detail="Unknown channel kind")
-    return {"channels": [], "fetch_status": "ok"}
+    try:
+        channels = ChannelStore().read_channels(kind)
+    except Exception as exc:  # noqa: BLE001 - defensive; read_channels normally returns [] on missing
+        print(f"  /api/channels/{kind}: read failed, returning empty: {exc}")
+        channels = []
+    return {"channels": channels, "fetch_status": "ok"}
 
 
 @app.post("/api/changes")

@@ -1,32 +1,27 @@
-"""
-Fetch Zoom Team Chat channels and save as a static JSON file for the dashboard.
-Uses Server-to-Server OAuth credentials to call the Zoom chat channels API,
-then writes docs/zoom_channels.json with channel metadata.
-Requires scopes: chat_channel:read
+"""Fetch Zoom Team Chat channels via the chat/users/me/channels API.
+
+Library-only — callers persist the result wherever they like (the Azure cron
+writes to Blob via app.channel_store.ChannelStore). Uses Server-to-Server OAuth
+(scope: chat_channel:read) — credentials are passed in by the caller.
 """
 
-import json
-import os
+from __future__ import annotations
+
 import base64
 import time
-from datetime import datetime, timezone
-from pathlib import Path
 
 import requests
 
 ZOOM_OAUTH_URL = "https://zoom.us/oauth/token"
 ZOOM_CHANNELS_URL = "https://api.zoom.us/v2/chat/users/me/channels"
-OUTPUT_PATH = Path(__file__).resolve().parent.parent / "docs" / "zoom_channels.json"
 
 
-def get_access_token() -> str:
-    """Obtain a Zoom Server-to-Server OAuth access token."""
-    client_id = os.environ.get("ZOOM_CLIENT_ID", "")
-    client_secret = os.environ.get("ZOOM_CLIENT_SECRET", "")
-    account_id = os.environ.get("ZOOM_ACCOUNT_ID", "")
-
-    if not all([client_id, client_secret, account_id]):
-        raise RuntimeError("Missing ZOOM_CLIENT_ID, ZOOM_CLIENT_SECRET, or ZOOM_ACCOUNT_ID")
+def get_access_token(*, account_id: str, client_id: str, client_secret: str) -> str:
+    """Obtain a Zoom Server-to-Server OAuth access token. Raises on missing creds
+    or non-2xx response.
+    """
+    if not (account_id and client_id and client_secret):
+        raise RuntimeError("Missing Zoom account_id, client_id, or client_secret")
 
     credentials = base64.b64encode(f"{client_id}:{client_secret}".encode()).decode()
     resp = requests.post(
@@ -50,10 +45,12 @@ def get_access_token() -> str:
 
 
 def fetch_channels(token: str) -> list[dict]:
-    """Fetch all Zoom Team Chat channels with pagination."""
+    """Return all Zoom Team Chat channels accessible to the OAuth principal, as
+    a list of {id, name, type, members_count} sorted by lowercase name.
+    """
     headers = {"Authorization": f"Bearer {token}"}
-    params = {"page_size": 50}
-    channels = []
+    params: dict = {"page_size": 50}
+    channels: list[dict] = []
     next_page_token = ""
     retries = 3
 
@@ -88,46 +85,29 @@ def fetch_channels(token: str) -> list[dict]:
                 "id": ch.get("id", ""),
                 "name": ch.get("name", ""),
                 "type": ch.get("type", 0),
-                "members_count": ch.get("members", {}).get("total", 0)
+                "members_count": (
+                    ch.get("members", {}).get("total", 0)
                     if isinstance(ch.get("members"), dict)
-                    else ch.get("members_count", 0),
+                    else ch.get("members_count", 0)
+                ),
             })
 
         next_page_token = data.get("next_page_token", "")
         if not next_page_token:
             break
 
-        # Small delay between pages
+        # Be polite between pages
         time.sleep(1)
 
     channels.sort(key=lambda c: c["name"].lower())
     return channels
 
 
-def main():
-    client_id = os.environ.get("ZOOM_CLIENT_ID", "")
-    result = {
-        "channels": [],
-        "last_updated": datetime.now(timezone.utc).isoformat(),
-        "fetch_status": "success",
-    }
-
-    if not client_id:
-        print("  ZOOM_CLIENT_ID not set -- writing stub zoom_channels.json")
-        result["fetch_status"] = "no_token"
-    else:
-        try:
-            token = get_access_token()
-            result["channels"] = fetch_channels(token)
-            print(f"  Fetched {len(result['channels'])} Zoom channels")
-        except Exception as exc:
-            print(f"  Error fetching Zoom channels: {exc}")
-            result["fetch_status"] = f"error: {exc}"
-
-    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    OUTPUT_PATH.write_text(json.dumps(result, indent=2) + "\n")
-    print(f"  Wrote {OUTPUT_PATH}")
-
-
-if __name__ == "__main__":
-    main()
+def fetch(*, account_id: str, client_id: str, client_secret: str) -> list[dict]:
+    """Convenience: OAuth + list in one call. Mirrors the slack module's API."""
+    token = get_access_token(
+        account_id=account_id,
+        client_id=client_id,
+        client_secret=client_secret,
+    )
+    return fetch_channels(token)
