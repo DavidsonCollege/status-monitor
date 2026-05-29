@@ -1,5 +1,31 @@
 [
   {
+    "id": "4460fcd01d7a31bf",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Operational",
+    "link": "https://status.openai.com",
+    "summary": "Status changed from Degraded Performance to Operational",
+    "date": "2026-05-29T14:27:03.903421+00:00",
+    "status": "operational",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "3e042327d70f2330",
+    "product_id": "openai-chatgpt",
+    "product_name": "OpenAI ChatGPT",
+    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
+    "title": "OpenAI ChatGPT: Users May Experience Issues Accessing ChatGPT \u2014 Resolved",
+    "link": "https://status.openai.com/incidents/01KSSY9D28AM92BCDXRTS4CDKZ",
+    "summary": "This incident has been resolved.",
+    "date": "2026-05-29T13:28:52+00:00",
+    "status": "operational",
+    "incident_status": "resolved",
+    "type": "incident_resolved"
+  },
+  {
     "id": "2d0b8af09af96a76",
     "product_id": "openai-chatgpt",
     "product_name": "OpenAI ChatGPT",
@@ -2572,31 +2598,5 @@
     "status": "operational",
     "incident_status": "resolved",
     "type": "incident_resolved"
-  },
-  {
-    "id": "f415d3d2a9a36fa4",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased Error Rate for gpt-5.5 model in the API \u2014 monitoring",
-    "link": "https://status.openai.com/incidents/01KR3S3Q2RE54PVJ7GZPQNEY8Y",
-    "summary": "Status: monitoring",
-    "date": "2026-05-08T13:57:35+00:00",
-    "status": "degraded",
-    "incident_status": "monitoring",
-    "type": "incident_update"
-  },
-  {
-    "id": "94c36792c9aada49",
-    "product_id": "openai-chatgpt",
-    "product_name": "OpenAI ChatGPT",
-    "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64",
-    "title": "OpenAI ChatGPT: Increased Error Rate for gpt-5.5 model in the API \u2014 identified",
-    "link": "https://status.openai.com/incidents/01KR3S3Q2RE54PVJ7GZPQNEY8Y",
-    "summary": "Status: identified",
-    "date": "2026-05-08T13:42:57+00:00",
-    "status": "degraded",
-    "incident_status": "identified",
-    "type": "incident_update"
   }
 ]

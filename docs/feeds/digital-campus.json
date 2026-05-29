@@ -1,5 +1,31 @@
 [
   {
+    "id": "2ca2a121bb433b73",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.28.1 Upgrade for ap-northeast-1 \u2014 maintenance_scheduled",
+    "link": "https://stspg.io/9chp9xkvkj12",
+    "summary": "Maintenance will begin as scheduled in 60 minutes.",
+    "date": "2026-05-29T14:00:12.561000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_scheduled",
+    "type": "incident_update"
+  },
+  {
+    "id": "a770b1734b7a6af9",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.28.1 Upgrade for ap-southeast-2 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/944r2j2x0qj5",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-29T14:00:07.894000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
     "id": "b720a5f630f92e6d",
     "product_id": "crashplan",
     "product_name": "CrashPlan",
@@ -2569,32 +2595,6 @@
     "link": "https://status.zoom.us",
     "summary": "Status changed from Under Maintenance to Operational",
     "date": "2026-05-09T07:17:07.979279+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "d291e8aee073c2eb",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Under Maintenance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Under Maintenance",
-    "date": "2026-05-09T06:26:39.685911+00:00",
-    "status": "maintenance",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "c53be906bdf94a6d",
-    "product_id": "slack",
-    "product_name": "Slack",
-    "icon_url": "https://www.google.com/s2/favicons?domain=slack.com&sz=64",
-    "title": "Slack: Operational",
-    "link": "https://slack-status.com",
-    "summary": "Status changed from Major Outage to Operational",
-    "date": "2026-05-08T23:41:28.580006+00:00",
     "status": "operational",
     "incident_status": "",
     "type": "status_change"
