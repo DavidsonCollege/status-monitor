@@ -12,7 +12,7 @@
       "name": "ai",
       "is_private": false,
       "topic": "",
-      "num_members": 30
+      "num_members": 33
     },
     {
       "id": "C0AK9C6MXFD",
@@ -113,25 +113,11 @@
       "num_members": 3
     },
     {
-      "id": "C01BSRZ55JQ",
-      "name": "charter-leganto",
-      "is_private": false,
-      "topic": "",
-      "num_members": 5
-    },
-    {
       "id": "CCV121SGK",
       "name": "classroom_and_edtech",
       "is_private": false,
       "topic": "",
       "num_members": 8
-    },
-    {
-      "id": "C01Q2JR6F6Z",
-      "name": "client-davidson-college",
-      "is_private": false,
-      "topic": "",
-      "num_members": 26
     },
     {
       "id": "C02BTE9AC5D",
@@ -222,7 +208,7 @@
       "name": "general",
       "is_private": false,
       "topic": "Company-wide announcements and work-based matters",
-      "num_members": 93
+      "num_members": 95
     },
     {
       "id": "C2ETFB938",
@@ -264,7 +250,7 @@
       "name": "ideas",
       "is_private": false,
       "topic": "Ideas for IT@Davidson",
-      "num_members": 47
+      "num_members": 49
     },
     {
       "id": "C07QZEBRGFL",
@@ -334,7 +320,7 @@
       "name": "outages",
       "is_private": false,
       "topic": "",
-      "num_members": 89
+      "num_members": 91
     },
     {
       "id": "CFA3D26NL",
@@ -572,7 +558,7 @@
       "name": "random",
       "is_private": false,
       "topic": "\r\n",
-      "num_members": 83
+      "num_members": 85
     },
     {
       "id": "C35AAKFNU",
@@ -953,6 +939,6 @@
       "num_members": 1
     }
   ],
-  "last_updated": "2026-05-29T14:25:29.483065+00:00",
+  "last_updated": "2026-05-29T15:48:38.016505+00:00",
   "fetch_status": "success"
 }

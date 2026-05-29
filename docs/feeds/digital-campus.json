@@ -1,5 +1,44 @@
 [
   {
+    "id": "c3d7695634b787aa",
+    "product_id": "jamf",
+    "product_name": "Jamf",
+    "icon_url": "https://www.google.com/s2/favicons?domain=jamf.com&sz=64",
+    "title": "Jamf: JAMF Pro - Standard: 11.28.1 Upgrade for ap-northeast-1 \u2014 maintenance_in_progress",
+    "link": "https://stspg.io/9chp9xkvkj12",
+    "summary": "Scheduled maintenance is currently in progress. We will provide updates as necessary.",
+    "date": "2026-05-29T15:00:10.535000+00:00",
+    "status": "degraded",
+    "incident_status": "maintenance_in_progress",
+    "type": "incident_update"
+  },
+  {
+    "id": "36e9b301135b3403",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Degraded Performance",
+    "link": "https://status.cloud.microsoft/m365",
+    "summary": "Status changed from Operational to Degraded Performance",
+    "date": "2026-05-29T15:50:25.957830+00:00",
+    "status": "degraded",
+    "incident_status": "",
+    "type": "status_change"
+  },
+  {
+    "id": "dd89f703ebae240d",
+    "product_id": "microsoft-365",
+    "product_name": "Microsoft 365",
+    "icon_url": "https://www.google.com/s2/favicons?domain=microsoft365.com&sz=64",
+    "title": "Microsoft 365: Active \u2013 Multi Service degradation in West US 2 region.",
+    "link": "https://azurestatusprodncus.azurewebsites.net/en-us/status/",
+    "summary": "<p>Impact Statement: Starting at 04:27 UTC on 29 May 2026, we are investigating an incident which is impacting multiple services in West US 2, due to a power event. This impacts service accessibility region-wide, with customers potentially experiencing increased latency and intermittent connectivity, including timeouts when connecting to resources.</p><p>Affected Azure services include, but are not limited to:</p><p><em>Azure Functions, Azure Database for MySQL flexible servers, Azure Database P",
+    "date": "Fri, 29 May 2026 04:27:00 Z",
+    "status": "degraded",
+    "incident_status": "investigating",
+    "type": "new_incident"
+  },
+  {
     "id": "2ca2a121bb433b73",
     "product_id": "jamf",
     "product_name": "Jamf",
@@ -2559,44 +2598,5 @@
     "status": "maintenance_in_progress",
     "incident_status": "in_progress",
     "type": "new_incident"
-  },
-  {
-    "id": "413f217c9e6531e2",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Degraded Performance to Operational",
-    "date": "2026-05-09T15:04:20.086281+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "fcf93f59612be97e",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Degraded Performance",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Operational to Degraded Performance",
-    "date": "2026-05-09T10:43:57.394777+00:00",
-    "status": "degraded",
-    "incident_status": "",
-    "type": "status_change"
-  },
-  {
-    "id": "dfe72d03021bfd0b",
-    "product_id": "zoom",
-    "product_name": "Zoom",
-    "icon_url": "https://www.google.com/s2/favicons?domain=zoom.us&sz=64",
-    "title": "Zoom: Operational",
-    "link": "https://status.zoom.us",
-    "summary": "Status changed from Under Maintenance to Operational",
-    "date": "2026-05-09T07:17:07.979279+00:00",
-    "status": "operational",
-    "incident_status": "",
-    "type": "status_change"
   }
 ]
