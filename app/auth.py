@@ -7,6 +7,8 @@ authenticated user — the Entra app registration already restricts who can sign
 in via "Assignment required = Yes".
 """
 
+from __future__ import annotations
+
 import base64
 import json
 

@@ -9,6 +9,8 @@ config/teams.json is well under that, but if it grows past ~60 KiB the "data"
 property must be chunked across multiple properties. Flagged in STATUS.md.
 """
 
+from __future__ import annotations
+
 import json
 import os
 
