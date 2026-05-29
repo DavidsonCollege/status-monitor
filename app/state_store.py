@@ -12,6 +12,9 @@ Two concerns live here, matching the migration plan:
                      64 KiB-per-property cap).
                    - seen-update IDs: PK="meta", RK="seen_updates", JSON of the
                      up-to-5000 IDs chunked the same way.
+                   - cron last-run timestamp: PK="meta", RK="last_run", ISO-8601
+                     UTC string in a "last_run" property. Written every successful
+                     run_once() pass. Surfaced as state["_meta"]["last_run"].
                  Reads tolerate either the new chunked layout or the legacy
                  single "data" property (pre-chunking writes); a corrupt or
                  incomplete row is logged and the product's state is regenerated.
@@ -40,8 +43,9 @@ from azure.identity import DefaultAzureCredential
 STATE_TABLE = "state"
 CHANGES_TABLE = "changeRequests"
 
-SEEN_PK = "meta"
+META_PK = "meta"
 SEEN_RK = "seen_updates"
+LAST_RUN_RK = "last_run"
 PRODUCT_PK = "product"
 MAX_SEEN = 5000
 
@@ -145,12 +149,17 @@ class StateStore:
 
     def read(self) -> dict:
         state: dict = {"_seen_updates": []}
+        meta: dict = {}
         for entity in self._client.list_entities():
             pk = entity["PartitionKey"]
             rk = entity["RowKey"]
-            if pk == SEEN_PK and rk == SEEN_RK:
+            if pk == META_PK and rk == SEEN_RK:
                 value = _decode_chunked_or_legacy(entity, "seen_updates")
                 state["_seen_updates"] = list(value) if isinstance(value, list) else []
+            elif pk == META_PK and rk == LAST_RUN_RK:
+                last_run = entity.get("last_run")
+                if last_run:
+                    meta["last_run"] = last_run
             elif pk == PRODUCT_PK and "::" in rk:
                 team_id, product_id = rk.split("::", 1)
                 value = _decode_chunked_or_legacy(
@@ -159,22 +168,33 @@ class StateStore:
                 state.setdefault(team_id, {})[product_id] = (
                     value if isinstance(value, dict) else {}
                 )
+        if meta:
+            state["_meta"] = meta
         return state
 
     def write(self, state: dict) -> None:
         # seen_updates — chunk across c0/c1/...
         seen = list(state.get("_seen_updates", []))[-MAX_SEEN:]
         seen_chunks = _chunk_bytes(json.dumps(seen), _CHUNK_BYTES)
-        seen_entity: dict = {"PartitionKey": SEEN_PK, "RowKey": SEEN_RK}
+        seen_entity: dict = {"PartitionKey": META_PK, "RowKey": SEEN_RK}
         for i, chunk in enumerate(seen_chunks):
             seen_entity[f"c{i}"] = chunk
         self._client.upsert_entity(seen_entity, mode=UpdateMode.REPLACE)
+
+        # _meta.last_run — single tiny entity, written every successful pass.
+        # The cron stamps it in check_status.run_once just before write().
+        last_run = (state.get("_meta") or {}).get("last_run")
+        if last_run:
+            self._client.upsert_entity(
+                {"PartitionKey": META_PK, "RowKey": LAST_RUN_RK, "last_run": last_run},
+                mode=UpdateMode.REPLACE,
+            )
 
         # Per-product state — chunk across c0/c1/... per row.
         # UpdateMode.REPLACE clears any stale "data"/cN properties left over
         # from a previous (larger) write.
         for team_id, products in state.items():
-            if team_id == "_seen_updates":
+            if team_id in ("_seen_updates", "_meta"):
                 continue
             for product_id, product_state in products.items():
                 payload = json.dumps(product_state, ensure_ascii=False)

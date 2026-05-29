@@ -1831,8 +1831,11 @@ def run_once(*, config: dict, secrets: dict, state_store, feed_store,
         print(f"  Team '{team_name}': {new_count} new event(s), {len(feed)} total in feed")
         print()
 
-    # Save state — keep only last 5000 seen update IDs to prevent unbounded growth
+    # Save state — keep only last 5000 seen update IDs to prevent unbounded growth.
+    # _meta.last_run is consumed by the dispatcher dashboard's per-team
+    # "Last checked: …" label.
     new_state["_seen_updates"] = list(seen_updates)[-5000:]
+    new_state["_meta"] = {"last_run": datetime.now(timezone.utc).isoformat()}
     state_store.write(new_state)
 
     # Send notifications
